@@ -1,0 +1,18 @@
+{
+  "name": "Jimmy Cue AI Social Director",
+  "short_name": "JCue Social",
+  "description": "Daily social planning, hooks, captions, schedules, and creator strategy for Jimmy Cue.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e8",
+  "theme_color": "#151515",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

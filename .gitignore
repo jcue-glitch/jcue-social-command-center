@@ -1,0 +1,7 @@
+.DS_Store
+.youtube/oauth_client.json
+.youtube/token.json
+.youtube/oauth_state.json
+.youtube/latest_metrics.json
+__pycache__/
+exports/

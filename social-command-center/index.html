@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jimmy Cue AI Social Director</title>
+    <meta name="theme-color" content="#151515">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="JCue Social">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-01">
+    <link rel="icon" href="./assets/icon.svg?v=2026-05-01" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css?v=2026-05-01">
+  </head>
+  <body>
+    <div class="texture-layer" aria-hidden="true"></div>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Dashboard navigation">
+        <div class="brand-lockup">
+          <div class="brand-mark">JC</div>
+          <div>
+            <p class="brand-name">Jimmy Cue</p>
+            <p class="brand-role">AI Social Director</p>
+          </div>
+        </div>
+        <nav class="nav-list" aria-label="Sections">
+          <a href="#brief">Daily Brief</a>
+          <a href="#pack">Content Pack</a>
+          <a href="#production">Production</a>
+          <a href="#radar">Trend Radar</a>
+          <a href="#keywords">Keyword Lab</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#longform">Long-form</a>
+          <a href="#performance">Performance</a>
+          <a href="#youtube-api">YouTube API</a>
+          <a href="#remote-access">Remote Access</a>
+          <a href="#integrations">Integrations</a>
+        </nav>
+        <div class="sidebar-note">
+          <span>Live brief target</span>
+          <strong id="firstLiveBrief">07:00 JST</strong>
+        </div>
+      </aside>
+
+      <main class="main-column">
+        <header class="topbar">
+          <div>
+            <p class="kicker" id="timezoneLabel">Prepared in Tokyo</p>
+            <h1 id="dashboardTitle">Daily social command center</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="secondary-button" id="copyBriefButton" type="button">Copy Brief</button>
+            <button class="secondary-button" id="copyCaptionButton" type="button">Copy Caption</button>
+            <button class="primary-button" id="downloadZipButton" type="button">Export Pack</button>
+          </div>
+        </header>
+
+        <section class="hero-band" id="brief" aria-labelledby="briefTitle">
+          <div class="hero-copy">
+            <p class="section-label" id="briefDate">Daily brief</p>
+            <h2 id="briefTitle">Make imperfection feel like an invitation.</h2>
+            <p id="briefObjective"></p>
+            <div class="hero-actions">
+              <a href="#pack" class="text-link">Open today's ideas</a>
+              <a href="#performance" class="text-link">Check performance inputs</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="Brand direction">
+            <span>Brand line</span>
+            <strong id="brandLine"></strong>
+            <p id="operatingIdea"></p>
+          </div>
+        </section>
+
+        <section class="panel weekly-panel" aria-labelledby="weeklyTitle">
+          <div class="panel-heading">
+            <p class="section-label">Weekly theme</p>
+            <h2 id="weeklyTitle"></h2>
+          </div>
+          <div class="weekly-grid">
+            <p id="weeklyThesis" class="large-body"></p>
+            <div class="note-stack">
+              <div>
+                <span>Why this works now</span>
+                <p id="weeklyWhy"></p>
+              </div>
+              <div>
+                <span>Content rule</span>
+                <p id="weeklyRule"></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="pack" aria-labelledby="packTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Daily output</p>
+              <h2 id="packTitle">1 static, 3 short videos, 2 stories</h2>
+            </div>
+            <div class="segmented" role="tablist" aria-label="Content type filter">
+              <button type="button" class="segment active" data-filter="All">All</button>
+              <button type="button" class="segment" data-filter="Short-form Video">Videos</button>
+              <button type="button" class="segment" data-filter="Static / Carousel">Static</button>
+              <button type="button" class="segment" data-filter="Story">Stories</button>
+            </div>
+          </div>
+          <div class="content-list" id="contentList"></div>
+        </section>
+
+        <section class="panel" id="production" aria-labelledby="productionTitle">
+          <div class="panel-heading">
+            <p class="section-label">30-45 minute morning block</p>
+            <h2 id="productionTitle">Production run of show</h2>
+          </div>
+          <div class="production-layout">
+            <div>
+              <p class="large-body" id="locationPlan"></p>
+              <div class="check-list" id="doNotList"></div>
+            </div>
+            <div class="check-list" id="approvalChecklist"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="radar" aria-labelledby="radarTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Research and trends</p>
+              <h2 id="radarTitle">Signals to create around</h2>
+            </div>
+            <span class="quiet-pill" id="researchStamp"></span>
+          </div>
+          <div class="radar-grid" id="trendRadar"></div>
+        </section>
+
+        <section class="panel" id="keywords" aria-labelledby="keywordTitle">
+          <div class="panel-heading">
+            <p class="section-label">SEO and hashtags</p>
+            <h2 id="keywordTitle">Keyword lab</h2>
+          </div>
+          <div class="keyword-layout">
+            <div>
+              <h3>Primary phrases</h3>
+              <div class="chip-grid" id="primaryKeywords"></div>
+            </div>
+            <div>
+              <h3>Title starters</h3>
+              <div class="title-list" id="titleIdeas"></div>
+            </div>
+            <div>
+              <h3>Hashtag sets</h3>
+              <div class="hashtag-groups" id="hashtagGroups"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="schedule" aria-labelledby="scheduleTitle">
+          <div class="panel-heading">
+            <p class="section-label">Posting schedule</p>
+            <h2 id="scheduleTitle">Today's timing map</h2>
+          </div>
+          <div class="schedule-list" id="scheduleList"></div>
+        </section>
+
+        <section class="panel" id="longform" aria-labelledby="longformTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Biweekly YouTube</p>
+              <h2 id="longformTitle">Long-form suggestion</h2>
+            </div>
+            <span class="quiet-pill" id="longformCadence"></span>
+          </div>
+          <div class="longform-layout">
+            <div class="longform-main">
+              <h3 id="longformName"></h3>
+              <p id="longformThesis" class="large-body"></p>
+              <div class="caption-box" id="longformDescription"></div>
+            </div>
+            <div class="note-stack">
+              <div>
+                <span>Publish target</span>
+                <p id="longformPublish"></p>
+              </div>
+              <div>
+                <span>Visual reference</span>
+                <p id="longformReference"></p>
+              </div>
+            </div>
+          </div>
+          <div class="chapter-list" id="longformChapters"></div>
+          <div class="production-layout longform-production">
+            <div>
+              <h3>Filming plan</h3>
+              <div class="check-list" id="longformFilming"></div>
+            </div>
+            <div>
+              <h3>Repurpose plan</h3>
+              <div class="check-list" id="longformRepurpose"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="performance" aria-labelledby="performanceTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Performance dashboard</p>
+              <h2 id="performanceTitle">Manual metrics now, APIs later</h2>
+            </div>
+            <button class="secondary-button" id="resetMetricsButton" type="button">Reset Inputs</button>
+          </div>
+          <div class="metrics-grid" id="metricsGrid"></div>
+          <div class="insight-box">
+            <strong>Next double-down</strong>
+            <p id="performanceAdvice"></p>
+          </div>
+        </section>
+
+        <section class="panel" id="youtube-api" aria-labelledby="youtubeApiTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Live analytics</p>
+              <h2 id="youtubeApiTitle">YouTube API connection</h2>
+            </div>
+            <span class="quiet-pill" id="youtubeConnectionState">Local bridge not checked</span>
+          </div>
+          <div class="youtube-layout">
+            <div>
+              <p class="large-body" id="youtubeApiSummary">Connect a local OAuth bridge to bring YouTube channel and analytics metrics into this dashboard.</p>
+              <div class="youtube-actions">
+                <button type="button" class="secondary-button" id="checkYoutubeApiButton">Check Bridge</button>
+                <button type="button" class="secondary-button" id="connectYoutubeButton">Connect YouTube</button>
+                <button type="button" class="primary-button" id="syncYoutubeButton">Sync Metrics</button>
+              </div>
+              <div class="check-list" id="youtubeSetupList"></div>
+            </div>
+            <div class="api-note youtube-result" id="youtubeMetricsPreview">
+              <strong>No YouTube data loaded yet.</strong>
+              <p>After OAuth is connected, sync will update the YouTube Shorts metric card and show the latest channel summary here.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="remote-access" aria-labelledby="remoteAccessTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Phone access</p>
+              <h2 id="remoteAccessTitle">Use this away from home Wi-Fi</h2>
+            </div>
+            <span class="quiet-pill">Static deploy recommended</span>
+          </div>
+          <div class="remote-layout">
+            <div class="remote-option">
+              <strong>Best everyday path</strong>
+              <p>Deploy the static dashboard folder to Cloudflare Pages, Netlify, or Vercel. Then open the public URL from your phone and add it to your home screen.</p>
+            </div>
+            <div class="remote-option">
+              <strong>Private path</strong>
+              <p>Put the hosted site behind Cloudflare Access, Netlify password protection, or another login layer before using real performance notes or sensitive planning data.</p>
+            </div>
+            <div class="remote-option">
+              <strong>Temporary path</strong>
+              <p>Use a tunnel only when your Mac is awake. Do not expose the YouTube OAuth bridge publicly unless you add authentication.</p>
+            </div>
+          </div>
+          <div class="check-list" id="remoteAccessChecklist"></div>
+        </section>
+
+        <section class="panel" id="integrations" aria-labelledby="integrationsTitle">
+          <div class="panel-heading">
+            <p class="section-label">API and delivery setup</p>
+            <h2 id="integrationsTitle">What needs to connect next</h2>
+          </div>
+          <div class="integration-layout">
+            <div class="check-list" id="integrationNeeds"></div>
+            <div class="api-stack" id="apiNotes"></div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="preview-column" aria-label="Selected content preview">
+        <div class="preview-sticky">
+          <div class="preview-header">
+            <div>
+              <p class="section-label">Selected piece</p>
+              <h2 id="previewTitle">Select an idea</h2>
+            </div>
+            <span id="previewType" class="platform-chip">Ready</span>
+          </div>
+
+          <article class="preview-card" id="contentPreview"></article>
+
+          <div class="asset-box">
+            <label for="photoUpload">Optional photo for PNG card</label>
+            <input id="photoUpload" type="file" accept="image/*">
+            <canvas id="coverCanvas" width="1080" height="1350" aria-label="Generated social cover preview"></canvas>
+            <div class="asset-actions">
+              <button type="button" class="secondary-button" id="refreshPngButton">Refresh PNG</button>
+              <button type="button" class="primary-button" id="downloadPngButton">Download PNG</button>
+            </div>
+          </div>
+
+          <div class="approval-box">
+            <label for="revisionNotes">Notes for tomorrow's agent</label>
+            <textarea id="revisionNotes" rows="4" placeholder="What felt natural? What performed? What should I avoid tomorrow?"></textarea>
+            <div class="approval-buttons">
+              <button type="button" class="approve-button" data-approval="film">Film</button>
+              <button type="button" class="revise-button" data-approval="revise">Revise</button>
+              <button type="button" class="hold-button" data-approval="hold">Hold</button>
+            </div>
+            <p id="approvalState" class="approval-state">No local note recorded.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <script src="./data/social-plan.js?v=2026-05-01"></script>
+    <script src="./data/daily-updates.js?v=2026-05-01"></script>
+    <script src="./app.js?v=2026-05-01"></script>
+  </body>
+</html>
