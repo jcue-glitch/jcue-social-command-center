@@ -241,5 +241,940 @@ window.JCUE_DAILY_UPDATES = [
         futureBusiness: ["#dryflowers", "#naturalstone", "#interiorstyling", "#quietluxury"]
       }
     }
+  },
+  {
+    generatedAt: "2026-05-02",
+    researchWindow: "Advance plan using May 1 trend scan for May 2, 2026",
+    updateMode: "Prewritten offline-ready daily update.",
+    weeklyTheme: {
+      dates: "May 1 - May 7, 2026",
+      title: "Real Process, Worn Details",
+      thesis: "Weekend content should feel softer and more reflective: not a workday performance, but a chance to let viewers into the textures, choices, and quiet resets behind Jimmy's aesthetic.",
+      whyNow: "Trend signals around #vintagefashion, #denim, #DressUp, #ColorPalette, #hygiene, and real-process content reward outfit-building, tactile detail, and routines that feel honest rather than overproduced.",
+      contentRule: "Make each idea start from a small weekend choice: what to wear, what to keep in frame, what to reset, or what object makes the room feel more like you."
+    },
+    dailyBrief: {
+      date: "2026-05-02",
+      day: "Saturday",
+      deliveryTime: "07:00 JST",
+      title: "Let the weekend look unfinished.",
+      objective: "Film a slower weekend morning in the apartment: outfit decisions, one room reset, one material detail, and a casual thought about not needing the day to become impressive.",
+      productionWindow: "30-45 minutes before leaving or starting the day",
+      locationPlan: "Apartment mirror, chair/bed outfit pile, coffee or water detail, shelf/table with dried flower or stone, outside stair/elevator/street detail.",
+      recommendation: "Lead with the weekend outfit decision video. Use the reset video for Reels because it is shareable and soothing. Save the room/material carousel for evening.",
+      todayDoNotDo: [
+        "Do not turn Saturday into a productivity vlog.",
+        "Do not hide the outfit indecision; that is the relatable part.",
+        "Do not over-explain wabi-sabi. Show it through worn texture and a calm line."
+      ],
+      approvalChecklist: [
+        "Does it feel like a weekend, not a workday?",
+        "Is there one tactile detail in the first 3 seconds?",
+        "Does the caption invite viewers to name their own detail or reset?",
+        "Can the footage be reused in the biweekly long-form video?",
+        "Does the post feel easy to make again next Saturday?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-02-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "A Small Weekend Reset",
+        format: "5-slide carousel",
+        purpose: "Make slow-living and #hygiene adjacent content feel aesthetic but lived-in.",
+        filmingFit: "Shoot while resetting one surface or choosing one object.",
+        shotList: [
+          "Slide 1: table/shelf before small reset.",
+          "Slide 2: hand moving one object, not everything.",
+          "Slide 3: dried flower, stone, cup, or fabric close-up.",
+          "Slide 4: outfit detail that shares the same color palette.",
+          "Slide 5: final surface with one imperfection left."
+        ],
+        overlayText: ["A small weekend reset.", "Not a new life.", "Just one surface with more attention.", "That is enough today."],
+        caption: "I am trying to make weekend resets smaller. Not a full reinvention. Not a perfect apartment. Just one surface, one texture, one thing placed with care.\n\nSearch phrases: weekend reset, wabi-sabi lifestyle, calm apartment aesthetic, slow living, dry flowers, natural stone.",
+        hashtags: ["#weekendreset", "#wabisabi", "#slowliving", "#calmaesthetic", "#dryflowers", "#interiorstyling"],
+        keywords: ["weekend reset", "wabi-sabi lifestyle", "calm apartment aesthetic", "slow living", "dry flowers", "natural stone"],
+        retentionBridge: "Make slide 2 the hand movement so viewers swipe to see what changed.",
+        editNotes: "Let shadows stay soft. Avoid making the reset look like a cleaning ad."
+      },
+      {
+        id: "video-2026-05-02-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Getting Dressed Without Knowing The Mood Yet",
+        format: "Weekend OOTD / GRWM, 22-30 seconds",
+        purpose: "Use outfit indecision as friendship and style content.",
+        filmingFit: "Film while choosing between two pieces.",
+        hook: "GRWM, but I do not know who I am yet today.",
+        onScreenText: "GRWM: still finding the mood",
+        retentionBridge: "At 3 seconds, show two outfit options and say: 'so I am letting one worn detail decide.'",
+        beatSheet: [
+          { time: "0-2s", action: "Start with two pieces on bed/chair.", line: "GRWM, but I do not know who I am yet today." },
+          { time: "3-5s", action: "Close-up of the chosen worn detail.", line: "So I am letting one worn detail decide." },
+          { time: "6-14s", action: "Put on first layer and adjust.", line: "Sometimes style is not a statement. Sometimes it is just a way back into your body." },
+          { time: "15-24s", action: "Mirror reveal and small movement.", line: "Today the mood is quiet, soft, and a little unfinished." },
+          { time: "25-30s", action: "Final detail crop.", line: "Which detail would you choose?" }
+        ],
+        caption: "Weekend outfit logic: pick one detail with character and let the rest follow.\n\nKeywords: weekend GRWM, vintage outfit, outfit detail, wabi-sabi lifestyle, OOTD.",
+        hashtags: ["#grwm", "#ootd", "#vintagefashion", "#wabisabi", "#weekendvlog", "#outfitoftheday"],
+        keywords: ["weekend GRWM", "vintage outfit", "outfit detail", "wabi-sabi lifestyle", "OOTD"],
+        platformNotes: {
+          TikTok: "Leans into #DressUp and outfit-building without needing a dramatic transition.",
+          Instagram: "Strong if the final line invites viewers to pick the detail.",
+          YouTube: "Use title: 'Getting dressed when you do not know the mood yet.'"
+        }
+      },
+      {
+        id: "video-2026-05-02-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "One Surface, Not The Whole Life",
+        format: "Apartment reset, 18-25 seconds",
+        purpose: "Make slow living practical and shareable.",
+        filmingFit: "Film one shelf/table reset in under 8 minutes.",
+        hook: "I am not resetting my life today. Just this one surface.",
+        onScreenText: "one surface is enough",
+        retentionBridge: "At 3 seconds, show the before/after contrast of just one object moving.",
+        beatSheet: [
+          { time: "0-2s", action: "Show the surface before.", line: "I am not resetting my life today. Just this one surface." },
+          { time: "3-5s", action: "Move one object only.", line: "One small decision is easier to trust." },
+          { time: "6-14s", action: "Add dry flower/stone/cup detail.", line: "I like when a room feels cared for, not controlled." },
+          { time: "15-22s", action: "Final slow shot.", line: "Maybe calm starts smaller than we think." }
+        ],
+        caption: "Not everything needs a full reset. One cared-for surface can change the tone of the morning.\n\nKeywords: apartment reset, slow living, wabi-sabi home, dry flowers, natural stone decor.",
+        hashtags: ["#apartmentreset", "#slowliving", "#wabisabi", "#dryflowers", "#calmaesthetic", "#interiorstyling"],
+        keywords: ["apartment reset", "slow living", "wabi-sabi home", "dry flowers", "natural stone decor"],
+        platformNotes: {
+          TikTok: "Use the before/after movement early.",
+          Instagram: "Good saveable/shareable calm content.",
+          YouTube: "Works as a Short if the title is practical."
+        }
+      },
+      {
+        id: "video-2026-05-02-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "The Weekend Does Not Have To Be Cinematic",
+        format: "Talking thought with B-roll, 18-24 seconds",
+        purpose: "Push against over-romanticized weekend content with a warm philosophical line.",
+        filmingFit: "Record face line plus apartment/street B-roll.",
+        hook: "The weekend does not have to be cinematic to be worth remembering.",
+        onScreenText: "not cinematic. still worth it.",
+        retentionBridge: "At 3 seconds, cut to an ordinary detail and say: 'sometimes one quiet detail is enough.'",
+        beatSheet: [
+          { time: "0-2s", action: "Face or walking shot.", line: "The weekend does not have to be cinematic to be worth remembering." },
+          { time: "3-5s", action: "Cut to cup, fabric, street, or light.", line: "Sometimes one quiet detail is enough." },
+          { time: "6-15s", action: "Three ordinary B-roll cuts.", line: "I think I am learning to stop measuring a day by how impressive it looks." },
+          { time: "16-24s", action: "End on still detail.", line: "A good day can be very small." }
+        ],
+        caption: "A good day can be very small.\n\nKeywords: slow living, weekend vlog, wabi-sabi lifestyle, calm aesthetic, daily life thoughts.",
+        hashtags: ["#slowliving", "#weekendvlog", "#wabisabi", "#dailylife", "#calmaesthetic", "#mindfulliving"],
+        keywords: ["slow living", "weekend vlog", "wabi-sabi lifestyle", "calm aesthetic", "daily life thoughts"],
+        platformNotes: {
+          TikTok: "This is the emotional POV piece.",
+          Instagram: "Use if the visuals are soft and sendable.",
+          YouTube: "Best evergreen Shorts title."
+        }
+      },
+      {
+        id: "story-2026-05-02-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Pick The Mood",
+        format: "Poll story",
+        purpose: "Crowdsource the weekend outfit direction.",
+        filmingFit: "Shoot two outfit detail photos.",
+        shotList: ["Option A fabric/detail", "Option B fabric/detail"],
+        copy: "Which mood today?",
+        pollOptions: ["soft vintage", "quiet denim"],
+        caption: "Letting one detail choose the day.",
+        hashtags: ["#ootd", "#vintagefashion"],
+        keywords: ["outfit detail", "weekend outfit"],
+        retentionBridge: "Let viewers decide before the final Reel.",
+        editNotes: "Post before the Reel if possible."
+      }
+    ],
+    schedule: [
+      { time: "09:00", action: "Post weekend outfit GRWM to TikTok.", platform: "TikTok", reason: "Weekend scroll is softer; start with relatable indecision." },
+      { time: "12:30", action: "Post one-surface reset to Reels.", platform: "Instagram Reels", reason: "Calm reset content is shareable and saveable." },
+      { time: "18:30", action: "Post weekend thought to Shorts.", platform: "YouTube Shorts", reason: "Evergreen title and simple idea." },
+      { time: "20:45", action: "Post carousel.", platform: "Instagram", reason: "Evening aesthetic save window." },
+      { time: "Any time", action: "Run pick-the-mood Story poll.", platform: "Stories", reason: "Audience participation." }
+    ],
+    trendRadar: [
+      {
+        signal: "Vogue Business reports May TikTok momentum around #vintagefashion and #denim.",
+        source: "Vogue Business TikTok Trend Tracker",
+        url: "https://www.vogue.com/article/the-vogue-business-tiktok-trend-tracker",
+        implication: "Build weekend content around worn outfit details rather than full hauls."
+      },
+      {
+        signal: "TikTok's Reali-Tea trend favors grounded process and emotional ROI.",
+        source: "TikTok Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/trends-whats-next",
+        implication: "Show indecision, small reset, and the one thing you actually changed."
+      },
+      {
+        signal: "YouTube Shorts rewards whether viewers choose to watch and average percent viewed.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Use direct titles like 'The weekend does not have to be cinematic.'"
+      }
+    ],
+    keywordBank: {
+      primary: ["weekend GRWM", "vintage outfit", "weekend reset", "wabi-sabi lifestyle", "slow living", "outfit detail"],
+      secondary: ["dry flowers", "natural stone", "calm apartment aesthetic", "denim detail", "weekend vlog", "daily life thoughts"],
+      titles: ["Getting dressed without knowing the mood yet", "One surface, not the whole life", "The weekend does not have to be cinematic", "A small weekend reset"],
+      hashtags: {
+        general: ["#wabisabi", "#slowliving", "#weekendvlog", "#calmaesthetic", "#dailylife"],
+        fashion: ["#vintagefashion", "#denim", "#ootd", "#outfitoftheday"],
+        beauty: ["#hygiene", "#morningroutine", "#slowbeauty"],
+        futureBusiness: ["#dryflowers", "#naturalstone", "#interiorstyling"]
+      }
+    }
+  },
+  {
+    generatedAt: "2026-05-03",
+    researchWindow: "Advance plan using May 1 trend scan for May 3, 2026",
+    updateMode: "Prewritten offline-ready daily update.",
+    weeklyTheme: {
+      dates: "May 1 - May 7, 2026",
+      title: "Real Process, Worn Details",
+      thesis: "Sunday should become the reflective anchor: collect footage for long-form, show a calm reset, and make the future dry flower and stone direction feel inevitable but not announced.",
+      whyNow: "Slow living, minimal routines, #hygiene, and interior styling overlap naturally on Sunday. Viewers relate to reset content when it feels manageable and emotionally honest.",
+      contentRule: "Every Sunday piece should create a feeling of exhale: one shelf, one routine, one thought, one material."
+    },
+    dailyBrief: {
+      date: "2026-05-03",
+      day: "Sunday",
+      deliveryTime: "07:00 JST",
+      title: "Make Sunday feel like an exhale.",
+      objective: "Film a Sunday reset that feeds short-form and the biweekly long-form: room detail, simple beauty, material study, and a reflective thought about building a calmer life.",
+      productionWindow: "30-45 minutes in the apartment",
+      locationPlan: "Apartment shelf/table, sink/skincare counter, window light, notebook, dried flower/stone/fabric detail.",
+      recommendation: "Lead with the material-study video because it quietly bridges into the future business. Use the bare-minimum reset for Reels and save the Sunday thought for Shorts.",
+      todayDoNotDo: [
+        "Do not make a full apartment tour.",
+        "Do not make the future business a hard reveal.",
+        "Do not overpromise transformation; keep it one Sunday exhale."
+      ],
+      approvalChecklist: [
+        "Does the video include dry flower or stone without feeling promotional?",
+        "Is the tone reflective but not heavy?",
+        "Is there one practical reset viewers can copy?",
+        "Can this clip become part of the May 10 long-form?",
+        "Does it show a distinct Sunday mood?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-03-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram"],
+        title: "Sunday Material Notes",
+        format: "6-slide material-study carousel",
+        purpose: "Seed the future dry flower and stone business through taste, not selling.",
+        filmingFit: "Shoot in 8 minutes near a window.",
+        shotList: ["Dried stem", "Stone or ceramic", "Fabric fold", "Notebook line", "Shelf/table placement", "Self portrait or hand detail"],
+        overlayText: ["Sunday material notes.", "Stone for weight.", "Dried flowers for time.", "Fabric for softness.", "A room can teach you how to slow down."],
+        caption: "Sunday material notes: stone for weight, dried flowers for time, fabric for softness, and a little empty space so everything can breathe.\n\nI think I am slowly learning what kind of calm I want to make.\n\nSearch phrases: dry flowers, natural stone decor, wabi-sabi lifestyle, calm apartment aesthetic, interior styling.",
+        hashtags: ["#dryflowers", "#naturalstone", "#wabisabi", "#interiorstyling", "#slowliving", "#calmaesthetic"],
+        keywords: ["dry flowers", "natural stone decor", "wabi-sabi lifestyle", "calm apartment aesthetic", "interior styling"],
+        retentionBridge: "Use slide 1 as the strongest tactile close-up.",
+        editNotes: "Avoid luxury showroom polish; keep it intimate and personal."
+      },
+      {
+        id: "video-2026-05-03-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "I Think I Am Learning What Calm Looks Like",
+        format: "Material study voiceover, 20-28 seconds",
+        purpose: "Introduce creative direction through objects.",
+        filmingFit: "Film hands arranging flower/stone/fabric.",
+        hook: "I think I am learning what calm looks like.",
+        onScreenText: "learning what calm looks like",
+        retentionBridge: "At 3 seconds, show stone/flower placement and say: 'it is not empty. It has weight.'",
+        beatSheet: [
+          { time: "0-2s", action: "Start on hand holding stone or dried stem.", line: "I think I am learning what calm looks like." },
+          { time: "3-5s", action: "Place object into frame.", line: "It is not empty. It has weight." },
+          { time: "6-14s", action: "Cut between stone, dried flower, fabric.", line: "Stone makes a space feel grounded. Dried flowers make time visible. Fabric makes it human." },
+          { time: "15-24s", action: "Final arrangement and pause.", line: "Maybe that is the kind of beauty I want to build around." },
+          { time: "25-28s", action: "Small hand exit.", line: "What material makes you feel calm?" }
+        ],
+        caption: "Not a product. Just a note to myself about the kind of calm I keep chasing.\n\nKeywords: dry flowers, natural stone, wabi-sabi lifestyle, interior styling, creative direction.",
+        hashtags: ["#dryflowers", "#naturalstone", "#wabisabi", "#interiorstyling", "#creativedirection", "#slowliving"],
+        keywords: ["dry flowers", "natural stone", "wabi-sabi lifestyle", "interior styling", "creative direction"],
+        platformNotes: {
+          TikTok: "This is a future-business bridge without announcing the business.",
+          Instagram: "Strong visual Reels fit if the texture is beautiful.",
+          YouTube: "Use if titled as a creative direction note."
+        }
+      },
+      {
+        id: "video-2026-05-03-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "Sunday Reset For People Who Do Not Want To Reset Everything",
+        format: "Routine/reset video, 20-30 seconds",
+        purpose: "Make Sunday reset content manageable and relatable.",
+        filmingFit: "Film one routine and one surface.",
+        hook: "Sunday reset for people who do not want to reset their whole life.",
+        onScreenText: "tiny Sunday reset",
+        retentionBridge: "At 3 seconds, list the three actions on screen: water, one surface, one outfit thought.",
+        beatSheet: [
+          { time: "0-2s", action: "Show water/skincare/sink.", line: "Sunday reset for people who do not want to reset their whole life." },
+          { time: "3-5s", action: "On-screen list of 3 actions.", line: "Water. One surface. One outfit thought." },
+          { time: "6-16s", action: "Show each action quickly.", line: "Small enough to actually do. Calm enough to feel different." },
+          { time: "17-26s", action: "Final shelf/outfit detail.", line: "I am trying to build a life I can return to, not escape from." }
+        ],
+        caption: "A tiny Sunday reset: water, one surface, one outfit thought.\n\nKeywords: Sunday reset, slow living, minimal routine, wabi-sabi lifestyle, calm apartment.",
+        hashtags: ["#sundayreset", "#slowliving", "#minimalroutine", "#wabisabi", "#calmaesthetic", "#hygiene"],
+        keywords: ["Sunday reset", "slow living", "minimal routine", "wabi-sabi lifestyle", "calm apartment"],
+        platformNotes: {
+          TikTok: "Use practical list structure.",
+          Instagram: "Likely saveable if the three actions are clear.",
+          YouTube: "Works as a practical Short."
+        }
+      },
+      {
+        id: "video-2026-05-03-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "I Am Not Behind, I Am In Process",
+        format: "Reflective talking video, 16-24 seconds",
+        purpose: "Make Sunday's emotional thought concise and shareable.",
+        filmingFit: "Film face near window plus object B-roll.",
+        hook: "I am not behind. I am in process.",
+        onScreenText: "not behind. in process.",
+        retentionBridge: "At 3 seconds, cut to unfinished shelf/notebook and say: 'which is less dramatic, but more honest.'",
+        beatSheet: [
+          { time: "0-2s", action: "Face near window.", line: "I am not behind. I am in process." },
+          { time: "3-5s", action: "Cut to unfinished shelf/notebook.", line: "Which is less dramatic, but more honest." },
+          { time: "6-16s", action: "Slow B-roll.", line: "Some weeks are not for becoming impressive. Some weeks are for noticing what still feels true." },
+          { time: "17-24s", action: "Return to face/object.", line: "Maybe that counts too." }
+        ],
+        caption: "Not behind. In process.\n\nKeywords: life in process, slow living thoughts, wabi-sabi lifestyle, Sunday reflection.",
+        hashtags: ["#slowliving", "#wabisabi", "#sundaythoughts", "#dailylife", "#mindfulliving"],
+        keywords: ["life in process", "slow living thoughts", "wabi-sabi lifestyle", "Sunday reflection"],
+        platformNotes: {
+          TikTok: "Short and emotionally clear.",
+          Instagram: "Good story/Reel repurpose.",
+          YouTube: "Use exact title."
+        }
+      },
+      {
+        id: "story-2026-05-03-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Which Material Feels Calmer?",
+        format: "Poll story",
+        purpose: "Invite audience into the future material language.",
+        filmingFit: "Shoot two object close-ups.",
+        shotList: ["Stone close-up", "Dried flower close-up"],
+        copy: "Which one feels calmer today?",
+        pollOptions: ["stone", "dried flower"],
+        caption: "Taking notes for a future idea.",
+        hashtags: ["#dryflowers", "#naturalstone"],
+        keywords: ["material study", "calm design"],
+        retentionBridge: "Poll makes the creative direction participatory.",
+        editNotes: "Keep it soft and simple."
+      }
+    ],
+    schedule: [
+      { time: "09:30", action: "Post material-study video to TikTok.", platform: "TikTok", reason: "Strongest creative-direction bridge." },
+      { time: "12:30", action: "Post tiny Sunday reset to Reels.", platform: "Instagram Reels", reason: "Most saveable practical format." },
+      { time: "18:30", action: "Post not-behind thought to Shorts.", platform: "YouTube Shorts", reason: "Clear emotional title." },
+      { time: "20:45", action: "Post Sunday material notes carousel.", platform: "Instagram", reason: "Evening calm save window." },
+      { time: "Any time", action: "Run material poll story.", platform: "Stories", reason: "Audience taste signal." }
+    ],
+    trendRadar: [
+      {
+        signal: "Preserved/dried flowers continue showing up in 2026 floral and interior trend coverage as lasting design elements.",
+        source: "Nordblooms Flower Trends 2026",
+        url: "https://www.nordblooms.com/blogs/news/flower-trends-2026",
+        implication: "Use dried flowers as a subtle future-business seed."
+      },
+      {
+        signal: "Minimal routines and #hygiene content support practical reset formats.",
+        source: "TikTok Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/trends-whats-next",
+        implication: "Frame reset as small care, not a full life overhaul."
+      },
+      {
+        signal: "Internet beauty conversations are questioning long routines and returning to essentials.",
+        source: "Reddit r/beauty",
+        url: "https://www.reddit.com/r/beauty/comments/1stfi7r/whats_your_bare_minimum_beauty_routine_when_youre/",
+        implication: "Keep Sunday skincare/routine language simple and honest."
+      }
+    ],
+    keywordBank: {
+      primary: ["Sunday reset", "dry flowers", "natural stone", "wabi-sabi lifestyle", "slow living", "creative direction"],
+      secondary: ["minimal routine", "calm apartment aesthetic", "interior styling", "life in process", "Sunday reflection"],
+      titles: ["I think I am learning what calm looks like", "Sunday reset for people who do not want to reset everything", "I am not behind, I am in process", "Sunday material notes"],
+      hashtags: {
+        general: ["#wabisabi", "#slowliving", "#sundayreset", "#calmaesthetic"],
+        fashion: ["#ootd", "#vintagefashion"],
+        beauty: ["#hygiene", "#minimalroutine", "#slowbeauty"],
+        futureBusiness: ["#dryflowers", "#naturalstone", "#interiorstyling", "#creativedirection"]
+      }
+    }
+  },
+  {
+    generatedAt: "2026-05-04",
+    researchWindow: "Advance plan using May 1 trend scan for May 4, 2026",
+    updateMode: "Prewritten offline-ready daily update.",
+    weeklyTheme: {
+      dates: "May 1 - May 7, 2026",
+      title: "Real Process, Worn Details",
+      thesis: "Monday should use commute, workwear-adjacent style, and gentle accountability without becoming corporate or hustle-coded.",
+      whyNow: "TikTok's fashion tracker highlights profession-based outfit niches and office/outfit inspiration, while #lockedin and #joblife support accountability content. Jimmy can translate this into calm Monday readiness.",
+      contentRule: "Make Monday feel like entering the week gently: one outfit anchor, one commute observation, one soft plan."
+    },
+    dailyBrief: {
+      date: "2026-05-04",
+      day: "Monday",
+      deliveryTime: "07:00 JST",
+      title: "Enter the week without hardening.",
+      objective: "Film a Monday morning batch around workday/commute style, gentle accountability, and one quiet plan for the week.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, bag/keys/shoes, jacket detail, train platform, notebook or phone notes.",
+      recommendation: "Lead with the Monday commute thought on TikTok or Shorts, then post the workday vintage outfit as Reels. Use Stories to ask what viewers are entering the week with.",
+      todayDoNotDo: [
+        "Do not make Monday a hustle pep talk.",
+        "Do not let the commute visuals become generic B-roll; add one personal line.",
+        "Do not over-index on office fashion if it does not match your actual day."
+      ],
+      approvalChecklist: [
+        "Does the hook create emotional contrast with Monday pressure?",
+        "Does the outfit have one memorable detail?",
+        "Is the commute thought universal?",
+        "Is there a clear search title for Shorts?",
+        "Does this feel like a friend, not a coach?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-04-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Monday Objects Before Leaving",
+        format: "5-slide carousel",
+        purpose: "Create a saveable Monday ritual post with style and object language.",
+        filmingFit: "Shoot before leaving.",
+        shotList: ["Bag/keys", "shoe or hem detail", "jacket or denim texture", "notebook/phone note", "door/elevator/street transition"],
+        overlayText: ["Monday objects before leaving.", "Keys.", "One worn detail.", "A small plan.", "No need to become harder to begin."],
+        caption: "Monday objects before leaving: keys, one worn detail, a small plan, and the reminder that I do not need to become harder just because the week is starting.\n\nSearch phrases: Monday routine, vintage outfit, Tokyo commute, wabi-sabi lifestyle, gentle productivity.",
+        hashtags: ["#mondayroutine", "#gentleproductivity", "#ootd", "#vintagefashion", "#wabisabi", "#tokyolife"],
+        keywords: ["Monday routine", "vintage outfit", "Tokyo commute", "wabi-sabi lifestyle", "gentle productivity"],
+        retentionBridge: "Use slide 1 as a flat-lay that feels like a ritual.",
+        editNotes: "Keep it practical and grounded."
+      },
+      {
+        id: "video-2026-05-04-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "YouTube Shorts"],
+        title: "Monday Does Not Need A Hard Reset",
+        format: "Commute thought, 18-24 seconds",
+        purpose: "Create a Monday POV that pushes against harsh productivity.",
+        filmingFit: "Film apartment exit plus commute detail.",
+        hook: "Monday does not need a hard reset.",
+        onScreenText: "Monday, gently",
+        retentionBridge: "At 3 seconds, cut from bag/keys to train or street and say: 'maybe just a softer start.'",
+        beatSheet: [
+          { time: "0-2s", action: "Keys/bag/door.", line: "Monday does not need a hard reset." },
+          { time: "3-5s", action: "Cut to commute movement.", line: "Maybe just a softer start." },
+          { time: "6-14s", action: "Walking/train detail.", line: "One clear task. One outfit detail that makes me feel like myself. One moment to breathe before the day gets loud." },
+          { time: "15-24s", action: "Street or train reflection.", line: "That is enough structure for today." }
+        ],
+        caption: "Monday, gently. One task, one detail, one breath.\n\nKeywords: Monday routine, gentle productivity, Tokyo commute, wabi-sabi lifestyle, slow living.",
+        hashtags: ["#mondayroutine", "#gentleproductivity", "#tokyolife", "#wabisabi", "#slowliving", "#commute"],
+        keywords: ["Monday routine", "gentle productivity", "Tokyo commute", "wabi-sabi lifestyle", "slow living"],
+        platformNotes: {
+          TikTok: "Soft counter-position to productivity content.",
+          Instagram: "Good Reel if visuals have commute mood.",
+          YouTube: "Strong searchable Shorts title."
+        }
+      },
+      {
+        id: "video-2026-05-04-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "Workday Outfit, But Make It Softer",
+        format: "OOTD / outfit-building, 20-28 seconds",
+        purpose: "Tap office/workday outfit interest through Jimmy's vintage calm lens.",
+        filmingFit: "Film outfit layers in mirror.",
+        hook: "Workday outfit, but I am trying not to dress like I am bracing for impact.",
+        onScreenText: "workday fit, softer",
+        retentionBridge: "At 3-5 seconds, show the detail that softens the outfit: fabric, worn denim, jacket shape, shoe.",
+        beatSheet: [
+          { time: "0-2s", action: "Start mid-layer.", line: "Workday outfit, but I am trying not to dress like I am bracing for impact." },
+          { time: "3-5s", action: "Close-up of softening detail.", line: "So I am starting with texture." },
+          { time: "6-16s", action: "Layer outfit.", line: "Something structured enough for the day, but worn enough to remind me I am still a person." },
+          { time: "17-26s", action: "Full mirror and exit.", line: "That is the balance today." }
+        ],
+        caption: "A workday outfit can still feel human.\n\nKeywords: work outfit, vintage outfit, outfit of the day, 80s Japan vintage, gentle productivity.",
+        hashtags: ["#ootd", "#workoutfit", "#vintagefashion", "#mensfashion", "#tokyostyle", "#grwm"],
+        keywords: ["work outfit", "vintage outfit", "outfit of the day", "80s Japan vintage", "gentle productivity"],
+        platformNotes: {
+          TikTok: "Use office/work outfit search without sounding corporate.",
+          Instagram: "Strong if the outfit reads clearly.",
+          YouTube: "Use if under 24 seconds."
+        }
+      },
+      {
+        id: "video-2026-05-04-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "The 3-Step Monday Care Minimum",
+        format: "Minimal morning routine, 18-26 seconds",
+        purpose: "Use #hygiene and minimal-routine conversations for a workday.",
+        filmingFit: "Film sink/counter plus outfit close.",
+        hook: "My Monday routine is just three things today.",
+        onScreenText: "3-step Monday care",
+        retentionBridge: "At 3 seconds, put the three words on screen: water, skin, detail.",
+        beatSheet: [
+          { time: "0-2s", action: "Sink or water detail.", line: "My Monday routine is just three things today." },
+          { time: "3-5s", action: "Text list appears.", line: "Water, skin, detail." },
+          { time: "6-16s", action: "Show each.", line: "Enough to feel awake. Not so much that I start the week already tired." },
+          { time: "17-24s", action: "Outfit detail exit.", line: "That is the point of a routine, I think." }
+        ],
+        caption: "Water, skin, detail. Keeping Monday small enough to keep.\n\nKeywords: Monday routine, minimal skincare, hygiene routine, GRWM, slow morning.",
+        hashtags: ["#hygiene", "#morningroutine", "#minimalroutine", "#grwm", "#slowbeauty", "#mondayroutine"],
+        keywords: ["Monday routine", "minimal skincare", "hygiene routine", "GRWM", "slow morning"],
+        platformNotes: {
+          TikTok: "Practical and trend-aligned.",
+          Instagram: "Use text overlay for saves.",
+          YouTube: "Works if framed as quick routine."
+        }
+      },
+      {
+        id: "story-2026-05-04-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Monday Soft Start",
+        format: "Question sticker",
+        purpose: "Invite Monday conversation.",
+        filmingFit: "Post commute or coffee/water detail.",
+        shotList: ["Bag/keys or train reflection"],
+        copy: "What is your one soft start today?",
+        pollOptions: [],
+        caption: "Mine: one task, one outfit detail, one breath.",
+        hashtags: ["#mondayroutine"],
+        keywords: ["gentle productivity", "Monday routine"],
+        retentionBridge: "Question sticker creates replies.",
+        editNotes: "Keep it text-message casual."
+      }
+    ],
+    schedule: [
+      { time: "08:20", action: "Post Monday commute thought.", platform: "TikTok", reason: "Morning emotion and commute relevance." },
+      { time: "12:20", action: "Post workday outfit Reel.", platform: "Instagram Reels", reason: "Lunch outfit/style scroll." },
+      { time: "18:40", action: "Post Monday routine Short.", platform: "YouTube Shorts", reason: "Searchable routine content." },
+      { time: "20:45", action: "Post Monday objects carousel.", platform: "Instagram", reason: "Saveable reflection." },
+      { time: "Any time", action: "Story question sticker.", platform: "Stories", reason: "Collect audience language." }
+    ],
+    trendRadar: [
+      {
+        signal: "Profession/work outfit niches remain active in TikTok fashion trend coverage.",
+        source: "Vogue Business TikTok Trend Tracker",
+        url: "https://www.vogue.com/article/the-vogue-business-tiktok-trend-tracker",
+        implication: "Use workday style as a relatable hook, not as corporate content."
+      },
+      {
+        signal: "#lockedin, #joblife, and routine/accountability clusters support Monday content.",
+        source: "TikTok Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/trends-whats-next",
+        implication: "Translate accountability into gentle structure."
+      },
+      {
+        signal: "Instagram ranking emphasis on watch time and sends favors relatable Monday lines.",
+        source: "Social Media Today coverage of Instagram ranking",
+        url: "https://www.socialmediatoday.com/news/instagram-shares-algorithm-insights-2025/738034/",
+        implication: "Make Reels sendable with 'Monday does not need a hard reset.'"
+      }
+    ],
+    keywordBank: {
+      primary: ["Monday routine", "gentle productivity", "work outfit", "Tokyo commute", "GRWM", "vintage outfit"],
+      secondary: ["minimal skincare", "hygiene routine", "wabi-sabi lifestyle", "slow morning", "outfit detail"],
+      titles: ["Monday does not need a hard reset", "Workday outfit, but make it softer", "The 3-step Monday care minimum", "Monday objects before leaving"],
+      hashtags: {
+        general: ["#mondayroutine", "#gentleproductivity", "#wabisabi", "#tokyolife"],
+        fashion: ["#ootd", "#workoutfit", "#vintagefashion", "#mensfashion"],
+        beauty: ["#hygiene", "#minimalroutine", "#morningroutine"],
+        futureBusiness: ["#dryflowers", "#naturalstone"]
+      }
+    }
+  },
+  {
+    generatedAt: "2026-05-05",
+    researchWindow: "Advance plan using May 1 trend scan for May 5, 2026",
+    updateMode: "Prewritten offline-ready daily update.",
+    weeklyTheme: {
+      dates: "May 1 - May 7, 2026",
+      title: "Real Process, Worn Details",
+      thesis: "Tuesday should lean into color, light, and detail: a visual exercise that feels like creative direction but can still be filmed quickly.",
+      whyNow: "TikTok fashion coverage points to #ColorPalette and outfit planning as a visual exercise. This fits Jimmy's style/art direction lane and future luxury-space sensibility.",
+      contentRule: "Choose one palette from the actual morning, then let outfit, object, and commute details echo it."
+    },
+    dailyBrief: {
+      date: "2026-05-05",
+      day: "Tuesday",
+      deliveryTime: "07:00 JST",
+      title: "Let one color choose the day.",
+      objective: "Film a morning palette study: one color from your apartment or outfit becomes the thread through GRWM, commute, and static content.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment detail with color, mirror outfit, fabric close-up, street/train color match, notebook/text overlay.",
+      recommendation: "Lead with the color-palette outfit video on Reels, then use the commute color hunt for TikTok/Shorts. Post the carousel as a saveable creative-direction note.",
+      todayDoNotDo: [
+        "Do not force a perfect palette; use what is actually there.",
+        "Do not make this a tutorial. Make it a quiet creative exercise.",
+        "Do not over-saturate the edit."
+      ],
+      approvalChecklist: [
+        "Is the chosen color visible in the first 2 seconds?",
+        "Does the palette repeat across outfit/object/commute?",
+        "Does the caption use color, outfit, and creative direction keywords?",
+        "Could viewers copy the exercise tomorrow?",
+        "Does it feel personal, not design-school abstract?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-05-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Morning Palette Study",
+        format: "5-slide color carousel",
+        purpose: "Turn #ColorPalette and creative direction into a daily practice.",
+        filmingFit: "Shoot 5 matching colors/details.",
+        shotList: ["Color source object", "Outfit detail", "Skin/skincare light", "Commute match", "Final palette text slide"],
+        overlayText: ["Morning palette study.", "One color from the room.", "One detail from the outfit.", "One echo outside.", "A day can have a visual language."],
+        caption: "Morning palette study: I picked one color from the room and tried to notice where it appeared again.\n\nIn the outfit. In the commute. In the small objects I almost ignored.\n\nSearch phrases: color palette, outfit inspiration, creative direction, wabi-sabi lifestyle, vintage outfit.",
+        hashtags: ["#colorpalette", "#ootd", "#creativedirection", "#vintagefashion", "#wabisabi", "#japanlife"],
+        keywords: ["color palette", "outfit inspiration", "creative direction", "wabi-sabi lifestyle", "vintage outfit"],
+        retentionBridge: "Make slide 5 a simple palette recap for saves.",
+        editNotes: "Keep colors natural and slightly muted."
+      },
+      {
+        id: "video-2026-05-05-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "I Let One Color Choose My Outfit",
+        format: "Palette GRWM, 20-28 seconds",
+        purpose: "Make creative direction accessible through outfit choice.",
+        filmingFit: "Film one color source, outfit detail, and final mirror.",
+        hook: "I let one color in my apartment choose my outfit.",
+        onScreenText: "one color chose the outfit",
+        retentionBridge: "At 3 seconds, reveal the color source and the matching clothing detail.",
+        beatSheet: [
+          { time: "0-2s", action: "Show final outfit detail first.", line: "I let one color in my apartment choose my outfit." },
+          { time: "3-5s", action: "Cut to color source object.", line: "This was the color." },
+          { time: "6-14s", action: "Show clothing/detail match.", line: "Not exact. Just close enough to make the morning feel like it had a visual language." },
+          { time: "15-24s", action: "Mirror reveal.", line: "I think getting dressed can be a small creative direction exercise." },
+          { time: "25-28s", action: "Close detail.", line: "What color would choose your day?" }
+        ],
+        caption: "A tiny creative direction exercise: choose one color, let the day answer back.\n\nKeywords: color palette outfit, GRWM, creative direction, vintage outfit, wabi-sabi lifestyle.",
+        hashtags: ["#colorpalette", "#grwm", "#ootd", "#creativedirection", "#vintagefashion", "#wabisabi"],
+        keywords: ["color palette outfit", "GRWM", "creative direction", "vintage outfit", "wabi-sabi lifestyle"],
+        platformNotes: {
+          TikTok: "Trend bridge is #ColorPalette.",
+          Instagram: "Strong visual Reel because it is saveable and replicable.",
+          YouTube: "Use title: 'One color chose my outfit.'"
+        }
+      },
+      {
+        id: "video-2026-05-05-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "YouTube Shorts"],
+        title: "The Commute Color Hunt",
+        format: "Commute B-roll challenge, 16-24 seconds",
+        purpose: "Make commute content participatory and visually specific.",
+        filmingFit: "Film three color matches on the way to work.",
+        hook: "I picked one color at home and looked for it on my commute.",
+        onScreenText: "commute color hunt",
+        retentionBridge: "At 3 seconds, show match #1 with a quick label.",
+        beatSheet: [
+          { time: "0-2s", action: "Show home color source.", line: "I picked one color at home and looked for it on my commute." },
+          { time: "3-5s", action: "Match #1 outside.", line: "First place it showed up." },
+          { time: "6-14s", action: "Match #2 and #3.", line: "It is strange how attention changes a route you take all the time." },
+          { time: "15-22s", action: "Final walking shot.", line: "Maybe noticing is a design practice too." }
+        ],
+        caption: "A commute color hunt. Pick one color before you leave and see where the city gives it back.\n\nKeywords: Tokyo commute, color palette, daily life in Japan, slow living, creative direction.",
+        hashtags: ["#tokyolife", "#commute", "#colorpalette", "#dailylife", "#slowliving", "#creativedirection"],
+        keywords: ["Tokyo commute", "color palette", "daily life in Japan", "slow living", "creative direction"],
+        platformNotes: {
+          TikTok: "Easy repeatable series.",
+          Instagram: "Use if visuals are cohesive.",
+          YouTube: "Good searchable/curiosity title."
+        }
+      },
+      {
+        id: "video-2026-05-05-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Skincare In The Same Light",
+        format: "Beauty routine / light study, 18-26 seconds",
+        purpose: "Make skincare feel like sensory care and visual direction.",
+        filmingFit: "Film at sink/window.",
+        hook: "I only changed one thing in my skincare routine today: the light.",
+        onScreenText: "same routine, better light",
+        retentionBridge: "At 3 seconds, show the light on skin/product texture.",
+        beatSheet: [
+          { time: "0-2s", action: "Window/sink light.", line: "I only changed one thing in my skincare routine today: the light." },
+          { time: "3-5s", action: "Product/skin texture close-up.", line: "Same routine. More attention." },
+          { time: "6-16s", action: "Three simple steps.", line: "I think beauty feels calmer when I stop trying to add more and start noticing what is already there." },
+          { time: "17-24s", action: "Final face/mirror.", line: "Maybe the routine was enough." }
+        ],
+        caption: "Same routine. Better attention.\n\nKeywords: simple skincare routine, slow beauty, morning light, wabi-sabi lifestyle, minimal skincare.",
+        hashtags: ["#skincareroutine", "#slowbeauty", "#minimalroutine", "#morningroutine", "#wabisabi", "#grwm"],
+        keywords: ["simple skincare routine", "slow beauty", "morning light", "wabi-sabi lifestyle", "minimal skincare"],
+        platformNotes: {
+          TikTok: "Beauty hook with philosophical payoff.",
+          Instagram: "Works if the light is beautiful.",
+          YouTube: "Use if under 22 seconds."
+        }
+      },
+      {
+        id: "story-2026-05-05-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Pick Tomorrow's Color",
+        format: "Question/poll story",
+        purpose: "Create a repeatable color-palette series.",
+        filmingFit: "Post after color carousel.",
+        shotList: ["Palette recap image"],
+        copy: "What color should choose tomorrow?",
+        pollOptions: [],
+        caption: "Testing this as a tiny daily creative direction practice.",
+        hashtags: ["#colorpalette"],
+        keywords: ["color palette", "creative direction"],
+        retentionBridge: "Question sticker collects viewer language.",
+        editNotes: "Use the carousel palette as background."
+      }
+    ],
+    schedule: [
+      { time: "08:30", action: "Post color-palette GRWM to Reels.", platform: "Instagram Reels", reason: "Visual trend and save potential." },
+      { time: "12:20", action: "Post commute color hunt to TikTok.", platform: "TikTok", reason: "Repeatable curiosity format." },
+      { time: "18:40", action: "Post skincare light study to Shorts or TikTok.", platform: "YouTube Shorts / TikTok", reason: "Clear title and beauty hook." },
+      { time: "20:45", action: "Post morning palette carousel.", platform: "Instagram", reason: "Saveable visual recap." },
+      { time: "Any time", action: "Story: ask tomorrow's color.", platform: "Stories", reason: "Build series participation." }
+    ],
+    trendRadar: [
+      {
+        signal: "#ColorPalette is active in TikTok fashion trend coverage as outfit planning becomes a visual exercise.",
+        source: "Vogue Business TikTok Trend Tracker",
+        url: "https://www.vogue.com/article/the-vogue-business-tiktok-trend-tracker",
+        implication: "Make color selection a daily creative direction ritual."
+      },
+      {
+        signal: "YouTube Shorts discovery favors clear viewer choice and satisfaction signals.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Use simple titles like 'I picked one color before leaving.'"
+      },
+      {
+        signal: "Beauty trend coverage points toward functional, personalized beauty rather than one-size-fits-all maximalism.",
+        source: "Vogue Business Beauty Tracker",
+        url: "https://www.vogue.com/article/the-vogue-business-beauty-tracker",
+        implication: "Frame skincare as attention and light, not product quantity."
+      }
+    ],
+    keywordBank: {
+      primary: ["color palette", "color palette outfit", "creative direction", "GRWM", "Tokyo commute", "slow beauty"],
+      secondary: ["morning light", "minimal skincare", "vintage outfit", "wabi-sabi lifestyle", "daily life in Japan"],
+      titles: ["I let one color choose my outfit", "The commute color hunt", "Skincare in the same light", "Morning palette study"],
+      hashtags: {
+        general: ["#colorpalette", "#creativedirection", "#wabisabi", "#slowliving"],
+        fashion: ["#ootd", "#grwm", "#vintagefashion", "#outfitoftheday"],
+        beauty: ["#skincareroutine", "#slowbeauty", "#minimalroutine"],
+        futureBusiness: ["#dryflowers", "#naturalstone", "#interiorstyling"]
+      }
+    }
+  },
+  {
+    generatedAt: "2026-05-06",
+    researchWindow: "Advance plan using May 1 trend scan for May 6, 2026",
+    updateMode: "Prewritten offline-ready daily update.",
+    weeklyTheme: {
+      dates: "May 1 - May 7, 2026",
+      title: "Real Process, Worn Details",
+      thesis: "Wednesday should consolidate the week into a repeatable series language: what stayed imperfect, what detail won, what viewers responded to, and what should become long-form.",
+      whyNow: "Audience-building depends on repeatable formats. TikTok and Reels trend signals around process, outfit details, and routine content can become named series rather than one-off posts.",
+      contentRule: "Turn the week into a system: one imperfect thing, one worn detail, one calm routine, one thought worth saving."
+    },
+    dailyBrief: {
+      date: "2026-05-06",
+      day: "Wednesday",
+      deliveryTime: "07:00 JST",
+      title: "Turn the week into a series.",
+      objective: "Film repeatable midweek content that reviews what you kept imperfect and turns the strongest daily idea into a recurring format.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, one imperfect corner, favorite worn detail, sink routine, commute clip, quick notebook or phone note.",
+      recommendation: "Lead with 'One imperfect thing I kept this week' because it names the series. Use the outfit-detail recap for Reels and the saved thought for Shorts.",
+      todayDoNotDo: [
+        "Do not introduce too many new ideas.",
+        "Do not wait for performance metrics if you do not have them yet; use felt-natural notes.",
+        "Do not make the recap too long. One detail per piece."
+      ],
+      approvalChecklist: [
+        "Does this feel like a repeatable series?",
+        "Can viewers understand the format in 2 seconds?",
+        "Does the post ask for a useful response?",
+        "Does it help plan the next week?",
+        "Can the clips feed the May 10 long-form video?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-06-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram"],
+        title: "What I Kept This Week",
+        format: "5-slide recap carousel",
+        purpose: "Name the core weekly series and invite saves/comments.",
+        filmingFit: "Use new photos plus earlier week assets.",
+        shotList: ["Imperfect corner", "Worn outfit detail", "Routine item", "Commute color/detail", "Notebook line"],
+        overlayText: ["What I kept this week.", "One imperfect corner.", "One worn detail.", "One small routine.", "One thought that stayed."],
+        caption: "What I kept this week: one imperfect corner, one worn detail, one small routine, and one thought that stayed with me.\n\nMaybe that is the series: a weekly record of the things I stopped editing out.\n\nSearch phrases: wabi-sabi lifestyle, weekly reset, vintage outfit, slow living, daily life in Japan.",
+        hashtags: ["#wabisabi", "#weeklyreset", "#slowliving", "#vintagefashion", "#dailylife", "#japanlife"],
+        keywords: ["wabi-sabi lifestyle", "weekly reset", "vintage outfit", "slow living", "daily life in Japan"],
+        retentionBridge: "Slide 1 should clearly name the series.",
+        editNotes: "Make it feel archival, not recap-heavy."
+      },
+      {
+        id: "video-2026-05-06-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "One Imperfect Thing I Kept This Week",
+        format: "Series pilot, 20-28 seconds",
+        purpose: "Create a repeatable weekly format.",
+        filmingFit: "Film one new intro and use 2-3 quick cutaways.",
+        hook: "One imperfect thing I kept this week.",
+        onScreenText: "one imperfect thing I kept",
+        retentionBridge: "At 3 seconds, show the imperfect thing before explaining why.",
+        beatSheet: [
+          { time: "0-2s", action: "Face or detail shot.", line: "One imperfect thing I kept this week." },
+          { time: "3-5s", action: "Show the thing.", line: "This corner." },
+          { time: "6-15s", action: "Cut between corner/detail/outfit.", line: "I kept wanting to fix it before filming, but it reminded me that my life is allowed to show up before it is arranged." },
+          { time: "16-24s", action: "Final calm shot.", line: "So I am keeping it in the frame." },
+          { time: "25-28s", action: "Look to camera/detail.", line: "What would you keep?" }
+        ],
+        caption: "Trying a new weekly series: one imperfect thing I kept.\n\nKeywords: wabi-sabi lifestyle, imperfect beauty, slow living, weekly reset, calm apartment.",
+        hashtags: ["#wabisabi", "#imperfectbeauty", "#slowliving", "#weeklyreset", "#calmaesthetic"],
+        keywords: ["wabi-sabi lifestyle", "imperfect beauty", "slow living", "weekly reset", "calm apartment"],
+        platformNotes: {
+          TikTok: "This is the strongest series candidate.",
+          Instagram: "Make it sendable with the final question.",
+          YouTube: "Use title: 'One imperfect thing I kept this week.'"
+        }
+      },
+      {
+        id: "video-2026-05-06-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "The Detail That Won This Week",
+        format: "OOTD/detail recap, 18-24 seconds",
+        purpose: "Turn outfit content into a weekly recurring recap.",
+        filmingFit: "Film one favorite detail from the week.",
+        hook: "The outfit detail that won this week was not the newest thing.",
+        onScreenText: "detail of the week",
+        retentionBridge: "At 3 seconds, reveal the detail close-up.",
+        beatSheet: [
+          { time: "0-2s", action: "Start on detail hidden/partial.", line: "The outfit detail that won this week was not the newest thing." },
+          { time: "3-5s", action: "Reveal detail.", line: "It was this." },
+          { time: "6-14s", action: "Show it worn/styled.", line: "A worn piece has a way of making the whole outfit feel less performed." },
+          { time: "15-22s", action: "Mirror or commute.", line: "That is the mood I want more of." }
+        ],
+        caption: "Detail of the week: not the newest thing, just the one with the most feeling.\n\nKeywords: vintage outfit, outfit detail, OOTD, denim detail, wabi-sabi style.",
+        hashtags: ["#ootd", "#vintagefashion", "#denim", "#outfitdetail", "#wabisabi", "#tokyostyle"],
+        keywords: ["vintage outfit", "outfit detail", "OOTD", "denim detail", "wabi-sabi style"],
+        platformNotes: {
+          TikTok: "Series label: detail of the week.",
+          Instagram: "Good recurring Reels format.",
+          YouTube: "Use if visual is clear."
+        }
+      },
+      {
+        id: "video-2026-05-06-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "A Thought Worth Saving From This Week",
+        format: "Reflective Shorts, 16-22 seconds",
+        purpose: "Create an evergreen philosophical recap.",
+        filmingFit: "Film face + B-roll or voiceover.",
+        hook: "The thought I am keeping from this week is this.",
+        onScreenText: "thought I am keeping",
+        retentionBridge: "At 3 seconds, cut to the strongest visual from the week.",
+        beatSheet: [
+          { time: "0-2s", action: "Face or notebook.", line: "The thought I am keeping from this week is this." },
+          { time: "3-5s", action: "Cut to best visual.", line: "A life can be beautiful before it feels finished." },
+          { time: "6-16s", action: "B-roll montage.", line: "The corner, the outfit, the routine, the commute. None of it needed to be perfect to be worth noticing." },
+          { time: "17-22s", action: "End on still frame.", line: "I want to remember that." }
+        ],
+        caption: "A life can be beautiful before it feels finished.\n\nKeywords: wabi-sabi lifestyle, slow living thoughts, life in process, daily life.",
+        hashtags: ["#wabisabi", "#slowliving", "#dailylife", "#mindfulliving", "#lifeinprocess"],
+        keywords: ["wabi-sabi lifestyle", "slow living thoughts", "life in process", "daily life"],
+        platformNotes: {
+          TikTok: "Emotional recap.",
+          Instagram: "Use as Reel if montage is pretty.",
+          YouTube: "Best evergreen candidate."
+        }
+      },
+      {
+        id: "story-2026-05-06-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Should Become A Series?",
+        format: "Poll story",
+        purpose: "Let viewers vote on format direction.",
+        filmingFit: "Use text over a weekly montage still.",
+        shotList: ["Collage or strongest detail shot"],
+        copy: "Which should become a weekly series?",
+        pollOptions: ["imperfect thing", "detail of week"],
+        caption: "Testing what feels most like us here.",
+        hashtags: ["#wabisabi"],
+        keywords: ["series idea", "creator feedback"],
+        retentionBridge: "Poll gives tomorrow's strategy signal.",
+        editNotes: "This is useful even with small audience response."
+      }
+    ],
+    schedule: [
+      { time: "08:30", action: "Post one imperfect thing series pilot.", platform: "TikTok", reason: "Best repeatable hook." },
+      { time: "12:20", action: "Post detail of the week to Reels.", platform: "Instagram Reels", reason: "Style/save signal." },
+      { time: "18:40", action: "Post thought worth saving to Shorts.", platform: "YouTube Shorts", reason: "Evergreen emotional title." },
+      { time: "20:45", action: "Post weekly recap carousel.", platform: "Instagram", reason: "Archive/save format." },
+      { time: "Any time", action: "Story poll about future series.", platform: "Stories", reason: "Audience direction." }
+    ],
+    trendRadar: [
+      {
+        signal: "Repeatable process formats help creators convert trend moments into audience memory.",
+        source: "Later TikTok trends 2026",
+        url: "https://later.com/blog/current-tiktok-trends/",
+        implication: "Name the format so viewers can recognize it next week."
+      },
+      {
+        signal: "TikTok's recommendation system uses video information and interaction signals, so consistent series language can help matching.",
+        source: "TikTok Newsroom",
+        url: "https://newsroom.tiktok.com/how-tiktok-recommends-videos-for-you?os=apprefapp&lang=en",
+        implication: "Use repeated phrases like 'one imperfect thing I kept.'"
+      },
+      {
+        signal: "Instagram ranking rewards sends and watch time, making relatable recap lines valuable.",
+        source: "Social Media Today coverage of Instagram ranking",
+        url: "https://www.socialmediatoday.com/news/instagram-shares-algorithm-insights-2025/738034/",
+        implication: "Use a line viewers would send: 'beautiful before it feels finished.'"
+      }
+    ],
+    keywordBank: {
+      primary: ["wabi-sabi lifestyle", "imperfect beauty", "weekly reset", "vintage outfit", "outfit detail", "life in process"],
+      secondary: ["slow living thoughts", "daily life in Japan", "calm apartment", "denim detail", "creator series"],
+      titles: ["One imperfect thing I kept this week", "The detail that won this week", "A thought worth saving from this week", "What I kept this week"],
+      hashtags: {
+        general: ["#wabisabi", "#imperfectbeauty", "#slowliving", "#weeklyreset"],
+        fashion: ["#ootd", "#vintagefashion", "#denim", "#outfitdetail"],
+        beauty: ["#minimalroutine", "#slowbeauty"],
+        futureBusiness: ["#dryflowers", "#naturalstone", "#creativedirection"]
+      }
+    }
   }
 ];

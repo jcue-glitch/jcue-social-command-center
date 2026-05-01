@@ -1,6 +1,23 @@
 const plan = window.JIMMY_SOCIAL_PLAN;
 const dailyUpdates = window.JCUE_DAILY_UPDATES || [];
-const activeDailyUpdate = dailyUpdates[dailyUpdates.length - 1];
+const isoDateInTimeZone = (timeZone) => {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+};
+const requestedDate = new URLSearchParams(window.location.search).get("date");
+const activeDate = requestedDate || isoDateInTimeZone(plan.meta.timezone || "Asia/Tokyo");
+const activeDailyUpdate =
+  dailyUpdates.find((update) => update.dailyBrief?.date === activeDate || update.generatedAt === activeDate) ||
+  [...dailyUpdates]
+    .filter((update) => (update.dailyBrief?.date || update.generatedAt || "") <= activeDate)
+    .pop() ||
+  dailyUpdates[dailyUpdates.length - 1];
 if (activeDailyUpdate) {
   plan.meta.generatedAt = activeDailyUpdate.generatedAt || plan.meta.generatedAt;
   plan.strategy.weeklyTheme = activeDailyUpdate.weeklyTheme || plan.strategy.weeklyTheme;
