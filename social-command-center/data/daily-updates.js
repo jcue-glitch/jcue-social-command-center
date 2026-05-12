@@ -1831,5 +1831,316 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topics focused on life, thoughts, creative direction, style, beauty, and wabi-sabi."
     },
     performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
+  },
+  {
+    generatedAt: "2026-05-13",
+    researchWindow: "Trend scan completed on May 13, 2026 using official TikTok and YouTube sources plus current Later, Vogue, and Reddit signals published between April 26 and May 6, 2026.",
+    weeklyTheme: {
+      dates: "May 8 - May 14, 2026",
+      title: "Soft Uniforms, Proof of Life",
+      thesis: "Keep the week grounded in repeatable details, analog calm, and one less-noise habit so Jimmy's style reads real, composed, and lived-in instead of over-arranged.",
+      whyNow: "TikTok still favors real process and quick recreatable formats, Instagram timing still rewards tactile Reels and carousels in clear windows, and current beauty and minimalism conversations lean toward fewer steps and more intentional objects.",
+      contentRule: "Every post should open with one thing that reduced noise this morning: a detail, an object, a simplified routine, or a quiet commute texture."
+    },
+    dailyBrief: {
+      date: "2026-05-13",
+      day: "Wednesday",
+      deliveryTime: "07:00 JST",
+      title: "Make less noise look intentional.",
+      objective: "Film a Wednesday batch that turns one analog object, one soft-uniform decision, one simplified care moment, and one quiet commute texture into content that feels calm, useful, and easy to repeat.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, bag or chair setup, one object close-up like notebook, paperback, headphones, watch, or lip balm, sink or vanity, doorway exit, and two to three commute textures on the street or platform.",
+      recommendation: "Lead with the bag-first outfit video on TikTok, use the less-noise commute note for Reels, and post the simplified routine to YouTube Shorts with a direct title. Keep the carousel tactile and identity-led for evening saves.",
+      todayDoNotDo: [
+        "Do not make digital minimalism sound smug or anti-phone. Keep it practical and personal.",
+        "Do not overfill the frame with props. One object should do the work.",
+        "Do not make the beauty routine look like a product lineup. Keep it about enoughness.",
+        "Do not treat Tokyo like the subject. Let it stay as lived-in texture behind the thought.",
+        "Do not assume the dashboard has real performance history yet. Manual native metrics still need to be entered after posting."
+      ],
+      approvalChecklist: [
+        "Does the first frame show the object, detail, or tension immediately?",
+        "Is there a clear 3-5 second bridge into a new texture, line, or reveal?",
+        "Would the line feel natural in lowercase on TikTok or Reels?",
+        "Can all four main assets be captured inside a real workday morning?",
+        "Does at least one piece quietly reinforce the future material-study direction?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-13-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "What I Keep On Me When I Want Less Noise",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn object culture and digital-minimalism energy into a saveable identity post that still feels personal, not performative.",
+        filmingFit: "Shoot in 5 minutes before leaving.",
+        hook: "what i keep on me when i want less noise.",
+        firstFrameDirection: "Open with the strongest object crop first: notebook spine, paperback edge, headphones, watch, or lip balm before showing the full carry setup.",
+        shotList: [
+          "Slide 1: close-up of the object that sets the tone.",
+          "Slide 2: bag open on chair or bed with 3-4 items visible.",
+          "Slide 3: mirror or outfit frame with one item in hand or pocket.",
+          "Slide 4: commute texture with the bag, book, or headphones present.",
+          "Slide 5: doorway or cafe-table style still life."
+        ],
+        overlayText: [
+          "what i keep on me when i want less noise.",
+          "not more things.",
+          "just the right few.",
+          "that usually helps."
+        ],
+        talkingScript: "When I want the day to feel quieter, I do not add more. I usually keep one notebook or paperback, headphones, lip balm, and one detail that makes getting dressed easier. That is enough structure for me.",
+        caption: "What I keep on me when I want less noise is usually not impressive.\n\nA notebook. Headphones. Lip balm. One object that keeps me from reaching for my phone every second.\n\nI think calm starts feeling real when your everyday carry is small enough to actually support the life you say you want.\n\nSearch phrases: everyday carry, digital minimalism, soft uniform, calm routine, daily life in Japan, object culture.",
+        seoKeywords: ["everyday carry", "digital minimalism", "soft uniform", "calm routine", "daily life in Japan", "object culture"],
+        keywords: ["everyday carry", "digital minimalism", "soft uniform", "calm routine", "daily life in Japan", "object culture"],
+        hashtags: ["#digitalminimalism", "#objectculture", "#softuniform", "#wabisabi", "#japanlife"],
+        retentionBridge: "For photo mode, make slide 2 the reveal from one close-up object to the full carry so viewers swipe to understand the system.",
+        editNotes: "Keep the crop close and tactile. Let the objects look used, not arranged like a product ad."
+      },
+      {
+        id: "video-2026-05-13-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "I Get Dressed Faster When I Pick The Bag First",
+        format: "Talk-to-camera outfit philosophy, 20-28 seconds",
+        purpose: "Use search-friendly outfit language while blending object culture and soft-uniform logic into a low-friction morning format.",
+        filmingFit: "Film while dressing with one bag close-up, one mirror shot, and one exit shot.",
+        hook: "i get dressed faster when i pick the bag first.",
+        firstFrameDirection: "Open with the bag already in hand or on the chair, not with a full-body intro.",
+        retentionBridge: "At 3 seconds, cut from the half-finished outfit to the bag detail and say: 'otherwise i start dressing for a day i am not actually having.'",
+        shotList: [
+          "Bag detail close-up.",
+          "Half-finished mirror outfit.",
+          "Hand putting book, headphones, or small object into the bag.",
+          "Full outfit reveal with one imperfect room edge visible.",
+          "Doorway or hallway exit."
+        ],
+        talkingScript: "I get dressed faster when I pick the bag first. Otherwise I start dressing for a day I am not actually having. If I know what I want to carry, the rest of the outfit stays calmer and more honest.",
+        beatSheet: [
+          { time: "0-2s", action: "Bag close-up or bag in hand.", line: "I get dressed faster when I pick the bag first." },
+          { time: "3-5s", action: "Cut to bag detail and half-finished outfit.", line: "Otherwise I start dressing for a day I am not actually having." },
+          { time: "6-13s", action: "Place one object into the bag.", line: "If I know what I want to carry, the rest of the outfit gets easier." },
+          { time: "14-22s", action: "Mirror reveal with room proof still visible.", line: "It feels more like building a real morning than styling a character." },
+          { time: "23-28s", action: "Exit shot.", line: "What item usually decides your outfit first?" }
+        ],
+        caption: "The bag usually tells me what kind of day I am dressing for.\n\nThat saves me from making the outfit more dramatic than it needs to be.\n\nSearch phrases: what to wear, bag first outfit, soft uniform, outfit detail, daily life in Japan, vintage style.",
+        seoKeywords: ["what to wear", "bag first outfit", "soft uniform", "outfit detail", "daily life in Japan", "vintage style"],
+        keywords: ["what to wear", "bag first outfit", "soft uniform", "outfit detail", "daily life in Japan", "vintage style"],
+        hashtags: ["#whattowear", "#softuniform", "#objectculture", "#ootd", "#wabisabi"],
+        platformNotes: {
+          TikTok: "Use this as the primary hook test because it matches search behavior and still feels personal.",
+          Instagram: "Best as a relatable Reel that can earn sends from people who overthink outfits.",
+          YouTube: "Only reuse if retitled directly around getting dressed faster or outfit detail."
+        },
+        editNotes: "Keep the pacing clean and conversational. The bag detail needs to land by second 3."
+      },
+      {
+        id: "video-2026-05-13-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "My Morning Feels Better When My Phone Stays In My Pocket",
+        format: "Commute thought with texture montage, 18-24 seconds",
+        purpose: "Translate digital minimalism into a lived-in Tokyo morning note without sounding preachy or anti-tech.",
+        filmingFit: "Film 5-6 quick clips between leaving the apartment and stepping onto the platform or street.",
+        hook: "my morning feels better when my phone stays in my pocket for ten more minutes.",
+        firstFrameDirection: "Start on movement first: hand on bag strap, feet walking, or train reflection before showing the phone at all.",
+        retentionBridge: "At 3-5 seconds, stack two quiet textures back to back and say: 'i notice more when i delay the scroll a little.'",
+        shotList: [
+          "Walking feet or doorway exit.",
+          "Hand on bag strap or headphones.",
+          "Train, window, or street reflection.",
+          "Tile, pavement, sign, or shadow detail.",
+          "Brief face or over-shoulder shot at the end."
+        ],
+        talkingScript: "My morning feels better when my phone stays in my pocket for ten more minutes. I notice more when I delay the scroll a little. Usually that gives me one reflection, one shadow, or one small detail that feels better than opening three apps before eight thirty.",
+        beatSheet: [
+          { time: "0-2s", action: "Walking or commute texture first.", line: "My morning feels better when my phone stays in my pocket for ten more minutes." },
+          { time: "3-5s", action: "Two quick textures back to back.", line: "I notice more when I delay the scroll a little." },
+          { time: "6-13s", action: "Montage continues.", line: "Usually that gives me one reflection, one shadow, or one small detail that wakes me up better." },
+          { time: "14-20s", action: "Face or over-shoulder shot.", line: "It is not a life reset. It just makes the morning feel more like mine." },
+          { time: "21-24s", action: "End on movement away.", line: "Try it on your next commute." }
+        ],
+        caption: "Not anti-phone. Just trying to meet the day before the feed does.\n\nTen extra minutes is usually enough for one better thought.\n\nSearch phrases: digital minimalism, Tokyo commute, calm morning routine, daily life in Japan, slow living.",
+        seoKeywords: ["digital minimalism", "Tokyo commute", "calm morning routine", "daily life in Japan", "slow living"],
+        keywords: ["digital minimalism", "Tokyo commute", "calm morning routine", "daily life in Japan", "slow living"],
+        hashtags: ["#digitalminimalism", "#tokyocommute", "#slowliving", "#japanlife", "#wabisabi"],
+        platformNotes: {
+          TikTok: "Keep the line in lowercase on screen and let the textures do the emotional work.",
+          Instagram: "Strong midday Reel because it is sendable to a friend who wants less-noise routines.",
+          YouTube: "Only reuse if the title stays direct around phone habits or commute calm."
+        },
+        editNotes: "The first two clips need to be the calmest and most tactile. Avoid showing too much app UI."
+      },
+      {
+        id: "video-2026-05-13-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "My Real Morning Routine Got Shorter And Better",
+        format: "Minimal beauty / routine video, 20-26 seconds",
+        purpose: "Match the current fewer-steps conversation with a practical calm-discipline routine that still fits Jimmy's beauty lane.",
+        filmingFit: "Film at sink or vanity in under 8 minutes.",
+        hook: "my real morning routine got shorter and better.",
+        firstFrameDirection: "Open on the three to four actual items or gestures in one frame before touching anything.",
+        retentionBridge: "At 3 seconds, move from the full setup to the first tactile step and say: 'because anything more and i stop doing it consistently.'",
+        shotList: [
+          "Three or four item setup shot.",
+          "Water or cleanse moment.",
+          "Moisture step close-up.",
+          "SPF or final step.",
+          "Quick lip balm, hair, or fragrance touch.",
+          "Mirror exit shot."
+        ],
+        talkingScript: "My real morning routine got shorter and better because anything more and I stop doing it consistently. Cleanse, moisture, SPF, and one finishing step so I still feel awake and put together before I leave.",
+        beatSheet: [
+          { time: "0-2s", action: "Show all items or gestures at once.", line: "My real morning routine got shorter and better." },
+          { time: "3-5s", action: "First tactile close-up.", line: "Because anything more and I stop doing it consistently." },
+          { time: "6-14s", action: "Move through the core steps.", line: "Cleanse, moisture, SPF, and one finishing step." },
+          { time: "15-22s", action: "Mirror or final touch shot.", line: "It feels more like maintenance with care than trying to win the morning." },
+          { time: "23-26s", action: "Exit shot.", line: "Enough is a better routine for me right now." }
+        ],
+        caption: "I still like beauty. I just like consistency more.\n\nThe routine got better when it became easier to return to.\n\nSearch phrases: minimal skincare, morning routine, calm discipline, slow beauty, daily life in Japan.",
+        seoKeywords: ["minimal skincare", "morning routine", "calm discipline", "slow beauty", "daily life in Japan"],
+        keywords: ["minimal skincare", "morning routine", "calm discipline", "slow beauty", "daily life in Japan"],
+        hashtags: ["#minimalskincare", "#slowbeauty", "#morningroutine", "#grwm", "#wabisabi"],
+        platformNotes: {
+          TikTok: "Use as a secondary post if the footage feels tactile enough; the first sentence should stay verbatim on screen.",
+          Instagram: "Works if the routine looks warm and human rather than polished and product-heavy.",
+          YouTube: "Best evergreen candidate today. Title it directly around a shorter routine and consistency."
+        },
+        editNotes: "Keep the setup sparse and believable. No heavy skin smoothing, no big product fan-out."
+      },
+      {
+        id: "story-2026-05-13-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Choose The Carry Item",
+        format: "Poll story",
+        purpose: "Let viewers participate in the object-culture direction without making the story feel salesy.",
+        filmingFit: "Shoot while packing the bag.",
+        hook: "which one makes the morning feel calmer?",
+        firstFrameDirection: "Open on two objects in the same frame with enough negative space for the poll sticker.",
+        shotList: ["Notebook vs paperback, or headphones vs magazine."],
+        talkingScript: "Which one makes the morning feel calmer?",
+        copy: "which one makes the morning feel calmer?",
+        pollOptions: ["notebook", "paperback"],
+        caption: "trying to carry less, but better.",
+        seoKeywords: ["digital minimalism", "everyday carry", "object culture"],
+        keywords: ["digital minimalism", "everyday carry", "object culture"],
+        hashtags: ["#objectculture", "#digitalminimalism"],
+        retentionBridge: "Use the poll sticker so the story feels like a tiny decision, not an announcement.",
+        editNotes: "No extra design needed. Keep it spare."
+      },
+      {
+        id: "story-2026-05-13-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Less-Noise Wednesday Note",
+        format: "BTS text + clip",
+        purpose: "Keep the day conversational and reinforce the practical tone behind the Reel.",
+        filmingFit: "Shoot a 5-second clip of the commute, bag strap, or table setup.",
+        hook: "keeping my phone in my pocket for ten more minutes today.",
+        firstFrameDirection: "Open on movement or texture first, then let the text land over it.",
+        shotList: ["One commute texture clip or quiet cafe-table still."],
+        talkingScript: "Keeping my phone in my pocket for ten more minutes today.",
+        copy: "keeping my phone in my pocket for ten more minutes today.",
+        pollOptions: [],
+        caption: "small change. better morning.",
+        seoKeywords: ["digital minimalism", "calm morning routine"],
+        keywords: ["digital minimalism", "calm morning routine"],
+        hashtags: ["#slowliving", "#digitalminimalism"],
+        retentionBridge: "The text should read like a private note, not a challenge.",
+        editNotes: "Keep it quick and understated."
+      }
+    ],
+    schedule: [
+      { time: "07:10-07:50", action: "Film the bag-first outfit video, less-noise commute montage, simplified routine, carousel assets, and both Stories.", platform: "Phone", reason: "One tight batch keeps the content native to the actual workday morning." },
+      { time: "08:35", action: "Post 'I Get Dressed Faster When I Pick The Bag First'.", platform: "TikTok", reason: "The search-friendly hook fits a strong mid-week morning discovery window." },
+      { time: "12:25", action: "Post 'My Morning Feels Better When My Phone Stays In My Pocket'.", platform: "Instagram Reels", reason: "The less-noise angle is concise, sendable, and suited to midday scroll behavior." },
+      { time: "18:50", action: "Post 'My Real Morning Routine Got Shorter And Better'.", platform: "YouTube Shorts", reason: "The direct title and practical payoff fit evening evergreen discovery." },
+      { time: "20:40", action: "Post 'What I Keep On Me When I Want Less Noise'.", platform: "Instagram / TikTok photo mode", reason: "A tactile carousel suits an evening save-and-share slot." },
+      { time: "Any time before 21:00", action: "Post the carry-item poll and the less-noise BTS story.", platform: "Stories", reason: "Stories can keep the day conversational without extra production." },
+      { time: "21:15", action: "Log native metrics manually if available: views, retention, saves, shares, and sends.", platform: "Dashboard", reason: "There is still no real metric history in the workspace, so tomorrow's optimization needs manual signal." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 Reali-Tea theme still points toward unfiltered stories and real process over curated perfection.",
+        source: "TikTok Next 2026",
+        url: "https://ads.tiktok.com/business/en-CA/trends-whats-next?ab_version=experiment_2&tt4b_lang_redirect=1",
+        implication: "Keep the room proof, bag-packing process, and real commute evidence in frame instead of cleaning them away."
+      },
+      {
+        signal: "Later's May 1 TikTok roundup says 'This looks so cool, I have to capture it' is a simple format that builds vibe clip by clip and is easy to recreate.",
+        source: "Later TikTok Trends",
+        url: "https://later.com/blog/tiktok-trends/",
+        implication: "Jimmy's commute montage can stay quiet and observational while still using a native capture-it structure."
+      },
+      {
+        signal: "Later's May 6 timing analysis says morning windows remain strong across most platforms, lunch windows still work for quick-consumption short video, and evening wind-down is strong for visually rich posts.",
+        source: "Later Best Time to Post 2026",
+        url: "https://later.com/blog/best-time-to-post-on-social-media/",
+        implication: "Post the Reel around lunch, save the carousel for evening, and keep the first TikTok live early in the day."
+      },
+      {
+        signal: "The same Later timing analysis shows Instagram mornings around 8-10 AM, TikTok mid-week brand windows around 10-11 AM, and weekday evening peaks for TikTok around 5-9 PM.",
+        source: "Later Best Time to Post 2026",
+        url: "https://later.com/blog/best-time-to-post-on-social-media/",
+        implication: "Today's schedule should stagger the platforms instead of stacking everything at once."
+      },
+      {
+        signal: "YouTube says Shorts views now count every play or replay, while 'Engaged views' remain the metric showing how many viewers chose to continue watching.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/10059070?hl=en",
+        implication: "Write direct titles and make the first frame readable immediately so the Short earns actual continuation, not just passive starts."
+      },
+      {
+        signal: "YouTube's Shorts creation guidance explicitly suggests choosing calming audio when the goal is to leave viewers feeling zen.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/12948448?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "For Jimmy, low-volume calm audio is a better fit than loud trend sound unless the hook truly needs the trend door."
+      },
+      {
+        signal: "A recent Reddit AsianBeauty thread says people are simplifying routines in 2026 and finding their skin calmer with fewer products.",
+        source: "Reddit r/AsianBeauty",
+        url: "https://www.reddit.com/r/AsianBeauty/comments/1swkbk1/is_anyone_else_lowkey_over_10step_routines_and/",
+        implication: "Keep today's beauty content about consistency, barrier calm, and enoughness instead of long routine theater."
+      },
+      {
+        signal: "A recent Reddit minimalism thread describes people cutting social apps and carrying a paperback instead of reaching for the phone.",
+        source: "Reddit r/minimalist",
+        url: "https://www.reddit.com/r/minimalist/comments/1r8avxf/are_you_practicing_digital_minimalism/",
+        implication: "Object-led digital-minimalism content will feel timely if it stays observational and practical."
+      },
+      {
+        signal: "Vogue's 2026 tailored-denim coverage says creased, trouser-like, and more precise denim is a live styling direction.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/tailored-denim-trend",
+        implication: "Favor crease, seam, and bag-shape precision over louder outfit stacking if denim appears in the frame."
+      }
+    ],
+    keywordBank: {
+      primary: ["digital minimalism", "everyday carry", "soft uniform", "minimal skincare", "Tokyo commute", "wabi-sabi lifestyle", "object culture"],
+      secondary: ["what to wear", "bag first outfit", "calm morning routine", "daily life in Japan", "slow beauty", "less noise", "tailored denim"],
+      titles: [
+        "i get dressed faster when i pick the bag first",
+        "my morning feels better when my phone stays in my pocket",
+        "my real morning routine got shorter and better",
+        "what i keep on me when i want less noise",
+        "trying to carry less, but better"
+      ],
+      hashtags: {
+        general: ["#wabisabi", "#slowliving", "#japanlife", "#digitalminimalism", "#objectculture"],
+        fashion: ["#softuniform", "#ootd", "#vintagefashion", "#tailoreddenim", "#whattowear"],
+        beauty: ["#minimalskincare", "#slowbeauty", "#morningroutine", "#grwm"],
+        futureBusiness: ["#dryflowers", "#naturalstone", "#materialstudy", "#quietluxury"]
+      }
+    },
+    longFormYouTube: {
+      due: false,
+      nextDueCheck: "2026-05-24",
+      note: "A biweekly long-form upload is not due today. Keep collecting apartment, commute, carry-object, and routine footage that can support the next May 24, 2026 planning cycle.",
+      referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
+    },
+    performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
   }
 ];
