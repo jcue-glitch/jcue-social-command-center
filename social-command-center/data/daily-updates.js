@@ -1508,5 +1508,328 @@ window.JCUE_DAILY_UPDATES = [
       }
     },
     performanceNote: "No native platform metric history is saved in this workspace yet beyond starter placeholders. After posting, manually enter views, retention, saves, shares, and sends in the dashboard so the next brief can shift from heuristic to actual performance learning."
+  },
+  {
+    generatedAt: "2026-05-12",
+    researchWindow: "Trend scan completed on May 12, 2026 using official TikTok and YouTube sources plus current Later, Vogue, and Reddit signals published between April 23 and May 8, 2026.",
+    weeklyTheme: {
+      dates: "May 8 - May 14, 2026",
+      title: "Soft Uniforms, Proof of Life",
+      thesis: "Keep this week grounded in repeated clothes, apartment proof, commute texture, and a small beauty rhythm so Jimmy's style reads calm, human, and easy to return to.",
+      whyNow: "Official TikTok signals still reward real process, #lockedin routine energy, and search-led discovery; current Reels and fashion coverage also favor concise sendable videos, tactile visuals, and refined denim over louder styling.",
+      contentRule: "Every post should open with one answerable visual idea: the detail, the routine, or the texture that made the morning feel like yours."
+    },
+    dailyBrief: {
+      date: "2026-05-12",
+      day: "Tuesday",
+      deliveryTime: "07:00 JST",
+      title: "Build the morning around one repeatable detail.",
+      objective: "Film a Tuesday batch that turns one stable outfit detail, one lived-in apartment note, one commute texture sequence, and one minimal care routine into content that feels stylish, searchable, and low-friction to repeat.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, chair or bed with clothes laid out, one worn accessory or denim close-up, sink or vanity, hallway or doorway exit, and two to three commute textures on the walk or train platform.",
+      recommendation: "Lead with the search-friendly outfit-detail talk video on TikTok, use the texture montage for Reels, and post the beauty minimum to YouTube Shorts with a clear title. Keep the carousel tactile and saveable for evening.",
+      todayDoNotDo: [
+        "Do not chase a loud transition if one tactile close-up can do the job.",
+        "Do not over-style the apartment corner. Leave one useful proof that the day is real.",
+        "Do not stack too many beauty steps just because they look aesthetic on camera.",
+        "Do not assume the dashboard has real metric history yet. Enter manual native metrics tonight if anything gets posted."
+      ],
+      approvalChecklist: [
+        "Does the first frame show the answer or tension immediately?",
+        "Is there a clear visual or emotional bridge in the first 3-5 seconds?",
+        "Would the line work as both a caption and a search phrase?",
+        "Do the clips still fit a real 30-45 minute workday morning?",
+        "Does at least one piece quietly reinforce the future flowers, stone, or material-study direction?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-12-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "The Detail I Repeat On Tuesdays",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn repeated styling into a saveable soft-uniform idea instead of a one-off outfit flex.",
+        filmingFit: "Shoot in 5 minutes while getting dressed.",
+        hook: "The detail I repeat when I want the day to feel steadier.",
+        firstFrameDirection: "Open with the closest tactile crop first: cuff, belt, denim crease, ring, or bag edge before the full outfit.",
+        shotList: [
+          "Slide 1: strongest close-up of the repeated detail.",
+          "Slide 2: mirror outfit with one imperfect room edge left in frame.",
+          "Slide 3: object echo such as stone, ceramic, dried stem, or tea cup.",
+          "Slide 4: commute reflection or walking shot with the same detail visible.",
+          "Slide 5: short self-portrait or doorway exit frame."
+        ],
+        overlayText: [
+          "The detail I repeat on Tuesdays.",
+          "Not because it is perfect.",
+          "Because it helps the day feel familiar.",
+          "That is enough structure for me."
+        ],
+        talkingScript: "The detail I repeat on Tuesdays is usually the thing that makes the whole outfit easier. I like when one cuff, one crease, or one ring gives the morning enough structure without turning it into a costume.",
+        caption: "The detail I repeat on Tuesdays is never the loudest part of the outfit. It is just the part that gives the rest of the morning enough shape.\n\nLately I trust repetition more than novelty. One worn detail, one lived-in room edge, one texture on the commute, and the day already feels more like mine.\n\nSearch phrases: outfit detail, soft uniform, vintage outfit, tailored denim, wabi-sabi lifestyle, daily life in Japan.",
+        seoKeywords: ["outfit detail", "soft uniform", "vintage outfit", "tailored denim", "wabi-sabi lifestyle", "daily life in Japan"],
+        keywords: ["outfit detail", "soft uniform", "vintage outfit", "tailored denim", "wabi-sabi lifestyle", "daily life in Japan"],
+        hashtags: ["#ootd", "#softuniform", "#vintagefashion", "#tailoreddenim", "#wabisabi", "#japanlife"],
+        retentionBridge: "For photo mode, make slide 2 the reveal from the tactile crop to the full uniform so people swipe to connect the detail to the feeling.",
+        editNotes: "Keep the color grade warm and dry. Let the wear marks, grain, or wrinkle stay visible."
+      },
+      {
+        id: "video-2026-05-12-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "I Dress Better When I Start With One Detail",
+        format: "Talk-to-camera outfit philosophy, 20-28 seconds",
+        purpose: "Use search-led outfit language and real-process framing without making the video feel instructional or stiff.",
+        filmingFit: "Film while dressing with one mirror shot, one close-up, and one exit shot.",
+        hook: "I dress better when I start with one detail instead of the whole outfit.",
+        firstFrameDirection: "Open mid-action with the detail already in hand or on-body, not with a full-body intro.",
+        retentionBridge: "At 3 seconds, cut from the half-finished outfit to the winning detail and say: 'otherwise I start dressing for an imaginary version of the day.'",
+        shotList: [
+          "Half-finished outfit in mirror.",
+          "Close-up of the winning detail: cuff, crease, belt, bag, shoe, or ring.",
+          "Hand adjusting the detail.",
+          "Full outfit reveal with one imperfect room corner still visible.",
+          "Doorway or hallway exit."
+        ],
+        talkingScript: "I dress better when I start with one detail instead of the whole outfit. Otherwise I start dressing for an imaginary version of the day. If I choose one cuff, one crease, one bag, or one shoe first, the rest stays calmer and more like my real life.",
+        beatSheet: [
+          { time: "0-2s", action: "Half-finished mirror shot.", line: "I dress better when I start with one detail instead of the whole outfit." },
+          { time: "3-5s", action: "Close-up of the chosen detail.", line: "Otherwise I start dressing for an imaginary version of the day." },
+          { time: "6-13s", action: "Adjust the detail and show the rest of the clothes.", line: "One cuff, one crease, one bag, or one shoe first." },
+          { time: "14-22s", action: "Full outfit reveal with room proof still visible.", line: "Then the rest stays calmer and more like my actual life." },
+          { time: "23-28s", action: "Exit shot.", line: "What is the one detail that usually decides your outfit?" }
+        ],
+        caption: "A full outfit is harder to choose than one honest detail.\n\nThat is how I keep getting dressed without making the morning feel dramatic.\n\nSearch phrases: outfit detail, what to wear, soft uniform, vintage outfit, tailored denim, wabi-sabi style.",
+        seoKeywords: ["outfit detail", "what to wear", "soft uniform", "vintage outfit", "tailored denim", "wabi-sabi style"],
+        keywords: ["outfit detail", "what to wear", "soft uniform", "vintage outfit", "tailored denim", "wabi-sabi style"],
+        hashtags: ["#whattowear", "#ootd", "#softuniform", "#vintagefashion", "#wabisabi", "#grwm"],
+        platformNotes: {
+          TikTok: "Use this as the primary hook test because the phrasing matches search intent and current answer-first behavior.",
+          Instagram: "Best as a concise Reel that feels relatable enough to send to a friend.",
+          YouTube: "Only reuse if titled directly around outfit detail or what to wear."
+        },
+        editNotes: "Keep the cuts clean, not flashy. The close-up needs to land by second 3."
+      },
+      {
+        id: "video-2026-05-12-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "This Looked Calm, So I Had To Capture It",
+        format: "Apartment-to-commute texture montage with voiceover, 18-24 seconds",
+        purpose: "Adapt the current capture-it format into Jimmy's quieter wabi-sabi lane.",
+        filmingFit: "Film 5-6 fast clips between apartment exit and commute.",
+        hook: "This looked calm, so I had to capture it before work.",
+        firstFrameDirection: "Start on the strongest moving texture first: reflection, tile, sleeve, strap, or shadow.",
+        retentionBridge: "At 3-5 seconds, stack two quick textures back to back and say: 'this is basically how I build a mood board now.'",
+        shotList: [
+          "Mirror or doorway detail before leaving.",
+          "Hand on bag strap, cuff, or railing.",
+          "Train or window reflection.",
+          "Tile, pavement, or shadow clip.",
+          "Close-up of the outfit detail against the environment.",
+          "Optional short face shot at the end."
+        ],
+        talkingScript: "This looked calm, so I had to capture it before work. This is basically how I build a mood board now. It is not one big concept. It is usually a reflection, a cuff, a shadow, and one texture that makes the commute feel more alive.",
+        beatSheet: [
+          { time: "0-2s", action: "Strongest moving texture first.", line: "This looked calm, so I had to capture it before work." },
+          { time: "3-5s", action: "Two quick textures back to back.", line: "This is basically how I build a mood board now." },
+          { time: "6-13s", action: "Montage continues.", line: "It is not one big concept." },
+          { time: "14-20s", action: "Pair outfit detail with city texture.", line: "Usually a reflection, a cuff, a shadow, and one texture that wakes me up." },
+          { time: "21-24s", action: "End on still or face shot.", line: "That is enough inspiration for one morning." }
+        ],
+        caption: "I trust tiny visual notes more than one perfect big idea.\n\nThe commute keeps handing me a mood board if I actually pay attention.\n\nSearch phrases: Tokyo commute, daily life in Japan, mood board in real life, outfit detail, calm aesthetic.",
+        seoKeywords: ["Tokyo commute", "daily life in Japan", "mood board in real life", "outfit detail", "calm aesthetic"],
+        keywords: ["Tokyo commute", "daily life in Japan", "mood board in real life", "outfit detail", "calm aesthetic"],
+        hashtags: ["#japanlife", "#tokyocommute", "#dailylife", "#wabisabi", "#moodboard", "#ootd"],
+        platformNotes: {
+          TikTok: "Works if the first texture is strong enough to stop the scroll without context.",
+          Instagram: "Good midday Reel because the montage feels sendable and visual.",
+          YouTube: "Can be repurposed later with a more direct search title if the footage is strong."
+        },
+        editNotes: "Punch up the first two cuts. Keep the voiceover intimate and slightly underplayed."
+      },
+      {
+        id: "video-2026-05-12-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "My Real Bare-Minimum Morning Routine",
+        format: "Minimal beauty / routine video, 20-26 seconds",
+        purpose: "Use the current minimal-routine conversation without sounding anti-beauty or product-heavy.",
+        filmingFit: "Film at sink or vanity in under 8 minutes.",
+        hook: "My real bare-minimum morning routine is only four things.",
+        firstFrameDirection: "Open on the four items or gestures already lined up in one frame.",
+        retentionBridge: "At 3 seconds, move from all four items to the first tactile step and say: 'anything more and I stop doing it consistently.'",
+        shotList: [
+          "Four items or four step setup shot.",
+          "Water or cleanser moment.",
+          "Moisturizer or serum close-up.",
+          "SPF application or final step.",
+          "Quick lip, hair, or fragrance touch.",
+          "Mirror exit shot."
+        ],
+        talkingScript: "My real bare-minimum morning routine is only four things. Anything more and I stop doing it consistently. Cleanse, moisture, SPF, and one small finishing step so I still feel awake and present before I leave.",
+        beatSheet: [
+          { time: "0-2s", action: "Show all four items or gestures at once.", line: "My real bare-minimum morning routine is only four things." },
+          { time: "3-5s", action: "First tactile close-up.", line: "Anything more and I stop doing it consistently." },
+          { time: "6-14s", action: "Move through the first three steps quickly.", line: "Cleanse, moisture, SPF." },
+          { time: "15-21s", action: "Show the final finishing step.", line: "Then one small extra so I still feel awake and present." },
+          { time: "22-26s", action: "Mirror or doorway exit.", line: "What is your real non-negotiable when mornings are rushed?" }
+        ],
+        caption: "I like routines that are small enough to keep.\n\nNot anti-beauty. Just pro-consistency, pro-barrier, and pro-leaving the house on time.\n\nSearch phrases: bare minimum morning routine, minimal skincare, simple GRWM, slow beauty, daily life in Japan.",
+        seoKeywords: ["bare minimum morning routine", "minimal skincare", "simple GRWM", "slow beauty", "daily life in Japan"],
+        keywords: ["bare minimum morning routine", "minimal skincare", "simple GRWM", "slow beauty", "daily life in Japan"],
+        hashtags: ["#minimalroutine", "#skincareroutine", "#grwm", "#slowbeauty", "#wabisabi", "#morningroutine"],
+        platformNotes: {
+          TikTok: "Good if you want to test the bare-minimum language against #hygiene without overusing trend tags.",
+          Instagram: "Could work as a Reel if the four-step opener is very legible.",
+          YouTube: "Best fit today because the title is searchable and the routine is evergreen."
+        },
+        editNotes: "Keep the setup real and quick. Avoid ad-like product framing."
+      },
+      {
+        id: "story-2026-05-12-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Pick The Repeat Detail",
+        format: "Poll story",
+        purpose: "Let viewers co-direct the soft-uniform language and create a small decision point.",
+        filmingFit: "Shoot two close-ups while choosing the final detail.",
+        hook: "Which detail should repeat today?",
+        firstFrameDirection: "Frame the two options cleanly side by side with almost no extra text.",
+        shotList: [
+          "Option A close-up.",
+          "Option B close-up."
+        ],
+        copy: "Which detail should repeat today?",
+        pollOptions: ["creased denim", "silver ring"],
+        talkingScript: "Which detail should repeat today?",
+        caption: "Trying to keep today's uniform simple enough to actually live in.",
+        seoKeywords: ["outfit detail", "soft uniform", "vintage outfit"],
+        keywords: ["outfit detail", "soft uniform", "vintage outfit"],
+        hashtags: ["#ootd", "#wabisabi"],
+        retentionBridge: "The poll gives the viewer an immediate job instead of passive watching.",
+        editNotes: "Keep it fast and legible."
+      },
+      {
+        id: "story-2026-05-12-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Four Things And Out The Door",
+        format: "BTS text story",
+        purpose: "Reinforce the minimal-routine theme and make the process feel casual.",
+        filmingFit: "Use a 5-second clip of the sink, counter, or bag pack before leaving.",
+        hook: "Four things and out the door.",
+        firstFrameDirection: "Open on the real setup, not the finished selfie.",
+        shotList: [
+          "Counter or sink setup.",
+          "Quick bag or doorway clip."
+        ],
+        copy: "Four things and out the door.",
+        pollOptions: [],
+        talkingScript: "Four things and out the door. Trying to keep the routine small enough to keep.",
+        caption: "The calm version of being in a rush.",
+        seoKeywords: ["morning routine", "minimal skincare", "daily life in Japan"],
+        keywords: ["morning routine", "minimal skincare", "daily life in Japan"],
+        hashtags: ["#grwm", "#slowbeauty", "#dailylife"],
+        retentionBridge: "Use the text like a private note rather than a polished announcement.",
+        editNotes: "No extra design needed."
+      }
+    ],
+    schedule: [
+      { time: "07:10-07:50", action: "Film the outfit-detail talk video, commute texture montage, bare-minimum routine, carousel assets, and both Stories.", platform: "Phone", reason: "One tight batch keeps the content native to the actual workday morning." },
+      { time: "08:40", action: "Post 'I Dress Better When I Start With One Detail'.", platform: "TikTok", reason: "Tuesday morning is a clean test window for search-led outfit language and real-process hooks." },
+      { time: "12:30", action: "Post 'This Looked Calm, So I Had To Capture It'.", platform: "Instagram Reels", reason: "The montage is visual, concise, and built for midday sends." },
+      { time: "18:55", action: "Post 'My Real Bare-Minimum Morning Routine'.", platform: "YouTube Shorts", reason: "Searchable evergreen routine content fits the evening discovery window." },
+      { time: "20:45", action: "Post 'The Detail I Repeat On Tuesdays'.", platform: "Instagram / TikTok photo mode", reason: "A tactile carousel suits a quieter evening save-and-share slot." },
+      { time: "Any time before 21:00", action: "Post the detail poll and the minimal-routine BTS story.", platform: "Stories", reason: "Stories can keep the day conversational without extra production." },
+      { time: "21:15", action: "Log native metrics manually if available: views, retention, saves, shares, and sends.", platform: "Dashboard", reason: "There is still no real metric history in the workspace, so tomorrow's optimization needs manual signal." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 Reali-Tea theme still points toward unfiltered stories, BTS moments, and real process over curated perfection.",
+        source: "TikTok Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        implication: "Keep the room proof, dressing process, and commute evidence in frame instead of cleaning them away."
+      },
+      {
+        signal: "The same TikTok report names #lockedin and #hygiene as routine and self-maintenance clusters, which supports calm accountability and simple care content.",
+        source: "TikTok Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        implication: "Frame routine content as steady maintenance and enoughness, not hustle or overconsumption."
+      },
+      {
+        signal: "Later's current TikTok trends roundup says simple repeatable formats like 'This looks so cool, I have to capture it' are active because they are easy to recreate quickly.",
+        source: "Later TikTok Trends",
+        url: "https://later.com/blog/tiktok-trends/",
+        implication: "Use a native-feeling capture-it montage with calm textures rather than forcing a bigger concept."
+      },
+      {
+        signal: "Later's broader TikTok trend coverage highlights search-led answer content, including outfit-intent behavior around direct prompts like what to wear.",
+        source: "Later Current TikTok Trends",
+        url: "https://later.com/blog/current-tiktok-trends/",
+        implication: "Use direct answer language such as 'start with one detail' so the video can work as both discovery and search."
+      },
+      {
+        signal: "YouTube says Shorts recommendations respond to whether viewers choose to watch, along with average view duration, average percentage viewed, likes and dislikes, and satisfaction.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&linkId=16217202",
+        implication: "Make the first frame legible immediately and keep the Shorts title direct and searchable."
+      },
+      {
+        signal: "Later's May 6, 2026 timing analysis still shows strong Instagram engagement windows in the morning for carousels and in the evening for visually rich Reels and Stories.",
+        source: "Later Best Time to Post 2026",
+        url: "https://later.com/blog/best-time-to-post-on-social-media/",
+        implication: "Keep the static post for evening and use the Reel in a lunch-to-evening discovery window rather than burying both at the same time."
+      },
+      {
+        signal: "Reddit beauty discussion in late April keeps converging on fast, consistent morning routines built around SPF, moisture, brows, lips, and barrier calm rather than long product stacks.",
+        source: "Reddit r/beauty",
+        url: "https://www.reddit.com/r/beauty/comments/1stfi7r/whats_your_bare_minimum_beauty_routine_when_youre/",
+        implication: "Keep Jimmy's routine video minimal, practical, and slightly tactile instead of product-dense."
+      },
+      {
+        signal: "A parallel Reddit skincare thread shows people actively moving away from 10-step performance routines toward 3-6 consistent barrier-friendly steps.",
+        source: "Reddit r/AsianBeauty",
+        url: "https://www.reddit.com/r/AsianBeauty/comments/1swkbk1/is_anyone_else_lowkey_over_10step_routines_and/",
+        implication: "A four-step routine angle will feel timely and human, especially if it is framed around consistency."
+      },
+      {
+        signal: "Vogue's current denim coverage says tailored denim and trouser-like jeans are a live 2026 styling direction, with structure and precision replacing sloppier volume.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/tailored-denim-trend",
+        implication: "Lean into denim crease, seam, and shape details rather than louder outfit stacking."
+      },
+      {
+        signal: "Vogue's 2026 beauty coverage says streamlined routines and gentle skin-health ideas are rising, which fits slow beauty better than maximal ritual content.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/k-beauty-trends-2026",
+        implication: "Use a simple beauty philosophy: fewer steps, more consistency, softer finish."
+      }
+    ],
+    keywordBank: {
+      primary: ["outfit detail", "soft uniform", "tailored denim", "bare minimum morning routine", "daily life in Japan", "wabi-sabi lifestyle", "Tokyo commute"],
+      secondary: ["what to wear", "minimal skincare", "mood board in real life", "slow beauty", "vintage outfit", "commute texture", "proof of life"],
+      titles: [
+        "I dress better when I start with one detail",
+        "This looked calm, so I had to capture it",
+        "My real bare-minimum morning routine",
+        "The detail I repeat on Tuesdays",
+        "One detail is enough structure for the day"
+      ],
+      hashtags: {
+        general: ["#wabisabi", "#dailylife", "#japanlife", "#calmaesthetic", "#grwm"],
+        fashion: ["#ootd", "#softuniform", "#vintagefashion", "#tailoreddenim", "#whattowear"],
+        beauty: ["#minimalroutine", "#skincareroutine", "#slowbeauty", "#morningroutine"],
+        futureBusiness: ["#dryflowers", "#naturalstone", "#materialstudy", "#quietluxury"]
+      }
+    },
+    longFormYouTube: {
+      due: false,
+      nextDueCheck: "2026-05-24",
+      note: "A biweekly long-form upload is not due today. Keep collecting apartment, commute, and material-study B-roll that can support the next May 24, 2026 planning cycle.",
+      referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topics focused on life, thoughts, creative direction, style, beauty, and wabi-sabi."
+    },
+    performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
   }
 ];
