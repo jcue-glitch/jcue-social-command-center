@@ -52,11 +52,15 @@ The stable creator strategy lives in:
 
 `social-command-center/data/social-plan.js`
 
+The additive creator/brand system context lives in:
+
+`01 Strategy/jcue-creator-brand-system-context-v2.md`
+
 The daily trend-informed brief lives in:
 
 `social-command-center/data/daily-updates.js`
 
-The dashboard uses the latest object in `daily-updates.js` as the active daily brief. The 7am automation is configured to research current sources, update this file, run syntax checks, and summarize the changes.
+The dashboard uses the active Tokyo-date object in `daily-updates.js` as the daily brief, falling back to the nearest prior update when needed. The 7am automation is configured to research current sources, apply the additive brand context, update this file, run syntax checks, and summarize the changes.
 
 ## Data Status
 

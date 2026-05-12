@@ -8,6 +8,8 @@ Design Stillness. Live Artfully.
 
 Jimmy's content should feel like a calm, stylish friend sharing daily life without pretending everything is finished. The audience comes for aesthetic taste, but stays for warmth, reflection, and the feeling that imperfect beauty is livable.
 
+This strategy is extended by `jcue-creator-brand-system-context-v2.md`. Treat that document as additive context: it sharpens the identity into mindful masculine slow living through a cinematic Tokyo lifestyle lens, while preserving the original wabi-sabi, 80s Japan vintage, daily-life, style, GRWM, beauty, and future dry flower/stone direction.
+
 ## Content Pillars
 
 - Wabi-sabi daily life: apartment, commute, texture, imperfection, quiet noticing.
@@ -15,6 +17,8 @@ Jimmy's content should feel like a calm, stylish friend sharing daily life witho
 - GRWM as friendship: talking while getting ready, simple routines, small confidence.
 - Material studies: dry flowers, stone, fabric, vessels, shadows, and future luxury-space direction.
 - Creative direction diary: what Jimmy is learning about taste, calmness, and building a creative life.
+- Modern masculinity: confidence without loudness, grooming as care, emotional grounding, self-respect, and calm discipline.
+- Object culture: tactile personal details such as navy shirts, gray slacks, cassette players, headphones, magazines, coffee books, fragrance, lip balm, steel, cameras, and watches.
 
 ## Platform Roles
 

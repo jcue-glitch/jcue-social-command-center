@@ -23,6 +23,50 @@ window.JIMMY_SOCIAL_PLAN = {
     ],
     dataLimits: "Public scraping from TikTok, Instagram, and YouTube is unreliable in this environment. The metrics dashboard is ready for manual import now and API connections later."
   },
+  creatorSystem: {
+    additiveSource: "01 Strategy/jcue-creator-brand-system-context-v2.md",
+    positioning: "Mindful masculine slow living through a cinematic Tokyo lifestyle lens.",
+    identityGoal: "Not influencer. Interesting person with taste, perspective, and atmosphere.",
+    contentFeeling: [
+      "real",
+      "reflective",
+      "emotionally grounded",
+      "stylish without trying too hard",
+      "aspirational but attainable",
+      "culturally aware",
+      "quietly confident"
+    ],
+    audienceFeeling: "I want my life to feel like this.",
+    addedThemes: [
+      "Mindful living: slowing down, routines as rituals, presence, overstimulation, intentional living.",
+      "Modern masculinity: confidence without loudness, grooming, self-respect, emotional grounding, calm discipline.",
+      "Tokyo/Japan life as lived-in texture: old cafes, trains, side streets, rainy mornings, vintage shops, coffee culture.",
+      "Style and object culture: navy, gray, black, cream, analog objects, magazines, fragrance, headphones, watches, tactile details.",
+      "Creative life: building slowly, creating before announcing, quiet ambition, atmosphere, personal systems."
+    ],
+    writingRules: [
+      "Use lowercase-friendly short lines with breathing room when native to the platform.",
+      "Sound like a thought diary or honest internal monologue, not a motivational speaker.",
+      "Create emotional recognition: 'this is exactly how I've been feeling.'",
+      "Prioritize saves, shares, 'needed this', 'this is the vibe', and identity attachment over trend chasing alone."
+    ],
+    visualRules: [
+      "Blend Devil Wears Prada office culture, Mad Men, Japanese kissaten cafes, Muji, analog/digital, editorial fashion, cinematic still frames, and tactile textures.",
+      "Use soft natural light, warm cafe light, moody interiors, rainy reflections, morning sunlight, and muted tones with occasional strong accents.",
+      "Favor handheld, observational, close-up detail shots: coffee, walking, trains, window light, shirt cuffs, cassette buttons, magazines, headphones, cafes, outfit details, grooming, quiet city moments."
+    ],
+    avoid: [
+      "fake guru tone",
+      "hustle culture",
+      "alpha male energy",
+      "Japan influencer framing",
+      "flashy luxury flexing",
+      "generic viral spam hashtags",
+      "overexplained emotions",
+      "fake cinematic LUTs"
+    ],
+    hashtagRule: "Use 4-6 niche identity hashtags max unless a specific test requires otherwise."
+  },
   strategy: {
     weeklyTheme: {
       dates: "Apr 30 - May 6, 2026",

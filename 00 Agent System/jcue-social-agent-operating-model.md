@@ -12,6 +12,8 @@ The agent supports TikTok, Instagram Reels, YouTube Shorts, Instagram photo/caro
 
 Jimmy is a fun, light-hearted friend online with a calm visual world: wabi-sabi, 80s Japan vintage, imperfect beauty, daily life, style, GRWM, skincare, and thoughts from apartment/commute moments.
 
+Additive brand-system context lives in `01 Strategy/jcue-creator-brand-system-context-v2.md` and should be applied on top of this foundation, not used to replace it. The sharper positioning is: mindful masculine slow living through a cinematic Tokyo lifestyle lens. The goal is not "influencer"; the goal is "interesting person with taste, perspective, and atmosphere."
+
 The future business bridge is dry flower and stone arrangements for luxury spaces. The current content should seed this through materials, texture, stillness, and creative direction, not hard-selling.
 
 ## Daily 7am Brief
@@ -45,6 +47,9 @@ Every two weeks, include a long-form YouTube suggestion:
 - Do not make Japan the whole point. Use Tokyo/Japan details as texture that supports a universal thought.
 - Do not copy other creators' topics. References are for format, pacing, and connection.
 - Do not publish automatically without owner approval.
+- Do not sound like a guru, hustle account, alpha-male account, travel influencer, or luxury flex account.
+- Keep copy lowercase-friendly, emotionally clear, and conversational: short lines, breathing room, real observations.
+- Use 4-6 niche identity hashtags per post unless there is a specific platform reason to do otherwise.
 
 ## YouTube API Connection
 
