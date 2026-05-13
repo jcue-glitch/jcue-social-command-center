@@ -22,6 +22,7 @@ Each brief includes:
 
 - Weekly theme.
 - Current trend and keyword signals.
+- Substack Radar signals from approved public publications/profiles/RSS feeds when sources are available.
 - 1 static photo/carousel idea.
 - 3 short-form video ideas.
 - 1-2 story posts.
@@ -50,6 +51,7 @@ Every two weeks, include a long-form YouTube suggestion:
 - Do not sound like a guru, hustle account, alpha-male account, travel influencer, or luxury flex account.
 - Keep copy lowercase-friendly, emotionally clear, and conversational: short lines, breathing room, real observations.
 - Use 4-6 niche identity hashtags per post unless there is a specific platform reason to do otherwise.
+- Do not let Substack become the only research source. Use it to deepen the angle while still pulling from current platform trends, articles, videos, news, blogs, search, Reddit/X conversations, and similar creator patterns.
 
 ## YouTube API Connection
 

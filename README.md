@@ -8,6 +8,7 @@ Personal social media agent workspace for Jimmy Cue.
 - `00 Agent System` - operating model, automation prompt, API needs, and handoff rules.
 - `01 Strategy` - creator positioning, platform strategy, visual direction, and long-form YouTube direction.
 - `02 Daily Briefs` - daily content packs and generated briefs.
+- `03 Research` - approved research source lists, including Substack Radar.
 
 ## Open The Dashboard
 
@@ -61,6 +62,12 @@ The daily trend-informed brief lives in:
 `social-command-center/data/daily-updates.js`
 
 The dashboard uses the active Tokyo-date object in `daily-updates.js` as the daily brief, falling back to the nearest prior update when needed. The 7am automation is configured to research current sources, apply the additive brand context, update this file, run syntax checks, and summarize the changes.
+
+Substack Radar source list:
+
+`03 Research/substack-radar-sources.md`
+
+Substack is an additive research lane for slower cultural signals, thoughtful language, and possible written posts. It should inform the daily perspective alongside TikTok/Reels/Shorts trends, search behavior, articles, blogs, news, Reddit/X conversations, and similar creator patterns.
 
 ## Data Status
 

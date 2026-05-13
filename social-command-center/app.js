@@ -25,6 +25,7 @@ if (activeDailyUpdate) {
   plan.contentPack = activeDailyUpdate.contentPack || plan.contentPack;
   plan.schedule = activeDailyUpdate.schedule || plan.schedule;
   plan.trendRadar = [...(activeDailyUpdate.trendRadar || []), ...plan.trendRadar].slice(0, 12);
+  plan.substackRadar = [...(activeDailyUpdate.substackRadar || []), ...(plan.substackRadar || [])].slice(0, 8);
   plan.keywordBank = {
     ...plan.keywordBank,
     ...(activeDailyUpdate.keywordBank || {})
@@ -260,6 +261,20 @@ function renderTrendRadar() {
         <strong>${escapeHtml(item.signal)}</strong>
         <p>${escapeHtml(item.implication)}</p>
         <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.source)}</a>
+      </div>
+    `)
+    .join("");
+}
+
+function renderSubstackRadar() {
+  const items = plan.substackRadar || [];
+  byId("substackRadar").innerHTML = items
+    .map((item) => `
+      <div class="radar-item">
+        <strong>${escapeHtml(item.signal)}</strong>
+        <p>${escapeHtml(item.application)}</p>
+        ${item.postIdea ? `<p><b>Post angle:</b> ${escapeHtml(item.postIdea)}</p>` : ""}
+        ${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.source || "Source")}</a>` : `<p>${escapeHtml(item.source || "Source list pending")}</p>`}
       </div>
     `)
     .join("");
@@ -529,6 +544,10 @@ ${plan.contentPack.map((item) => `- ${item.type}: ${item.title} (${item.platform
 
 ${plan.trendRadar.map((item) => `- ${item.signal} ${item.implication}`).join("\n")}
 
+## Substack Radar
+
+${(plan.substackRadar || []).map((item) => `- ${item.signal}: ${item.application}`).join("\n")}
+
 ## Approval Checklist
 
 ${plan.dailyBrief.approvalChecklist.map((item) => `- ${item}`).join("\n")}
@@ -686,6 +705,7 @@ Daily output must include:
 - Hook, first-frame direction, 3-5 second retention bridge, shot list, talking script, caption, SEO keywords, hashtags, platform priority, and edit notes for every piece.
 - A simple posting schedule in ${plan.meta.timezone}.
 - Current trend signals from TikTok, Instagram, YouTube Shorts, Reddit/X/news where accessible, with source links.
+- Substack Radar: read public posts/RSS from the approved source list and use them as one additive research lane for deeper language, cultural questions, essay ideas, and viewer psychology. Do not make Substack the sole source; combine it with trending articles, videos, news, blogs, search patterns, and platform-native trend signals.
 - Performance-informed recommendation if metric history exists; otherwise ask for manual metrics to be entered.
 
 Do not recommend ideas that require a crew, studio, long travel, or more than 45 minutes of morning filming. Keep the tone light, warm, stylish, and human.`;
@@ -922,6 +942,7 @@ renderShell();
 renderContentList();
 renderPreview();
 renderTrendRadar();
+renderSubstackRadar();
 renderKeywords();
 renderSchedule();
 renderLongForm();

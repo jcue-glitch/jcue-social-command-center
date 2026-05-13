@@ -416,6 +416,22 @@ window.JIMMY_SOCIAL_PLAN = {
       implication: "For Jimmy, translate the format into life, thoughts, creative direction, wabi-sabi, style, and beauty. Keep the emotional pacing casual and specific."
     }
   ],
+  substackRadar: [
+    {
+      signal: "Source list pending: owner will provide Substack publications, profiles, or RSS feeds to monitor.",
+      source: "JCue Substack Radar setup",
+      url: "",
+      application: "Use Substack as a slower cultural-intelligence lane: essays, reader psychology, language patterns, and thoughtful questions that can deepen daily short-form ideas.",
+      postIdea: "Turn one thoughtful idea into a short Substack-style note, then repurpose it into one talking video, one carousel, and one story prompt."
+    },
+    {
+      signal: "Substack should inform perspective, not replace platform trend research.",
+      source: "JCue operating rule",
+      url: "",
+      application: "Daily briefs should still pull from TikTok/Reels/Shorts behavior, news, blogs, articles, Reddit/X conversations, search, and similar creator patterns.",
+      postIdea: "Use the daily theme as the bridge: what is the internet talking about, what are thoughtful writers noticing, and what is Jimmy's lived-in angle?"
+    }
+  ],
   keywordBank: {
     primary: ["wabi-sabi lifestyle", "slow morning routine", "GRWM", "Japan life", "vintage outfit", "calm aesthetic", "imperfect beauty"],
     secondary: ["Tokyo commute", "80s Japan vintage", "simple skincare routine", "slow beauty", "dry flowers", "natural stone", "quiet luxury interiors"],
@@ -452,13 +468,15 @@ window.JIMMY_SOCIAL_PLAN = {
       "TikTok developer app with Login Kit and Display API access for profile and recent video metadata. True analytics may require approved scopes/products not available to every app.",
       "Instagram professional account connected through Meta/Instagram API permissions for insights. Manual export works until app review is complete.",
       "YouTube/Google Cloud OAuth client with YouTube Analytics API access for channel and video reports.",
-      "Optional: Notion, Google Sheets, or local JSON backend to store daily briefs and metric history outside browser localStorage."
+      "Optional: Notion, Google Sheets, or local JSON backend to store daily briefs and metric history outside browser localStorage.",
+      "Optional: Substack RSS/source list for approved publications and profiles that can feed the daily Substack Radar."
     ],
     apiNotes: [
       { platform: "TikTok", source: "https://developers.tiktok.com/doc/display-api-overview/", note: "Display API can read basic profile and recent video metadata with user authorization." },
       { platform: "TikTok Research", source: "https://developers.tiktok.com/products/research-api/", note: "Research API access is limited to qualifying researchers and is not the normal creator analytics path." },
       { platform: "Instagram", source: "https://www.facebook.com/help/1533933820244654/", note: "Instagram insights require a business or creator account; older content before conversion may not have insights." },
-      { platform: "YouTube", source: "https://developers.google.com/youtube/analytics/data_model", note: "YouTube Analytics API supports targeted reports with metrics, dimensions, and filters." }
+      { platform: "YouTube", source: "https://developers.google.com/youtube/analytics/data_model", note: "YouTube Analytics API supports targeted reports with metrics, dimensions, and filters." },
+      { platform: "Substack", source: "https://support.substack.com/hc/en-us/articles/360038239391-Is-there-an-RSS-feed-for-my-publication", note: "Public Substack publications commonly expose RSS at https://your.substack.com/feed. Private follows/subscriptions require owner-provided links, exports, forwarded emails, or authenticated access." }
     ]
   }
 };
