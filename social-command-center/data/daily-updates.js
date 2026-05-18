@@ -2142,5 +2142,347 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
     },
     performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
+  },
+  {
+    generatedAt: "2026-05-19",
+    researchWindow: "Trend scan completed on May 19, 2026 using official TikTok, Instagram, and YouTube guidance plus current Later, Vogue, Reddit, Throwing Fits, and Substack-hosted slower-culture signals surfaced in May 2026.",
+    weeklyTheme: {
+      dates: "May 15 - May 21, 2026",
+      title: "Soft Friction, Better Mornings",
+      thesis: "This week should make Jimmy's mornings feel calmer by design: slightly harder to scroll, easier to get dressed, more tactile to live inside, and more honest on camera.",
+      whyNow: "Current platform and culture signals keep rewarding real process, direct routine language, tactile personal style, and quieter resistance to constant feed-brain. Jimmy can turn that into lived-in Tokyo atmosphere, modern routine content, and softer masculinity without sounding anti-tech or preachy.",
+      contentRule: "Every post should show one helpful friction point: where the phone stayed away, where one worn detail grounded the outfit, where an analog object slowed the morning, or where the commute became a small reset."
+    },
+    dailyBrief: {
+      date: "2026-05-19",
+      day: "Tuesday",
+      deliveryTime: "07:00 JST",
+      title: "let the morning have edges.",
+      objective: "Film a Tuesday batch that makes calm look practical: one analog object, one soft-uniform outfit decision, one slightly inconvenient phone habit, and one quiet commute or cafe texture that feels lived in instead of staged.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment bedside or desk, mirror, shirt or trouser detail, bag or chair setup, one notebook or paperback, sink or fragrance touch, doorway exit, and two to three commute or kissaten-adjacent textures on the way out.",
+      recommendation: "Lead with the phone-friction video on TikTok, use the worn-detail outfit note for Reels, push the analog-object morning video to YouTube Shorts, and save the carousel plus written note for evening when viewers are more reflective.",
+      todayDoNotDo: [
+        "Do not make digital minimalism sound moral or superior. Keep it specific to your own mornings.",
+        "Do not overstyle the analog object. Let it look used, folded, or carried.",
+        "Do not make the outfit post too fashion-insider. The point is how the detail changes the feeling, not trend trivia.",
+        "Do not turn Tokyo into the headline. Let the city stay as texture, timing, and atmosphere behind the thought.",
+        "Do not skip the manual metrics reminder tonight. The dashboard still has no real native performance history to learn from."
+      ],
+      approvalChecklist: [
+        "Does the first frame show the tension immediately: phone, object, worn detail, or half-finished morning?",
+        "Is there a 3-5 second bridge that earns the next beat with a reveal, cut, or better thought?",
+        "Would the spoken line still feel natural if written fully in lowercase?",
+        "Can all core footage be captured inside one real weekday morning without additional setup?",
+        "Does at least one asset quietly reinforce creative life or future material-study direction?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-19-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Five Small Things That Made The Morning Feel Slower",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn soft-friction and object-culture ideas into a saveable identity post that feels useful, tactile, and easy to recreate.",
+        hook: "five small things that made the morning feel slower.",
+        firstFrameDirection: "Open on the strongest tactile close-up first: paperback edge, shirt cuff, cup ring, watch, or folded note before the wider room shows up.",
+        filmingFit: "Shoot in 5 minutes while the apartment is still real.",
+        shotList: [
+          "Slide 1: close-up of the object that changed the pace.",
+          "Slide 2: phone placed away from the bed, desk, or jacket pocket.",
+          "Slide 3: one worn outfit detail on body or chair.",
+          "Slide 4: coffee, notebook, or magazine in soft light.",
+          "Slide 5: exit or commute texture that completes the mood."
+        ],
+        overlayText: [
+          "five small things that made the morning feel slower.",
+          "nothing dramatic.",
+          "just better sequencing.",
+          "that helped."
+        ],
+        talkingScript: "The morning felt slower because a few things happened in a better order. Phone later. Shirt first. Coffee while standing by the window. One page of something offline. Then I left.",
+        caption: "Nothing here is a life hack.\n\nJust a better order for the same morning.\n\nPhone a little farther away.\nOne worn detail in the outfit.\nOne analog object.\nOne quiet minute before the feed.\n\nThat is usually enough to make the day feel more like mine.\n\nSearch phrases: slow morning routine, digital minimalism, object culture, outfit detail, daily life in Tokyo, calm routine.",
+        seoKeywords: ["slow morning routine", "digital minimalism", "object culture", "outfit detail", "daily life in Tokyo", "calm routine"],
+        keywords: ["slow morning routine", "digital minimalism", "object culture", "outfit detail", "daily life in Tokyo", "calm routine"],
+        hashtags: ["#slowliving", "#digitalminimalism", "#objectculture", "#wabisabi", "#tokyolife"],
+        retentionBridge: "Make slide 2 the reveal from the close-up object to the system behind it so viewers swipe to understand the full morning logic.",
+        editNotes: "Keep the photos warm, a little imperfect, and lightly sequential. This should feel like a thought diary, not a checklist graphic."
+      },
+      {
+        id: "video-2026-05-19-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "I Make My Mornings Better By Making My Phone Slightly Inconvenient",
+        format: "Talk-to-camera routine note, 22-30 seconds",
+        purpose: "Use current digital-minimalism conversation without sounding anti-phone, while keeping Jimmy's calm-discipline lane personal and realistic.",
+        hook: "i make my mornings better by making my phone slightly inconvenient.",
+        firstFrameDirection: "Open on the phone already placed away from the bed or in a jacket pocket, not on your face.",
+        retentionBridge: "At 3 seconds, cut from the phone placement to a better morning detail and say: 'otherwise the feed becomes the first room i walk into.'",
+        filmingFit: "Film in the apartment with one bedside or desk shot, one coffee or window shot, one mirror shot, and one exit clip.",
+        shotList: [
+          "Phone charging away from the bed or on a shelf.",
+          "Hand reaching for shirt, cup, or blinds instead.",
+          "Mirror half-dressed shot.",
+          "Paperback, notebook, or coffee close-up.",
+          "Doorway exit."
+        ],
+        talkingScript: "I make my mornings better by making my phone slightly inconvenient. Otherwise the feed becomes the first room I walk into. I would rather touch a shirt, make coffee, read one page, and meet the day before I meet everybody else's mood.",
+        beatSheet: [
+          { time: "0-2s", action: "Show the phone away from the bed or on a shelf.", line: "I make my mornings better by making my phone slightly inconvenient." },
+          { time: "3-5s", action: "Cut to coffee, shirt, or window light.", line: "Otherwise the feed becomes the first room I walk into." },
+          { time: "6-14s", action: "Mirror or getting-dressed sequence.", line: "I would rather touch a shirt, make coffee, and read one page first." },
+          { time: "15-24s", action: "Analog object close-up plus exit prep.", line: "That does not fix my life. It just gives me a better start." },
+          { time: "25-30s", action: "Doorway or hallway exit.", line: "What is one thing you do before the apps?" }
+        ],
+        caption: "Not trying to become a monk.\n\nJust trying not to let the internet arrive before I do.\n\nA little friction helps.\n\nSearch phrases: digital minimalism, morning routine, calm discipline, slow living, daily life in Tokyo.",
+        seoKeywords: ["digital minimalism", "morning routine", "calm discipline", "slow living", "daily life in Tokyo"],
+        keywords: ["digital minimalism", "morning routine", "calm discipline", "slow living", "daily life in Tokyo"],
+        hashtags: ["#digitalminimalism", "#slowliving", "#morningroutine", "#wabisabi", "#quietconfidence"],
+        platformNotes: {
+          TikTok: "Use this as the main test because the hook is direct, current, and personal without chasing shock value.",
+          Instagram: "Keep the text small and honest so it feels like a note a friend would send to another friend.",
+          YouTube: "Only repurpose if titled directly around phone habits or a calmer first hour."
+        },
+        editNotes: "Keep the first frame readable instantly. The bridge line should land by second 4 and the analog object should appear before second 10."
+      },
+      {
+        id: "video-2026-05-19-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "The Outfit Works Better When One Detail Looks Lived In",
+        format: "OOTD / style philosophy, 18-26 seconds",
+        purpose: "Translate current menswear conversation away from sterile quiet-luxury cosplay and toward Jimmy's worn, personal, wabi-sabi style language.",
+        hook: "the outfit works better when one detail looks lived in.",
+        firstFrameDirection: "Open on the worn seam, cuff, crease, belt edge, or soft denim texture before showing the full outfit.",
+        retentionBridge: "At 3-5 seconds, reveal the full silhouette and say: 'otherwise it can start feeling like i am wearing the idea of taste instead of my actual life.'",
+        filmingFit: "Film while dressing with one detail close-up, one mirror reveal, and one exit or commute clip.",
+        shotList: [
+          "Close-up of worn seam, cuff, crease, or bag strap.",
+          "Mirror half-body outfit reveal.",
+          "Hand adjusting cuff, belt, bag, or watch.",
+          "Chair or room edge left imperfect in frame.",
+          "Walking shot or station reflection."
+        ],
+        talkingScript: "The outfit works better when one detail looks lived in. Otherwise it can start feeling like I am wearing the idea of taste instead of my actual life. A softened cuff or an old crease usually makes everything else feel more honest.",
+        beatSheet: [
+          { time: "0-2s", action: "Detail close-up first.", line: "The outfit works better when one detail looks lived in." },
+          { time: "3-5s", action: "Reveal the full outfit.", line: "Otherwise it can start feeling like I am wearing the idea of taste." },
+          { time: "6-14s", action: "Adjust one detail on camera.", line: "A softened cuff or old crease usually makes the rest feel more honest." },
+          { time: "15-22s", action: "Mirror or room proof shot.", line: "That is the version of style I trust more." },
+          { time: "23-26s", action: "Walk out or turn away.", line: "What detail does that for you?" }
+        ],
+        caption: "I still like a clean silhouette.\n\nI just need one part of it to look like a real person lives in the clothes.\n\nThat is usually where the warmth is.\n\nSearch phrases: outfit detail, vintage style, tailored denim, wabi-sabi fashion, Tokyo daily style.",
+        seoKeywords: ["outfit detail", "vintage style", "tailored denim", "wabi-sabi fashion", "Tokyo daily style"],
+        keywords: ["outfit detail", "vintage style", "tailored denim", "wabi-sabi fashion", "Tokyo daily style"],
+        hashtags: ["#ootd", "#vintagestyle", "#wabisabi", "#tailoreddenim", "#softuniform"],
+        platformNotes: {
+          TikTok: "This can perform as a searchable style thought if the first detail is tactile enough to stop the scroll.",
+          Instagram: "Best use today for sends and saves because the line feels like identity language, not trend recap.",
+          YouTube: "Only reuse if the title stays literal around outfit detail or vintage styling."
+        },
+        editNotes: "Favor one detail over multiple styling cuts. The room proof should stay subtle but visible."
+      },
+      {
+        id: "video-2026-05-19-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "Before I Open Anything, I Need One Analog Thing",
+        format: "Apartment-to-commute or cafe-adjacent montage, 18-24 seconds",
+        purpose: "Use slower-culture and Substack-adjacent language to connect digital minimalism, creative life, and object culture in a way that still feels native to Shorts.",
+        hook: "before i open anything, i need one analog thing.",
+        firstFrameDirection: "Open on the object itself in motion: book opening, notebook page turning, cassette button, or magazine fold.",
+        retentionBridge: "At 3 seconds, cut from the object to a moving morning texture and say: 'it reminds me the day existed before the feed did.'",
+        filmingFit: "Film in 6-8 minutes between apartment setup and first walk or train clip.",
+        shotList: [
+          "Book, notebook, magazine, or cassette close-up in hand.",
+          "Coffee or window-light texture.",
+          "Bag packing or pocketing the object.",
+          "Walking feet or train reflection.",
+          "Quiet table, platform, or over-shoulder end frame."
+        ],
+        talkingScript: "Before I open anything, I need one analog thing. It reminds me the day existed before the feed did. One page, one note, one object with texture is usually enough to make my thoughts feel like mine again.",
+        beatSheet: [
+          { time: "0-2s", action: "Analog object in motion.", line: "Before I open anything, I need one analog thing." },
+          { time: "3-5s", action: "Cut to coffee, window, or walking texture.", line: "It reminds me the day existed before the feed did." },
+          { time: "6-13s", action: "Bag pack or object-in-pocket shot.", line: "One page, one note, one object with texture is usually enough." },
+          { time: "14-20s", action: "Commute or quiet table shot.", line: "It makes my thoughts feel a little more like mine again." },
+          { time: "21-24s", action: "End on stillness or movement away.", line: "Maybe try that tomorrow." }
+        ],
+        caption: "The first good thought of the day usually happens before I start consuming anything.\n\nNot every morning, but often enough that I trust it.\n\nSearch phrases: analog morning routine, digital minimalism, creative life, slow living, Tokyo commute.",
+        seoKeywords: ["analog morning routine", "digital minimalism", "creative life", "slow living", "Tokyo commute"],
+        keywords: ["analog morning routine", "digital minimalism", "creative life", "slow living", "Tokyo commute"],
+        hashtags: ["#analogliving", "#creativelife", "#digitalminimalism", "#slowliving", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Works if the texture is strong and the first object shot is unusual enough to stop the scroll.",
+          Instagram: "Only post if the visuals feel especially editorial; otherwise keep this for Shorts.",
+          YouTube: "Best evergreen candidate today because the title is direct and curiosity-driven."
+        },
+        editNotes: "Use low-volume calm audio. The object movement needs to be the very first thing the viewer sees."
+      },
+      {
+        id: "story-2026-05-19-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Choose The Analog Object",
+        format: "Poll story",
+        purpose: "Invite the audience into the slower-culture lane without overexplaining it.",
+        hook: "which one would you reach for first?",
+        firstFrameDirection: "Open on two objects in the same patch of light with space for the poll sticker.",
+        filmingFit: "Shoot while packing the bag or making coffee.",
+        shotList: ["Notebook vs paperback, or magazine vs headphones on a table or chair."],
+        talkingScript: "Which one would you reach for first?",
+        copy: "which one would you reach for first?",
+        pollOptions: ["notebook", "paperback"],
+        caption: "trying to start with something i can actually touch.",
+        seoKeywords: ["analog morning routine", "object culture", "digital minimalism"],
+        keywords: ["analog morning routine", "object culture", "digital minimalism"],
+        hashtags: ["#objectculture", "#analogliving"],
+        retentionBridge: "The poll sticker makes the story feel like a tiny daily choice instead of a lecture.",
+        editNotes: "Keep it simple and lightly underexposed if the morning light is harsh."
+      },
+      {
+        id: "story-2026-05-19-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Phone Later Note",
+        format: "BTS text + clip",
+        purpose: "Reinforce the main video with a casual diary line that can generate replies.",
+        hook: "kept my phone inconvenient for ten more minutes today.",
+        firstFrameDirection: "Open on motion or texture first, then let the text sit over the clip.",
+        filmingFit: "Shoot a 5-second clip of the coffee, doorway, or walk out.",
+        shotList: ["Coffee steam, hand on shirt cuff, or quiet walk clip."],
+        talkingScript: "Kept my phone inconvenient for ten more minutes today.",
+        copy: "kept my phone inconvenient for ten more minutes today.",
+        pollOptions: [],
+        caption: "small friction. better morning.",
+        seoKeywords: ["digital minimalism", "calm morning routine"],
+        keywords: ["digital minimalism", "calm morning routine"],
+        hashtags: ["#digitalminimalism", "#slowliving"],
+        retentionBridge: "Make the text feel like a private note, not a challenge post.",
+        editNotes: "No extra design. Let the clip breathe."
+      },
+      {
+        id: "written-2026-05-19-01",
+        type: "Written Post / Substack Note",
+        platformPriority: ["Substack Notes", "Instagram caption screenshot", "Threads"],
+        title: "The Phone Is Not The First Room",
+        format: "Short written note",
+        purpose: "Give Jimmy one slower written post angle that extends the day's filming without summarizing somebody else's essay.",
+        hook: "the phone is not the first room i want to walk into.",
+        firstFrameDirection: "If screenshotting for social, pair the text with a close-up of a notebook, coffee ring, or shirt cuff in morning light.",
+        retentionBridge: "Break after the second line so the thought opens up before the turn into practice.",
+        talkingScript: "Use as written copy only.",
+        draft: "the phone is not the first room i want to walk into.\n\nsome mornings i still do.\nbut the better ones usually begin with texture first.\na shirt.\na cup.\na page.\nlight on the wall.\n\nnothing life changing.\njust enough proof that i was here before the feed was.\n\nthat changes the mood more than i expect.",
+        caption: "Optional cross-post caption: a small note from this morning.",
+        seoKeywords: ["digital minimalism", "morning note", "slow living writing", "creative life"],
+        keywords: ["digital minimalism", "morning note", "slow living writing", "creative life"],
+        hashtags: ["#digitalminimalism", "#slowliving", "#creativenotes", "#wabisabi"],
+        editNotes: "Keep this in lowercase. Do not over-punctuate or over-explain."
+      }
+    ],
+    schedule: [
+      { time: "07:10-07:50", action: "Film the phone-friction video, worn-detail outfit video, analog-object montage, carousel assets, and both Stories.", platform: "Phone", reason: "One tight batch keeps everything rooted in the actual Tuesday morning." },
+      { time: "08:40", action: "Post 'I Make My Mornings Better By Making My Phone Slightly Inconvenient'.", platform: "TikTok", reason: "The direct hook fits morning discovery and current digital-minimalism conversation." },
+      { time: "12:25", action: "Post 'The Outfit Works Better When One Detail Looks Lived In'.", platform: "Instagram Reels", reason: "Midday is a clean window for sendable style language and saves." },
+      { time: "18:55", action: "Post 'Before I Open Anything, I Need One Analog Thing'.", platform: "YouTube Shorts", reason: "The direct title and calmer pacing suit evening evergreen viewing." },
+      { time: "20:45", action: "Post 'Five Small Things That Made The Morning Feel Slower'.", platform: "Instagram / TikTok photo mode", reason: "A reflective carousel fits evening saves and shares." },
+      { time: "21:05", action: "Post the written note to Substack Notes if the line still feels true after the day.", platform: "Substack Notes", reason: "Evening is a better slot for a slower written thought than the morning rush." },
+      { time: "Any time before 21:00", action: "Post the analog-object poll and the phone-later BTS story.", platform: "Stories", reason: "Stories keep the theme conversational without extra editing load." },
+      { time: "21:15", action: "Log native metrics manually if available: views, retention, saves, shares, and sends.", platform: "Dashboard", reason: "There is still no real metric history in the workspace, so tomorrow's optimization needs manual signal." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 trend forecast keeps leaning toward unfiltered storytelling, richer emotional return, and creator formats that feel like real process rather than polished distance.",
+        source: "TikTok What's Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/trends-whats-next",
+        implication: "Start inside the real morning: phone placement, half-dressed mirror frame, worn detail, or one object already in use."
+      },
+      {
+        signal: "Instagram says recommendation and connected reach benefit from content that feels original and gets people to share it with friends.",
+        source: "Instagram Creators",
+        url: "https://creators.instagram.com/",
+        implication: "Use identity language and practical observations that someone would DM to a friend instead of generic motivation."
+      },
+      {
+        signal: "YouTube's Shorts guidance still emphasizes readable first frames, intentional audio, and optimizing for viewers who choose to keep watching rather than just autoplay starts.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/12948448?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Today's Shorts concept should open on the analog object immediately and keep the title literal."
+      },
+      {
+        signal: "Later's May 2026 posting analysis still shows strong morning windows for TikTok and Instagram plus evening strength for visually rich carousel and reflective content.",
+        source: "Later Best Time to Post 2026",
+        url: "https://later.com/blog/best-time-to-post-on-social-media/",
+        implication: "Stagger the schedule: practical routine talk early, style at lunch, reflective carousel and note at night."
+      },
+      {
+        signal: "Vogue's current tailored-denim coverage keeps pushing crease, structure, and cleaner lines, while still leaving space for tactile wear and personal styling.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/tailored-denim-trend",
+        implication: "Jimmy's outfit post should stay precise but softened by one lived-in detail instead of chasing louder trend stacking."
+      },
+      {
+        signal: "Throwing Fits recently framed the mood shift as 'quiet luxury is dead' and tied the new menswear energy more to character and expression than sterile stealth-wealth cosplay.",
+        source: "Throwing Fits",
+        url: "https://www.throwingfits.com/p/quiet-luxury-is-dead",
+        implication: "Lean into style with personality, wear, and texture rather than trying to look too pristine or anonymous."
+      },
+      {
+        signal: "Recent Reddit minimalism discussion still centers simple phone friction, fewer social apps, and keeping one analog item nearby so attention does not get swallowed immediately.",
+        source: "Reddit r/minimalist",
+        url: "https://www.reddit.com/r/minimalist/comments/1r8avxf/are_you_practicing_digital_minimalism/",
+        implication: "The phone-friction and analog-object videos should feel timely if they stay observational and practical."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Two Percent's public front page in May keeps circling 'Gear Not Stuff' and redesigning spaces for wellbeing, which suggests slower-culture readers are still responding to utility-over-accumulation framing.",
+        source: "Two Percent",
+        url: "https://twopct.com/",
+        implication: "Jimmy's object-culture content should focus on the few things that genuinely support the day, not on collecting more aesthetic items."
+      },
+      {
+        signal: "Philosopheasy's public Substack post 'The End of the Future: How the Feed Flattened Time' names the feeling that the feed collapses sequence and makes every day arrive pre-filled.",
+        source: "Philosopheasy on Substack",
+        url: "https://philosopheasy.substack.com/p/the-end-of-the-future-how-the-feed",
+        implication: "Today's written note should frame phone friction as reclaiming sequence, not quitting the internet."
+      },
+      {
+        signal: "Tarek Taha's Substack post 'Living in the Good Days' points toward ordinary-day gratitude language instead of dramatic life-overhaul language.",
+        source: "Tarek Taha on Substack",
+        url: "https://www.tareks.blog/p/living-in-the-good-days",
+        implication: "Keep Jimmy's written and spoken copy grounded in small proofs of life: a page, a cup, a cuff, a shadow, a better order."
+      },
+      {
+        application: "Substack note draft included in today's content pack as 'The Phone Is Not The First Room.'",
+        reason: "It translates the slower-culture signals into Jimmy's own lived perspective instead of summarizing another writer."
+      }
+    ],
+    keywordBank: {
+      primary: ["digital minimalism", "slow morning routine", "object culture", "analog morning routine", "outfit detail", "wabi-sabi lifestyle", "calm discipline"],
+      secondary: ["creative life", "Tokyo daily life", "soft uniform", "tailored denim", "quiet confidence", "phone habits", "morning note"],
+      titles: [
+        "i make my mornings better by making my phone slightly inconvenient",
+        "the outfit works better when one detail looks lived in",
+        "before i open anything, i need one analog thing",
+        "five small things that made the morning feel slower",
+        "the phone is not the first room"
+      ],
+      hashtags: {
+        general: ["#slowliving", "#wabisabi", "#digitalminimalism", "#tokyolife", "#quietconfidence"],
+        fashion: ["#ootd", "#softuniform", "#vintagestyle", "#tailoreddenim", "#outfitdetail"],
+        beauty: ["#morningroutine", "#grwm", "#slowbeauty", "#calmdiscipline"],
+        futureBusiness: ["#materialstudy", "#dryflowers", "#naturalstone", "#quietluxury"]
+      }
+    },
+    longFormYouTube: {
+      due: false,
+      nextDueCheck: "2026-05-24",
+      note: "A biweekly long-form upload is not due today. Keep collecting apartment, commute, notebook, and soft-uniform footage so the next May 24, 2026 planning cycle can shape a video around calmer weekday sequencing.",
+      suggestion: "Provisional long-form angle for the next due check: 'how i protect a calmer creative life on weekdays' or 'a week of softer mornings in tokyo.'",
+      referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
+    },
+    performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
   }
 ];
