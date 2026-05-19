@@ -140,6 +140,40 @@ window.JIMMY_SOCIAL_PLAN = {
       rule: "Use 4-6 hashtags maximum. Always include #jimmycue."
     }
   },
+  businessVenture: {
+    source: "01 Strategy/self-authored-life-atelier-content-lane.md",
+    name: "The Self-Authored Life Atelier",
+    cadence: "Occasional lane: one subtle worldview post every 7-10 days; one deeper long-form or written angle every 3-4 weeks.",
+    positioning: "A premium guided creative atelier for high-achieving people with taste who are tired of consuming inspiration and ready to create something real from within.",
+    method: "Inner Feeling -> External Form",
+    audience: [
+      "High-achieving, aesthetically sensitive people.",
+      "People whose lives look successful, tasteful, or inspired but do not feel fully authored from within.",
+      "Founders, entrepreneurs, corporate high performers, creative professionals, and lifestyle consumers with taste.",
+      "People who want their home, rhythm, content, brand, or creative life to reflect who they actually are."
+    ],
+    contentAngles: [
+      "You do not need more inspiration. You need a way to make your inner world visible.",
+      "Taste is not something to copy. It is something to uncover.",
+      "Most people keep collecting references because they do not trust their own eye yet.",
+      "Your space can look good and still not feel authored by you.",
+      "The object is not the point. The ritual around it is.",
+      "Stop consuming beauty. Start authoring it.",
+      "Make something real before you feel ready."
+    ],
+    visualAnchors: [
+      "apartment corner",
+      "coffee ritual",
+      "scent object or incense plate",
+      "dry flowers, stone, vessel, fabric, notebook",
+      "old cafe table",
+      "train reflection",
+      "outfit detail",
+      "hand arranging objects",
+      "printed pages or process log"
+    ],
+    guardrail: "Seed the worldview without hard-selling. The personal lifestyle brand remains the main trust engine."
+  },
   strategy: {
     weeklyTheme: {
       dates: "Apr 30 - May 6, 2026",

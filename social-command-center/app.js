@@ -34,7 +34,7 @@ if (activeDailyUpdate) {
 const stateKey = "jimmycue-social-agent-state";
 let selectedItemId = plan.contentPack.find((item) => item.type === "Short-form Video")?.id || plan.contentPack[0].id;
 let currentFilter = "All";
-let uploadedImageDataUrl = "";
+let selectedLibraryImageId = "";
 
 const byId = (id) => document.getElementById(id);
 const selectedItem = () => plan.contentPack.find((item) => item.id === selectedItemId) || plan.contentPack[0];
@@ -57,6 +57,15 @@ function loadState() {
 
 function saveState(nextState) {
   localStorage.setItem(stateKey, JSON.stringify(nextState));
+}
+
+function imageLibrary() {
+  return loadState().imageLibrary || [];
+}
+
+function selectedLibraryImage() {
+  const images = imageLibrary();
+  return images.find((image) => image.id === selectedLibraryImageId) || images[0];
 }
 
 function fallbackCopy(text) {
@@ -252,6 +261,28 @@ function renderPreview() {
   });
 
   renderCanvas();
+}
+
+function renderImageLibrary() {
+  const images = imageLibrary();
+  if (!selectedLibraryImageId && images[0]) selectedLibraryImageId = images[0].id;
+  byId("imageLibrary").innerHTML = images.length
+    ? images
+        .map((image) => `
+          <button type="button" class="image-thumb${image.id === selectedLibraryImageId ? " selected" : ""}" data-image-id="${escapeHtml(image.id)}" aria-label="Select saved image">
+            <img src="${escapeHtml(image.dataUrl)}" alt="">
+          </button>
+        `)
+        .join("")
+    : `<p class="empty-library">No saved images yet. Upload a few strong photos and this tool will turn the selected one into a text card.</p>`;
+
+  document.querySelectorAll("[data-image-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      selectedLibraryImageId = button.dataset.imageId;
+      renderImageLibrary();
+      renderCanvas();
+    });
+  });
 }
 
 function renderTrendRadar() {
@@ -695,6 +726,7 @@ Use this creator positioning:
 - Current focus: lifestyle, daily thoughts, apartment/commute filming, fashion OOTD, GRWM, skincare/beauty routine.
 - Aesthetic: wabi-sabi, 80s Japan vintage, calm, imperfect beauty.
 - Future business bridge: ${plan.meta.futureBridge}
+- Occasional business lane: ${plan.businessVenture.name}, a premium atelier for high-achieving people with taste who are tired of consuming inspiration and ready to create something real from within. Use this only when the theme naturally connects to taste, space, ritual, creative action, borrowed inspiration, or self-authored living.
 
 Use the active JCue copy style system:
 - Copy should feel like calm authority from someone who built a life intentionally.
@@ -714,6 +746,7 @@ Daily output must include:
 - A simple posting schedule in ${plan.meta.timezone}.
 - Current trend signals from TikTok, Instagram, YouTube Shorts, Reddit/X/news where accessible, with source links.
 - Substack Radar: read public posts/RSS from the approved source list and use them as one additive research lane for deeper language, cultural questions, essay ideas, and viewer psychology. Do not make Substack the sole source; combine it with trending articles, videos, news, blogs, search patterns, and platform-native trend signals.
+- Occasional atelier-lane idea when it fits the day, seeded subtly without hard-selling.
 - Performance-informed recommendation if metric history exists; otherwise ask for manual metrics to be entered.
 
 Do not recommend ideas that require a crew, studio, long travel, or more than 45 minutes of morning filming. Keep the tone light, warm, stylish, and human.`;
@@ -824,43 +857,58 @@ function loadImage(src) {
   });
 }
 
+function coverCrop(ctx, image, x, y, width, height) {
+  const scale = Math.max(width / image.width, height / image.height);
+  const cropWidth = width / scale;
+  const cropHeight = height / scale;
+  const cropX = (image.width - cropWidth) / 2;
+  const cropY = (image.height - cropHeight) / 2;
+  ctx.drawImage(image, cropX, cropY, cropWidth, cropHeight, x, y, width, height);
+}
+
 async function renderCanvas() {
   const canvas = byId("coverCanvas");
   const ctx = canvas.getContext("2d");
   const item = selectedItem();
+  const imageEntry = selectedLibraryImage();
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "#efe7da";
+  ctx.fillStyle = "#f4f0e8";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "#151515";
-  ctx.fillRect(72, 72, canvas.width - 144, canvas.height - 144);
 
-  if (uploadedImageDataUrl) {
+  if (imageEntry?.dataUrl) {
     try {
-      const image = await loadImage(uploadedImageDataUrl);
-      const scale = Math.max((canvas.width - 144) / image.width, (canvas.height - 144) / image.height);
-      const width = image.width * scale;
-      const height = image.height * scale;
-      ctx.drawImage(image, 72 + (canvas.width - 144 - width) / 2, 72 + (canvas.height - 144 - height) / 2, width, height);
-      ctx.fillStyle = "rgba(21, 21, 21, 0.42)";
-      ctx.fillRect(72, 72, canvas.width - 144, canvas.height - 144);
+      const image = await loadImage(imageEntry.dataUrl);
+      coverCrop(ctx, image, 0, 0, canvas.width, canvas.height);
+      const bottomGradient = ctx.createLinearGradient(0, 420, 0, canvas.height);
+      bottomGradient.addColorStop(0, "rgba(10, 10, 10, 0.05)");
+      bottomGradient.addColorStop(0.48, "rgba(10, 10, 10, 0.42)");
+      bottomGradient.addColorStop(1, "rgba(10, 10, 10, 0.86)");
+      ctx.fillStyle = bottomGradient;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      const sideGradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
+      sideGradient.addColorStop(0, "rgba(10, 10, 10, 0.52)");
+      sideGradient.addColorStop(0.55, "rgba(10, 10, 10, 0.05)");
+      sideGradient.addColorStop(1, "rgba(10, 10, 10, 0.28)");
+      ctx.fillStyle = sideGradient;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
     } catch {
-      uploadedImageDataUrl = "";
+      selectedLibraryImageId = "";
     }
   } else {
-    ctx.fillStyle = "#f7f2e7";
-    ctx.fillRect(96, 96, canvas.width - 192, canvas.height - 192);
-    ctx.fillStyle = "#b22020";
-    ctx.fillRect(96, 96, 22, canvas.height - 192);
-    ctx.fillStyle = "#1d4d72";
-    ctx.beginPath();
-    ctx.arc(810, 250, 170, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.fillStyle = "#566b3f";
-    ctx.fillRect(660, 840, 230, 320);
+    ctx.fillStyle = "#151515";
+    ctx.fillRect(70, 70, canvas.width - 140, canvas.height - 140);
+    ctx.fillStyle = "#f7f2ea";
+    ctx.fillRect(98, 98, canvas.width - 196, canvas.height - 196);
+    ctx.fillStyle = "rgba(178, 32, 32, 0.88)";
+    ctx.fillRect(98, 98, 18, canvas.height - 196);
+    ctx.fillStyle = "rgba(29, 77, 114, 0.16)";
+    ctx.fillRect(650, 120, 230, 900);
+    ctx.fillStyle = "rgba(86, 107, 63, 0.18)";
+    ctx.fillRect(760, 760, 180, 360);
     ctx.strokeStyle = "rgba(23, 23, 23, 0.18)";
-    ctx.lineWidth = 3;
-    for (let x = 155; x < 900; x += 58) {
+    ctx.lineWidth = 2;
+    for (let x = 165; x < 930; x += 54) {
       ctx.beginPath();
       ctx.moveTo(x, 170);
       ctx.lineTo(x - 80, 1130);
@@ -868,38 +916,71 @@ async function renderCanvas() {
     }
   }
 
-  ctx.fillStyle = uploadedImageDataUrl ? "#fffef9" : "#171717";
-  ctx.font = "900 42px Inter, Avenir Next, Arial";
-  ctx.fillText("Jimmy Cue", 150, 180);
-  ctx.font = "700 24px Inter, Avenir Next, Arial";
-  ctx.fillText(plan.meta.brandLine, 150, 220);
+  const hasImage = Boolean(imageEntry?.dataUrl);
+  const panelY = hasImage ? 800 : 650;
+  if (hasImage) {
+    ctx.fillStyle = "rgba(15, 15, 15, 0.42)";
+    ctx.fillRect(72, panelY - 62, canvas.width - 144, 470);
+  }
+
+  ctx.fillStyle = hasImage ? "#fffef9" : "#171717";
+  ctx.font = "900 34px Inter, Avenir Next, Arial";
+  ctx.fillText("Jimmy Cue", 92, 112);
+  ctx.font = "800 20px Inter, Avenir Next, Arial";
+  ctx.fillText("@" + plan.meta.creator.toLowerCase().replaceAll(" ", ""), 92, 144);
+
+  ctx.font = "900 22px Inter, Avenir Next, Arial";
+  ctx.fillStyle = hasImage ? "#f6e8d2" : "#b22020";
+  ctx.fillText(item.type.toUpperCase(), 92, panelY - 16);
 
   const hook = item.hook || item.overlayText?.[0] || item.title;
-  ctx.font = "900 74px Inter, Avenir Next, Arial";
-  ctx.fillStyle = uploadedImageDataUrl ? "#fffef9" : "#171717";
-  wrapText(ctx, hook, 150, 740, 770, 82, 5);
+  ctx.font = "900 68px Inter, Avenir Next, Arial";
+  ctx.fillStyle = hasImage ? "#fffef9" : "#171717";
+  wrapText(ctx, hook, 92, panelY + 70, 850, 78, 5);
 
   ctx.font = "800 26px Inter, Avenir Next, Arial";
-  ctx.fillStyle = uploadedImageDataUrl ? "#f6e8d2" : "#6f706a";
-  wrapText(ctx, item.retentionBridge || item.purpose, 150, 1110, 760, 34, 3);
+  ctx.fillStyle = hasImage ? "#f6e8d2" : "#5f625c";
+  wrapText(ctx, item.retentionBridge || item.purpose, 92, 1185, 780, 34, 3);
 
-  ctx.fillStyle = uploadedImageDataUrl ? "#fffef9" : "#b22020";
-  ctx.fillRect(150, 1190, 220, 8);
+  ctx.fillStyle = hasImage ? "#fffef9" : "#b22020";
+  ctx.fillRect(92, 1262, 240, 8);
 }
 
 function handlePhotoUpload(event) {
-  const file = event.target.files?.[0];
-  if (!file) {
-    uploadedImageDataUrl = "";
-    renderCanvas();
-    return;
-  }
-  const reader = new FileReader();
-  reader.onload = () => {
-    uploadedImageDataUrl = String(reader.result || "");
-    renderCanvas();
-  };
-  reader.readAsDataURL(file);
+  const files = [...(event.target.files || [])].filter((file) => file.type.startsWith("image/"));
+  if (!files.length) return;
+  let remaining = files.length;
+  const nextImages = [];
+  files.forEach((file) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      nextImages.push({
+        id: `${Date.now()}-${Math.random().toString(16).slice(2)}`,
+        name: file.name,
+        dataUrl: String(reader.result || "")
+      });
+      remaining -= 1;
+      if (!remaining) {
+        const state = loadState();
+        state.imageLibrary = [...(state.imageLibrary || []), ...nextImages].slice(-16);
+        selectedLibraryImageId = nextImages[0]?.id || selectedLibraryImageId;
+        saveState(state);
+        event.target.value = "";
+        renderImageLibrary();
+        renderCanvas();
+      }
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+function clearImageLibrary() {
+  const state = loadState();
+  delete state.imageLibrary;
+  selectedLibraryImageId = "";
+  saveState(state);
+  renderImageLibrary();
+  renderCanvas();
 }
 
 function downloadPng() {
@@ -934,6 +1015,7 @@ function bindEvents() {
   byId("downloadZipButton").addEventListener("click", downloadZip);
   byId("downloadPngButton").addEventListener("click", downloadPng);
   byId("refreshPngButton").addEventListener("click", renderCanvas);
+  byId("clearImageLibraryButton").addEventListener("click", clearImageLibrary);
   byId("checkYoutubeApiButton").addEventListener("click", checkYoutubeBridge);
   byId("connectYoutubeButton").addEventListener("click", connectYoutube);
   byId("syncYoutubeButton").addEventListener("click", syncYoutubeMetrics);
@@ -949,6 +1031,7 @@ function bindEvents() {
 renderShell();
 renderContentList();
 renderPreview();
+renderImageLibrary();
 renderTrendRadar();
 renderSubstackRadar();
 renderKeywords();

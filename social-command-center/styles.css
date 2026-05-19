@@ -251,6 +251,12 @@ h3 {
   color: #fffef9;
 }
 
+.small-button {
+  min-height: 30px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
 .secondary-button:hover,
 .primary-button:hover,
 .segment:hover,
@@ -770,6 +776,13 @@ h3 {
   gap: 12px;
 }
 
+.asset-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
 .asset-box label,
 .approval-box label {
   color: var(--muted);
@@ -778,10 +791,51 @@ h3 {
   text-transform: uppercase;
 }
 
+.asset-heading p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
 #photoUpload {
   max-width: 100%;
   color: var(--muted);
   font-size: 13px;
+}
+
+.image-library {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.image-thumb {
+  aspect-ratio: 4 / 5;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0;
+  overflow: hidden;
+  background: #efe8dc;
+}
+
+.image-thumb.selected {
+  border-color: var(--lacquer);
+}
+
+.image-thumb img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.empty-library {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
 }
 
 #coverCanvas {

@@ -61,6 +61,10 @@ The active short-form copy style system lives in:
 
 `01 Strategy/jcue-copy-style-system-v1.md`
 
+The occasional business venture content lane lives in:
+
+`01 Strategy/self-authored-life-atelier-content-lane.md`
+
 The daily trend-informed brief lives in:
 
 `social-command-center/data/daily-updates.js`

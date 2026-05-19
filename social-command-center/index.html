@@ -122,12 +122,19 @@
                 <article class="preview-card" id="contentPreview"></article>
 
                 <div class="asset-box">
-                  <label for="photoUpload">Optional photo for PNG card</label>
-                  <input id="photoUpload" type="file" accept="image/*">
+                  <div class="asset-heading">
+                    <div>
+                      <label for="photoUpload">Image library for post cards</label>
+                      <p>Upload reusable photos of you, then select one for the current card.</p>
+                    </div>
+                    <button type="button" class="secondary-button small-button" id="clearImageLibraryButton">Clear</button>
+                  </div>
+                  <input id="photoUpload" type="file" accept="image/*" multiple>
+                  <div class="image-library" id="imageLibrary"></div>
                   <canvas id="coverCanvas" width="1080" height="1350" aria-label="Generated social cover preview"></canvas>
                   <div class="asset-actions">
                     <button type="button" class="secondary-button" id="refreshPngButton">Refresh PNG</button>
-                    <button type="button" class="primary-button" id="downloadPngButton">Download PNG</button>
+                    <button type="button" class="primary-button" id="downloadPngButton">Download Card</button>
                   </div>
                 </div>
 
