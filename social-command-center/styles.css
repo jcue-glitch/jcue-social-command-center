@@ -65,7 +65,7 @@ a {
 .app-shell {
   position: relative;
   display: grid;
-  grid-template-columns: 236px minmax(0, 1fr) minmax(340px, 420px);
+  grid-template-columns: 236px minmax(0, 1fr);
   min-height: 100vh;
 }
 
@@ -426,6 +426,13 @@ h3 {
   gap: 12px;
 }
 
+.pack-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 430px);
+  gap: 16px;
+  align-items: start;
+}
+
 .content-row {
   width: 100%;
   display: grid;
@@ -701,14 +708,16 @@ h3 {
 }
 
 .preview-column {
-  border-left: 1px solid var(--line);
-  background: rgba(226, 216, 199, 0.72);
-  padding: 28px 22px;
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: rgba(226, 216, 199, 0.62);
+  border-radius: var(--radius);
+  padding: 16px;
 }
 
 .preview-sticky {
   position: sticky;
-  top: 28px;
+  top: 18px;
   display: grid;
   gap: 14px;
 }
@@ -817,10 +826,12 @@ h3 {
     grid-template-columns: 210px minmax(0, 1fr);
   }
 
+  .pack-workspace {
+    grid-template-columns: 1fr;
+  }
+
   .preview-column {
-    grid-column: 2;
-    border-left: 0;
-    border-top: 1px solid var(--line);
+    border-left: 1px solid var(--line);
   }
 
   .preview-sticky {
