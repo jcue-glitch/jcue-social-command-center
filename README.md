@@ -57,6 +57,10 @@ The additive creator/brand system context lives in:
 
 `01 Strategy/jcue-creator-brand-system-context-v2.md`
 
+The active short-form copy style system lives in:
+
+`01 Strategy/jcue-copy-style-system-v1.md`
+
 The daily trend-informed brief lives in:
 
 `social-command-center/data/daily-updates.js`

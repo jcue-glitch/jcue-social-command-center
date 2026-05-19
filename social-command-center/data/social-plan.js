@@ -67,6 +67,79 @@ window.JIMMY_SOCIAL_PLAN = {
     ],
     hashtagRule: "Use 4-6 niche identity hashtags max unless a specific test requires otherwise."
   },
+  copyStyleSystem: {
+    source: "01 Strategy/jcue-copy-style-system-v1.md",
+    goal: "Generate short-form hooks, captions, and hashtags with calm authority from someone who built a life intentionally.",
+    tone: [
+      "assertive",
+      "philosophical",
+      "concise",
+      "soft masculine",
+      "lifestyle-focused",
+      "grounded in creator search insights",
+      "direct",
+      "clean",
+      "principle-based",
+      "observational"
+    ],
+    avoid: [
+      "influencer motivational captions",
+      "vague healing language",
+      "hustle culture",
+      "over-soft journaling",
+      "poetic aesthetic writing",
+      "generic wellness advice",
+      "generic self-help",
+      "too much vulnerability",
+      "weak positioning"
+    ],
+    hookPatterns: [
+      "most people...",
+      "your ___ is not the problem",
+      "you are not lazy, you are ___",
+      "modern life is destroying ___",
+      "the way you ___ shapes the way you ___",
+      "people underestimate ___",
+      "___ is not aesthetic. it is ___"
+    ],
+    captionFormula: [
+      "Strong thesis.",
+      "Contrarian clarification.",
+      "Explanation of why it matters.",
+      "Tie back to Jimmy's lifestyle.",
+      "Final memorable line.",
+      "Four to six hashtags."
+    ],
+    creatorSearchInsights: [
+      "slow living lifestyle minimalism",
+      "calm life aesthetic",
+      "daily thoughts",
+      "daily lifestyle",
+      "morning routine no talking",
+      "coffee morning routine",
+      "me in japan",
+      "lifestyle men",
+      "working on myself era",
+      "enjoying every moment",
+      "live life for yourself",
+      "soft personality",
+      "mindful living",
+      "digital minimalism",
+      "quiet luxury",
+      "self growth",
+      "mens lifestyle",
+      "fit check",
+      "outfit check",
+      "music is my peace",
+      "the feeling of wanting to quit",
+      "I have to move on and be who I am"
+    ],
+    hashtags: {
+      required: "#jimmycue",
+      rotate: ["#mindset", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#mensstyle", "#menslifestyle", "#quietluxury", "#selfgrowth", "#tokyolife", "#coffeeroutine", "#digitalminimalism", "#fitcheck", "#ootd"],
+      rule: "Use 4-6 hashtags maximum. Always include #jimmycue."
+    }
+  },
   strategy: {
     weeklyTheme: {
       dates: "Apr 30 - May 6, 2026",

@@ -327,6 +327,31 @@ Prefer niche identity hashtags, 4-6 max:
 - #authenticity
 - #jimmycue
 
+## Current Copy Style Overlay
+
+Use `jcue-copy-style-system-v1.md` as the active short-form copy generator style. This overlay sharpens on-screen hooks, captions, and hashtags toward direct, assertive, philosophical, concise, soft masculine lifestyle copy.
+
+The copy should feel like calm authority from someone who built a life intentionally. It should not sound like influencer motivation, vague healing language, hustle culture, poetic aesthetic writing, or generic self-help.
+
+Use strong negative or contrarian hooks such as:
+
+- "most people..."
+- "your ___ is not the problem"
+- "you are not lazy, you are ___"
+- "modern life is destroying ___"
+- "the way you ___ shapes the way you ___"
+- "people underestimate ___"
+- "___ is not aesthetic. it is ___"
+
+Caption rhythm:
+
+1. Strong thesis.
+2. Contrarian clarification.
+3. Explanation of why it matters.
+4. Tie back to Jimmy's lifestyle.
+5. Final memorable line.
+6. Four to six hashtags, always including #jimmycue.
+
 ## Rules
 
 Never:

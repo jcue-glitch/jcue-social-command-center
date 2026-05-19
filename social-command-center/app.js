@@ -696,6 +696,14 @@ Use this creator positioning:
 - Aesthetic: wabi-sabi, 80s Japan vintage, calm, imperfect beauty.
 - Future business bridge: ${plan.meta.futureBridge}
 
+Use the active JCue copy style system:
+- Copy should feel like calm authority from someone who built a life intentionally.
+- On-screen hooks must be short, strong, and negative or contrarian when possible, using patterns like "most people...", "your ___ is not the problem", "you are not lazy, you are ___", "modern life is destroying ___", "the way you ___ shapes the way you ___", "people underestimate ___", or "___ is not aesthetic. it is ___".
+- Captions should follow this rhythm: strong thesis, contrarian clarification, why it matters, tie back to Jimmy's lifestyle, final memorable line, and hashtags.
+- Use 1-2 Creator Search Insight topics per video concept and translate the surface topic into a deeper psychological angle.
+- Always include #jimmycue and use 4-6 hashtags maximum.
+- Avoid poetic aesthetic writing, vague healing language, hustle culture, generic self-help, and overly emotional journaling.
+
 Daily output must include:
 - One weekly theme or continuation of the weekly theme.
 - One static photo or carousel idea.
