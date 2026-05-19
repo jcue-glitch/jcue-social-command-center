@@ -20,6 +20,12 @@ Add one source per line in this format:
 - Publication homepage: https://publication.substack.com
 ```
 
+### Added By Jimmy
+
+- Reference post/user to study for future YouTube essay inspiration: https://substack.com/home/post/p-176753761
+  - Owner note: Jimmy likes this blog and user. Future YouTube videos can be inspired by the writer's themes, emotional pacing, and essay perspective.
+  - Research note: This is a logged-in Substack home/post URL. If possible, replace or supplement it with the public post URL, author profile, or publication homepage/RSS feed so the daily agent can reliably read and cite it.
+
 ## Starter Themes To Look For
 
 - Overstimulation and digital minimalism.
