@@ -22,9 +22,13 @@ Add one source per line in this format:
 
 ### Added By Jimmy
 
-- Reference post/user to study for future YouTube essay inspiration: https://substack.com/home/post/p-176753761
+- Miranda Does Brands / Miranda Shanahan: https://mirandadoesbrands.substack.com/feed
+  - Publication homepage: https://mirandadoesbrands.substack.com
+  - Reference post: "How to do the shit you say you're going to do" - https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre
+  - Original shared link: https://substack.com/home/post/p-176753761
   - Owner note: Jimmy likes this blog and user. Future YouTube videos can be inspired by the writer's themes, emotional pacing, and essay perspective.
-  - Research note: This is a logged-in Substack home/post URL. If possible, replace or supplement it with the public post URL, author profile, or publication homepage/RSS feed so the daily agent can reliably read and cite it.
+  - Useful themes for JCue: idea-to-execution gap, starting before the brand is perfect, small public stakes, putting one foot in front of the other, building trust through doing, creative life without over-planning.
+  - JCue translation: connect her execution theme to Jimmy's quieter lane: "stop waiting for the perfect version of your life before making the thing," filmed through apartment mornings, commute thoughts, outfit details, and creative-direction notes.
 
 ## Starter Themes To Look For
 
