@@ -3,5 +3,9 @@
 .youtube/token.json
 .youtube/oauth_state.json
 .youtube/latest_metrics.json
+.tiktok/oauth_client.json
+.tiktok/token.json
+.tiktok/oauth_state.json
+.tiktok/latest_metrics.json
 __pycache__/
 exports/

@@ -91,6 +91,10 @@ The active Notion database map lives in:
 
 `04 Integrations/notion-data-sources.md`
 
+The TikTok connection checklist lives in:
+
+`04 Integrations/tiktok-api-setup.md`
+
 ## YouTube API Setup
 
 1. In Google Cloud, enable YouTube Data API v3 and YouTube Analytics API.
