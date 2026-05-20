@@ -8,9 +8,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="JCue Social">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-20-intel">
-    <link rel="icon" href="./assets/icon.svg?v=2026-05-20-intel" type="image/svg+xml">
-    <link rel="stylesheet" href="./styles.css?v=2026-05-20-intel">
+    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-20-fused">
+    <link rel="icon" href="./assets/icon.svg?v=2026-05-20-fused" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css?v=2026-05-20-fused">
   </head>
   <body>
     <div class="texture-layer" aria-hidden="true"></div>
@@ -28,7 +28,6 @@
           <a href="#pack">Content Pack</a>
           <a href="#production">Production</a>
           <a href="#radar">Trend Radar</a>
-          <a href="#substack-radar">Substack Radar</a>
           <a href="#keywords">Keyword Lab</a>
           <a href="#schedule">Schedule</a>
           <a href="#longform">Long-form</a>
@@ -108,6 +107,7 @@
               <button type="button" class="segment" data-filter="Story">Stories</button>
             </div>
           </div>
+          <div class="source-strip thought-source-strip hidden" id="readBeforeFilming"></div>
           <div class="pack-workspace">
             <div class="content-list" id="contentList"></div>
 
@@ -177,19 +177,11 @@
             </div>
             <span class="quiet-pill" id="researchStamp"></span>
           </div>
-          <div class="radar-grid" id="trendRadar"></div>
-        </section>
-
-        <section class="panel" id="substack-radar" aria-labelledby="substackRadarTitle">
-          <div class="panel-heading row-heading">
-            <div>
-              <p class="section-label">Reader culture and essays</p>
-              <h2 id="substackRadarTitle">Substack Radar</h2>
-            </div>
-            <span class="quiet-pill">Additive source lane</span>
+          <div class="mini-tabs" role="tablist" aria-label="Research source filters">
+            <button type="button" class="mini-tab active" data-radar-filter="platform">Platform signals</button>
+            <button type="button" class="mini-tab" data-radar-filter="substack">Substack / essays</button>
           </div>
-          <div class="source-strip" id="readBeforeFilming"></div>
-          <div class="radar-grid" id="substackRadar"></div>
+          <div class="radar-grid" id="trendRadar"></div>
         </section>
 
         <section class="panel" id="keywords" aria-labelledby="keywordTitle">
@@ -370,8 +362,8 @@
 
     </div>
 
-    <script src="./data/social-plan.js?v=2026-05-20-intel"></script>
-    <script src="./data/daily-updates.js?v=2026-05-20-intel"></script>
-    <script src="./app.js?v=2026-05-20-intel"></script>
+    <script src="./data/social-plan.js?v=2026-05-20-fused"></script>
+    <script src="./data/daily-updates.js?v=2026-05-20-fused"></script>
+    <script src="./app.js?v=2026-05-20-fused"></script>
   </body>
 </html>

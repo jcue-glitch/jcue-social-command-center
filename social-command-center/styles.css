@@ -655,6 +655,14 @@ h3 {
   margin-bottom: 12px;
 }
 
+.thought-source-strip {
+  margin-top: -4px;
+}
+
+.hidden {
+  display: none !important;
+}
+
 .source-strip a,
 .source-strip div {
   border: 1px solid var(--line);
@@ -681,6 +689,30 @@ h3 {
   display: block;
   font-size: 12px;
   line-height: 1.25;
+}
+
+.mini-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mini-tab {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(250, 247, 239, 0.78);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 0 12px;
+}
+
+.mini-tab.active {
+  background: var(--charcoal);
+  color: #fffef9;
 }
 
 .keyword-layout {

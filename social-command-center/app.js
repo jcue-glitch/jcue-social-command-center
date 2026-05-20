@@ -38,6 +38,7 @@ if (activeDailyUpdate) {
 const stateKey = "jimmycue-social-agent-state";
 let selectedItemId = plan.contentPack.find((item) => item.type === "Short-form Video")?.id || plan.contentPack[0].id;
 let currentFilter = "All";
+let currentRadarFilter = "platform";
 let selectedLibraryImageId = "";
 
 const byId = (id) => document.getElementById(id);
@@ -139,6 +140,9 @@ function renderContentList() {
   const state = loadState();
   const filtered =
     currentFilter === "All" ? plan.contentPack : plan.contentPack.filter((item) => item.type === currentFilter);
+  if (filtered.length && !filtered.some((item) => item.id === selectedItemId)) {
+    selectedItemId = filtered[0].id;
+  }
 
   byId("contentList").innerHTML = filtered
     .map((item) => {
@@ -165,6 +169,8 @@ function renderContentList() {
       renderPreview();
     });
   });
+
+  renderReadBeforeFilming();
 }
 
 function renderBeatSheet(item) {
@@ -326,32 +332,28 @@ function renderImageLibrary() {
 }
 
 function renderTrendRadar() {
-  byId("trendRadar").innerHTML = plan.trendRadar
-    .map((item) => `
-      <div class="radar-item">
-        <strong>${escapeHtml(item.signal)}</strong>
-        <p>${escapeHtml(item.implication)}</p>
-        <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.source)}</a>
-      </div>
-    `)
-    .join("");
-}
-
-function renderSubstackRadar() {
-  const items = plan.substackRadar || [];
-  byId("substackRadar").innerHTML = items
+  const items = currentRadarFilter === "substack" ? plan.substackRadar || [] : plan.trendRadar;
+  byId("trendRadar").innerHTML = items
     .map((item) => `
       <div class="radar-item">
         <strong>${escapeHtml(item.signal)}</strong>
         <p>${escapeHtml(item.application || item.implication || "")}</p>
         ${item.postIdea ? `<p><b>Post angle:</b> ${escapeHtml(item.postIdea)}</p>` : ""}
-        ${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">Read ${escapeHtml(item.source || "source")}</a>` : `<p>${escapeHtml(item.source || "Source list pending")}</p>`}
+        ${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(currentRadarFilter === "substack" ? `Read ${item.source || "source"}` : item.source || "Source")}</a>` : `<p>${escapeHtml(item.source || "Source list pending")}</p>`}
       </div>
     `)
     .join("");
 }
 
 function renderReadBeforeFilming() {
+  const strip = byId("readBeforeFilming");
+  const showStrip = currentFilter === "Thought Video" || selectedItem()?.type === "Thought Video";
+  strip.classList.toggle("hidden", !showStrip);
+  if (!showStrip) {
+    strip.innerHTML = "";
+    return;
+  }
+
   const thoughtReferences = plan.contentPack
     .filter((item) => item.type === "Thought Video")
     .flatMap((item) => item.sourceReferences || [])
@@ -361,7 +363,7 @@ function renderReadBeforeFilming() {
     .map((item) => ({ title: item.source || item.signal, url: item.url, note: item.postIdea || item.application }));
   const references = [...thoughtReferences, ...radarReferences].slice(0, 4);
 
-  byId("readBeforeFilming").innerHTML = references.length
+  strip.innerHTML = references.length
     ? references
         .map((reference) => `
           <a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">
@@ -1115,6 +1117,15 @@ function bindEvents() {
       currentFilter = button.dataset.filter;
       document.querySelectorAll(".segment").forEach((item) => item.classList.toggle("active", item === button));
       renderContentList();
+      renderPreview();
+    });
+  });
+
+  document.querySelectorAll("[data-radar-filter]").forEach((button) => {
+    button.addEventListener("click", () => {
+      currentRadarFilter = button.dataset.radarFilter;
+      document.querySelectorAll("[data-radar-filter]").forEach((item) => item.classList.toggle("active", item === button));
+      renderTrendRadar();
     });
   });
 
@@ -1146,7 +1157,6 @@ renderContentList();
 renderPreview();
 renderImageLibrary();
 renderTrendRadar();
-renderSubstackRadar();
 renderReadBeforeFilming();
 renderKeywords();
 renderSchedule();
