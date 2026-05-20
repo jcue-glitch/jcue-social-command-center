@@ -2686,6 +2686,26 @@ window.JCUE_DAILY_UPDATES = [
           "Self-Authored Life Atelier lane: high-achieving people with taste, borrowed inspiration, and Inner Feeling -> External Form.",
           "Today's platform trend signals around real process, tactile routines, and digital minimalism."
         ],
+        sourceReferences: [
+          {
+            title: "Miranda Does Brands - How To Do The Shit You Say You're Going To Do",
+            source: "Substack",
+            url: "https://open.substack.com/pub/mirandadoesbrands/p/how-to-do-the-shit-you-say-youre?r=4cn3ol&utm_campaign=post-expanded-share&utm_medium=web",
+            note: "Execution gap, doing before overthinking, and turning intention into proof."
+          },
+          {
+            title: "Two Percent",
+            source: "Substack",
+            url: "https://www.twopct.com/",
+            note: "Utility, restraint, and object culture as daily-life support instead of clutter."
+          },
+          {
+            title: "Tarek Taha - Living In The Good Days",
+            source: "Substack",
+            url: "https://www.tareks.blog/p/living-in-the-good-days",
+            note: "Ordinary-day presence and noticing the life already happening."
+          }
+        ],
         creatorSearchTopics: ["daily thoughts", "self growth", "slow living lifestyle minimalism"],
         talkingScript: "Taste is not something to copy.\n\nMost high-performing people are surrounded by references now. Saved rooms. Saved outfits. Saved routines. Saved versions of a life that looks calmer than the one they are actually living.\n\nThat is why a life can look successful and still not feel like yours.\n\nThe problem is not that you need better inspiration. The problem is that inspiration stays borrowed until you turn it into form.\n\nA room you actually use. A morning sequence you repeat. An outfit that changes how you carry yourself. A small object that makes you pause before the day starts taking from you.\n\nThat is why I take ordinary rituals seriously.\n\nThey are how taste stops being something you collect and starts becoming something you author.\n\nThe goal is not to look inspired.\n\nThe goal is to make your inner life visible.",
         beatSheet: [

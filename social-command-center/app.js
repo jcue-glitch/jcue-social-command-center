@@ -203,7 +203,41 @@ function renderPlatformNotes(item) {
   `;
 }
 
+function renderSourceReferences(item) {
+  const references = item.sourceReferences || item.substackReferences || item.sourceLinks || [];
+  const inspiration = item.sourceInspiration || [];
+  if (!references.length && !inspiration.length) return "";
+
+  const linkedReferences = references
+    .map((reference) => {
+      if (typeof reference === "string") return `<li>${escapeHtml(reference)}</li>`;
+      const label = reference.title || reference.source || reference.url || "Source";
+      const note = reference.note ? ` - ${escapeHtml(reference.note)}` : "";
+      return reference.url
+        ? `<li><a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>${note}</li>`
+        : `<li><b>${escapeHtml(label)}</b>${note}</li>`;
+    })
+    .join("");
+
+  const unlinkedInspiration = inspiration
+    .map((source) => `<li>${escapeHtml(typeof source === "string" ? source : source.note || source.title || source.source || "")}</li>`)
+    .join("");
+
+  return `
+    <div class="preview-section">
+      <h3>Reference Links</h3>
+      <ul class="preview-list reference-list">
+        ${linkedReferences}
+        ${unlinkedInspiration}
+      </ul>
+    </div>
+  `;
+}
+
 function scriptText(item) {
+  if (item.talkingScript) {
+    return item.talkingScript;
+  }
   if (item.beatSheet) {
     return item.beatSheet.map((beat) => `${beat.time} - ${beat.line}`).join("\n");
   }
@@ -247,6 +281,7 @@ function renderPreview() {
       ${keywords}
       <p><b>Edit note:</b> ${escapeHtml(item.editNotes || "Keep it simple, native, and human.")}</p>
     </div>
+    ${renderSourceReferences(item)}
     ${renderPlatformNotes(item)}
     <div class="preview-copy-actions">
       <button type="button" class="secondary-button" data-copy-field="caption">Copy Caption</button>
@@ -596,6 +631,15 @@ function itemMarkdown(item) {
   const platformNotes = item.platformNotes
     ? `\n\n## Platform Notes\n\n${Object.entries(item.platformNotes).map(([platform, note]) => `- ${platform}: ${note}`).join("\n")}`
     : "";
+  const references = item.sourceReferences || item.substackReferences || item.sourceLinks || [];
+  const sourceReferences = references.length
+    ? `\n\n## Reference Links\n\n${references
+        .map((reference) => {
+          if (typeof reference === "string") return `- ${reference}`;
+          return `- ${reference.title || reference.source || "Source"}${reference.url ? `: ${reference.url}` : ""}${reference.note ? ` - ${reference.note}` : ""}`;
+        })
+        .join("\n")}`
+    : "";
   return `# ${item.title}
 
 Type: ${item.type}
@@ -624,6 +668,7 @@ ${item.keywords?.join(", ") || ""}
 ## Hashtags
 
 ${item.hashtags?.join(" ") || ""}
+${sourceReferences}
 ${platformNotes}
 `;
 }

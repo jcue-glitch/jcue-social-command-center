@@ -187,6 +187,10 @@ window.JIMMY_SOCIAL_PLAN = {
       "creator search insight topics",
       "Jimmy's lived Tokyo lifestyle"
     ],
+    referenceLinkRule: [
+      "Add sourceReferences with clickable Substack/article URLs whenever a Thought Video is influenced by a specific source.",
+      "Keep the reference note short so Jimmy can quickly open the source and read for deeper inspiration before filming."
+    ],
     audience: "High-achieving people with taste who feel over-stimulated, creatively hidden, or stuck consuming inspiration instead of authoring a life.",
     structure: [
       "Contrarian on-screen hook.",

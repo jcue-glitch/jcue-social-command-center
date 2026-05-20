@@ -757,6 +757,16 @@ h3 {
   line-height: 1.45;
 }
 
+.reference-list a {
+  color: var(--indigo);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.reference-list a:hover {
+  text-decoration: underline;
+}
+
 .caption-box,
 .script-box {
   white-space: pre-wrap;
