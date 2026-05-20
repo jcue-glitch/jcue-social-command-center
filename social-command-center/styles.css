@@ -550,8 +550,15 @@ h3 {
   border-left: 4px solid var(--indigo);
 }
 
+.tiktok-result {
+  border-left: 4px solid var(--lacquer);
+}
+
 .radar-grid,
 .metrics-grid,
+.performance-intel,
+.outlier-strip,
+.source-strip,
 .api-stack,
 .schedule-list,
 .title-list,
@@ -643,6 +650,39 @@ h3 {
   font-weight: 850;
 }
 
+.source-strip {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 12px;
+}
+
+.source-strip a,
+.source-strip div {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(250, 247, 239, 0.78);
+  padding: 10px;
+  color: var(--charcoal);
+  text-decoration: none;
+}
+
+.source-strip span,
+.yesterday-card span,
+.outlier-card span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.source-strip strong {
+  display: block;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
 .keyword-layout {
   grid-template-columns: 0.9fr 1fr 1.1fr;
 }
@@ -679,6 +719,48 @@ h3 {
 .metrics-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-bottom: 14px;
+}
+
+.performance-intel {
+  grid-template-columns: minmax(210px, 0.82fr) minmax(0, 1.8fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.yesterday-card,
+.outlier-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(250, 247, 239, 0.78);
+  padding: 13px;
+}
+
+.yesterday-card {
+  border-left: 4px solid var(--moss);
+}
+
+.outlier-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.outlier-card {
+  border-top: 4px solid var(--persimmon);
+}
+
+.outlier-card strong,
+.yesterday-card strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1.22;
+}
+
+.outlier-card p,
+.yesterday-card p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.36;
 }
 
 .metric-card {
@@ -938,7 +1020,8 @@ h3 {
   .keyword-layout,
   .longform-layout,
   .youtube-layout,
-  .remote-layout {
+  .remote-layout,
+  .performance-intel {
     grid-template-columns: 1fr;
   }
 
@@ -949,6 +1032,8 @@ h3 {
 
   .radar-grid,
   .metrics-grid,
+  .source-strip,
+  .outlier-strip,
   .remote-layout {
     grid-template-columns: 1fr;
   }

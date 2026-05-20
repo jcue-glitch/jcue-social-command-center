@@ -8,9 +8,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="JCue Social">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-20-thought-links">
-    <link rel="icon" href="./assets/icon.svg?v=2026-05-20-thought-links" type="image/svg+xml">
-    <link rel="stylesheet" href="./styles.css?v=2026-05-20-thought-links">
+    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-20-intel">
+    <link rel="icon" href="./assets/icon.svg?v=2026-05-20-intel" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css?v=2026-05-20-intel">
   </head>
   <body>
     <div class="texture-layer" aria-hidden="true"></div>
@@ -34,6 +34,7 @@
           <a href="#longform">Long-form</a>
           <a href="#performance">Performance</a>
           <a href="#youtube-api">YouTube API</a>
+          <a href="#tiktok-api">TikTok API</a>
           <a href="#remote-access">Remote Access</a>
           <a href="#integrations">Integrations</a>
         </nav>
@@ -187,6 +188,7 @@
             </div>
             <span class="quiet-pill">Additive source lane</span>
           </div>
+          <div class="source-strip" id="readBeforeFilming"></div>
           <div class="radar-grid" id="substackRadar"></div>
         </section>
 
@@ -265,6 +267,14 @@
             </div>
             <button class="secondary-button" id="resetMetricsButton" type="button">Reset Inputs</button>
           </div>
+          <div class="performance-intel">
+            <div class="yesterday-card">
+              <span>Yesterday</span>
+              <strong id="yesterdayStatus"></strong>
+              <p id="yesterdayNote"></p>
+            </div>
+            <div class="outlier-strip" id="outlierStrip"></div>
+          </div>
           <div class="metrics-grid" id="metricsGrid"></div>
           <div class="insight-box">
             <strong>Next double-down</strong>
@@ -293,6 +303,30 @@
             <div class="api-note youtube-result" id="youtubeMetricsPreview">
               <strong>No YouTube data loaded yet.</strong>
               <p>After OAuth is connected, sync will update the YouTube Shorts metric card and show the latest channel summary here.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="tiktok-api" aria-labelledby="tiktokApiTitle">
+          <div class="panel-heading row-heading">
+            <div>
+              <p class="section-label">Live analytics</p>
+              <h2 id="tiktokApiTitle">TikTok API connection</h2>
+            </div>
+            <span class="quiet-pill">Review pending</span>
+          </div>
+          <div class="youtube-layout">
+            <div>
+              <p class="large-body">TikTok is prepared for Login Kit + video.list. After TikTok approves the app, this panel can connect @jimmycue and sync recent video metadata into Notion.</p>
+              <div class="youtube-actions">
+                <button type="button" class="secondary-button" id="copyTikTokReviewButton">Copy Review Copy</button>
+                <a class="secondary-button" href="./tiktokg09LzpnUlHvlW1W7a2mjB1finOLw7A2V.txt" target="_blank" rel="noreferrer">Verify File</a>
+              </div>
+              <div class="check-list" id="tiktokSetupList"></div>
+            </div>
+            <div class="api-note tiktok-result">
+              <strong>Current status</strong>
+              <p>Website verified. Login Kit is the only product. Scopes should remain user.info.basic and video.list. Demo video still needs to be uploaded before review.</p>
             </div>
           </div>
         </section>
@@ -336,8 +370,8 @@
 
     </div>
 
-    <script src="./data/social-plan.js?v=2026-05-20-thought-links"></script>
-    <script src="./data/daily-updates.js?v=2026-05-20-thought-links"></script>
-    <script src="./app.js?v=2026-05-20-thought-links"></script>
+    <script src="./data/social-plan.js?v=2026-05-20-intel"></script>
+    <script src="./data/daily-updates.js?v=2026-05-20-intel"></script>
+    <script src="./app.js?v=2026-05-20-intel"></script>
   </body>
 </html>

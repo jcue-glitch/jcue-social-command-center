@@ -26,6 +26,10 @@ if (activeDailyUpdate) {
   plan.schedule = activeDailyUpdate.schedule || plan.schedule;
   plan.trendRadar = [...(activeDailyUpdate.trendRadar || []), ...plan.trendRadar].slice(0, 12);
   plan.substackRadar = [...(activeDailyUpdate.substackRadar || []), ...(plan.substackRadar || [])].slice(0, 8);
+  plan.performance = {
+    ...plan.performance,
+    ...(activeDailyUpdate.performance || {})
+  };
   plan.keywordBank = {
     ...plan.keywordBank,
     ...(activeDailyUpdate.keywordBank || {})
@@ -339,12 +343,34 @@ function renderSubstackRadar() {
     .map((item) => `
       <div class="radar-item">
         <strong>${escapeHtml(item.signal)}</strong>
-        <p>${escapeHtml(item.application)}</p>
+        <p>${escapeHtml(item.application || item.implication || "")}</p>
         ${item.postIdea ? `<p><b>Post angle:</b> ${escapeHtml(item.postIdea)}</p>` : ""}
-        ${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.source || "Source")}</a>` : `<p>${escapeHtml(item.source || "Source list pending")}</p>`}
+        ${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">Read ${escapeHtml(item.source || "source")}</a>` : `<p>${escapeHtml(item.source || "Source list pending")}</p>`}
       </div>
     `)
     .join("");
+}
+
+function renderReadBeforeFilming() {
+  const thoughtReferences = plan.contentPack
+    .filter((item) => item.type === "Thought Video")
+    .flatMap((item) => item.sourceReferences || [])
+    .filter((reference) => reference.url);
+  const radarReferences = (plan.substackRadar || [])
+    .filter((item) => item.url)
+    .map((item) => ({ title: item.source || item.signal, url: item.url, note: item.postIdea || item.application }));
+  const references = [...thoughtReferences, ...radarReferences].slice(0, 4);
+
+  byId("readBeforeFilming").innerHTML = references.length
+    ? references
+        .map((reference) => `
+          <a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">
+            <span>Read before filming</span>
+            <strong>${escapeHtml(reference.title || reference.source || "Source")}</strong>
+          </a>
+        `)
+        .join("")
+    : `<div><span>Read before filming</span><strong>Add Substack source links to unlock this strip.</strong></div>`;
 }
 
 function renderKeywords() {
@@ -422,6 +448,7 @@ function saveMetric(platform, field, value) {
 }
 
 function renderMetrics() {
+  renderPerformanceIntel();
   const metrics = metricsState();
   byId("metricsGrid").innerHTML = Object.entries(metrics)
     .map(([platform, metric]) => `
@@ -446,12 +473,46 @@ function renderMetrics() {
   renderPerformanceAdvice();
 }
 
+function renderPerformanceIntel() {
+  const summary = plan.performance?.yesterdaySummary || {};
+  byId("yesterdayStatus").textContent = summary.status || "Waiting for first 24h snapshot";
+  byId("yesterdayNote").textContent = summary.note || "When a new post is synced, yesterday's post performance will appear here.";
+
+  const outliers = plan.performance?.outlierSignals || [];
+  byId("outlierStrip").innerHTML = outliers
+    .slice(0, 3)
+    .map((item) => `
+      <div class="outlier-card">
+        <span>${escapeHtml(item.platform || "Signal")} · ${escapeHtml(item.metric || "outlier")}</span>
+        <strong>${escapeHtml(item.title)}</strong>
+        <p>${escapeHtml(item.repeat || item.why || "")}</p>
+      </div>
+    `)
+    .join("");
+}
+
 const youtubeSetupSteps = [
   "Create or use a Google Cloud project with YouTube Data API v3 and YouTube Analytics API enabled.",
   "Create an OAuth client and add this redirect URI: http://127.0.0.1:4178/oauth2callback",
   "Save the downloaded client JSON as .youtube/oauth_client.json in the JCue Project folder.",
   "Run the local YouTube bridge, then connect and approve read-only YouTube access in Google."
 ];
+
+const tiktokSetupSteps = [
+  "Website URL, Terms, Privacy, and verification file are live on Cloudflare.",
+  "Keep Login Kit as the only product for now.",
+  "Keep scopes limited to user.info.basic and video.list.",
+  "Upload a short demo video, then submit the TikTok app for review.",
+  "After approval, add the local TikTok OAuth bridge and sync recent videos into Notion."
+];
+
+const tiktokReviewCopy = `JCue Social Command Center is a private creator dashboard used only by the owner of @jimmycue.
+
+Login Kit allows the account owner to authorize their own TikTok account. The user.info.basic scope is used to confirm the authorized TikTok profile. The video.list scope is used to retrieve the owner's recent TikTok video metadata, including video IDs, descriptions, share URLs, timestamps, and public performance counts where available.
+
+This data is used only for private content planning, daily performance review, and Notion-based historical tracking. The dashboard compares recent TikTok posts with YouTube Shorts and, later, Instagram Reels to help the creator understand which hooks, themes, and formats are performing.
+
+The app does not publish content, upload videos, automate engagement, scrape TikTok, send messages, or manage third-party accounts.`;
 
 const remoteAccessSteps = [
   "For safest everyday phone access, deploy only the static social-command-center folder.",
@@ -463,6 +524,10 @@ const remoteAccessSteps = [
 
 function renderYoutubeSetup() {
   byId("youtubeSetupList").innerHTML = renderCheckList(youtubeSetupSteps, "+");
+}
+
+function renderTikTokSetup() {
+  byId("tiktokSetupList").innerHTML = renderCheckList(tiktokSetupSteps, "+");
 }
 
 function renderRemoteAccess() {
@@ -1066,6 +1131,7 @@ function bindEvents() {
   byId("checkYoutubeApiButton").addEventListener("click", checkYoutubeBridge);
   byId("connectYoutubeButton").addEventListener("click", connectYoutube);
   byId("syncYoutubeButton").addEventListener("click", syncYoutubeMetrics);
+  byId("copyTikTokReviewButton").addEventListener("click", () => copyText(tiktokReviewCopy, byId("copyTikTokReviewButton"), "Copy Review Copy"));
   byId("photoUpload").addEventListener("change", handlePhotoUpload);
   byId("resetMetricsButton").addEventListener("click", () => {
     const state = loadState();
@@ -1081,11 +1147,13 @@ renderPreview();
 renderImageLibrary();
 renderTrendRadar();
 renderSubstackRadar();
+renderReadBeforeFilming();
 renderKeywords();
 renderSchedule();
 renderLongForm();
 renderMetrics();
 renderYoutubeSetup();
+renderTikTokSetup();
 renderRemoteAccess();
 renderIntegrations();
 bindEvents();

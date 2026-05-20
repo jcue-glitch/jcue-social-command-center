@@ -590,6 +590,34 @@ window.JIMMY_SOCIAL_PLAN = {
     }
   },
   performance: {
+    yesterdaySummary: {
+      status: "No posted-yesterday data yet",
+      note: "YouTube is connected and baseline history is in Notion. True 24h snapshots will appear after new posts are published and synced.",
+      action: "After the next YouTube Short goes live, capture the 24h, 48h, and 7d performance windows."
+    },
+    outlierSignals: [
+      {
+        title: "Casual menswear framing drove the highest baseline views",
+        metric: "1,896 views",
+        platform: "YouTube Shorts",
+        why: "A grounded daily-life phrase paired with menswear search language created the strongest view signal.",
+        repeat: "Pair outfit/detail footage with a direct thought: style as posture, standards, or identity."
+      },
+      {
+        title: "Imperfection themes showed stronger engagement density",
+        metric: "6.32% like/view signal",
+        platform: "YouTube Shorts",
+        why: "The wabi-sabi / perfection angle matched Jimmy's deeper brand without needing broad reach first.",
+        repeat: "Use assertive imperfection hooks: imperfect does not mean careless; perfection is not authorship."
+      },
+      {
+        title: "Quiet-life thoughts earned comments despite low reach",
+        metric: "3 comments on 60 views",
+        platform: "YouTube Shorts",
+        why: "Reflective calm-life language may create deeper response even before distribution scales.",
+        repeat: "Make quiet ambition and under-authored life ideas into talking-head Thought Videos."
+      }
+    ],
     starterMetrics: [
       { platform: "TikTok", followers: 8596, avgViews: 1200, retention: 42, saves: 0, shares: 0, notes: "Public follower count from third-party search snippets; replace with native analytics." },
       { platform: "Instagram", followers: 0, avgViews: 0, retention: 0, saves: 0, shares: 0, notes: "Connect Instagram professional insights or enter manually." },
