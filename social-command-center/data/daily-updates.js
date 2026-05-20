@@ -2484,5 +2484,354 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
     },
     performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
+  },
+  {
+    generatedAt: "2026-05-20",
+    researchWindow: "Trend scan completed on May 20, 2026 using official TikTok and YouTube guidance plus current Later, Vogue, Reddit, and Substack slower-culture signals surfaced in May 2026.",
+    weeklyTheme: {
+      dates: "May 15 - May 21, 2026",
+      title: "Soft Friction, Better Mornings",
+      thesis: "Today should make authorship feel more important than aesthetics alone: the room, outfit, coffee, and commute should all look calm because they were sequenced with care, not because they were over-styled.",
+      whyNow: "Current platform signals still reward real process, direct routine language, search-led lifestyle framing, and tactile personal style. The stronger angle for Jimmy today is that beauty without ritual feels borrowed, while ritual gives the same objects and clothes real identity.",
+      contentRule: "Every post should show one authored choice: a room detail that changed the mood, an outfit detail that softened the look, a coffee ritual that created order, or a small object that made the life feel lived by someone real."
+    },
+    dailyBrief: {
+      date: "2026-05-20",
+      day: "Wednesday",
+      deliveryTime: "07:00 JST",
+      title: "make the room feel authored before it looks good.",
+      objective: "Film a Wednesday batch that turns ordinary apartment and commute moments into proof of authorship: one room reset, one quiet outfit decision, one coffee ritual, and one moving Tokyo texture that makes the philosophy feel lived instead of stated.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Bedside or chair, one shelf or table corner, mirror, coffee setup, shirt or trouser detail, bag or notebook, doorway exit, and two commute clips on the platform or train reflection.",
+      recommendation: "Lead with the authored-space video on TikTok, use the outfit-thought video for Reels, make the coffee-ritual concept the YouTube Shorts post, and save the carousel plus written note for evening when viewers are more reflective.",
+      todayDoNotDo: [
+        "Do not make the room look too resolved. One imperfect corner helps the thought feel true.",
+        "Do not make the atelier lane sound like a pitch. Keep it as worldview inside the language of ritual, taste, and authorship.",
+        "Do not turn the coffee video into gear talk. The object is not the point.",
+        "Do not make the style video too polished. One crease, cuff, or softened detail should stay visible.",
+        "Do not skip the metrics reminder tonight. The workspace still has no real native performance history."
+      ],
+      approvalChecklist: [
+        "Does the first frame show the tension immediately: beautiful object, unfinished room, or detail before explanation?",
+        "Is there a clear 3-5 second bridge that shifts from object to principle or from detail to feeling?",
+        "Would the spoken line still sound natural if said once without retakes?",
+        "Can every asset be captured inside one real weekday morning without extra staging?",
+        "Does at least one concept quietly seed the idea that taste should become something lived, not just collected?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-20-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Five Things That Made The Room Feel More Like Me",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn the authored-space angle into a saveable identity post that connects room detail, ritual, and lived-in taste.",
+        hook: "five things that made the room feel more like me.",
+        firstFrameDirection: "Open on the strongest tactile proof first: cup ring, folded shirt, notebook, dried stem, or tray detail before the wider room appears.",
+        filmingFit: "Shoot in 5 minutes before leaving.",
+        shotList: [
+          "Slide 1: tactile close-up of one object already in use.",
+          "Slide 2: shelf, table, or chair corner with one imperfect edge still visible.",
+          "Slide 3: shirt cuff, bag, or watch detail that shares the room palette.",
+          "Slide 4: coffee or notebook in window light.",
+          "Slide 5: doorway or commute texture that completes the mood."
+        ],
+        overlayText: [
+          "five things that made the room feel more like me.",
+          "not more expensive.",
+          "more authored.",
+          "that is different."
+        ],
+        talkingScript: "Use as photo-mode or carousel copy only.",
+        caption: "A room can look good and still not feel like you.\n\nThat is the difference between decoration and authorship.\n\nFor me it is usually small things: one object already in use, one surface not over-corrected, one piece of clothing left in the right place, one drink made slowly, one exit that does not feel rushed.\n\nThat is when taste stops looking borrowed.\n\nSearch phrases: slow living apartment, room styling, object culture, daily life in Tokyo, digital minimalism, calm aesthetic.",
+        creatorSearchTopics: ["slow living lifestyle minimalism", "daily lifestyle"],
+        seoKeywords: ["slow living apartment", "room styling", "object culture", "daily life in Tokyo", "digital minimalism", "calm aesthetic"],
+        keywords: ["slow living apartment", "room styling", "object culture", "daily life in Tokyo", "digital minimalism", "calm aesthetic"],
+        hashtags: ["#jimmycue", "#slowliving", "#tokyolife", "#digitalminimalism", "#quietluxury"],
+        retentionBridge: "Make slide 2 the move from pretty object to imperfect room proof so viewers keep swiping to understand the idea.",
+        editNotes: "Keep the sequence warm and tactile. No graphic-heavy text treatment. Let the room breathe."
+      },
+      {
+        id: "video-2026-05-20-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Your Space Is Not The Problem",
+        format: "Talk-to-camera room-and-routine note, 22-30 seconds",
+        purpose: "Use current real-process and digital-minimalism conversation to frame authored space as ritual rather than shopping or optimization.",
+        hook: "your space is not the problem.",
+        onScreenText: "your space is not the problem",
+        firstFrameDirection: "Open on the room corner or table already looking decent, then let your hand enter frame to adjust one real detail.",
+        retentionBridge: "At 3 seconds, cut from the room to your hand using the object and say: 'most people keep changing objects when the ritual is what is missing.'",
+        filmingFit: "Film with one room corner, one hand-detail shot, one mirror line, and one exit clip.",
+        shotList: [
+          "Room corner or shelf in natural light.",
+          "Hand moving a cup, notebook, tray, shirt, or stem already in use.",
+          "Mirror half-dressed shot.",
+          "Bag, key, or doorway prep.",
+          "Quick train or street texture."
+        ],
+        talkingScript: "Your space is not the problem. Most people keep changing objects when the ritual is what is missing. A room starts feeling better when you use it in a way that sounds like you. One corner, one object, one better sequence is usually enough.",
+        beatSheet: [
+          { time: "0-2s", action: "Open on the room corner or table.", line: "Your space is not the problem." },
+          { time: "3-5s", action: "Cut to hand using one object.", line: "Most people keep changing objects when the ritual is what is missing." },
+          { time: "6-14s", action: "Mirror or room proof shot.", line: "A room starts feeling better when you use it in a way that sounds like you." },
+          { time: "15-24s", action: "Show one small sequence: cup, notebook, bag, shirt.", line: "One corner, one object, one better sequence is usually enough." },
+          { time: "25-30s", action: "Exit clip or movement away.", line: "That is what makes it feel authored." }
+        ],
+        caption: "Most people think the answer is a new object.\n\nIt usually is not.\n\nA room can look tasteful and still feel anonymous if there is no ritual inside it.\n\nThat is why I care about sequence more than styling: what I touch first, where I place things, how I leave, what stays in frame because it actually belongs to the life.\n\nTaste gets stronger when it becomes a way of living, not a way of collecting.\n\n#jimmycue #slowliving #digitalminimalism #DailyThoughts #tokyolife",
+        creatorSearchTopics: ["mindful living", "digital minimalism"],
+        seoKeywords: ["mindful living", "digital minimalism", "slow living apartment", "daily life in Tokyo", "object culture"],
+        keywords: ["mindful living", "digital minimalism", "slow living apartment", "daily life in Tokyo", "object culture"],
+        hashtags: ["#jimmycue", "#slowliving", "#digitalminimalism", "#DailyThoughts", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Best first post today because the hook is direct, contrarian, and easy to understand without context.",
+          Instagram: "Keep the text clean and let the room detail do most of the emotional work.",
+          YouTube: "Only repurpose if retitled literally around room styling or authored space."
+        },
+        editNotes: "The bridge line needs to land by second 4. Keep the room imperfect enough to prove the point."
+      },
+      {
+        id: "video-2026-05-20-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "Most People Dress For The Image, Not The Day",
+        format: "OOTD / style philosophy, 18-26 seconds",
+        purpose: "Translate current menswear and outfit-search interest into Jimmy's softer masculine style lane with a more psychological angle.",
+        hook: "most people dress for the image, not the day.",
+        onScreenText: "most people dress for the image",
+        firstFrameDirection: "Open on the one worn or softened detail first: cuff, crease, seam, belt edge, or bag strap.",
+        retentionBridge: "At 3-5 seconds, reveal the full outfit and say: 'that is why some clothes look expensive but still feel disconnected.'",
+        filmingFit: "Film while dressing with one detail close-up, one mirror reveal, and one walk-out clip.",
+        shotList: [
+          "Close-up of softened cuff, crease, seam, or denim texture.",
+          "Mirror half-body outfit reveal.",
+          "Hand adjusting cuff, belt, or bag.",
+          "Chair or room edge left in frame.",
+          "Walk or platform reflection."
+        ],
+        talkingScript: "Most people dress for the image, not the day. That is why some clothes look expensive but still feel disconnected. I trust an outfit more when one detail looks lived in and the whole thing still moves well through a real morning.",
+        beatSheet: [
+          { time: "0-2s", action: "Detail close-up first.", line: "Most people dress for the image, not the day." },
+          { time: "3-5s", action: "Reveal the full outfit.", line: "That is why some clothes look expensive but still feel disconnected." },
+          { time: "6-14s", action: "Adjust one detail on camera.", line: "I trust an outfit more when one detail looks lived in." },
+          { time: "15-22s", action: "Mirror or room proof shot.", line: "And the whole thing still moves well through a real morning." },
+          { time: "23-26s", action: "Walk out or turn away.", line: "That feels more like style to me." }
+        ],
+        caption: "Style is not the image alone.\n\nIt is the relationship between the clothes and the life inside them.\n\nThat is why I do not want an outfit to feel too untouched. One softened cuff, one old crease, one detail with memory usually makes the whole thing feel more honest.\n\nI would rather look lived in than perfectly styled for a photo.\n\nThe day should still fit inside the clothes.\n\n#jimmycue #mensstyle #menslifestyle #fitcheck #ootd",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        seoKeywords: ["fit check", "mens lifestyle", "outfit detail", "vintage style", "Tokyo daily style"],
+        keywords: ["fit check", "mens lifestyle", "outfit detail", "vintage style", "Tokyo daily style"],
+        hashtags: ["#jimmycue", "#mensstyle", "#menslifestyle", "#fitcheck", "#ootd"],
+        platformNotes: {
+          TikTok: "Use if the first detail is tactile enough to stop the scroll immediately.",
+          Instagram: "Strong save/send concept because the line feels like identity language, not a trend recap.",
+          YouTube: "Only reuse if titled directly around outfit detail or mens style."
+        },
+        editNotes: "Keep the silhouette readable but let the worn detail stay dominant. Do not overcut."
+      },
+      {
+        id: "video-2026-05-20-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "Coffee Is Not Aesthetic. It Is Sequencing",
+        format: "No-talking or low-talking ritual montage, 18-24 seconds",
+        purpose: "Use coffee-morning-routine and calm-life search interest while keeping the deeper point on order, not consumption.",
+        hook: "coffee is not aesthetic. it is sequencing.",
+        onScreenText: "coffee is not aesthetic. it is sequencing.",
+        firstFrameDirection: "Open on the pour or cup movement instantly, before showing the whole setup.",
+        retentionBridge: "At 3 seconds, cut to the next action and say: 'the drink is small. the order around it changes the whole morning.'",
+        filmingFit: "Film with one pour, one object, one outfit touch, and one exit or commute clip.",
+        shotList: [
+          "Pour, steam, or cup being set down.",
+          "Notebook, book, or phone placed away.",
+          "Hand on shirt cuff, bag, or key.",
+          "Window light or table texture.",
+          "Doorway or train reflection."
+        ],
+        talkingScript: "Coffee is not aesthetic. It is sequencing. The drink is small. The order around it changes the whole morning. If I make the cup before I open the noise, the day usually feels easier to inhabit.",
+        beatSheet: [
+          { time: "0-2s", action: "Open on coffee movement.", line: "Coffee is not aesthetic. It is sequencing." },
+          { time: "3-5s", action: "Cut to the next ritual action.", line: "The drink is small. The order around it changes the whole morning." },
+          { time: "6-14s", action: "Show notebook, phone-away, or cuff detail.", line: "If I make the cup before I open the noise, the day usually feels easier to inhabit." },
+          { time: "15-20s", action: "Window or table texture.", line: "That is why I keep the ritual." },
+          { time: "21-24s", action: "Exit or commute shot.", line: "Not for the drink. For the rhythm." }
+        ],
+        caption: "Most people talk about coffee like the object is the whole point.\n\nIt is not.\n\nThe cup matters because it changes the order of the morning. It gives the mind one small thing to do before the internet, before the rush, before everybody else's mood arrives.\n\nThat is why simple rituals become psychological architecture over time.\n\nThe object is not the point.\nThe ritual around it is.\n\n#jimmycue #coffeeroutine #slowliving #mindset #tokyolife",
+        creatorSearchTopics: ["coffee morning routine", "calm life aesthetic"],
+        seoKeywords: ["coffee morning routine", "calm life aesthetic", "slow morning routine", "Tokyo commute", "mindful living"],
+        keywords: ["coffee morning routine", "calm life aesthetic", "slow morning routine", "Tokyo commute", "mindful living"],
+        hashtags: ["#jimmycue", "#coffeeroutine", "#slowliving", "#mindset", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Works best if the first pour shot is immediate and the bridge line hits before second 4.",
+          Instagram: "Only use if the visuals feel tactile enough to earn saves without extra explanation.",
+          YouTube: "Best Shorts candidate today because the title is direct, searchable, and principle-based."
+        },
+        editNotes: "Keep the audio soft and the cuts clean. The first frame has to move instantly."
+      },
+      {
+        id: "story-2026-05-20-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Which Detail Makes It Feel Lived In",
+        format: "Poll story",
+        purpose: "Invite viewers into the taste-versus-authorship conversation through a small style choice.",
+        hook: "which detail makes it feel more lived in?",
+        firstFrameDirection: "Open on two details in the same light with enough space for the poll sticker.",
+        filmingFit: "Shoot while getting dressed.",
+        shotList: ["Cuff vs crease, or bag strap vs belt edge."],
+        talkingScript: "Which detail makes it feel more lived in?",
+        copy: "which detail makes it feel more lived in?",
+        pollOptions: ["cuff", "crease"],
+        caption: "small details change the whole mood.",
+        seoKeywords: ["outfit detail", "fit check", "mens style"],
+        keywords: ["outfit detail", "fit check", "mens style"],
+        hashtags: ["#jimmycue", "#fitcheck", "#mensstyle", "#ootd"],
+        retentionBridge: "The poll turns a style philosophy into a quick instinctive choice.",
+        editNotes: "Do not overdesign. Keep it like a quick question from the morning."
+      },
+      {
+        id: "story-2026-05-20-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Authored Morning Note",
+        format: "BTS text + clip",
+        purpose: "Reinforce the day's theme with one subtle atelier-coded line that still feels personal.",
+        hook: "a room can look good and still not feel authored.",
+        firstFrameDirection: "Open on a moving clip first: cup, tray, shirt, or notebook, then let the text sit.",
+        filmingFit: "Shoot a 5-second clip while making coffee or leaving.",
+        shotList: ["Cup, shirt, notebook, or doorway clip."],
+        talkingScript: "A room can look good and still not feel authored.",
+        copy: "a room can look good and still not feel authored.",
+        pollOptions: [],
+        caption: "ritual changes that.",
+        seoKeywords: ["authored life", "slow living", "object culture"],
+        keywords: ["authored life", "slow living", "object culture"],
+        hashtags: ["#jimmycue", "#slowliving", "#DailyThoughts", "#digitalminimalism"],
+        retentionBridge: "The line should read like a private note, not a manifesto.",
+        editNotes: "Keep the clip understated and tactile."
+      },
+      {
+        id: "written-2026-05-20-01",
+        type: "Written Post / Substack Note",
+        platformPriority: ["Substack Notes", "Instagram caption screenshot", "Threads"],
+        title: "Taste Needs Somewhere To Live",
+        format: "Short written note",
+        purpose: "Give Jimmy one slower written post that lightly seeds the Self-Authored Life Atelier worldview without selling it.",
+        hook: "taste needs somewhere to live.",
+        firstFrameDirection: "If screenshotting for social, pair the text with a notebook, tray, shirt, or room corner in soft morning light.",
+        retentionBridge: "Break after the second line so the thought opens before the practical turn.",
+        talkingScript: "Use as written copy only.",
+        draft: "taste needs somewhere to live.\n\notherwise it stays borrowed.\n\nnot because the objects are wrong.\nbut because nothing in the day is holding them.\n\none ritual is usually enough to change that.\na cup.\na page.\na corner you actually use.\na shirt you keep reaching for.\n\na life starts feeling more like yours when the taste inside it has a place to land.",
+        caption: "Optional cross-post caption: a note from this morning.",
+        seoKeywords: ["taste", "slow living writing", "authored life", "creative life"],
+        keywords: ["taste", "slow living writing", "authored life", "creative life"],
+        hashtags: ["#jimmycue", "#slowliving", "#DailyThoughts", "#creativeLife"],
+        editNotes: "Keep it lowercase and spare. No extra explanation."
+      }
+    ],
+    schedule: [
+      { time: "07:10-07:50", action: "Film the authored-space video, outfit-detail video, coffee-ritual montage, carousel assets, both Stories, and the written-note photo.", platform: "Phone", reason: "One batch keeps the whole idea rooted in the same real Wednesday morning." },
+      { time: "08:35", action: "Post 'Your Space Is Not The Problem'.", platform: "TikTok", reason: "The direct contrarian hook fits morning discovery and current real-process conversation." },
+      { time: "12:25", action: "Post 'Most People Dress For The Image, Not The Day'.", platform: "Instagram Reels", reason: "Midday is a clean slot for saveable identity-based style language." },
+      { time: "18:50", action: "Post 'Coffee Is Not Aesthetic. It Is Sequencing'.", platform: "YouTube Shorts", reason: "The title is literal, searchable, and strong for evening Shorts browsing." },
+      { time: "20:40", action: "Post 'Five Things That Made The Room Feel More Like Me'.", platform: "Instagram / TikTok photo mode", reason: "Evening is better for reflective carousel saves and shares." },
+      { time: "21:05", action: "Post 'Taste Needs Somewhere To Live' to Substack Notes if it still feels true after the day.", platform: "Substack Notes", reason: "The slower written angle fits evening better than the morning rush." },
+      { time: "Any time before 21:00", action: "Post the lived-in-detail poll and authored-morning note story.", platform: "Stories", reason: "Stories keep the theme conversational without extra production load." },
+      { time: "21:15", action: "Log native metrics manually if available: views, retention, saves, shares, and sends.", platform: "Dashboard", reason: "There is still no real metric history in the workspace, so tomorrow's optimization needs manual signal." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 trend forecast keeps pointing creators toward 'Reali-TEA,' curiosity-led discovery, and emotional payoff over polished distance.",
+        source: "TikTok Newsroom / TikTok Next 2026",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?_hsmi=399120832&lang=en",
+        implication: "Today's strongest post should start inside a real room, real object, or real morning sequence instead of an explained setup."
+      },
+      {
+        signal: "Later's May 2026 TikTok trend coverage says real-process videos, accountability content, and search-led behavior remain current, with hashtags like #lockedin, #hygiene, and search patterns around what to wear and aesthetics.",
+        source: "Later Current TikTok Trends 2026",
+        url: "https://later.com/blog/current-tiktok-trends/",
+        implication: "Jimmy's version should stay calm and observational: routine, what to wear, room logic, and in-progress living instead of louder self-improvement framing."
+      },
+      {
+        signal: "Later's May 15, 2026 Instagram Reels trend roundup shows saveable mood-board and storytelling formats are still moving, especially low-lift clip strings built around what someone wants to capture or keep.",
+        source: "Later Instagram Reels Trends",
+        url: "https://later.com/blog/instagram-reels-trends/",
+        implication: "The carousel and room/coffee visuals should feel like tactile story fragments, not formal tutorials."
+      },
+      {
+        signal: "YouTube says Shorts are matched to viewers based on what they choose to watch and enjoy, with ranking informed by chose-to-view rate, average view duration, average percentage viewed, and satisfaction signals.",
+        source: "YouTube Help - Search & discovery tips",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Today's Shorts concept needs an instantly readable first frame, a literal searchable title, and a clear 3-5 second bridge."
+      },
+      {
+        signal: "YouTube also now separates broad Shorts 'views' from 'Engaged views,' which makes hold quality more important when comparing Shorts internally.",
+        source: "YouTube Help - Get started creating YouTube Shorts",
+        url: "https://support.google.com/youtube/answer/10059070?hl=en-on",
+        implication: "Optimize the coffee-ritual Short for people choosing to keep watching, not just autoplay starts."
+      },
+      {
+        signal: "Recent Reddit digital minimalism discussion keeps circling quieter breakfast routines, simple phone friction, and touchstones that stop the day from starting inside the feed.",
+        source: "Reddit r/digitalminimalism",
+        url: "https://www.reddit.com/r/digitalminimalism/comments/1t4guag/what_is_your_morning_routine/",
+        implication: "The room and coffee concepts should feel timely if they stay specific, practical, and anti-preachy."
+      },
+      {
+        signal: "Vogue's spring 2026 tailored-denim coverage still favors crease, structure, and grown-up polish while leaving room for softness and personal wear.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/tailored-denim-trend",
+        implication: "Today's style video should keep one precise silhouette but let a softened lived-in detail humanize it."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda Shanahan's owner-supplied Substack reference on doing what you said you would do keeps the execution gap in focus, which aligns with Jimmy's calmer version of making something real before the perfect life arrives.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-youre-going-to-do",
+        implication: "Use authored-space and ritual language to show action before polish, not inspiration hoarding."
+      },
+      {
+        signal: "Two Percent's public May front page keeps surfacing 'Gear Not Stuff,' reinforcing that readers still respond to utility, restraint, and fewer objects that genuinely improve daily life.",
+        source: "Two Percent",
+        url: "https://www.twopct.com/",
+        implication: "Jimmy's object-culture lane should stay focused on supporting rhythm and mood, not on collecting aesthetic clutter."
+      },
+      {
+        signal: "Tarek Taha's recent post 'Living in the Good Days' keeps attention on ordinary-day presence instead of dramatic reinvention.",
+        source: "Tarek Taha on Substack",
+        url: "https://www.tareks.blog/p/living-in-the-good-days",
+        implication: "Keep the written note grounded in simple proofs of life: a cup, a page, a shirt, a corner, a better sequence."
+      },
+      {
+        application: "Substack note draft included in today's content pack as 'Taste Needs Somewhere To Live.'",
+        reason: "It translates the slower-culture signals into Jimmy's own lived perspective and lightly seeds the atelier worldview."
+      }
+    ],
+    keywordBank: {
+      primary: ["authored life", "slow living apartment", "digital minimalism", "coffee morning routine", "outfit detail", "mindful living", "object culture"],
+      secondary: ["Tokyo daily life", "mens lifestyle", "fit check", "calm aesthetic", "quiet confidence", "room styling", "creative life"],
+      titles: [
+        "your space is not the problem",
+        "most people dress for the image, not the day",
+        "coffee is not aesthetic. it is sequencing.",
+        "five things that made the room feel more like me",
+        "taste needs somewhere to live"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#slowliving", "#digitalminimalism", "#DailyThoughts", "#tokyolife"],
+        fashion: ["#jimmycue", "#mensstyle", "#menslifestyle", "#fitcheck", "#ootd"],
+        beauty: ["#jimmycue", "#coffeeroutine", "#mindset", "#DailyLifestyle", "#tokyolife"],
+        futureBusiness: ["#jimmycue", "#creativeLife", "#quietluxury", "#slowliving", "#DailyThoughts"]
+      }
+    },
+    longFormYouTube: {
+      due: false,
+      nextDueCheck: "2026-05-24",
+      note: "A biweekly long-form upload is not due today. Keep collecting apartment, coffee, shelf, outfit, and commute footage so the next May 24, 2026 planning cycle can build around authored rituals and calmer weekday sequencing.",
+      suggestion: "Provisional long-form angle for the next due check: 'taste needs somewhere to live: a week of authored mornings in tokyo' or 'why calm routines matter more than aesthetic objects.'",
+      referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
+    },
+    performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
   }
 ];
