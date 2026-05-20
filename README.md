@@ -87,6 +87,10 @@ The full connection plan for TikTok, Instagram, YouTube, Substack, and Notion li
 
 `04 Integrations/social-api-and-notion-setup.md`
 
+The active Notion database map lives in:
+
+`04 Integrations/notion-data-sources.md`
+
 ## YouTube API Setup
 
 1. In Google Cloud, enable YouTube Data API v3 and YouTube Analytics API.
