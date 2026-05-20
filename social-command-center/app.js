@@ -125,6 +125,7 @@ function renderShell() {
 
 function typeColor(type) {
   if (type === "Short-form Video") return "var(--lacquer)";
+  if (type === "Thought Video") return "var(--persimmon)";
   if (type === "Static / Carousel") return "var(--indigo)";
   if (type === "Story") return "var(--moss)";
   return "var(--persimmon)";
@@ -740,6 +741,7 @@ Daily output must include:
 - One weekly theme or continuation of the weekly theme.
 - One static photo or carousel idea.
 - Three short-form video ideas that can be filmed in 30-45 minutes in the apartment or on the morning commute.
+- One Substack-informed talking-head thought video with a complete point, built from one or several public references and curated into Jimmy's voice. Use this lane to reach high-achieving people with taste when the daily theme fits.
 - One to two story post ideas.
 - A biweekly long-form YouTube suggestion when the current week needs one, including title, thesis, chapter outline, filming plan, thumbnail direction, SEO description, and repurpose plan.
 - Hook, first-frame direction, 3-5 second retention bridge, shot list, talking script, caption, SEO keywords, hashtags, platform priority, and edit notes for every piece.

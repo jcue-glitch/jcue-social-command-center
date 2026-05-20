@@ -27,6 +27,7 @@ Each brief includes:
 - Occasional Self-Authored Life Atelier business-lane ideas when the daily theme naturally connects to taste, space, creative action, ritual, borrowed inspiration, or self-authored living.
 - 1 static photo/carousel idea.
 - 3 short-form video ideas.
+- 1 Substack-informed talking-head thought video with a complete point, aimed at the high-performer/taste audience when relevant.
 - 1-2 story posts.
 - Hook, first frame, 3-5 second retention bridge, shot list, script, caption, SEO keywords, hashtags, platform priority, and edit notes.
 - A 30-45 minute morning filming plan.
@@ -56,6 +57,7 @@ Every two weeks, include a long-form YouTube suggestion:
 - Do not let Substack become the only research source. Use it to deepen the angle while still pulling from current platform trends, articles, videos, news, blogs, search, Reddit/X conversations, and similar creator patterns.
 - Apply `01 Strategy/jcue-copy-style-system-v1.md` for hooks, captions, and hashtags. Hooks should be short, negative/contrarian, and instantly readable. Captions should use a strong thesis, contrarian clarification, practical explanation, Jimmy lifestyle tie-back, final memorable line, and 4-6 hashtags including #jimmycue.
 - Apply `01 Strategy/self-authored-life-atelier-content-lane.md` occasionally, not constantly. Use it to seed the future business worldview without hard-selling or turning the personal feed into a launch page.
+- Add the thought-video lane as a daily output whenever possible. It should feel like a compact spoken essay: one strong thesis, one research/culture signal, one Jimmy-life proof, one practical principle, and one final line.
 
 ## YouTube API Connection
 

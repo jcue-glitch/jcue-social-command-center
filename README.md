@@ -9,6 +9,7 @@ Personal social media agent workspace for Jimmy Cue.
 - `01 Strategy` - creator positioning, platform strategy, visual direction, and long-form YouTube direction.
 - `02 Daily Briefs` - daily content packs and generated briefs.
 - `03 Research` - approved research source lists, including Substack Radar.
+- `04 Integrations` - API and Notion setup notes for turning briefs into a metrics-informed system.
 
 ## Open The Dashboard
 
@@ -43,6 +44,7 @@ Daily at 7am JST, the agent should deliver:
 
 - 1 static photo/carousel concept.
 - 3 short-form video ideas for TikTok, Reels, and Shorts.
+- 1 Substack-informed talking-head thought video with a complete point.
 - 1-2 story posts.
 - Hooks, 3-5 second retention bridges, captions, keywords, hashtags, edit notes, and posting schedule.
 - A biweekly long-form YouTube suggestion for life, thoughts, creative direction, and wabi-sabi philosophy.
@@ -80,6 +82,10 @@ Substack is an additive research lane for slower cultural signals, thoughtful la
 ## Data Status
 
 Platform metrics are manual by default. YouTube can now connect through the local bridge.
+
+The full connection plan for TikTok, Instagram, YouTube, Substack, and Notion lives in:
+
+`04 Integrations/social-api-and-notion-setup.md`
 
 ## YouTube API Setup
 

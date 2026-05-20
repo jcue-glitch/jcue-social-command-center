@@ -2670,6 +2670,44 @@ window.JCUE_DAILY_UPDATES = [
         editNotes: "Keep the audio soft and the cuts clean. The first frame has to move instantly."
       },
       {
+        id: "thought-2026-05-20-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Taste Is Not Something To Copy",
+        format: "Talking-head thought video with 3-4 B-roll inserts, 60-90 seconds",
+        purpose: "Create a fuller Substack-informed spoken essay that connects today's authored-space theme to high performers who keep consuming references instead of making their own life feel authored.",
+        hook: "taste is not something to copy.",
+        onScreenText: "taste is not something to copy",
+        firstFrameDirection: "Start in a calm seated or standing talking-head frame with one tactile proof nearby: coffee, notebook, jacket, shelf, or object. The first line should be spoken directly to camera.",
+        retentionBridge: "At 3-5 seconds, cut from your face to one room or outfit detail and say: 'that is why a life can look successful and still not feel like yours.'",
+        filmingFit: "Film one 60-90 second talking-head take near the window, desk, mirror, or doorway. Add 3 B-roll inserts from the same morning: room detail, coffee, outfit, commute.",
+        sourceInspiration: [
+          "Miranda Does Brands owner-supplied Substack reference on doing what you said you would do.",
+          "Self-Authored Life Atelier lane: high-achieving people with taste, borrowed inspiration, and Inner Feeling -> External Form.",
+          "Today's platform trend signals around real process, tactile routines, and digital minimalism."
+        ],
+        creatorSearchTopics: ["daily thoughts", "self growth", "slow living lifestyle minimalism"],
+        talkingScript: "Taste is not something to copy.\n\nMost high-performing people are surrounded by references now. Saved rooms. Saved outfits. Saved routines. Saved versions of a life that looks calmer than the one they are actually living.\n\nThat is why a life can look successful and still not feel like yours.\n\nThe problem is not that you need better inspiration. The problem is that inspiration stays borrowed until you turn it into form.\n\nA room you actually use. A morning sequence you repeat. An outfit that changes how you carry yourself. A small object that makes you pause before the day starts taking from you.\n\nThat is why I take ordinary rituals seriously.\n\nThey are how taste stops being something you collect and starts becoming something you author.\n\nThe goal is not to look inspired.\n\nThe goal is to make your inner life visible.",
+        beatSheet: [
+          { time: "0-3s", action: "Talking head, direct eye contact.", line: "Taste is not something to copy." },
+          { time: "3-8s", action: "Cut to saved-looking room/object/outfit detail.", line: "That is why a life can look successful and still not feel like yours." },
+          { time: "9-24s", action: "Return to talking head.", line: "Most high-performing people are surrounded by references now. Saved rooms. Saved outfits. Saved routines. Saved versions of a life that looks calmer than the one they are actually living." },
+          { time: "25-42s", action: "B-roll: coffee, notebook, shelf, jacket, commute.", line: "The problem is not that you need better inspiration. The problem is that inspiration stays borrowed until you turn it into form." },
+          { time: "43-66s", action: "Talking head plus one hand/object insert.", line: "A room you actually use. A morning sequence you repeat. An outfit that changes how you carry yourself. A small object that makes you pause before the day starts taking from you." },
+          { time: "67-90s", action: "End on face or quiet exit shot.", line: "The goal is not to look inspired. The goal is to make your inner life visible." }
+        ],
+        caption: "Most high-performing people are surrounded by references.\n\nSaved rooms.\nSaved outfits.\nSaved routines.\nSaved versions of a life that looks calmer than the one they are actually living.\n\nThat is not taste yet.\n\nTaste becomes real when it turns into form.\n\nA room you use differently.\nA morning sequence you repeat.\nAn outfit that changes your posture.\nA small object that brings you back before the day starts taking from you.\n\nThe goal is not to look inspired.\n\nThe goal is to make your inner life visible.\n\n#jimmycue #DailyThoughts #selfgrowth #slowliving #quietluxury",
+        seoKeywords: ["daily thoughts", "self growth", "slow living lifestyle", "high performer", "creative life", "quiet luxury"],
+        keywords: ["daily thoughts", "self growth", "slow living lifestyle", "high performer", "creative life", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#selfgrowth", "#slowliving", "#quietluxury"],
+        platformNotes: {
+          TikTok: "Post as a talking-head test if the first line feels clean and direct. Add captions with generous line breaks.",
+          Instagram: "Use as a Reels relationship-builder for viewers who connect with the high-performer and taste angle.",
+          YouTube: "Use only if tightened to 60 seconds or titled clearly around taste, inspiration, or self-growth."
+        },
+        editNotes: "Keep the talking-head cut calm and authoritative. Do not over-soften the language. Use B-roll only to support the thought, not to hide the point."
+      },
+      {
         id: "story-2026-05-20-01",
         type: "Story",
         platformPriority: ["Instagram Stories"],
@@ -2731,9 +2769,10 @@ window.JCUE_DAILY_UPDATES = [
       }
     ],
     schedule: [
-      { time: "07:10-07:50", action: "Film the authored-space video, outfit-detail video, coffee-ritual montage, carousel assets, both Stories, and the written-note photo.", platform: "Phone", reason: "One batch keeps the whole idea rooted in the same real Wednesday morning." },
+      { time: "07:10-07:55", action: "Film the authored-space video, outfit-detail video, coffee-ritual montage, Substack-style thought video, carousel assets, both Stories, and the written-note photo.", platform: "Phone", reason: "One batch keeps the whole idea rooted in the same real Wednesday morning." },
       { time: "08:35", action: "Post 'Your Space Is Not The Problem'.", platform: "TikTok", reason: "The direct contrarian hook fits morning discovery and current real-process conversation." },
       { time: "12:25", action: "Post 'Most People Dress For The Image, Not The Day'.", platform: "Instagram Reels", reason: "Midday is a clean slot for saveable identity-based style language." },
+      { time: "16:30", action: "Post 'Taste Is Not Something To Copy' as the talking-head thought video if the take feels clear.", platform: "TikTok / Reels", reason: "Afternoon is a good test window for a fuller POV that targets high performers and taste-led viewers." },
       { time: "18:50", action: "Post 'Coffee Is Not Aesthetic. It Is Sequencing'.", platform: "YouTube Shorts", reason: "The title is literal, searchable, and strong for evening Shorts browsing." },
       { time: "20:40", action: "Post 'Five Things That Made The Room Feel More Like Me'.", platform: "Instagram / TikTok photo mode", reason: "Evening is better for reflective carousel saves and shares." },
       { time: "21:05", action: "Post 'Taste Needs Somewhere To Live' to Substack Notes if it still feels true after the day.", platform: "Substack Notes", reason: "The slower written angle fits evening better than the morning rush." },

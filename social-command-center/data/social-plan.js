@@ -174,6 +174,35 @@ window.JIMMY_SOCIAL_PLAN = {
     ],
     guardrail: "Seed the worldview without hard-selling. The personal lifestyle brand remains the main trust engine."
   },
+  thoughtVideoSystem: {
+    type: "Thought Video",
+    cadence: "Daily when possible, or at minimum whenever Substack Radar or high-performer audience research creates a strong point.",
+    format: "Talking-head video, 45-90 seconds, with apartment, commute, cafe, outfit, or object B-roll used as visual punctuation.",
+    purpose: "Give Jimmy one fuller daily thought that feels like a compact Substack essay spoken out loud.",
+    sources: [
+      "Substack Radar references",
+      "current platform trends",
+      "news/articles/blogs",
+      "Reddit/X conversations",
+      "creator search insight topics",
+      "Jimmy's lived Tokyo lifestyle"
+    ],
+    audience: "High-achieving people with taste who feel over-stimulated, creatively hidden, or stuck consuming inspiration instead of authoring a life.",
+    structure: [
+      "Contrarian on-screen hook.",
+      "Plain thesis in the first spoken line.",
+      "One cultural observation or research reference translated into Jimmy's words.",
+      "One personal proof from the morning: room, outfit, coffee, object, commute, gym, music, or creative work.",
+      "One principle for the viewer.",
+      "One memorable final line."
+    ],
+    guardrails: [
+      "Do not summarize Substack posts directly.",
+      "Do not copy another writer's structure or voice.",
+      "Do not make it vague motivation.",
+      "Keep it grounded in a filmed daily-life proof."
+    ]
+  },
   strategy: {
     weeklyTheme: {
       dates: "Apr 30 - May 6, 2026",
@@ -575,14 +604,17 @@ window.JIMMY_SOCIAL_PLAN = {
       "TikTok developer app with Login Kit and Display API access for profile and recent video metadata. True analytics may require approved scopes/products not available to every app.",
       "Instagram professional account connected through Meta/Instagram API permissions for insights. Manual export works until app review is complete.",
       "YouTube/Google Cloud OAuth client with YouTube Analytics API access for channel and video reports.",
-      "Optional: Notion, Google Sheets, or local JSON backend to store daily briefs and metric history outside browser localStorage.",
+      "Notion workspace with Content Pieces, Performance Snapshots, Trend + Research Signals, and Outliers + Learnings databases for metric history and reusable patterns.",
       "Optional: Substack RSS/source list for approved publications and profiles that can feed the daily Substack Radar."
     ],
     apiNotes: [
       { platform: "TikTok", source: "https://developers.tiktok.com/doc/display-api-overview/", note: "Display API can read basic profile and recent video metadata with user authorization." },
+      { platform: "TikTok Login", source: "https://developers.tiktok.com/doc/login-kit-web/", note: "Login Kit is the OAuth path for authorizing Jimmy's TikTok account before reading permitted data." },
       { platform: "TikTok Research", source: "https://developers.tiktok.com/products/research-api/", note: "Research API access is limited to qualifying researchers and is not the normal creator analytics path." },
-      { platform: "Instagram", source: "https://www.facebook.com/help/1533933820244654/", note: "Instagram insights require a business or creator account; older content before conversion may not have insights." },
-      { platform: "YouTube", source: "https://developers.google.com/youtube/analytics/data_model", note: "YouTube Analytics API supports targeted reports with metrics, dimensions, and filters." },
+      { platform: "Instagram", source: "https://developers.facebook.com/docs/instagram-platform/", note: "Instagram insights require a professional account connected through Meta developer permissions and may require app review." },
+      { platform: "YouTube Data", source: "https://developers.google.com/youtube/v3", note: "YouTube Data API can read channel and video metadata after OAuth authorization." },
+      { platform: "YouTube Analytics", source: "https://developers.google.com/youtube/analytics/reference/reports/query", note: "YouTube Analytics API supports report queries for channel and video performance metrics." },
+      { platform: "Notion", source: "https://developers.notion.com/docs", note: "Use Notion as the historic content and metric database, with API sync once databases are created and shared." },
       { platform: "Substack", source: "https://support.substack.com/hc/en-us/articles/360038239391-Is-there-an-RSS-feed-for-my-publication", note: "Public Substack publications commonly expose RSS at https://your.substack.com/feed. Private follows/subscriptions require owner-provided links, exports, forwarded emails, or authenticated access." }
     ]
   }
