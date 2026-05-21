@@ -8,9 +8,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="JCue Social">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-21-livehub">
-    <link rel="icon" href="./assets/icon.svg?v=2026-05-21-livehub" type="image/svg+xml">
-    <link rel="stylesheet" href="./styles.css?v=2026-05-21-livehub">
+    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-21-atelier-ui">
+    <link rel="icon" href="./assets/icon.svg?v=2026-05-21-atelier-ui" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css?v=2026-05-21-atelier-ui">
   </head>
   <body>
     <div class="texture-layer" aria-hidden="true"></div>
@@ -125,17 +125,23 @@
                 <div class="asset-box">
                   <div class="asset-heading">
                     <div>
-                      <label for="photoUpload">Image library for post cards</label>
-                      <p>Upload reusable photos of you, then select one for the current card.</p>
+                      <label for="photoUpload">Carousel card studio</label>
+                      <p>Upload one daily photo, choose a slide, then export clean headline cards.</p>
                     </div>
                     <button type="button" class="secondary-button small-button" id="clearImageLibraryButton">Clear</button>
                   </div>
+                  <div class="carousel-slide-selector" id="carouselSlideSelector" aria-label="Carousel slide text options"></div>
                   <input id="photoUpload" type="file" accept="image/*" multiple>
                   <div class="image-library" id="imageLibrary"></div>
+                  <div class="atmosphere-heading">
+                    <span>Generated atmosphere</span>
+                    <p>Use these when you do not have the follow-up image yet.</p>
+                  </div>
+                  <div class="atmosphere-presets" id="atmospherePresets"></div>
                   <canvas id="coverCanvas" width="1080" height="1350" aria-label="Generated social cover preview"></canvas>
                   <div class="asset-actions">
-                    <button type="button" class="secondary-button" id="refreshPngButton">Refresh PNG</button>
-                    <button type="button" class="primary-button" id="downloadPngButton">Download Card</button>
+                    <button type="button" class="secondary-button" id="refreshPngButton">Refresh Slide</button>
+                    <button type="button" class="primary-button" id="downloadPngButton">Download Slide</button>
                   </div>
                 </div>
 
@@ -341,8 +347,8 @@
 
     </div>
 
-    <script src="./data/social-plan.js?v=2026-05-21-livehub"></script>
-    <script src="./data/daily-updates.js?v=2026-05-21-livehub"></script>
-    <script src="./app.js?v=2026-05-21-livehub"></script>
+    <script src="./data/social-plan.js?v=2026-05-21-atelier-ui"></script>
+    <script src="./data/daily-updates.js?v=2026-05-21-atelier-ui"></script>
+    <script src="./app.js?v=2026-05-21-atelier-ui"></script>
   </body>
 </html>

@@ -40,6 +40,8 @@ let selectedItemId = plan.contentPack.find((item) => item.type === "Short-form V
 let currentFilter = "All";
 let currentRadarFilter = "platform";
 let selectedLibraryImageId = "";
+let selectedCarouselSlideIndex = 0;
+let selectedAtmospherePreset = "coffee";
 
 const byId = (id) => document.getElementById(id);
 const selectedItem = () => plan.contentPack.find((item) => item.id === selectedItemId) || plan.contentPack[0];
@@ -70,8 +72,18 @@ function imageLibrary() {
 
 function selectedLibraryImage() {
   const images = imageLibrary();
+  if (selectedAtmospherePreset && !selectedLibraryImageId) return null;
   return images.find((image) => image.id === selectedLibraryImageId) || images[0];
 }
+
+const atmospherePresets = [
+  { id: "coffee", label: "Coffee", tone: "#5c4033" },
+  { id: "kissaten", label: "Cafe", tone: "#2f2119" },
+  { id: "apartment", label: "Apartment", tone: "#d9cdbb" },
+  { id: "fitness", label: "Fitness", tone: "#202225" },
+  { id: "nature", label: "Nature", tone: "#59684c" },
+  { id: "night", label: "Night", tone: "#151719" }
+];
 
 function fallbackCopy(text) {
   const textarea = document.createElement("textarea");
@@ -260,6 +272,7 @@ function scriptText(item) {
 function renderPreview() {
   const state = loadState();
   const item = selectedItem();
+  selectedCarouselSlideIndex = 0;
   const saved = state.approvals?.[item.id];
   byId("previewTitle").textContent = item.title;
   byId("previewType").textContent = item.type;
@@ -307,11 +320,12 @@ function renderPreview() {
   });
 
   renderCanvas();
+  renderCarouselStudio();
 }
 
 function renderImageLibrary() {
   const images = imageLibrary();
-  if (!selectedLibraryImageId && images[0]) selectedLibraryImageId = images[0].id;
+  if (!selectedLibraryImageId && images[0] && !selectedAtmospherePreset) selectedLibraryImageId = images[0].id;
   byId("imageLibrary").innerHTML = images.length
     ? images
         .map((image) => `
@@ -325,7 +339,95 @@ function renderImageLibrary() {
   document.querySelectorAll("[data-image-id]").forEach((button) => {
     button.addEventListener("click", () => {
       selectedLibraryImageId = button.dataset.imageId;
+      selectedAtmospherePreset = "";
       renderImageLibrary();
+      renderAtmospherePresets();
+      renderCanvas();
+    });
+  });
+}
+
+function sentenceCase(value) {
+  const text = String(value || "").trim();
+  return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
+}
+
+function cleanCarouselLine(value) {
+  return String(value || "")
+    .replace(/#\w+/g, "")
+    .replace(/^search phrases?:.*$/gim, "")
+    .replace(/^keywords?:.*$/gim, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function carouselSlides(item) {
+  const first = cleanCarouselLine(item.hook || item.overlayText?.[0] || item.onScreenText || item.title);
+  const candidates = [
+    ...(item.overlayText || []).slice(1),
+    ...(item.caption || "")
+      .split(/\n+/)
+      .map(cleanCarouselLine)
+      .filter((line) => line && !line.startsWith("#")),
+    ...(item.beatSheet || []).map((beat) => beat.line),
+    item.retentionBridge,
+    item.purpose
+  ]
+    .map(cleanCarouselLine)
+    .filter(Boolean)
+    .filter((line) => line.length > 18 && line.length < 150);
+
+  const unique = [];
+  candidates.forEach((line) => {
+    if (!unique.some((existing) => existing.toLowerCase() === line.toLowerCase())) unique.push(line);
+  });
+
+  return [first, ...unique].slice(0, 5).map((text, index) => ({
+    index,
+    text: index === 0 ? text.toLowerCase() : sentenceCase(text),
+    role: index === 0 ? "hook" : "point"
+  }));
+}
+
+function renderCarouselStudio() {
+  const slides = carouselSlides(selectedItem());
+  if (selectedCarouselSlideIndex >= slides.length) selectedCarouselSlideIndex = 0;
+  byId("carouselSlideSelector").innerHTML = slides
+    .map((slide) => `
+      <button type="button" class="slide-chip${slide.index === selectedCarouselSlideIndex ? " active" : ""}" data-slide-index="${slide.index}">
+        <span>${slide.index + 1}</span>
+        ${escapeHtml(slide.role)}
+      </button>
+    `)
+    .join("");
+
+  document.querySelectorAll("[data-slide-index]").forEach((button) => {
+    button.addEventListener("click", () => {
+      selectedCarouselSlideIndex = Number(button.dataset.slideIndex) || 0;
+      renderCarouselStudio();
+      renderCanvas();
+    });
+  });
+
+  renderAtmospherePresets();
+}
+
+function renderAtmospherePresets() {
+  byId("atmospherePresets").innerHTML = atmospherePresets
+    .map((preset) => `
+      <button type="button" class="atmosphere-preset${preset.id === selectedAtmospherePreset ? " active" : ""}" data-preset="${escapeHtml(preset.id)}">
+        <span style="background:${escapeHtml(preset.tone)}"></span>
+        ${escapeHtml(preset.label)}
+      </button>
+    `)
+    .join("");
+
+  document.querySelectorAll("[data-preset]").forEach((button) => {
+    button.addEventListener("click", () => {
+      selectedAtmospherePreset = button.dataset.preset;
+      selectedLibraryImageId = "";
+      renderImageLibrary();
+      renderAtmospherePresets();
       renderCanvas();
     });
   });
@@ -1004,6 +1106,90 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 5) {
   if (line && lines < maxLines) ctx.fillText(line, x, y);
 }
 
+function wrappedLines(ctx, text, maxWidth, maxLines = 5) {
+  const words = String(text || "").split(/\s+/).filter(Boolean);
+  const lines = [];
+  let line = "";
+  words.forEach((word) => {
+    const testLine = line ? `${line} ${word}` : word;
+    if (ctx.measureText(testLine).width > maxWidth && line) {
+      if (lines.length < maxLines) lines.push(line);
+      line = word;
+    } else {
+      line = testLine;
+    }
+  });
+  if (line && lines.length < maxLines) lines.push(line);
+  return lines;
+}
+
+function drawGrain(ctx, width, height, opacity = 0.08) {
+  ctx.save();
+  ctx.globalAlpha = opacity;
+  for (let i = 0; i < 3200; i += 1) {
+    const value = Math.floor(130 + Math.random() * 90);
+    ctx.fillStyle = `rgb(${value}, ${value}, ${value})`;
+    ctx.fillRect(Math.random() * width, Math.random() * height, 1.4, 1.4);
+  }
+  ctx.restore();
+}
+
+function drawAtmosphere(ctx, preset, width, height) {
+  const mode = atmospherePresets.find((item) => item.id === preset)?.id || "coffee";
+  const gradients = {
+    coffee: ["#2c211a", "#6d4c36", "#c59a67"],
+    kissaten: ["#18110e", "#3a261c", "#987350"],
+    apartment: ["#e7ded0", "#c7b8a4", "#f5eee3"],
+    fitness: ["#070808", "#1a1d1e", "#4a4032"],
+    nature: ["#172116", "#465d38", "#a8b891"],
+    night: ["#090b0d", "#141b22", "#485059"]
+  };
+  const [deep, mid, light] = gradients[mode];
+  const background = ctx.createLinearGradient(0, 0, width, height);
+  background.addColorStop(0, deep);
+  background.addColorStop(0.58, mid);
+  background.addColorStop(1, light);
+  ctx.fillStyle = background;
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.globalAlpha = mode === "apartment" ? 0.32 : 0.2;
+  ctx.fillStyle = "#fff8ec";
+  if (mode === "fitness") {
+    ctx.fillRect(0, 0, width, 210);
+    ctx.fillStyle = "#0f1111";
+    for (let y = 770; y < height; y += 78) ctx.fillRect(0, y, width, 3);
+    for (let x = 0; x < width; x += 92) ctx.fillRect(x, 760, 3, height - 760);
+  } else if (mode === "nature") {
+    for (let i = 0; i < 24; i += 1) {
+      ctx.beginPath();
+      ctx.ellipse(80 + Math.random() * 920, 80 + Math.random() * 520, 35 + Math.random() * 100, 10 + Math.random() * 38, Math.random() * Math.PI, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  } else if (mode === "apartment") {
+    ctx.fillRect(116, 136, 18, 940);
+    ctx.fillRect(146, 152, 620, 10);
+    ctx.fillRect(760, 120, 180, 960);
+    ctx.fillStyle = "rgba(90,74,58,0.26)";
+    ctx.beginPath();
+    ctx.ellipse(590, 1040, 420, 105, -0.08, 0, Math.PI * 2);
+    ctx.fill();
+  } else {
+    ctx.beginPath();
+    ctx.ellipse(710, 420, 260, 310, -0.35, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillRect(120, 1010, 760, 52);
+    ctx.fillRect(205, 1090, 545, 42);
+  }
+  ctx.globalAlpha = 1;
+
+  const vignette = ctx.createRadialGradient(width * 0.5, height * 0.44, 100, width * 0.5, height * 0.48, 850);
+  vignette.addColorStop(0, "rgba(0,0,0,0)");
+  vignette.addColorStop(1, mode === "apartment" ? "rgba(70,52,36,0.18)" : "rgba(0,0,0,0.44)");
+  ctx.fillStyle = vignette;
+  ctx.fillRect(0, 0, width, height);
+  drawGrain(ctx, width, height, mode === "apartment" ? 0.045 : 0.075);
+}
+
 function loadImage(src) {
   return new Promise((resolve, reject) => {
     const image = new Image();
@@ -1027,79 +1213,74 @@ async function renderCanvas() {
   const ctx = canvas.getContext("2d");
   const item = selectedItem();
   const imageEntry = selectedLibraryImage();
+  const slide = carouselSlides(item)[selectedCarouselSlideIndex] || carouselSlides(item)[0];
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  ctx.fillStyle = "#f4f0e8";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   if (imageEntry?.dataUrl) {
     try {
       const image = await loadImage(imageEntry.dataUrl);
       coverCrop(ctx, image, 0, 0, canvas.width, canvas.height);
-      const bottomGradient = ctx.createLinearGradient(0, 420, 0, canvas.height);
-      bottomGradient.addColorStop(0, "rgba(10, 10, 10, 0.05)");
-      bottomGradient.addColorStop(0.48, "rgba(10, 10, 10, 0.42)");
-      bottomGradient.addColorStop(1, "rgba(10, 10, 10, 0.86)");
-      ctx.fillStyle = bottomGradient;
+      const imageWash = ctx.createLinearGradient(0, 0, 0, canvas.height);
+      imageWash.addColorStop(0, "rgba(0,0,0,0.20)");
+      imageWash.addColorStop(0.5, "rgba(0,0,0,0.04)");
+      imageWash.addColorStop(1, "rgba(0,0,0,0.50)");
+      ctx.fillStyle = imageWash;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      const sideGradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
-      sideGradient.addColorStop(0, "rgba(10, 10, 10, 0.52)");
-      sideGradient.addColorStop(0.55, "rgba(10, 10, 10, 0.05)");
-      sideGradient.addColorStop(1, "rgba(10, 10, 10, 0.28)");
-      ctx.fillStyle = sideGradient;
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      drawGrain(ctx, canvas.width, canvas.height, 0.045);
     } catch {
       selectedLibraryImageId = "";
+      drawAtmosphere(ctx, selectedAtmospherePreset, canvas.width, canvas.height);
     }
   } else {
-    ctx.fillStyle = "#151515";
-    ctx.fillRect(70, 70, canvas.width - 140, canvas.height - 140);
-    ctx.fillStyle = "#f7f2ea";
-    ctx.fillRect(98, 98, canvas.width - 196, canvas.height - 196);
-    ctx.fillStyle = "rgba(178, 32, 32, 0.88)";
-    ctx.fillRect(98, 98, 18, canvas.height - 196);
-    ctx.fillStyle = "rgba(29, 77, 114, 0.16)";
-    ctx.fillRect(650, 120, 230, 900);
-    ctx.fillStyle = "rgba(86, 107, 63, 0.18)";
-    ctx.fillRect(760, 760, 180, 360);
-    ctx.strokeStyle = "rgba(23, 23, 23, 0.18)";
-    ctx.lineWidth = 2;
-    for (let x = 165; x < 930; x += 54) {
-      ctx.beginPath();
-      ctx.moveTo(x, 170);
-      ctx.lineTo(x - 80, 1130);
-      ctx.stroke();
-    }
+    drawAtmosphere(ctx, selectedAtmospherePreset, canvas.width, canvas.height);
   }
 
   const hasImage = Boolean(imageEntry?.dataUrl);
-  const panelY = hasImage ? 800 : 650;
-  if (hasImage) {
-    ctx.fillStyle = "rgba(15, 15, 15, 0.42)";
-    ctx.fillRect(72, panelY - 62, canvas.width - 144, 470);
+  const isHook = slide.role === "hook";
+  const darkPreset = ["fitness", "night", "kissaten"].includes(selectedAtmospherePreset) || hasImage;
+  const headlineColor = isHook && !hasImage && !["fitness", "night", "kissaten"].includes(selectedAtmospherePreset) ? "#ff8bf2" : "#fffef9";
+  const smallColor = darkPreset ? "rgba(255,254,249,0.82)" : "rgba(255,254,249,0.88)";
+
+  ctx.textAlign = "center";
+  ctx.fillStyle = smallColor;
+  ctx.font = "900 24px Inter, Avenir Next, Arial";
+  ctx.letterSpacing = "3px";
+  ctx.fillText("JIMMY CUE", canvas.width / 2, 72);
+  ctx.letterSpacing = "0px";
+
+  const text = slide.text;
+  const maxWidth = isHook ? 900 : 760;
+  let fontSize = isHook ? 104 : 46;
+  let lineHeight = isHook ? 104 : 60;
+  let lines = [];
+  do {
+    ctx.font = `900 ${fontSize}px Inter, Avenir Next, Arial`;
+    lines = wrappedLines(ctx, text, maxWidth, isHook ? 4 : 5);
+    if (lines.length <= (isHook ? 3 : 4)) break;
+    fontSize -= 8;
+    lineHeight -= 7;
+  } while (fontSize > (isHook ? 66 : 34));
+
+  const blockHeight = lines.length * lineHeight;
+  const startY = isHook ? Math.max(410, 720 - blockHeight / 2) : 555;
+  ctx.fillStyle = headlineColor;
+  ctx.shadowColor = "rgba(0,0,0,0.28)";
+  ctx.shadowBlur = 18;
+  lines.forEach((line, index) => {
+    ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
+  });
+  ctx.shadowBlur = 0;
+
+  if (!isHook) {
+    const eyebrow = item.title || "daily thought";
+    ctx.fillStyle = "rgba(255,254,249,0.66)";
+    ctx.font = "800 22px Inter, Avenir Next, Arial";
+    ctx.fillText(eyebrow.toLowerCase(), canvas.width / 2, 1048);
   }
 
-  ctx.fillStyle = hasImage ? "#fffef9" : "#171717";
-  ctx.font = "900 34px Inter, Avenir Next, Arial";
-  ctx.fillText("Jimmy Cue", 92, 112);
-  ctx.font = "800 20px Inter, Avenir Next, Arial";
-  ctx.fillText("@" + plan.meta.creator.toLowerCase().replaceAll(" ", ""), 92, 144);
-
-  ctx.font = "900 22px Inter, Avenir Next, Arial";
-  ctx.fillStyle = hasImage ? "#f6e8d2" : "#b22020";
-  ctx.fillText(item.type.toUpperCase(), 92, panelY - 16);
-
-  const hook = item.hook || item.overlayText?.[0] || item.title;
-  ctx.font = "900 68px Inter, Avenir Next, Arial";
-  ctx.fillStyle = hasImage ? "#fffef9" : "#171717";
-  wrapText(ctx, hook, 92, panelY + 70, 850, 78, 5);
-
-  ctx.font = "800 26px Inter, Avenir Next, Arial";
-  ctx.fillStyle = hasImage ? "#f6e8d2" : "#5f625c";
-  wrapText(ctx, item.retentionBridge || item.purpose, 92, 1185, 780, 34, 3);
-
-  ctx.fillStyle = hasImage ? "#fffef9" : "#b22020";
-  ctx.fillRect(92, 1262, 240, 8);
+  ctx.fillStyle = smallColor;
+  ctx.font = "700 22px Inter, Avenir Next, Arial";
+  ctx.fillText(isHook ? "a thought for today" : `${selectedCarouselSlideIndex + 1}/${carouselSlides(item).length}`, canvas.width / 2, 1238);
 }
 
 function handlePhotoUpload(event) {
@@ -1120,9 +1301,11 @@ function handlePhotoUpload(event) {
         const state = loadState();
         state.imageLibrary = [...(state.imageLibrary || []), ...nextImages].slice(-16);
         selectedLibraryImageId = nextImages[0]?.id || selectedLibraryImageId;
+        selectedAtmospherePreset = "";
         saveState(state);
         event.target.value = "";
         renderImageLibrary();
+        renderAtmospherePresets();
         renderCanvas();
       }
     };
@@ -1134,8 +1317,10 @@ function clearImageLibrary() {
   const state = loadState();
   delete state.imageLibrary;
   selectedLibraryImageId = "";
+  selectedAtmospherePreset = "coffee";
   saveState(state);
   renderImageLibrary();
+  renderAtmospherePresets();
   renderCanvas();
 }
 
@@ -1144,7 +1329,7 @@ function downloadPng() {
     byId("coverCanvas").toBlob((blob) => {
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
-      link.download = `${selectedItem().id}-cover.png`;
+      link.download = `${selectedItem().id}-slide-${selectedCarouselSlideIndex + 1}.png`;
       document.body.appendChild(link);
       link.click();
       link.remove();
