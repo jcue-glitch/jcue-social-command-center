@@ -2892,5 +2892,458 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
     },
     performanceNote: "No real native platform metric history is saved in this workspace yet beyond starter placeholders in social-plan.js. After posting, manually enter views, retention, saves, shares, and sends so the next brief can optimize from actual results instead of heuristics."
+  },
+  {
+    generatedAt: "2026-05-21",
+    researchWindow: "Trend scan completed on May 21, 2026 using TikTok Next 2026, YouTube Shorts help docs, Later TikTok/Reels coverage, live Reddit routine conversations from May 2-5, 2026, Miranda Does Brands, and JCue Notion baseline learnings synced on May 20, 2026.",
+    weeklyTheme: {
+      dates: "May 15 - May 21, 2026",
+      title: "Soft Friction, Better Mornings",
+      thesis: "Close the week by making the first input of the day visible: not a perfect routine, but a calmer sequence that protects attention before the feed starts shaping the mood.",
+      whyNow: "Current platform signals still reward real process, search-led daily-life framing, and direct first-frame tension. The live conversation around mornings is less about aesthetic routines and more about not starting the day overstimulated, which fits Jimmy's slow-living and digital-minimalist authority.",
+      contentRule: "Every asset should show one deliberate first input: coffee before scrolling, clothes before content, a walk before noise, or an object that pulls attention back into the room."
+    },
+    dailyBrief: {
+      date: "2026-05-21",
+      day: "Thursday",
+      deliveryTime: "07:00 JST",
+      title: "protect the first input.",
+      objective: "Film a Thursday batch that makes Jimmy's calmer morning psychology visible: one phone-delay ritual, one quiet-uniform outfit thought, one commute or coffee proof, and one full thought video about why the first thing you consume shapes the whole day.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Bedside or charger area, coffee setup, mirror, shirt or trouser detail, bag or headphones, doorway exit, train platform reflection, and one seated talking-head setup by a window or desk.",
+      recommendation: "Lead with the phone-delay ritual on TikTok, use the quiet-uniform style clip for Reels, post the coffee/commute idea or talking-head cut to Shorts, and save the carousel plus written note for evening when viewers are more reflective.",
+      todayDoNotDo: [
+        "Do not make the anti-scroll angle sound anti-technology. Make it about authorship, not moralizing.",
+        "Do not over-stage the room. The thought works better if the morning still looks inhabited.",
+        "Do not make the style clip about fashion consumption. Keep it on rhythm, posture, and decision load.",
+        "Do not let the thought video drift into vague self-help. Thesis first, proof second, principle third.",
+        "Do not create new Notion entries for old YouTube rows today. The current local metrics file matches the baseline import already in Notion."
+      ],
+      approvalChecklist: [
+        "Does the first frame show the tension immediately: phone nearby but untouched, coffee already started, or outfit before app?",
+        "Is the 3-5 second bridge strong enough to move from lifestyle image to a clear principle?",
+        "Would the line still sound natural in one take without over-explaining?",
+        "Can the whole pack be captured inside a real weekday morning with no extra errands?",
+        "Does the thought video translate research into Jimmy's own lived morning instead of summarizing a source?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-05-21-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Five Things I Touched Before My Phone",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn the digital-minimalism conversation into a tactile identity post about choosing the first input of the day.",
+        hook: "five things i touched before my phone.",
+        firstFrameDirection: "Open on the strongest tactile proof first: mug handle, shirt cuff, notebook edge, headphone case, or keys in soft morning light.",
+        filmingFit: "Shoot in 5 minutes while leaving the apartment.",
+        shotList: [
+          "Slide 1: coffee cup or kettle in hand.",
+          "Slide 2: shirt cuff, trouser crease, or belt detail.",
+          "Slide 3: notebook, page, or bag pocket.",
+          "Slide 4: headphones, keys, or wallet on the table.",
+          "Slide 5: doorway or platform reflection."
+        ],
+        overlayText: [
+          "five things i touched before my phone.",
+          "not because i am above it.",
+          "because the first input shapes the day.",
+          "that changes more than people think."
+        ],
+        talkingScript: "Use as carousel/photo-mode copy only.",
+        caption: "Most people lose the morning before anything difficult even happens.\n\nNot because the day is too heavy.\n\nBecause the first thing they touch is the feed.\n\nI try to touch real things first: coffee, fabric, a page, my bag, the door.\n\nThat small sequence changes the pace of the whole morning.\n\nSearch phrases: digital minimalism, slow living morning routine, daily lifestyle, coffee morning routine, mens lifestyle, Tokyo life.",
+        creatorSearchTopics: ["digital minimalism", "daily lifestyle"],
+        seoKeywords: ["digital minimalism", "slow living morning routine", "daily lifestyle", "coffee morning routine", "mens lifestyle", "Tokyo life"],
+        keywords: ["digital minimalism", "slow living morning routine", "daily lifestyle", "coffee morning routine", "mens lifestyle", "Tokyo life"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#DailyLifestyle", "#coffeeroutine", "#tokyolife"],
+        retentionBridge: "Make slide 2 the shift from object beauty to the real point: it is about sequence, not aesthetics.",
+        editNotes: "Keep the images tactile and grounded. The copy should feel like a private standard, not a challenge."
+      },
+      {
+        id: "video-2026-05-21-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Your Morning Is Not The Problem",
+        format: "Talk-to-camera plus ritual B-roll, 22-30 seconds",
+        purpose: "Package the current anti-scroll morning conversation into a direct routine principle that fits Jimmy's calm authority.",
+        hook: "your morning is not the problem.",
+        onScreenText: "your morning is not the problem",
+        firstFrameDirection: "Open with the phone visible but untouched beside the bed, charger, or table. Your hand should move toward coffee, water, or clothing instead.",
+        retentionBridge: "At 3-5 seconds, cut from the untouched phone to a real action and say: 'the first input is.'",
+        filmingFit: "Film with one bedside shot, one coffee or water shot, one mirror or outfit line, and one exit clip.",
+        shotList: [
+          "Phone on bedside or charger.",
+          "Hand reaching for water, coffee, or shirt instead.",
+          "Mirror half-body or outfit detail.",
+          "Bag or key pickup.",
+          "Doorway or train-platform walk."
+        ],
+        talkingScript: "Your morning is not the problem. The first input is. If the day starts inside the feed, your attention already belongs to something else. I would rather touch coffee, fabric, air, and one clear task before I touch the internet.",
+        beatSheet: [
+          { time: "0-2s", action: "Open on the phone sitting still.", line: "Your morning is not the problem." },
+          { time: "3-5s", action: "Cut to hand choosing something real first.", line: "The first input is." },
+          { time: "6-14s", action: "Coffee, water, shirt, or notebook sequence.", line: "If the day starts inside the feed, your attention already belongs to something else." },
+          { time: "15-24s", action: "Mirror or exit proof.", line: "I would rather touch coffee, fabric, air, and one clear task before I touch the internet." },
+          { time: "25-30s", action: "Leave the room or frame.", line: "That protects the whole mood." }
+        ],
+        caption: "Most people think they need a better routine.\n\nUsually they need a better first input.\n\nThe feed is not neutral.\n\nIf that is the first thing touching your attention, it starts shaping your pace, your standards, your emotional weather, and what your mind feels available for.\n\nThat is why I try to touch real life first.\n\n#jimmycue #digitalminimalism #DailyThoughts #slowliving #tokyolife",
+        creatorSearchTopics: ["digital minimalism", "mindful living"],
+        seoKeywords: ["digital minimalism", "mindful living", "morning routine no talking", "slow living", "Tokyo life"],
+        keywords: ["digital minimalism", "mindful living", "morning routine no talking", "slow living", "Tokyo life"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#DailyThoughts", "#slowliving", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Best first post today because the hook is direct, negative, and instantly understandable.",
+          Instagram: "Use the tactile B-roll to soften the anti-scroll angle so it feels lived, not preachy.",
+          YouTube: "Only repurpose if retitled literally around first input or morning routine."
+        },
+        editNotes: "Keep the first two cuts fast. The bridge line has to land before second 5."
+      },
+      {
+        id: "video-2026-05-21-02",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "People Underestimate A Quiet Uniform",
+        format: "OOTD / style philosophy, 18-26 seconds",
+        purpose: "Use the baseline menswear signal from Notion while shifting the frame from fashion to calmer self-perception and lower decision load.",
+        hook: "people underestimate a quiet uniform.",
+        onScreenText: "people underestimate a quiet uniform",
+        firstFrameDirection: "Open on the strongest tactile detail first: cuff, seam, crease, belt edge, or bag strap before the full outfit.",
+        retentionBridge: "At 3-5 seconds, reveal the full outfit and say: 'less decision noise changes the whole way you move.'",
+        filmingFit: "Film while dressing with one close-up, one mirror reveal, and one door or platform shot.",
+        shotList: [
+          "Close-up of cuff, crease, seam, or soft fabric texture.",
+          "Mirror half-body outfit reveal.",
+          "Hand adjusting cuff, belt, watch, or bag.",
+          "Chair edge or room corner left in frame.",
+          "Walk-out or train reflection."
+        ],
+        talkingScript: "People underestimate a quiet uniform. Less decision noise changes the whole way you move. I like clothes that already know how to live with my mornings. That is why I keep coming back to the same tones, the same textures, and one detail that feels worn in enough to trust.",
+        beatSheet: [
+          { time: "0-2s", action: "Detail close-up first.", line: "People underestimate a quiet uniform." },
+          { time: "3-5s", action: "Reveal the full outfit.", line: "Less decision noise changes the whole way you move." },
+          { time: "6-14s", action: "Mirror or walking shot.", line: "I like clothes that already know how to live with my mornings." },
+          { time: "15-22s", action: "Cuff, bag, or chair detail.", line: "That is why I keep coming back to the same tones, the same textures, and one detail that feels worn in enough to trust." },
+          { time: "23-26s", action: "Exit frame.", line: "Quiet can still have authority." }
+        ],
+        caption: "Style gets easier when it stops being a daily identity crisis.\n\nA quiet uniform is not boring.\n\nIt lowers decision noise so your attention can go somewhere better.\n\nThat is why I trust the same tones, similar silhouettes, and one worn detail that still feels alive.\n\nThe goal is not more options.\n\nThe goal is a stronger standard.\n\n#jimmycue #mensstyle #menslifestyle #fitcheck #ootd",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        seoKeywords: ["fit check", "mens lifestyle", "quiet luxury", "daily outfit", "Tokyo life"],
+        keywords: ["fit check", "mens lifestyle", "quiet luxury", "daily outfit", "Tokyo life"],
+        hashtags: ["#jimmycue", "#mensstyle", "#menslifestyle", "#fitcheck", "#ootd"],
+        platformNotes: {
+          TikTok: "Supports the baseline menswear learning if the hook stays psychological, not fashion-generic.",
+          Instagram: "Strong lunch-hour Reel because saves and shares tend to come from identity language plus detail shots.",
+          YouTube: "Retitle literally if used as a Short: 'Why I Wear A Quiet Uniform'."
+        },
+        editNotes: "Keep one lived-in detail visible so the post does not feel too polished."
+      },
+      {
+        id: "video-2026-05-21-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok", "Instagram Reels"],
+        title: "Coffee Is Not The Ritual",
+        format: "Coffee-plus-commute philosophy clip, 18-24 seconds",
+        purpose: "Use coffee-morning-routine search interest while clarifying that the real value is sequencing and attention, not the object itself.",
+        hook: "coffee is not the ritual. it is the pause before the noise.",
+        onScreenText: "coffee is not the ritual",
+        firstFrameDirection: "Open on movement first: pour, steam, mug pickup, or the walk out the door with coffee in hand.",
+        retentionBridge: "At 3-5 seconds, cut from the pour to your hand pausing and say: 'the ritual is what happens before the feed gets you back.'",
+        filmingFit: "Film with one pour shot, one hand pause, one doorway or platform clip, and one small Tokyo texture shot.",
+        shotList: [
+          "Pour or steam shot.",
+          "Hand holding the mug still for one beat.",
+          "Doorway or keys in hand.",
+          "Platform or train window reflection.",
+          "Optional overhead of cup and notebook."
+        ],
+        talkingScript: "Coffee is not the ritual. It is the pause before the noise. The ritual is what happens before the feed gets you back. One minute of stillness, one clear task, one breath, one look out the window. That is what I am actually protecting.",
+        beatSheet: [
+          { time: "0-2s", action: "Open on pour or steam.", line: "Coffee is not the ritual." },
+          { time: "3-5s", action: "Hand pauses with the mug.", line: "It is the pause before the noise." },
+          { time: "6-13s", action: "Doorway or notebook clip.", line: "The ritual is what happens before the feed gets you back." },
+          { time: "14-21s", action: "Window or commute proof.", line: "One minute of stillness, one clear task, one breath, one look out the window." },
+          { time: "22-24s", action: "End on the cup or walk.", line: "That is what I am actually protecting." }
+        ],
+        caption: "Most people copy the object and miss the system around it.\n\nCoffee is not the point.\n\nThe point is that it gives the morning a pause before the internet starts making demands.\n\nThat small pause is where I want my own mind back.\n\nThe object is not the point.\n\nThe ritual around it is.\n\n#jimmycue #coffeeroutine #slowliving #digitalminimalism #DailyLifestyle",
+        creatorSearchTopics: ["coffee morning routine", "calm life aesthetic"],
+        seoKeywords: ["coffee morning routine", "calm life aesthetic", "digital minimalism", "Tokyo life", "slow living"],
+        keywords: ["coffee morning routine", "calm life aesthetic", "digital minimalism", "Tokyo life", "slow living"],
+        hashtags: ["#jimmycue", "#coffeeroutine", "#slowliving", "#digitalminimalism", "#DailyLifestyle"],
+        platformNotes: {
+          TikTok: "Good secondary post if the first frame moves immediately and the voice line starts fast.",
+          Instagram: "Let the clip feel tactile and quiet; no need for fast edits beyond the first bridge.",
+          YouTube: "Best Shorts candidate if titled literally around coffee, ritual, and digital minimalism."
+        },
+        editNotes: "The first frame has to move. Keep the audio soft and the line clean."
+      },
+      {
+        id: "thought-2026-05-21-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "You Do Not Need A Better Morning Routine",
+        format: "Talking-head thought video with 3-4 B-roll inserts, 60-85 seconds",
+        purpose: "Build a Substack-informed spoken essay for high-achieving people with taste who are overstimulated, over-referenced, and giving their mornings away before they make anything real.",
+        sourceInspiration: [
+          "Miranda Does Brands on doing what you said you would do.",
+          "Current Reddit conversation about not starting breakfast and mornings inside a feed.",
+          "Self-Authored Life Atelier worldview: inspiration stays borrowed until it becomes form.",
+          "TikTok and YouTube signals rewarding real process, curiosity, and strong first-frame intention."
+        ],
+        sourceReferences: [
+          {
+            title: "Miranda Does Brands - How To Do The Shit You Say You're Going To Do",
+            source: "Substack",
+            url: "https://open.substack.com/pub/mirandadoesbrands/p/how-to-do-the-shit-you-say-youre?r=4cn3ol&utm_campaign=post-expanded-share&utm_medium=web",
+            note: "Execution gap and doing before over-curating the perfect version of the day."
+          },
+          {
+            title: "What is your morning routine?",
+            source: "Reddit r/digitalminimalism",
+            url: "https://www.reddit.com/r/digitalminimalism/comments/1t4guag/what_is_your_morning_routine/",
+            note: "People are explicitly trying to replace breakfast-time scrolling with books, silence, walks, and real-world attention."
+          },
+          {
+            title: "Seriously, put down your phone, especially in the morning, I'm actually blown away.",
+            source: "Reddit r/selfimprovement",
+            url: "https://www.reddit.com/r/selfimprovement/comments/1t1srns/seriously_put_down_your_phone_especially_in_the/",
+            note: "Recent conversation framing the phone as the thing stretching and fragmenting the whole morning."
+          },
+          {
+            title: "Introducing TikTok Next 2026",
+            source: "TikTok Newsroom",
+            url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?_hsmi=399120832&lang=en",
+            note: "Current first-party framing around Reali-TEA, curiosity, and content that meets people in real life rather than polished distance."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "you do not need a better morning routine.",
+        onScreenText: "you do not need a better morning routine",
+        firstFrameDirection: "Open on a calm talking-head frame near a window, desk, or chair with one proof object in view: coffee, notebook, shirt, or headphones. Speak the thesis immediately.",
+        retentionBridge: "At 3-5 seconds, cut from your face to one real morning proof and say: 'you need a first input you actually chose.'",
+        fullTalkingScript: "You do not need a better morning routine.\n\nYou need a first input you actually chose.\n\nA lot of people think the problem is discipline. I do not think that is the main problem anymore.\n\nI think a lot of people are waking up and handing their attention away before they have touched anything real.\n\nThen they wonder why the day already feels noisy, why their mood feels borrowed, why they keep consuming inspiration without making anything.\n\nThis morning, before I touched my phone, I touched coffee, fabric, air, my bag, and the door.\n\nThat sounds small, but it changes the whole pace of the day.\n\nBecause the first thing you consume starts shaping what your mind believes is important.\n\nSo if you want a calmer life, do not just build a prettier routine.\n\nBuild a first input that belongs to you.\n\nThat is where authorship starts.",
+        talkingScript: "You do not need a better morning routine.\n\nYou need a first input you actually chose.\n\nA lot of people think the problem is discipline. I think the real problem is that they wake up and hand their attention away before they have touched anything real.\n\nThis morning, before I touched my phone, I touched coffee, fabric, air, my bag, and the door.\n\nThat sounds small, but it changes the whole pace of the day.\n\nBuild a first input that belongs to you. That is where authorship starts.",
+        beatSheet: [
+          { time: "0-3s", action: "Talking head, direct eye contact.", line: "You do not need a better morning routine." },
+          { time: "3-8s", action: "Cut to coffee, shirt, or notebook proof.", line: "You need a first input you actually chose." },
+          { time: "9-24s", action: "Return to talking head.", line: "A lot of people think the problem is discipline. I do not think that is the main problem anymore." },
+          { time: "25-42s", action: "B-roll: phone untouched, coffee, outfit, bag, doorway.", line: "I think a lot of people are waking up and handing their attention away before they have touched anything real." },
+          { time: "43-62s", action: "Face plus hand/object insert.", line: "This morning, before I touched my phone, I touched coffee, fabric, air, my bag, and the door. That sounds small, but it changes the whole pace of the day." },
+          { time: "63-85s", action: "End on face or quiet exit shot.", line: "Build a first input that belongs to you. That is where authorship starts." }
+        ],
+        shotList: [
+          "Talking head by window, chair, or desk.",
+          "Phone on charger or bedside untouched.",
+          "Coffee pour or mug pickup.",
+          "Shirt cuff or fabric detail.",
+          "Bag, headphones, keys, or notebook.",
+          "Doorway exit or train-platform reflection."
+        ],
+        caption: "Most people are not failing at mornings.\n\nThey are letting the first input of the day get chosen for them.\n\nThat matters more than people think.\n\nThe first thing you consume starts shaping your pace, your emotional weather, and what your mind believes deserves attention.\n\nThat is why I try to touch real life first.\n\nCoffee. Fabric. Air. A page. The door.\n\nBuild a first input that belongs to you.\n\nThat is where authorship starts.\n\n#jimmycue #DailyThoughts #digitalminimalism #selfgrowth #slowliving",
+        keywords: ["daily thoughts", "digital minimalism", "self growth", "slow living", "morning routine"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "self growth", "slow living", "morning routine", "mindful living"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#selfgrowth", "#slowliving"],
+        platformNotes: {
+          TikTok: "Keep the first line direct and clean. Add readable captions with generous spacing.",
+          Instagram: "Strong relationship-building Reel for viewers tired of overstimulated routine content.",
+          YouTube: "Trim to 60-70 seconds if used as a Short and retitle literally around morning routine or phone use."
+        },
+        editNotes: "Keep the tone calm and principle-based. Use B-roll to prove the point, not to decorate it."
+      },
+      {
+        id: "story-2026-05-21-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "First Input Poll",
+        format: "Poll story",
+        purpose: "Turn the morning-input theme into an easy audience participation prompt.",
+        hook: "first input today?",
+        firstFrameDirection: "Open on two options in the same light with enough space for the poll sticker.",
+        filmingFit: "Shoot while leaving or at the coffee setup.",
+        shotList: ["Coffee mug vs phone, or notebook vs phone."],
+        talkingScript: "First input today?",
+        copy: "first input today?",
+        pollOptions: ["coffee", "phone"],
+        caption: "small sequence, big difference.",
+        seoKeywords: ["morning routine", "digital minimalism", "daily lifestyle"],
+        keywords: ["morning routine", "digital minimalism", "daily lifestyle"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#digitalminimalism", "#coffeeroutine"],
+        retentionBridge: "The poll makes the idea instantly personal.",
+        editNotes: "Keep it casual and fast."
+      },
+      {
+        id: "story-2026-05-21-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Quiet Uniform Note",
+        format: "BTS text + clip",
+        purpose: "Support the style post with one minimal note about lower decision noise.",
+        hook: "quiet uniform = less decision noise",
+        firstFrameDirection: "Open on a moving outfit detail clip first, then let the text sit.",
+        filmingFit: "Shoot a 5-second cuff, mirror, or bag clip.",
+        shotList: ["Cuff, mirror, bag strap, or shoe clip."],
+        talkingScript: "Quiet uniform equals less decision noise.",
+        copy: "quiet uniform = less decision noise",
+        pollOptions: [],
+        caption: "that matters more than trend rotation.",
+        seoKeywords: ["fit check", "mens lifestyle", "quiet luxury"],
+        keywords: ["fit check", "mens lifestyle", "quiet luxury"],
+        hashtags: ["#jimmycue", "#fitcheck", "#mensstyle", "#quietluxury"],
+        retentionBridge: "The line should feel like a private note from the mirror.",
+        editNotes: "No heavy design. Let the texture carry it."
+      },
+      {
+        id: "written-2026-05-21-01",
+        type: "Written Post / Substack Note",
+        platformPriority: ["Substack Notes", "Instagram caption screenshot", "Threads"],
+        title: "The First Input",
+        format: "Short written note",
+        purpose: "Give Jimmy one slower written post that translates the morning-input theme into a Substack-native note without summarizing the source material.",
+        hook: "the first input matters more than the routine.",
+        firstFrameDirection: "If screenshotting for social, pair the text with a notebook, mug, or charger corner in soft morning light.",
+        retentionBridge: "Break after the second line so the thought opens before the practical proof arrives.",
+        talkingScript: "Use as written copy only.",
+        draft: "the first input matters more than the routine.\n\nmost people are not starting the day late.\nthey are starting it borrowed.\n\nborrowed mood.\nborrowed urgency.\nborrowed attention.\n\nthat is why i like touching real things first.\ncoffee.\nfabric.\na page.\nthe door.\n\nbefore the feed tells me what the day is supposed to feel like.",
+        caption: "Optional cross-post caption: a note from this morning.",
+        seoKeywords: ["digital minimalism writing", "daily thoughts", "slow living note", "authored life"],
+        keywords: ["digital minimalism writing", "daily thoughts", "slow living note", "authored life"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving"],
+        editNotes: "Keep it spare and lowercase. No extra explanation."
+      }
+    ],
+    schedule: [
+      { time: "07:10-07:55", action: "Film the phone-delay ritual, quiet-uniform style clip, coffee/commute clip, talking-head thought video, carousel assets, both Stories, and the written-note photo.", platform: "Phone", reason: "One batch keeps the whole idea anchored in the same real Thursday morning." },
+      { time: "08:35", action: "Post 'Your Morning Is Not The Problem'.", platform: "TikTok", reason: "The hook is direct, negative, and aligned with current anti-scroll routine conversation." },
+      { time: "12:20", action: "Post 'People Underestimate A Quiet Uniform'.", platform: "Instagram Reels", reason: "Midday is a strong slot for saveable identity-based style content." },
+      { time: "16:40", action: "Post 'You Do Not Need A Better Morning Routine' if the talking-head take feels sharp.", platform: "TikTok / Reels", reason: "Afternoon is a good test window for a fuller POV with a complete thought." },
+      { time: "18:45", action: "Post 'Coffee Is Not The Ritual'.", platform: "YouTube Shorts", reason: "The title is literal, searchable, and strong for Shorts retention." },
+      { time: "20:40", action: "Post 'Five Things I Touched Before My Phone'.", platform: "Instagram / TikTok photo mode", reason: "Evening is better for reflective saves and shares." },
+      { time: "21:00", action: "Post 'The First Input' to Substack Notes if it still feels true after the day.", platform: "Substack Notes", reason: "The written angle fits the slower evening slot." },
+      { time: "Any time before 21:00", action: "Post the first-input poll and quiet-uniform story.", platform: "Stories", reason: "Stories keep the theme conversational without extra production load." },
+      { time: "21:15", action: "Log native metrics manually if available: views, retention, saves, shares, and sends.", platform: "Dashboard", reason: "Tomorrow's optimization still depends on manual signal capture." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 forecast says users are in discovery mode, want real stories, and are moving from romanticizing life toward grounded accountability and imperfect human proof.",
+        source: "TikTok Newsroom / TikTok Next 2026",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?_hsmi=399120832&lang=en",
+        implication: "Lead with real morning proof and direct thesis lines instead of overly polished setup shots."
+      },
+      {
+        signal: "TikTok's forecast also frames search behavior as curiosity-led, with users scanning for useful things beyond the original query.",
+        source: "TikTok Newsroom / TikTok Next 2026",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?_hsmi=399120832&lang=en",
+        implication: "Package clips around searchable daily-life tension: morning routine, coffee routine, digital minimalism, fit check, and daily thoughts."
+      },
+      {
+        signal: "Later's April 8, 2026 TikTok trends guide says the brands and creators winning are filtering harder, moving earlier, and turning trends into native content rather than borrowed participation.",
+        source: "Later - Current TikTok Trends to Try in 2026",
+        url: "https://later.com/blog/current-tiktok-trends/",
+        implication: "Use the live anti-scroll routine conversation, but translate it into Jimmy's calm masculine lane instead of trend imitation."
+      },
+      {
+        signal: "Later's Reels trends page is updated weekly, which is useful for low-lift narrative clip strings and saveable mood-driven formats rather than high-production tutorials.",
+        source: "Later - Top Instagram Reels Trends to Try in 2026",
+        url: "https://later.com/blog/instagram-reels-trends/",
+        implication: "Keep the Reels concepts as tactile fragments with one clear line, not dense explanations."
+      },
+      {
+        signal: "YouTube says Shorts are recommended based on what viewers choose to watch and enjoy, not one specific format, and ranking reflects hold quality like average view duration and average percentage viewed.",
+        source: "YouTube Help - Search & discovery tips for Shorts",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "The Shorts candidate needs an instantly readable first frame and a sharp 3-5 second bridge."
+      },
+      {
+        signal: "A recent Reddit r/digitalminimalism thread asks what to do over breakfast after deleting YouTube and other time-wasting apps, with replies centering reading, silence, walking, and touching real life first.",
+        source: "Reddit r/digitalminimalism",
+        url: "https://www.reddit.com/r/digitalminimalism/comments/1t4guag/what_is_your_morning_routine/",
+        implication: "Morning content about real objects, real silence, and calmer first inputs feels current without needing to look trend-chasing."
+      },
+      {
+        signal: "A May 2, 2026 Reddit self-improvement post about leaving the phone behind in the morning describes the phone as the thing stretching and fragmenting the whole routine.",
+        source: "Reddit r/selfimprovement",
+        url: "https://www.reddit.com/r/selfimprovement/comments/1t1srns/seriously_put_down_your_phone_especially_in_the/",
+        implication: "Jimmy's best angle is not 'quit your phone' but 'protect the first input so the day feels authored.'"
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda Shanahan's owner-provided reference keeps the execution gap in focus: doing the thing before over-curating the perfect context.",
+        source: "Miranda Does Brands",
+        url: "https://open.substack.com/pub/mirandadoesbrands/p/how-to-do-the-shit-you-say-youre?r=4cn3ol&utm_campaign=post-expanded-share&utm_medium=web",
+        implication: "Frame today's thought video around choosing one real morning action before consuming more inspiration."
+      },
+      {
+        signal: "Two Percent's public positioning stays centered on useful information, performance, and restraint rather than clutter and novelty.",
+        source: "Two Percent",
+        url: "https://www.twopct.com/",
+        implication: "Keep object culture in support of rhythm and attention, not accumulation."
+      },
+      {
+        application: "Substack note draft included in today's content pack as 'The First Input.'",
+        reason: "It turns the slower-culture signal into Jimmy's own lived morning language instead of a summary."
+      }
+    ],
+    keywordBank: {
+      primary: ["digital minimalism", "morning routine", "daily thoughts", "quiet uniform", "coffee morning routine", "Tokyo life", "slow living"],
+      secondary: ["mindful living", "mens lifestyle", "fit check", "calm life aesthetic", "daily lifestyle", "self growth", "quiet luxury"],
+      titles: [
+        "your morning is not the problem",
+        "people underestimate a quiet uniform",
+        "coffee is not the ritual",
+        "you do not need a better morning routine",
+        "five things i touched before my phone"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#digitalminimalism", "#DailyThoughts", "#slowliving", "#tokyolife"],
+        fashion: ["#jimmycue", "#mensstyle", "#menslifestyle", "#fitcheck", "#ootd"],
+        routine: ["#jimmycue", "#coffeeroutine", "#DailyLifestyle", "#mindset", "#digitalminimalism"],
+        futureBusiness: ["#jimmycue", "#DailyThoughts", "#slowliving", "#quietluxury", "#selfgrowth"]
+      }
+    },
+    metricRecommendations: [
+      "Repeat the baseline menswear winner pattern from Notion: pair style-detail footage with direct psychological language, not generic fashion tags.",
+      "Keep one imperfection/principle angle in the pack because the perfection-theme baseline showed stronger engagement density than broader lifestyle posts.",
+      "Use at least one fuller thought-video test today because quiet-life reflections drew comments despite lower reach in the current YouTube baseline.",
+      "When posting to Shorts, prioritize literal searchable titles and the strongest first-frame movement because YouTube ranking is sensitive to chose-to-view and hold quality."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No posted-yesterday row in Notion yet",
+        note: "The JCue Social Metrics Hub currently holds YouTube baseline imports from May 20, 2026, but no fresh 24h/48h/7d snapshots from a May 20 post.",
+        action: "If anything is posted today, log the first 24h snapshot tomorrow morning and compare it against the existing menswear, imperfection, and quiet-life baselines."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing drove the highest baseline views",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "A grounded daily-life phrase paired with menswear search tags produced the strongest baseline reach.",
+          repeat: "Use tactile outfit detail with direct psychology: posture, standards, decision noise, or self-perception."
+        },
+        {
+          title: "Perfection theme showed stronger engagement density",
+          metric: "95 views with stronger like-to-view ratio",
+          platform: "YouTube Shorts",
+          why: "Imperfection and standards fit Jimmy's wabi-sabi lane and drew denser engagement than broader lifestyle posts.",
+          repeat: "Keep assertive imperfection lines in the rotation: imperfect is not careless; authorship is stronger than polish."
+        },
+        {
+          title: "Quiet-life thought drew comments despite low reach",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective calm-life language created deeper response even before reach scaled.",
+          repeat: "Develop more talking-head thought videos with a strong first frame and one lived morning proof."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: false,
+      nextDueCheck: "2026-05-24",
+      note: "A biweekly long-form upload is not due today. Keep collecting phone-down, coffee, mirror, notebook, and commute footage so the May 24 planning cycle can shape a calmer-life essay film.",
+      suggestion: "Provisional long-form angle for the next due check: 'the first input: how i protect a calmer creative life in tokyo' or 'why a quieter morning matters more than a perfect routine.'",
+      referenceNote: "Use Havenotats only as a casual pacing and connection reference. Keep Jimmy's topic focus on life, thoughts, creative direction, style, beauty, and wabi-sabi."
+    },
+    performanceNote: "No new Notion rows were created on this run. `.youtube/latest_metrics.json` matched the baseline YouTube import already written to Content Pieces and Performance Snapshots on May 20, 2026, so today's optimization uses existing baseline learnings rather than new 24h/48h/7d data."
   }
 ];
