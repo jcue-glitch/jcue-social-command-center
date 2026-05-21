@@ -101,8 +101,9 @@ The TikTok connection checklist lives in:
 2. Create an OAuth client that allows this redirect URI: `http://127.0.0.1:4178/oauth2callback`.
 3. Download the OAuth client JSON and save it as `.youtube/oauth_client.json`. A placeholder shape is in `.youtube/oauth_client.example.json`.
 4. Run `python3 scripts/youtube_local_server.py --port 4178`.
-5. In the dashboard, open YouTube API, click Check Bridge, then Connect YouTube.
+5. In the dashboard, open Live Analytics, click Check YouTube, then Connect YouTube.
 6. After Google consent returns to the local callback, click Sync Metrics.
+7. Optional: generate a Notion-ready local snapshot export with `python3 scripts/youtube_snapshot_report.py --date YYYY-MM-DD`.
 
 Requested read-only scopes:
 

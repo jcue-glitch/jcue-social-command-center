@@ -621,7 +621,7 @@ window.JIMMY_SOCIAL_PLAN = {
     starterMetrics: [
       { platform: "TikTok", followers: 8596, avgViews: 1200, retention: 42, saves: 0, shares: 0, notes: "Public follower count from third-party search snippets; replace with native analytics." },
       { platform: "Instagram", followers: 0, avgViews: 0, retention: 0, saves: 0, shares: 0, notes: "Connect Instagram professional insights or enter manually." },
-      { platform: "YouTube Shorts", followers: 972, avgViews: 0, retention: 0, saves: 0, shares: 0, notes: "Public subscriber count from search snippet; connect YouTube Analytics API for reliable data." }
+      { platform: "YouTube Shorts", followers: 985, avgViews: 0, retention: 0, saves: 0, shares: 0, notes: "Latest known subscriber count from the local YouTube API sync; use Sync YouTube for the freshest local data." }
     ],
     winningSignals: [
       "3-second hold rate above your account baseline",

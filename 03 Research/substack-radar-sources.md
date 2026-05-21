@@ -30,6 +30,13 @@ Add one source per line in this format:
   - Useful themes for JCue: idea-to-execution gap, starting before the brand is perfect, small public stakes, putting one foot in front of the other, building trust through doing, creative life without over-planning.
   - JCue translation: connect her execution theme to Jimmy's quieter lane: "stop waiting for the perfect version of your life before making the thing," filmed through apartment mornings, commute thoughts, outfit details, and creative-direction notes.
 
+- Kevin Kelly: https://kk.org/thetechnium/feed/
+  - Substack profile/post source: https://open.substack.com/pub/kevinkelly/p/your-most-improbable-life?r=4cn3ol&utm_campaign=post&utm_medium=web
+  - Reference post: "Your Most Improbable Life"
+  - Owner note: Jimmy likes the idea that becoming more authentically yourself creates a category of one and makes the work less replaceable by AI.
+  - Useful themes for JCue: category of one, becoming more you-like, less competition through specificity, authenticity as creative moat, building an improbable life instead of a predictable personal brand.
+  - JCue translation: turn this into thought videos about style, routines, objects, and Tokyo life as proof of becoming more specific rather than trying to win a generic creator race.
+
 ## Starter Themes To Look For
 
 - Overstimulation and digital minimalism.

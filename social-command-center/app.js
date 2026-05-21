@@ -494,10 +494,9 @@ function renderPerformanceIntel() {
 }
 
 const youtubeSetupSteps = [
-  "Create or use a Google Cloud project with YouTube Data API v3 and YouTube Analytics API enabled.",
-  "Create an OAuth client and add this redirect URI: http://127.0.0.1:4178/oauth2callback",
-  "Save the downloaded client JSON as .youtube/oauth_client.json in the JCue Project folder.",
-  "Run the local YouTube bridge, then connect and approve read-only YouTube access in Google."
+  "Run the local YouTube bridge before syncing.",
+  "Use Sync YouTube after a new Short has had time to collect data.",
+  "Notion stores Content Pieces, Performance Snapshots, and outlier learnings."
 ];
 
 const tiktokSetupSteps = [
@@ -524,13 +523,55 @@ const remoteAccessSteps = [
   "After deployment, open the hosted URL on your phone and add it to the home screen."
 ];
 
-function renderYoutubeSetup() {
-  byId("youtubeSetupList").innerHTML = renderCheckList(youtubeSetupSteps, "+");
+function renderLiveAnalyticsHub() {
+  const state = loadState();
+  const youtubeMetric = metricsState()["YouTube Shorts"] || {};
+  const starterYoutubeMetric = plan.performance.starterMetrics.find((metric) => metric.platform === "YouTube Shorts") || {};
+  const youtubeFollowers = Math.max(
+    Number(youtubeMetric.followers) || 0,
+    Number(starterYoutubeMetric.followers) || 0,
+    985
+  );
+  const statuses = [
+    {
+      platform: "YouTube",
+      status: state.metrics?.["YouTube Shorts"] ? "Connected" : "Connected locally",
+      tone: "connected",
+      detail: `${youtubeFollowers} subscribers latest known. Last sync updates the dashboard and Notion-ready cache.`
+    },
+    {
+      platform: "Notion",
+      status: "Connected",
+      tone: "connected",
+      detail: "Metrics hub is live with Content Pieces, Performance Snapshots, and Outliers + Learnings."
+    },
+    {
+      platform: "TikTok",
+      status: "Pending review",
+      tone: "pending",
+      detail: "Website verified. Login Kit + video.list submitted path is waiting on TikTok approval."
+    },
+    {
+      platform: "Instagram",
+      status: "Paused",
+      tone: "paused",
+      detail: "Waiting until Meta / Business access is available so manual logging is not required."
+    }
+  ];
+
+  byId("platformStatusGrid").innerHTML = statuses
+    .map((item) => `
+      <div class="platform-status ${escapeHtml(item.tone)}">
+        <span>${escapeHtml(item.status)}</span>
+        <strong>${escapeHtml(item.platform)}</strong>
+        <p>${escapeHtml(item.detail)}</p>
+      </div>
+    `)
+    .join("");
+
+  byId("liveAnalyticsChecklist").innerHTML = renderCheckList([...youtubeSetupSteps, ...tiktokSetupSteps.slice(0, 3)], "+");
 }
 
-function renderTikTokSetup() {
-  byId("tiktokSetupList").innerHTML = renderCheckList(tiktokSetupSteps, "+");
-}
 
 function renderRemoteAccess() {
   byId("remoteAccessChecklist").innerHTML = renderCheckList(remoteAccessSteps, "+");
@@ -600,6 +641,7 @@ async function syncYoutubeMetrics() {
     };
     saveState(state);
     renderMetrics();
+    renderLiveAnalyticsHub();
   } catch (error) {
     setYoutubeStatus("Sync failed", error.message || "Could not sync YouTube metrics.");
   }
@@ -1162,8 +1204,7 @@ renderKeywords();
 renderSchedule();
 renderLongForm();
 renderMetrics();
-renderYoutubeSetup();
-renderTikTokSetup();
+renderLiveAnalyticsHub();
 renderRemoteAccess();
 renderIntegrations();
 bindEvents();

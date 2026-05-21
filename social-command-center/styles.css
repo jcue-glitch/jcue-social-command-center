@@ -378,6 +378,7 @@ h3 {
 .keyword-layout,
 .longform-layout,
 .youtube-layout,
+.live-analytics-layout,
 .remote-layout {
   display: grid;
   gap: 18px;
@@ -530,8 +531,61 @@ h3 {
 
 .production-layout,
 .integration-layout,
-.youtube-layout {
+.youtube-layout,
+.live-analytics-layout {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.9fr);
+}
+
+.analytics-main,
+.analytics-side {
+  min-width: 0;
+}
+
+.platform-status-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.platform-status {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(250, 247, 239, 0.78);
+  padding: 13px;
+}
+
+.platform-status.connected {
+  border-top: 4px solid var(--moss);
+}
+
+.platform-status.pending {
+  border-top: 4px solid var(--persimmon);
+}
+
+.platform-status.paused {
+  border-top: 4px solid var(--muted);
+}
+
+.platform-status span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.platform-status strong {
+  display: block;
+  font-size: 16px;
+}
+
+.platform-status p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
 }
 
 .remote-layout {
@@ -552,6 +606,10 @@ h3 {
 
 .tiktok-result {
   border-left: 4px solid var(--lacquer);
+}
+
+.compact-checks {
+  margin-top: 12px;
 }
 
 .radar-grid,
@@ -1052,6 +1110,7 @@ h3 {
   .keyword-layout,
   .longform-layout,
   .youtube-layout,
+  .live-analytics-layout,
   .remote-layout,
   .performance-intel {
     grid-template-columns: 1fr;
@@ -1064,6 +1123,7 @@ h3 {
 
   .radar-grid,
   .metrics-grid,
+  .platform-status-grid,
   .source-strip,
   .outlier-strip,
   .remote-layout {

@@ -1,4 +1,4 @@
-const CACHE_NAME = "jcue-social-command-center-v5";
+const CACHE_NAME = "jcue-social-command-center-v7";
 const ASSETS = [
   "./",
   "./index.html",
@@ -27,19 +27,27 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const requestUrl = new URL(event.request.url);
   if (requestUrl.pathname.includes("/api/")) return;
+  const isDashboardAsset = [
+    "/social-command-center/",
+    "/social-command-center/index.html",
+    "/social-command-center/styles.css",
+    "/social-command-center/app.js",
+    "/social-command-center/data/social-plan.js",
+    "/social-command-center/data/daily-updates.js"
+  ].some((path) => requestUrl.pathname === path);
 
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request)
-        .then((response) => {
-          if (event.request.method === "GET" && response.ok) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-          }
-          return response;
-        })
-        .catch(() => caches.match("./index.html"));
-    })
+    (isDashboardAsset
+      ? fetch(event.request).catch(() => caches.match(event.request))
+      : caches.match(event.request).then((cached) => cached || fetch(event.request))
+    )
+      .then((response) => {
+        if (event.request.method === "GET" && response?.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+        }
+        return response;
+      })
+      .catch(() => caches.match("./index.html"))
   );
 });

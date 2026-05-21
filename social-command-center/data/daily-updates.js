@@ -2895,7 +2895,7 @@ window.JCUE_DAILY_UPDATES = [
   },
   {
     generatedAt: "2026-05-21",
-    researchWindow: "Trend scan completed on May 21, 2026 using TikTok Next 2026, YouTube Shorts help docs, Later TikTok/Reels coverage, live Reddit routine conversations from May 2-5, 2026, Miranda Does Brands, and JCue Notion baseline learnings synced on May 20, 2026.",
+    researchWindow: "Trend scan completed on May 21, 2026 using TikTok Next 2026, YouTube Shorts help docs, Later TikTok/Reels coverage, live Reddit routine conversations from May 2-5, 2026, Miranda Does Brands, Kevin Kelly's owner-provided Substack reference, and JCue Notion baseline learnings synced on May 20, 2026.",
     weeklyTheme: {
       dates: "May 15 - May 21, 2026",
       title: "Soft Friction, Better Mornings",
@@ -3086,6 +3086,7 @@ window.JCUE_DAILY_UPDATES = [
         purpose: "Build a Substack-informed spoken essay for high-achieving people with taste who are overstimulated, over-referenced, and giving their mornings away before they make anything real.",
         sourceInspiration: [
           "Miranda Does Brands on doing what you said you would do.",
+          "Kevin Kelly's 'most improbable life' idea: the more you-like you become, the less replaceable and less competitive your creative lane becomes.",
           "Current Reddit conversation about not starting breakfast and mornings inside a feed.",
           "Self-Authored Life Atelier worldview: inspiration stays borrowed until it becomes form.",
           "TikTok and YouTube signals rewarding real process, curiosity, and strong first-frame intention."
@@ -3096,6 +3097,12 @@ window.JCUE_DAILY_UPDATES = [
             source: "Substack",
             url: "https://open.substack.com/pub/mirandadoesbrands/p/how-to-do-the-shit-you-say-youre?r=4cn3ol&utm_campaign=post-expanded-share&utm_medium=web",
             note: "Execution gap and doing before over-curating the perfect version of the day."
+          },
+          {
+            title: "Kevin Kelly - Your Most Improbable Life",
+            source: "Substack",
+            url: "https://open.substack.com/pub/kevinkelly/p/your-most-improbable-life?r=4cn3ol&utm_campaign=post&utm_medium=web",
+            note: "Category-of-one framing: becoming more you-like reduces competition and makes the work harder to replace."
           },
           {
             title: "What is your morning routine?",
@@ -3272,6 +3279,12 @@ window.JCUE_DAILY_UPDATES = [
         source: "Miranda Does Brands",
         url: "https://open.substack.com/pub/mirandadoesbrands/p/how-to-do-the-shit-you-say-youre?r=4cn3ol&utm_campaign=post-expanded-share&utm_medium=web",
         implication: "Frame today's thought video around choosing one real morning action before consuming more inspiration."
+      },
+      {
+        signal: "Kevin Kelly's owner-provided 'most improbable life' reference gives language for becoming more you-like instead of more optimized, which fits Jimmy's category-of-one lifestyle position.",
+        source: "Kevin Kelly on Substack",
+        url: "https://open.substack.com/pub/kevinkelly/p/your-most-improbable-life?r=4cn3ol&utm_campaign=post&utm_medium=web",
+        implication: "Use it as a future thought-video lane: the point is not to beat other creators, but to become specific enough that comparison stops being the game."
       },
       {
         signal: "Two Percent's public positioning stays centered on useful information, performance, and restraint rather than clutter and novelty.",
