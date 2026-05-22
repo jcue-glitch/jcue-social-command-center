@@ -1,4 +1,4 @@
-const CACHE_NAME = "jcue-social-command-center-v10";
+const CACHE_NAME = "jcue-social-command-center-v11";
 const ASSETS = [
   "./",
   "./index.html",

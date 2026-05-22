@@ -1009,7 +1009,14 @@ h3 {
   gap: 7px;
 }
 
-.slide-chip {
+.card-font-selector {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.slide-chip,
+.font-chip {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1024,6 +1031,13 @@ h3 {
   text-transform: uppercase;
 }
 
+.font-chip[data-card-font="hand"] {
+  font-family: "Bradley Hand", "Marker Felt", "Comic Sans MS", "Chalkboard SE", cursive;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: none;
+}
+
 .slide-chip span {
   width: 18px;
   height: 18px;
@@ -1033,7 +1047,8 @@ h3 {
   background: rgba(83, 98, 71, 0.14);
 }
 
-.slide-chip.active {
+.slide-chip.active,
+.font-chip.active {
   background: var(--ink);
   color: #fffaf1;
   border-color: var(--ink);

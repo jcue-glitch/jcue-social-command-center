@@ -8,9 +8,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="JCue Social">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-22-card-studio-fix">
-    <link rel="icon" href="./assets/icon.svg?v=2026-05-22-card-studio-fix" type="image/svg+xml">
-    <link rel="stylesheet" href="./styles.css?v=2026-05-22-card-studio-fix">
+    <link rel="manifest" href="./manifest.webmanifest?v=2026-05-22-card-fonts">
+    <link rel="icon" href="./assets/icon.svg?v=2026-05-22-card-fonts" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css?v=2026-05-22-card-fonts">
   </head>
   <body>
     <div class="texture-layer" aria-hidden="true"></div>
@@ -132,6 +132,10 @@
                     <button type="button" class="secondary-button small-button" id="clearImageLibraryButton">Clear</button>
                   </div>
                   <div class="carousel-slide-selector" id="carouselSlideSelector" aria-label="Carousel slide text options"></div>
+                  <div class="card-font-selector" id="cardFontSelector" aria-label="Carousel card font options">
+                    <button type="button" class="font-chip active" data-card-font="poster">Poster</button>
+                    <button type="button" class="font-chip" data-card-font="hand">Handwritten</button>
+                  </div>
                   <input id="photoUpload" type="file" accept="image/*" multiple>
                   <div class="image-library" id="imageLibrary"></div>
                   <canvas id="coverCanvas" width="1080" height="1350" aria-label="Generated social cover preview"></canvas>
@@ -343,8 +347,8 @@
 
     </div>
 
-    <script src="./data/social-plan.js?v=2026-05-22-card-studio-fix"></script>
-    <script src="./data/daily-updates.js?v=2026-05-22-card-studio-fix"></script>
-    <script src="./app.js?v=2026-05-22-card-studio-fix"></script>
+    <script src="./data/social-plan.js?v=2026-05-22-card-fonts"></script>
+    <script src="./data/daily-updates.js?v=2026-05-22-card-fonts"></script>
+    <script src="./app.js?v=2026-05-22-card-fonts"></script>
   </body>
 </html>

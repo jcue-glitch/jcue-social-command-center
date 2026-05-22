@@ -41,6 +41,7 @@ let currentFilter = "All";
 let currentRadarFilter = "platform";
 let selectedLibraryImageId = "";
 let selectedCarouselSlideIndex = 0;
+let selectedCardFontStyle = "poster";
 let volatileImageLibrary = [];
 
 const byId = (id) => document.getElementById(id);
@@ -401,6 +402,14 @@ function renderCarouselStudio() {
       renderCarouselStudio();
       renderCanvas();
     });
+  });
+
+  renderCardFontSelector();
+}
+
+function renderCardFontSelector() {
+  document.querySelectorAll("[data-card-font]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.cardFont === selectedCardFontStyle);
   });
 }
 
@@ -1214,11 +1223,16 @@ async function renderCanvas() {
 
   const text = slide.text;
   const maxWidth = isHook ? 900 : 760;
-  let fontSize = isHook ? 104 : 46;
-  let lineHeight = isHook ? 104 : 60;
+  const isHandwritten = selectedCardFontStyle === "hand";
+  const fontFamily = isHandwritten
+    ? `"Bradley Hand", "Marker Felt", "Comic Sans MS", "Chalkboard SE", cursive`
+    : `Inter, "Avenir Next", Arial`;
+  const fontWeight = isHandwritten ? 700 : 900;
+  let fontSize = isHandwritten ? (isHook ? 96 : 60) : (isHook ? 104 : 46);
+  let lineHeight = isHandwritten ? (isHook ? 104 : 68) : (isHook ? 104 : 60);
   let lines = [];
   do {
-    ctx.font = `900 ${fontSize}px Inter, Avenir Next, Arial`;
+    ctx.font = `${fontWeight} ${fontSize}px ${fontFamily}`;
     lines = wrappedLines(ctx, text, maxWidth, isHook ? 4 : 5);
     if (lines.length <= (isHook ? 3 : 4)) break;
     fontSize -= 8;
@@ -1228,8 +1242,8 @@ async function renderCanvas() {
   const blockHeight = lines.length * lineHeight;
   const startY = isHook ? Math.max(410, 720 - blockHeight / 2) : 555;
   ctx.fillStyle = headlineColor;
-  ctx.shadowColor = "rgba(0,0,0,0.28)";
-  ctx.shadowBlur = 18;
+  ctx.shadowColor = isHandwritten ? "rgba(0,0,0,0.22)" : "rgba(0,0,0,0.28)";
+  ctx.shadowBlur = isHandwritten ? 10 : 18;
   lines.forEach((line, index) => {
     ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
   });
@@ -1316,6 +1330,14 @@ function bindEvents() {
       currentRadarFilter = button.dataset.radarFilter;
       document.querySelectorAll("[data-radar-filter]").forEach((item) => item.classList.toggle("active", item === button));
       renderTrendRadar();
+    });
+  });
+
+  document.querySelectorAll("[data-card-font]").forEach((button) => {
+    button.addEventListener("click", () => {
+      selectedCardFontStyle = button.dataset.cardFont || "poster";
+      renderCardFontSelector();
+      renderCanvas();
     });
   });
 
