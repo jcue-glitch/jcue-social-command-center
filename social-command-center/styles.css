@@ -1009,8 +1009,11 @@ h3 {
   gap: 7px;
 }
 
-.slide-chip,
-.atmosphere-preset {
+.slide-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   min-height: 38px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -1019,14 +1022,6 @@ h3 {
   font-size: 11px;
   font-weight: 900;
   text-transform: uppercase;
-}
-
-.slide-chip {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  padding: 0 8px;
 }
 
 .slide-chip span {
@@ -1038,8 +1033,7 @@ h3 {
   background: rgba(83, 98, 71, 0.14);
 }
 
-.slide-chip.active,
-.atmosphere-preset.active {
+.slide-chip.active {
   background: var(--ink);
   color: #fffaf1;
   border-color: var(--ink);
@@ -1077,49 +1071,6 @@ h3 {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.35;
-}
-
-.atmosphere-heading {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  align-items: baseline;
-  margin-top: 2px;
-}
-
-.atmosphere-heading span {
-  color: var(--muted);
-  font-size: 11px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.atmosphere-heading p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 11px;
-}
-
-.atmosphere-presets {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 7px;
-}
-
-.atmosphere-preset {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  padding: 0 8px;
-  text-transform: none;
-}
-
-.atmosphere-preset span {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.42);
 }
 
 #coverCanvas {

@@ -41,7 +41,6 @@ let currentFilter = "All";
 let currentRadarFilter = "platform";
 let selectedLibraryImageId = "";
 let selectedCarouselSlideIndex = 0;
-let selectedAtmospherePreset = "coffee";
 
 const byId = (id) => document.getElementById(id);
 const selectedItem = () => plan.contentPack.find((item) => item.id === selectedItemId) || plan.contentPack[0];
@@ -72,18 +71,8 @@ function imageLibrary() {
 
 function selectedLibraryImage() {
   const images = imageLibrary();
-  if (selectedAtmospherePreset && !selectedLibraryImageId) return null;
   return images.find((image) => image.id === selectedLibraryImageId) || images[0];
 }
-
-const atmospherePresets = [
-  { id: "coffee", label: "Coffee", tone: "#5c4033" },
-  { id: "kissaten", label: "Cafe", tone: "#2f2119" },
-  { id: "apartment", label: "Apartment", tone: "#d9cdbb" },
-  { id: "fitness", label: "Fitness", tone: "#202225" },
-  { id: "nature", label: "Nature", tone: "#59684c" },
-  { id: "night", label: "Night", tone: "#151719" }
-];
 
 function fallbackCopy(text) {
   const textarea = document.createElement("textarea");
@@ -325,7 +314,7 @@ function renderPreview() {
 
 function renderImageLibrary() {
   const images = imageLibrary();
-  if (!selectedLibraryImageId && images[0] && !selectedAtmospherePreset) selectedLibraryImageId = images[0].id;
+  if (!selectedLibraryImageId && images[0]) selectedLibraryImageId = images[0].id;
   byId("imageLibrary").innerHTML = images.length
     ? images
         .map((image) => `
@@ -339,9 +328,7 @@ function renderImageLibrary() {
   document.querySelectorAll("[data-image-id]").forEach((button) => {
     button.addEventListener("click", () => {
       selectedLibraryImageId = button.dataset.imageId;
-      selectedAtmospherePreset = "";
       renderImageLibrary();
-      renderAtmospherePresets();
       renderCanvas();
     });
   });
@@ -405,29 +392,6 @@ function renderCarouselStudio() {
     button.addEventListener("click", () => {
       selectedCarouselSlideIndex = Number(button.dataset.slideIndex) || 0;
       renderCarouselStudio();
-      renderCanvas();
-    });
-  });
-
-  renderAtmospherePresets();
-}
-
-function renderAtmospherePresets() {
-  byId("atmospherePresets").innerHTML = atmospherePresets
-    .map((preset) => `
-      <button type="button" class="atmosphere-preset${preset.id === selectedAtmospherePreset ? " active" : ""}" data-preset="${escapeHtml(preset.id)}">
-        <span style="background:${escapeHtml(preset.tone)}"></span>
-        ${escapeHtml(preset.label)}
-      </button>
-    `)
-    .join("");
-
-  document.querySelectorAll("[data-preset]").forEach((button) => {
-    button.addEventListener("click", () => {
-      selectedAtmospherePreset = button.dataset.preset;
-      selectedLibraryImageId = "";
-      renderImageLibrary();
-      renderAtmospherePresets();
       renderCanvas();
     });
   });
@@ -1135,7 +1099,7 @@ function drawGrain(ctx, width, height, opacity = 0.08) {
 }
 
 function drawAtmosphere(ctx, preset, width, height) {
-  const mode = atmospherePresets.find((item) => item.id === preset)?.id || "coffee";
+  const mode = preset || "coffee";
   const gradients = {
     coffee: ["#2c211a", "#6d4c36", "#c59a67"],
     kissaten: ["#18110e", "#3a261c", "#987350"],
@@ -1229,24 +1193,17 @@ async function renderCanvas() {
       drawGrain(ctx, canvas.width, canvas.height, 0.045);
     } catch {
       selectedLibraryImageId = "";
-      drawAtmosphere(ctx, selectedAtmospherePreset, canvas.width, canvas.height);
+    drawAtmosphere(ctx, "coffee", canvas.width, canvas.height);
     }
   } else {
-    drawAtmosphere(ctx, selectedAtmospherePreset, canvas.width, canvas.height);
+    drawAtmosphere(ctx, "coffee", canvas.width, canvas.height);
   }
 
   const hasImage = Boolean(imageEntry?.dataUrl);
   const isHook = slide.role === "hook";
-  const darkPreset = ["fitness", "night", "kissaten"].includes(selectedAtmospherePreset) || hasImage;
-  const headlineColor = isHook && !hasImage && !["fitness", "night", "kissaten"].includes(selectedAtmospherePreset) ? "#ff8bf2" : "#fffef9";
-  const smallColor = darkPreset ? "rgba(255,254,249,0.82)" : "rgba(255,254,249,0.88)";
+  const headlineColor = "#fffef9";
 
   ctx.textAlign = "center";
-  ctx.fillStyle = smallColor;
-  ctx.font = "900 24px Inter, Avenir Next, Arial";
-  ctx.letterSpacing = "3px";
-  ctx.fillText("JIMMY CUE", canvas.width / 2, 72);
-  ctx.letterSpacing = "0px";
 
   const text = slide.text;
   const maxWidth = isHook ? 900 : 760;
@@ -1270,17 +1227,6 @@ async function renderCanvas() {
     ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
   });
   ctx.shadowBlur = 0;
-
-  if (!isHook) {
-    const eyebrow = item.title || "daily thought";
-    ctx.fillStyle = "rgba(255,254,249,0.66)";
-    ctx.font = "800 22px Inter, Avenir Next, Arial";
-    ctx.fillText(eyebrow.toLowerCase(), canvas.width / 2, 1048);
-  }
-
-  ctx.fillStyle = smallColor;
-  ctx.font = "700 22px Inter, Avenir Next, Arial";
-  ctx.fillText(isHook ? "a thought for today" : `${selectedCarouselSlideIndex + 1}/${carouselSlides(item).length}`, canvas.width / 2, 1238);
 }
 
 function handlePhotoUpload(event) {
@@ -1301,11 +1247,9 @@ function handlePhotoUpload(event) {
         const state = loadState();
         state.imageLibrary = [...(state.imageLibrary || []), ...nextImages].slice(-16);
         selectedLibraryImageId = nextImages[0]?.id || selectedLibraryImageId;
-        selectedAtmospherePreset = "";
         saveState(state);
         event.target.value = "";
         renderImageLibrary();
-        renderAtmospherePresets();
         renderCanvas();
       }
     };
@@ -1317,10 +1261,8 @@ function clearImageLibrary() {
   const state = loadState();
   delete state.imageLibrary;
   selectedLibraryImageId = "";
-  selectedAtmospherePreset = "coffee";
   saveState(state);
   renderImageLibrary();
-  renderAtmospherePresets();
   renderCanvas();
 }
 
