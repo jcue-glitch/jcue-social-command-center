@@ -41,6 +41,7 @@ let currentFilter = "All";
 let currentRadarFilter = "platform";
 let selectedLibraryImageId = "";
 let selectedCarouselSlideIndex = 0;
+let volatileImageLibrary = [];
 
 const byId = (id) => document.getElementById(id);
 const selectedItem = () => plan.contentPack.find((item) => item.id === selectedItemId) || plan.contentPack[0];
@@ -62,16 +63,22 @@ function loadState() {
 }
 
 function saveState(nextState) {
-  localStorage.setItem(stateKey, JSON.stringify(nextState));
+  try {
+    localStorage.setItem(stateKey, JSON.stringify(nextState));
+  } catch {
+    // Large photo uploads can exceed localStorage. Keep them usable for this session.
+  }
 }
 
 function imageLibrary() {
-  return loadState().imageLibrary || [];
+  return volatileImageLibrary.length ? volatileImageLibrary : loadState().imageLibrary || [];
 }
 
 function selectedLibraryImage() {
   const images = imageLibrary();
-  return images.find((image) => image.id === selectedLibraryImageId) || images[0];
+  const selected = images.find((image) => image.id === selectedLibraryImageId) || images[0];
+  if (selected && !selectedLibraryImageId) selectedLibraryImageId = selected.id;
+  return selected;
 }
 
 function fallbackCopy(text) {
@@ -1245,7 +1252,8 @@ function handlePhotoUpload(event) {
       remaining -= 1;
       if (!remaining) {
         const state = loadState();
-        state.imageLibrary = [...(state.imageLibrary || []), ...nextImages].slice(-16);
+        volatileImageLibrary = [...imageLibrary(), ...nextImages].slice(-16);
+        state.imageLibrary = volatileImageLibrary;
         selectedLibraryImageId = nextImages[0]?.id || selectedLibraryImageId;
         saveState(state);
         event.target.value = "";
@@ -1260,15 +1268,22 @@ function handlePhotoUpload(event) {
 function clearImageLibrary() {
   const state = loadState();
   delete state.imageLibrary;
+  volatileImageLibrary = [];
   selectedLibraryImageId = "";
   saveState(state);
   renderImageLibrary();
   renderCanvas();
 }
 
-function downloadPng() {
-  renderCanvas().then(() => {
-    byId("coverCanvas").toBlob((blob) => {
+async function downloadPng() {
+  const button = byId("downloadPngButton");
+  const defaultLabel = "Download Slide";
+  button.textContent = "Preparing";
+  try {
+    await renderCanvas();
+    const canvas = byId("coverCanvas");
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
+    if (!blob) throw new Error("Canvas export failed");
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
       link.download = `${selectedItem().id}-slide-${selectedCarouselSlideIndex + 1}.png`;
@@ -1276,8 +1291,14 @@ function downloadPng() {
       link.click();
       link.remove();
       setTimeout(() => URL.revokeObjectURL(link.href), 1000);
-    }, "image/png");
-  });
+  } catch {
+    button.textContent = "Try Again";
+    setTimeout(() => {
+      button.textContent = defaultLabel;
+    }, 1400);
+    return;
+  }
+  button.textContent = defaultLabel;
 }
 
 function bindEvents() {
