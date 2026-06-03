@@ -5095,5 +5095,434 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only as a pacing and warmth reference. Keep Jimmy's topic on life, thoughts, style, beauty, objects, routines, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. `.youtube/latest_metrics.json` appears unchanged against the May 20 YouTube baseline import, and the Notion row-query endpoint failed upstream, so today's performance guidance is based on the visible baseline history rather than a fresh 24h or 48h read."
+  },
+  {
+    generatedAt: "2026-06-04",
+    researchWindow: "Trend scan and source synthesis for June 4, 2026 (Asia/Tokyo), using official platform guidance, current Reddit conversation, recent culture/design coverage, Substack Radar references, and the existing JCue Notion baseline.",
+    updateMode: "Dashboard daily data layer. Stable strategy stays in social-plan.js; daily direction here reflects current research plus the existing Notion history layer.",
+    weeklyTheme: {
+      dates: "June 2 - June 8, 2026",
+      title: "Borrowed Noise, Authored Morning",
+      thesis: "Continue this week by showing that a calm life is not built through optimization alone; it is built through small intentional frictions that keep the morning from becoming generic.",
+      whyNow: "Current platform signals still reward original lived process, literal search packaging, and anti-overstimulation framing. Recent culture coverage also points toward a reaction against frictionless sameness and toward warmer, more storied minimalism.",
+      contentRule: "Every post should show one tactile morning proof and turn it into a principle about standards, sequence, or authorship rather than pure atmosphere."
+    },
+    dailyBrief: {
+      date: "2026-06-04",
+      day: "Thursday",
+      deliveryTime: "07:00 JST",
+      title: "Bring back one useful edge.",
+      objective: "Film a Thursday pack that argues for small friction: a real mug, a trusted shirt, one written line, one chosen track, one slower transition before the city fully arrives.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment desk or table, coffee setup, mirror fit check, notebook, headphones, doorway or elevator, train platform or window reflection.",
+      recommendation: "Lead with the thought video on TikTok, use the quiet-uniform clip for Instagram, and give Shorts the most literal title between the phone-delay or music-boundary idea.",
+      todayDoNotDo: [
+        "Do not make 'friction' sound abstract. Prove it with one visible behavior from this morning.",
+        "Do not let the room look over-staged. Keep one ordinary imperfect edge in frame.",
+        "Do not turn the style video into trend commentary. Tie it back to posture, standards, and self-respect."
+      ],
+      approvalChecklist: [
+        "Does the first frame show a real object, gesture, or room detail before explanation?",
+        "Is the hook short, assertive, and instantly readable?",
+        "Does each clip shift by second three with either motion, a cut, or a stronger line?",
+        "Does the caption move from thesis to clarification to lived proof to final line?",
+        "Would a viewer understand that the point is authored living, not just nice visuals?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-06-04-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "4 Small Frictions That Make The Morning Feel Mine",
+        format: "4-5 slide carousel or TikTok photo mode post",
+        purpose: "Turn digital-minimalism language into a tactile, saveable system that fits Jimmy's apartment and commute reality.",
+        creatorSearchTopics: ["digital minimalism", "daily lifestyle"],
+        filmingFit: "Shoot in 6-8 minutes while leaving the apartment.",
+        hook: "your calm is not aesthetic. it is friction",
+        firstFrameDirection: "Open on a still life with the mug, notebook, or headphones placed naturally, with enough negative space for the hook text.",
+        retentionBridge: "Slide 2 should move closer into the object detail so the viewer swipes from atmosphere into system.",
+        shotList: [
+          "Slide 1: coffee and notebook on the table.",
+          "Slide 2: cuff, belt, or trouser detail.",
+          "Slide 3: headphones, cassette, or single chosen track.",
+          "Slide 4: doorway, elevator, or train reflection.",
+          "Slide 5: text-only or quiet self portrait with final line."
+        ],
+        talkingScript: "Use as overlay-led carousel. Keep each line short and clean.",
+        overlayText: [
+          "your calm is not aesthetic. it is friction",
+          "a real mug",
+          "one shirt i trust",
+          "one line before the feed",
+          "one track before the city"
+        ],
+        caption: "Most people think a calm life comes from removing everything.\n\nThat is only half true.\n\nSometimes it comes from adding back one useful edge.\n\nA real mug instead of a rushed cup. One shirt that changes your posture. One line in a notebook before the feed. One track before the commute gets loud.\n\nThe object is not the point. The ritual around it is.\n\n#jimmycue #DailyLifestyle #digitalminimalism #slowliving #tokyolife",
+        keywords: ["digital minimalism", "daily lifestyle", "slow living", "Tokyo life", "calm life aesthetic"],
+        seoKeywords: ["digital minimalism", "daily lifestyle", "slow living lifestyle minimalism", "Tokyo life", "calm life aesthetic"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#digitalminimalism", "#slowliving", "#tokyolife"],
+        editNotes: "Keep the grade warm and restrained. Let one imperfect room edge remain visible."
+      },
+      {
+        id: "video-2026-06-04-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "People Underestimate A Quiet Uniform",
+        format: "Fit check with philosophy, 22-30 seconds",
+        purpose: "Stay inside the menswear baseline while sharpening the point around repetition, standards, and easier mornings.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        filmingFit: "Mirror shot, one close detail, one exit shot.",
+        hook: "people underestimate a quiet uniform",
+        firstFrameDirection: "Open on the full silhouette for one beat, then cut fast to the single detail that gives the outfit weight.",
+        retentionBridge: "At 3-5 seconds, say 'it saves attention for the rest of the day' over the detail shot.",
+        shotList: [
+          "Mirror full-body fit.",
+          "Close-up of cuff, trousers, belt, or shoe.",
+          "Hand adjusting shirt or jacket.",
+          "Door or hallway exit."
+        ],
+        talkingScript: "People underestimate a quiet uniform.\n\nIt is not boring.\n\nIt saves attention for the rest of the day.\n\nWhen I already trust the silhouette, I do not need to negotiate with myself in the mirror.\n\nThat gives the morning less noise and more direction.\n\nStyle is not surface.\n\nIt is one of the systems that keeps the day clean.",
+        caption: "Most people think repeating a silhouette means less style.\n\nI think it means less noise.\n\nWhen I already trust the shape, color, and weight of the outfit, the morning gets simpler without feeling careless.\n\nThat is why I take a quiet uniform seriously.\n\nStyle is not surface. It is one of the systems that keeps the day clean.\n\n#jimmycue #fitcheck #mensstyle #menslifestyle #quietluxury",
+        keywords: ["fit check", "mens style", "mens lifestyle", "quiet luxury", "outfit check men"],
+        seoKeywords: ["fit check", "mens style", "mens lifestyle", "quiet luxury", "outfit check men"],
+        hashtags: ["#jimmycue", "#fitcheck", "#mensstyle", "#menslifestyle", "#quietluxury"],
+        platformNotes: {
+          TikTok: "Keep the phrase 'quiet uniform' visible on-screen because it sounds specific and searchable.",
+          Instagram: "Best chance for saves because the silhouette payoff is immediate.",
+          YouTube: "If reused, title it 'Why I repeat the same outfit formula'."
+        },
+        editNotes: "Use understated room tone or low music. Let the spoken line do the work."
+      },
+      {
+        id: "video-2026-06-04-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "YouTube Shorts"],
+        title: "Your Phone Delay Matters More Than Your To-Do List",
+        format: "Morning boundary clip with voiceover, 18-26 seconds",
+        purpose: "Translate live digital-minimalism conversation into a practical morning behavior instead of generic productivity advice.",
+        creatorSearchTopics: ["digital minimalism", "daily thoughts"],
+        filmingFit: "Phone face-down, notebook, coffee, hand movement, door shot.",
+        hook: "your phone delay matters more than your to-do list",
+        firstFrameDirection: "Open on the phone already face-down beside the mug so the thesis lands over a real setup.",
+        retentionBridge: "At 3 seconds, move the phone farther away and say 'the first ten minutes decide the tone.'",
+        shotList: [
+          "Phone face-down beside coffee.",
+          "Hand moving the phone farther away.",
+          "Notebook with one line written.",
+          "Door or desk transition shot."
+        ],
+        talkingScript: "Your phone delay matters more than your to-do list.\n\nThe first ten minutes decide the tone.\n\nIf the day starts with random input, the rest of your routine is already reacting.\n\nSo I try to earn the feed after I make coffee, write one line, and let my own mind arrive first.\n\nThat small delay changes the whole morning.",
+        caption: "Most people try to fix a noisy day with better planning.\n\nThat is too late.\n\nIf the first ten minutes belong to random input, the rest of the morning is already reacting.\n\nThat is why I protect a small delay before the feed: coffee, one line, then the day.\n\nThe first ten minutes decide the tone.\n\n#jimmycue #DailyThoughts #digitalminimalism #selfgrowth #slowliving",
+        keywords: ["digital minimalism", "daily thoughts", "self growth", "morning routine no talking", "slow living"],
+        seoKeywords: ["digital minimalism", "daily thoughts", "morning routine no talking", "self growth", "slow living"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#selfgrowth", "#slowliving"],
+        platformNotes: {
+          TikTok: "Direct fit for live conversation around phone-delay and better mornings.",
+          Instagram: "Good secondary Reel if the object shots feel tactile.",
+          YouTube: "Use the exact title wording for Shorts."
+        },
+        editNotes: "Keep the pacing clean and let the hand movement at second three be obvious."
+      },
+      {
+        id: "video-2026-06-04-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "The Way You Enter The Commute Shapes The Commute",
+        format: "Commute clip with voiceover, 18-24 seconds",
+        purpose: "Turn ordinary station and headphone footage into a principle about chosen pace instead of dead time.",
+        creatorSearchTopics: ["music is my peace", "daily lifestyle"],
+        filmingFit: "Headphones, one track selection, walking shot, train reflection.",
+        hook: "the way you enter the commute shapes the commute",
+        firstFrameDirection: "Open on headphones or the play button before the viewer sees the full platform.",
+        retentionBridge: "At 3-5 seconds, cut into moving commute footage while saying 'most people arrive already scattered.'",
+        shotList: [
+          "Headphones or cassette close-up.",
+          "Selecting one track.",
+          "Walking feet or platform shot.",
+          "Train window reflection."
+        ],
+        talkingScript: "The way you enter the commute shapes the commute.\n\nMost people arrive already scattered.\n\nI would rather choose one track early and let that set the pace before the platform starts deciding it for me.\n\nThe city is loud enough on its own.\n\nYou do not need to add more noise before work even begins.",
+        caption: "People treat the commute like dead time.\n\nIt is not.\n\nIt is the transition that decides whether you arrive collected or scattered.\n\nThat is why I choose one track early and let that hold the line while the city gets louder.\n\nThe way you enter the commute shapes the commute.\n\n#jimmycue #DailyLifestyle #tokyolife #selfgrowth #slowliving",
+        keywords: ["music is my peace", "daily lifestyle", "Tokyo life", "self growth", "slow living"],
+        seoKeywords: ["music is my peace", "Tokyo commute", "daily lifestyle", "self growth", "slow living"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#tokyolife", "#selfgrowth", "#slowliving"],
+        platformNotes: {
+          TikTok: "Works best if the first shot is tactile and immediate.",
+          Instagram: "Better as a supporting clip than the main Reel.",
+          YouTube: "Literal title helps Shorts search and expectation match."
+        },
+        editNotes: "Keep city sound low under the voiceover so the line stays clean."
+      },
+      {
+        id: "thought-2026-06-04-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Your Life Does Not Need More Optimization",
+        format: "Talking-head thought video, 55-85 seconds",
+        sourceInspiration: "A synthesis of recent culture writing on optimization and warmer minimalism, live digital-minimalism audience language, Kevin Kelly's category-of-one framing, Miranda's execution-gap lens, and today's authored-morning theme.",
+        sourceReferences: [
+          {
+            title: "How the drive for optimisation reshaped art, aesthetics and us",
+            source: "Wallpaper*",
+            url: "https://www.wallpaper.com/art/the-aesthetics-of-optimisation",
+            note: "Sharpens the argument that frictionless clarity can become an aesthetic of sameness."
+          },
+          {
+            title: "Are Minimalist Interiors Out of Style in 2026?",
+            source: "Livingetc",
+            url: "https://www.livingetc.com/ideas/is-minimalism-out-of-style-26",
+            note: "Supports a warmer, storied, less flat version of minimalism that fits Jimmy's object and room language."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly",
+            url: "https://kk.org/kk/your-most-improbable-life/",
+            note: "Use the category-of-one idea to argue for specific lived rituals over generic optimization."
+          },
+          {
+            title: "How to do the shit you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-youre-going-to-do",
+            note: "Useful for the gap between taste, plans, and repeatable action."
+          },
+          {
+            title: "touchstones for daily living",
+            source: "Reddit r/digitalminimalism",
+            url: "https://www.reddit.com/r/digitalminimalism/comments/1t5ybzz/touchstones_for_daily_living/",
+            note: "Live audience language around checking the phone only after the morning routine."
+          },
+          {
+            title: "TikTok What's Next 2026",
+            source: "TikTok",
+            url: "https://ads.tiktok.com/business/en-US/next",
+            note: "Supports using lived process and emotionally useful realism rather than curated fantasy."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "your life does not need more optimization",
+        firstFrameDirection: "Start face-forward at the desk or window with a real apartment corner visible so the morning feels proven, not staged.",
+        retentionBridge: "Within 3-5 seconds, cut to the mug or notebook while saying 'it needs one part that still resists the feed.'",
+        fullTalkingScript: "Your life does not need more optimization.\n\nIt needs one part that still resists the feed.\n\nA lot of people have made everything smoother, faster, cleaner, and more efficient, and somehow the day still does not feel like theirs.\n\nI think that is because optimization can remove noise, but it can also remove authorship.\n\nThis morning I made coffee in a real mug, wrote one line in a notebook, picked the same shirt formula I trust, and chose one track before the commute.\n\nNone of that made the morning more impressive.\n\nIt made it more mine.\n\nThat is the difference.\n\nYou do not need more inspiration and you do not need a more perfect routine.\n\nYou need one repeatable friction that stops the day from becoming generic.\n\nYour calm is not aesthetic.\n\nIt is the result of what you protect.",
+        beatSheet: [
+          { time: "0-4s", action: "Talking head at desk or window.", line: "Your life does not need more optimization." },
+          { time: "5-10s", action: "Cut to mug or notebook.", line: "It needs one part that still resists the feed." },
+          { time: "11-24s", action: "Return to face, then object cuts.", line: "A lot of people have made everything smoother, faster, cleaner, and more efficient, and somehow the day still does not feel like theirs." },
+          { time: "25-42s", action: "Coffee, notebook, shirt, or headphones proof shots.", line: "Optimization can remove noise, but it can also remove authorship." },
+          { time: "43-60s", action: "Talking head with slower delivery.", line: "You need one repeatable friction that stops the day from becoming generic." },
+          { time: "61-80s", action: "Doorway or commute exit shot.", line: "Your calm is not aesthetic. It is the result of what you protect." }
+        ],
+        shotList: [
+          "Talking head at desk or window.",
+          "Coffee mug close-up.",
+          "Notebook with one written line.",
+          "Shirt, cuff, or trouser detail.",
+          "Headphones or track-selection close-up.",
+          "Doorway exit or train reflection."
+        ],
+        caption: "Most people think a better life comes from better optimization.\n\nThat helps, but it is incomplete.\n\nIf everything becomes frictionless, the day can still feel flat, generic, and borrowed.\n\nThat is why I care about small repeatable edges: a real mug, one line in a notebook, one shirt formula I trust, one track before the city gets loud.\n\nYour calm is not aesthetic. It is the result of what you protect.\n\n#jimmycue #DailyThoughts #digitalminimalism #selfgrowth #slowliving",
+        keywords: ["daily thoughts", "digital minimalism", "self growth", "slow living", "live life for yourself"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "self growth", "slow living lifestyle minimalism", "live life for yourself"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#selfgrowth", "#slowliving"],
+        platformNotes: {
+          TikTok: "Primary home because the hook is strongest face-forward with immediate personal proof.",
+          Instagram: "Use a warm cover frame with the exact hook text.",
+          YouTube: "If posted, keep the title literal and avoid poetic packaging."
+        },
+        editNotes: "Speak plainly. No soft journaling, no life-coach tone, and no hard sell. Let the proof shots carry the emotion."
+      },
+      {
+        id: "story-2026-06-04-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Is Your Useful Friction?",
+        format: "Poll story",
+        purpose: "Collect direct audience language around the one morning behavior they protect first.",
+        hook: "what is your useful friction?",
+        firstFrameDirection: "Two-object still frame with enough room for the poll sticker.",
+        creatorSearchTopics: ["daily lifestyle"],
+        filmingFit: "Coffee vs notebook or music vs outfit detail.",
+        shotList: ["Two tactile objects in one frame."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what is your useful friction?",
+        pollOptions: ["coffee first", "music first"],
+        caption: "small edge, cleaner day.",
+        keywords: ["daily lifestyle", "slow living"],
+        seoKeywords: ["daily lifestyle", "slow living"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#slowliving"],
+        retentionBridge: "The poll forces an immediate self-audit.",
+        editNotes: "Keep the frame simple."
+      },
+      {
+        id: "story-2026-06-04-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Question Box: What Still Feels Generic?",
+        format: "Question story",
+        purpose: "Seed the atelier worldview and gather language for future thought videos and notes.",
+        hook: "what part of your life still feels generic?",
+        firstFrameDirection: "Quiet desk or room corner with only the question on screen.",
+        creatorSearchTopics: ["daily thoughts"],
+        filmingFit: "5-second apartment clip.",
+        shotList: ["Desk, room corner, or doorway clip."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what part of your life still feels generic?",
+        pollOptions: [],
+        caption: "taste is easy. authorship is harder.",
+        keywords: ["daily thoughts", "self growth"],
+        seoKeywords: ["daily thoughts", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        retentionBridge: "The question box can surface exact audience phrasing for later hooks.",
+        editNotes: "Sparse and direct."
+      },
+      {
+        id: "written-2026-06-04-01",
+        type: "Written Post",
+        platformPriority: ["Substack", "Instagram Notes"],
+        title: "A Calm Life Still Needs Friction",
+        format: "Short note draft, 120-180 words",
+        purpose: "Extend today's thought in written form and quietly reinforce the Self-Authored Life Atelier worldview.",
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "a calm life still needs friction",
+        firstFrameDirection: "If adapted visually, place the title over a notebook, mug, or desk corner.",
+        talkingScript: "A calm life still needs friction.\n\nNot chaos.\nNot drama.\nNot unnecessary difficulty.\n\nJust one or two real edges that stop the day from becoming generic.\n\nA real mug instead of another rushed cup.\nOne line in a notebook before the feed.\nOne shirt formula you trust.\nOne song before the commute decides your pace for you.\n\nA lot of people keep optimizing everything and still wonder why life feels flat.\n\nBecause optimization can remove noise, but it cannot create authorship on its own.\n\nThe object is not the point.\n\nThe ritual around it is.\n\nIf you want a life that feels more like yours, protect one small friction and repeat it until it becomes identity.",
+        caption: "Short note draft for Substack or Notes.",
+        keywords: ["daily thoughts", "digital minimalism", "authored life"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "live life for yourself"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving"],
+        retentionBridge: "Use only the title line if adapting to Notes.",
+        editNotes: "Keep the paragraphs open and plain."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Read the brief and choose the one object, one outfit detail, and one transition shot that define the morning.", platform: "Private", reason: "Give the pack one visual spine." },
+      { time: "07:12-07:52", action: "Film the thought video, quiet-uniform clip, phone-delay clip, commute clip, carousel assets, and both stories.", platform: "Phone", reason: "Batch everything while the room and commute still feel real." },
+      { time: "08:25", action: "Post the thought video.", platform: "TikTok", reason: "Best slot for the clearest thesis and live comments." },
+      { time: "12:15", action: "Post People Underestimate A Quiet Uniform.", platform: "Instagram Reels", reason: "Menswear framing remains the clearest reach and save lane in the current baseline." },
+      { time: "18:40", action: "Post Your Phone Delay Matters More Than Your To-Do List or The Way You Enter The Commute Shapes The Commute.", platform: "YouTube Shorts", reason: "Choose the clip with the most literal title and strongest first-second visual." },
+      { time: "20:45", action: "Post 4 Small Frictions That Make The Morning Feel Mine and the short written note.", platform: "Instagram / TikTok photo mode / Substack Notes", reason: "Evening suits saveable carousel content and slower written reflection." },
+      { time: "Any time", action: "Run the poll story and the question box.", platform: "Stories", reason: "Collect phrasing for the next brief and future atelier-coded angles." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's What's Next 2026 framing still rewards grounded realism, lived process, and routine content that feels emotionally useful rather than curated fantasy.",
+        source: "TikTok What's Next 2026",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        implication: "Open on real apartment, object, outfit, and commute proof before any polished payoff."
+      },
+      {
+        signal: "Meta said on January 28, 2026 that 75% of Instagram recommendations were coming from original posts after increasing original-content prevalence in US recommendations.",
+        source: "Meta Newsroom",
+        url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+        implication: "Keep Reels rooted in Jimmy's own room, clothing, and commute instead of borrowed creator templates."
+      },
+      {
+        signal: "YouTube says Shorts are matched to viewers based on performance, personalization, and how well the metadata and content match what people search and choose to watch.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Use literal Shorts titles and make the spoken topic clear in the first five seconds."
+      },
+      {
+        signal: "Wallpaper* argues that optimization has become an aesthetic, pushing digital culture toward frictionlessness, legibility, and sameness.",
+        source: "Wallpaper*",
+        url: "https://www.wallpaper.com/art/the-aesthetics-of-optimisation",
+        implication: "Today's thought can push back against generic smoothness and make authored friction the point."
+      },
+      {
+        signal: "Livingetc says 2026 minimalism is not disappearing but getting warmer, more layered, and more storied rather than flat and predictable.",
+        source: "Livingetc",
+        url: "https://www.livingetc.com/ideas/is-minimalism-out-of-style-26",
+        implication: "Lean into objects with memory, texture, and restraint instead of sterile emptiness."
+      },
+      {
+        signal: "A current Reddit digital-minimalism thread describes only checking the phone after the morning routine as a useful daily touchstone.",
+        source: "Reddit r/digitalminimalism",
+        url: "https://www.reddit.com/r/digitalminimalism/comments/1t5ybzz/touchstones_for_daily_living/",
+        implication: "Boundary-based morning content matches live audience language, not just abstract productivity framing."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Kevin Kelly's category-of-one framing supports a JCue point that specificity in daily ritual is part of what makes a life feel less replaceable and less generic.",
+        source: "Kevin Kelly",
+        url: "https://kk.org/kk/your-most-improbable-life/",
+        application: "Translate category-of-one into repeatable room, shirt, music, and coffee behaviors instead of personal-brand theory.",
+        postIdea: "A life starts feeling more yours when your rituals stop looking interchangeable."
+      },
+      {
+        signal: "Miranda's execution-gap framing remains useful for tasteful people who keep curating references without turning them into lived behavior.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-youre-going-to-do",
+        application: "Aim today's thought at viewers who have taste but have not yet made it repeatable in the structure of the day.",
+        postIdea: "Optimization is easy to admire. Authorship is what survives repetition."
+      },
+      {
+        signal: "Today's atelier-coded opening is subtle: the object matters less than the ritual that makes the life feel authored from within.",
+        source: "JCue Substack Radar synthesis",
+        url: "https://www.notion.so/366dde2970ae808fb66cc29f48128261",
+        application: "Use the question story and note draft to seed authorship without pushing an offer.",
+        postIdea: "Taste becomes real when it has somewhere to live."
+      }
+    ],
+    keywordBank: {
+      primary: ["useful friction", "quiet uniform", "digital minimalism", "daily thoughts", "Tokyo commute", "slow living"],
+      secondary: ["fit check", "mens lifestyle", "morning routine no talking", "music is my peace", "calm life aesthetic", "live life for yourself"],
+      titles: [
+        "Your Life Does Not Need More Optimization",
+        "People Underestimate A Quiet Uniform",
+        "Your Phone Delay Matters More Than Your To-Do List",
+        "The Way You Enter The Commute Shapes The Commute",
+        "4 Small Frictions That Make The Morning Feel Mine"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#tokyolife"],
+        style: ["#fitcheck", "#mensstyle", "#menslifestyle", "#quietluxury", "#ootd"],
+        ritual: ["#digitalminimalism", "#selfgrowth", "#coffeeroutine", "#mindset"],
+        atelier: ["#authoredlife", "#objectculture", "#quietliving"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post in the mix because the imported YouTube baseline still shows the clearest reach on casual menswear phrasing.",
+      "Keep imperfection and authorship language active because the perfection-themed baseline still showed denser engagement than broader lifestyle clips.",
+      "Keep one quiet reflective thought video in rotation because the calm-life post still carries the strongest comment density despite lower reach.",
+      "For Shorts, keep titles literal and the first five seconds active because YouTube explicitly ties matching and discovery to viewer choice, relevance, and performance."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh June 3, 2026 row or new 24h snapshot was readable from the current Notion history layer.",
+        note: "The Notion connector is available for fetch and search, but row-query calls failed upstream during this run. Search still confirmed the May 20 YouTube baseline import and the three existing outlier learnings.",
+        action: "If Jimmy posts today on June 4 JST, capture the first 24h snapshot on June 5 JST and compare it against the menswear, imperfection, and quiet-life baselines."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear phrasing still sets the reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest imported baseline used relatable language plus clear menswear framing.",
+          repeat: "Keep one outfit-detail video tied to posture, standards, pace, or self-respect."
+        },
+        {
+          title: "Imperfection themes still hold denser engagement",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and authorship language match Jimmy's positioning closely.",
+          repeat: "Keep direct lines around imperfection, enoughness, and the difference between aesthetic and lived proof."
+        },
+        {
+          title: "Quiet-life reflection still wins on comment density",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Lower-reach reflective posts can still produce stronger depth of response.",
+          repeat: "Give thought videos a harder first line and one immediate proof shot from the room, outfit, coffee, or commute."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-06-04",
+      note: "A biweekly long-form check is still due.",
+      suggestion: "Strong current angle: 'a calmer life still needs friction: coffee, clothes, music, and the morning systems that keep tokyo from feeling generic'.",
+      referenceNote: "Use Havenotats only as a pacing and warmth reference. Keep Jimmy's topic on life, thoughts, style, beauty, objects, routines, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. `.youtube/latest_metrics.json` still appears unchanged against the May 20 YouTube baseline import, and the Notion row-query endpoint failed upstream, so today's performance guidance is based on the visible baseline history rather than a fresh 24h or 48h read."
   }
 ];
