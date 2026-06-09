@@ -5951,8 +5951,8 @@ window.JCUE_DAILY_UPDATES = [
     performanceNote: "No new Notion rows were created on this run. `.youtube/latest_metrics.json` still appears unchanged against the May 20 YouTube baseline import, so today's performance guidance stays anchored to the visible YouTube baselines rather than a fresh 24h or 48h snapshot."
   },
   {
-    generatedAt: "2026-06-09",
-    researchWindow: "Fresh scan for June 9, 2026 using platform guidance, current trend coverage, Reddit conversation, Substack radar, and Notion baseline history.",
+    generatedAt: "2026-06-09T16:05:21+09:00",
+    researchWindow: "Verified June 9, 2026 scan using TikTok, Meta, and YouTube guidance, current trend coverage, Reddit conversation, Substack radar, local YouTube sync data, and the Notion baseline history layer.",
     updateMode: "Daily dashboard brief synced to Tokyo date.",
     weeklyTheme: {
       dates: "June 8 - June 14, 2026",
@@ -5965,8 +5965,8 @@ window.JCUE_DAILY_UPDATES = [
       date: "2026-06-09",
       day: "Tuesday",
       deliveryTime: "07:00 JST",
-      title: "Film the life before the explanation.",
-      objective: "Batch one style-led reach play, one over-input thought, one ritual/object video, one complete thought video, one saveable carousel, and one written note inside a 30-45 minute apartment-to-commute window.",
+      title: "Protect the first five minutes, then film it.",
+      objective: "Batch one style-led reach play, one over-input thought, one ritual/object video, one complete thought video, one saveable carousel, and one written note inside a 30-45 minute apartment-to-commute window, with each piece proving the point before Jimmy explains it.",
       productionWindow: "30-45 minutes before work",
       locationPlan: "Bedroom mirror, desk or shelf, coffee setup, doorway, train platform or walking reflection, one cafe or street texture if naturally available.",
       recommendation: "Lead with the over-input thought video on TikTok, keep the menswear-framed standards video for Reels, and package the coffee/object piece or over-input clip as the Shorts post with a literal searchable title.",
@@ -6267,10 +6267,10 @@ window.JCUE_DAILY_UPDATES = [
         implication: "Use Tokyo commute, cafe, and street texture as natural proof without slipping into travel framing."
       },
       {
-        signal: "Later's current TikTok trend coverage still points to real-process and accountability content instead of polished fantasy.",
+        signal: "Later's June 2026 trend coverage says micro-trend cycles are compressing into 24-48 hour windows, so creators win by adapting fast signals to their own repeatable format instead of rebuilding from scratch.",
         source: "Later",
-        url: "https://later.com/blog/current-tiktok-trends/",
-        implication: "Keep one clip centered on doing the routine, not just presenting the result."
+        url: "https://later.com/blog/speed-to-culture-social-trends-approval-process/",
+        implication: "Use Jimmy's repeatable room-coffee-outfit-commute template and swap only the hook or thesis, not the whole production system."
       },
       {
         signal: "Meta said on January 28, 2026 that 75% of Instagram recommendations were coming from original posts after increasing original-content prevalence in US recommendations.",
