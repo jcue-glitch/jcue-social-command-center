@@ -7289,5 +7289,463 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only as warmth and weekly-life pacing reference. Keep Jimmy's topic on thoughts, style, routines, beauty, objects, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run because the visible Notion history still matches the unchanged May 20 YouTube import. Today's guidance stays anchored to the current baseline: menswear framing for reach, imperfection for engagement density, and quiet reflection for comment depth."
+  },
+  {
+    generatedAt: "2026-06-16",
+    researchWindow: "Live scan on June 16, 2026 JST across TikTok Newsroom, YouTube Help, The Verge, House Beautiful, Good Housekeeping, Who What Wear, and the approved JCue Substack radar list. Notion connector startup failed during this run, so performance guidance uses the last local baseline plus prior synced learnings instead of fresh row reads.",
+    updateMode: "Daily dashboard update built from current web signals, local YouTube baseline data, and prior JCue metrics patterns.",
+    weeklyTheme: {
+      dates: "June 15 - June 21, 2026",
+      title: "Proof, Not Novelty",
+      thesis: "Today should make lived-in standards feel more attractive than aesthetic refreshes: repeated clothes, a room with character, and a morning sequence that looks authored instead of optimized.",
+      whyNow: "Current signals keep rewarding original posts, repeated silhouettes, real behind-the-scenes texture, and spaces that feel comforting rather than pristine. The sharp move is not to refresh Jimmy's identity again. It is to show the proof that already exists.",
+      contentRule: "Every post needs one first-second proof shot that looks original, lived with, and slightly imperfect: the room corner, the shirt shape, the coffee setup, or the route out the door."
+    },
+    dailyBrief: {
+      date: "2026-06-16",
+      day: "Tuesday",
+      deliveryTime: "07:00 JST",
+      title: "Stop refreshing the atmosphere.",
+      objective: "Film one Tuesday batch that proves a calm life is built from original texture and repeated standards, not from making everything look new again.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment room corner or shelf, coffee setup, shirt or trouser detail, one seated talking-head frame, doorway exit, and one train or walking reflection shot.",
+      recommendation: "Lead with the thought video on TikTok or Reels because today's strongest point is anti-refresh and anti-borrowed atmosphere. Support it with one room-detail post, one quiet-uniform fit-check, and one morning-sequence clip for YouTube Shorts.",
+      todayDoNotDo: [
+        "Do not clean the room into generic calm content. Leave one real edge in frame.",
+        "Do not make the style lane sound fashion-insider. Keep it about standards, conviction, and lower decision noise.",
+        "Do not aestheticize Tokyo into travel content. Use the city as normal lived proof."
+      ],
+      approvalChecklist: [
+        "Does the first frame already feel original, not templated?",
+        "Is the hook short, negative, and instantly readable?",
+        "Does the 3-5 second bridge reveal a sharper proof shot rather than repeating the setup?",
+        "Does at least one piece make the room feel characterful instead of pristine?",
+        "Does the atelier lane stay subtle and worldview-led?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-06-16-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Your Room Does Not Need To Look New",
+        format: "4-6 slide carousel or TikTok photo mode post",
+        purpose: "Turn the current lived-in-space and imperfect-comfort signal into a saveable post about authorship, not decor shopping.",
+        creatorSearchTopics: ["calm life aesthetic", "daily lifestyle"],
+        filmingFit: "Shoot in 5-7 minutes before leaving.",
+        shotList: [
+          "Slide 1: one room corner with character, negative space, and one imperfect detail left visible.",
+          "Slide 2: close-up of a mug, notebook, lamp, shirt, or headphone detail.",
+          "Slide 3: wider shelf, chair, or desk frame with morning light.",
+          "Slide 4: one object held or touched by hand.",
+          "Slide 5: doorway or train reflection in the same palette.",
+          "Slide 6: text slide: 'comfort is a better flex than polish.'"
+        ],
+        overlayText: [
+          "your room does not need to look new",
+          "it needs character",
+          "it needs return",
+          "comfort is a better flex than polish"
+        ],
+        caption: "Your room does not need to look new.\n\nIt needs character.\n\nA lot of people keep trying to buy atmosphere when what they actually want is a space that reflects how they really live. That is why I trust the corner with some wear in it, the object I keep reaching for, and the light that feels familiar instead of staged.\n\nTaste gets stronger when it stops trying to impress the camera.\n\nComfort is a better flex than polish.\n\n#jimmycue #DailyLifestyle #calmlifeaesthetic #slowliving #quietluxury",
+        keywords: ["calm life aesthetic", "daily lifestyle", "slow living", "quiet luxury"],
+        seoKeywords: ["calm life aesthetic", "daily lifestyle", "slow living lifestyle minimalism", "quiet luxury room"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#calmlifeaesthetic", "#slowliving", "#quietluxury"],
+        retentionBridge: "Make slide 2 the tightest tactile crop so viewers swipe to inspect the texture and object choice.",
+        editNotes: "Warm, quiet, and slightly imperfect. Let one crease, shadow, or used edge stay visible."
+      },
+      {
+        id: "video-2026-06-16-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "People Underestimate A Quiet Uniform",
+        format: "Fit-check philosophy video, 18-26 seconds",
+        purpose: "Reuse the menswear baseline while aligning it with the current anti-refresh, modern-uniform signal.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        filmingFit: "One detail close-up, one mirror reveal, one door or train shot.",
+        hook: "people underestimate a quiet uniform",
+        firstFrameDirection: "Open on the strongest texture first: cuff, crease, seam, or shirt placket before the full outfit.",
+        onScreenText: "people underestimate a quiet uniform",
+        retentionBridge: "At 3-5 seconds, reveal the full outfit and say: 'repetition lowers decision noise.'",
+        shotList: [
+          "Cuff, seam, placket, belt, or trouser detail.",
+          "Mirror half-body reveal.",
+          "Hand adjusting cuff, bag, or shirt hem.",
+          "Doorway exit or train reflection."
+        ],
+        talkingScript: "People underestimate a quiet uniform.\n\nRepetition lowers decision noise.\n\nI do not want my clothes to ask me who I am every morning.\n\nI want one shape I trust, one texture that already feels lived with, and enough calm to leave the house without self-negotiation.\n\nThat is what makes style useful.",
+        beatSheet: [
+          { time: "0-2s", action: "Texture close-up first.", line: "People underestimate a quiet uniform." },
+          { time: "3-5s", action: "Reveal the outfit.", line: "Repetition lowers decision noise." },
+          { time: "6-13s", action: "Mirror or side angle.", line: "I do not want my clothes to ask me who I am every morning." },
+          { time: "14-21s", action: "Cuff or bag detail.", line: "I want one shape I trust, one texture that already feels lived with, and enough calm to leave the house without self-negotiation." },
+          { time: "22-26s", action: "Exit frame.", line: "That is what makes style useful." }
+        ],
+        caption: "Most people think style needs more options.\n\nIt usually needs a stronger repeat.\n\nA quiet uniform is useful because it lowers decision noise. It gives the body something dependable so your attention can go somewhere better.\n\nThat is why I trust repeated silhouettes more than trend rotation.\n\nStyle is better when it behaves like a standard.\n\n#jimmycue #fitcheck #mensstyle #menslifestyle #ootd",
+        keywords: ["fit check", "mens lifestyle", "quiet uniform", "OOTD"],
+        seoKeywords: ["fit check", "mens lifestyle", "quiet luxury", "casual menswear", "outfit check"],
+        hashtags: ["#jimmycue", "#fitcheck", "#mensstyle", "#menslifestyle", "#ootd"],
+        platformNotes: {
+          Instagram: "Strong midday Reel because the baseline still favors tactile menswear phrasing.",
+          TikTok: "Works if the first frame is already the best detail.",
+          YouTube: "Retitle literally if used as a Short: 'People underestimate a quiet uniform'."
+        },
+        editNotes: "No need for trend audio. Keep the movement small and intentional."
+      },
+      {
+        id: "video-2026-06-16-02",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok", "Instagram Reels"],
+        title: "Your Room Is Not The Problem. Your Sequence Is",
+        format: "Morning-sequence micro essay, 22-30 seconds",
+        purpose: "Translate digital minimalism and home-authorship into one practical anti-overstimulation post.",
+        creatorSearchTopics: ["digital minimalism", "daily thoughts"],
+        filmingFit: "Room corner, curtain or light movement, coffee, top note, bag or shoe pickup.",
+        hook: "your room is not the problem. your sequence is",
+        firstFrameDirection: "Open on an ordinary imperfect corner first, not the prettiest frame.",
+        onScreenText: "your room is not the problem",
+        retentionBridge: "At 3-5 seconds, show the next action fast and say: 'change the order.'",
+        shotList: [
+          "Imperfect room corner.",
+          "Curtain, lamp, or window-light movement.",
+          "Coffee or mug shot.",
+          "Notebook or top-1 line.",
+          "Bag, shoes, or doorway exit."
+        ],
+        talkingScript: "Your room is not the problem. Your sequence is.\n\nChange the order.\n\nMost mornings feel loud because the first actions belong to the feed, not to you.\n\nLight. Coffee. Clothes. One line on paper. Then the city.\n\nThat order changes atmosphere faster than shopping does.",
+        beatSheet: [
+          { time: "0-2s", action: "Imperfect corner first.", line: "Your room is not the problem." },
+          { time: "3-5s", action: "Move to the next action.", line: "Your sequence is. Change the order." },
+          { time: "6-14s", action: "Coffee or notebook proof.", line: "Most mornings feel loud because the first actions belong to the feed, not to you." },
+          { time: "15-24s", action: "Clothes, bag, or exit sequence.", line: "Light. Coffee. Clothes. One line on paper. Then the city." },
+          { time: "25-30s", action: "Final room or walking shot.", line: "That order changes atmosphere faster than shopping does." }
+        ],
+        caption: "Most people are not missing a better room.\n\nThey are missing a better first sequence.\n\nThe room starts feeling different when the first actions belong to you instead of the feed. Light. Coffee. Clothes. One line. Then the city.\n\nOrder changes atmosphere faster than buying more things.\n\n#jimmycue #digitalminimalism #DailyThoughts #slowliving #tokyolife",
+        keywords: ["digital minimalism", "daily thoughts", "slow living", "Tokyo life"],
+        seoKeywords: ["digital minimalism", "daily thoughts", "morning routine no talking", "slow living lifestyle minimalism"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#DailyThoughts", "#slowliving", "#tokyolife"],
+        platformNotes: {
+          YouTube: "Best Shorts candidate because the title is literal and the sequence is easy to understand without context.",
+          TikTok: "Fits current anti-scroll and first-input conversation.",
+          Instagram: "Keep it under 30 seconds and let the cuts do the work."
+        },
+        editNotes: "Make the second cut decisive. The bridge line has to land before second 5."
+      },
+      {
+        id: "video-2026-06-16-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Most People Keep Buying The Feeling",
+        format: "Object-and-ritual philosophy clip, 18-24 seconds",
+        purpose: "Seed the atelier worldview through object culture and repeated ritual, not through selling.",
+        creatorSearchTopics: ["daily thoughts", "quiet luxury"],
+        filmingFit: "Object close-up, hand interaction, room corner, final exit or face shot.",
+        hook: "most people keep buying the feeling",
+        firstFrameDirection: "Open on one object that already carries the atmosphere: mug, notebook, headphones, lamp, or chair arm.",
+        onScreenText: "most people keep buying the feeling",
+        retentionBridge: "At 3-5 seconds, touch the object and say: 'but the object is not the point.'",
+        shotList: [
+          "Object close-up.",
+          "Hand touching or lifting it.",
+          "Wide room or desk shot.",
+          "One second object in the same palette.",
+          "Doorway or walking exit."
+        ],
+        talkingScript: "Most people keep buying the feeling.\n\nBut the object is not the point.\n\nThe ritual around it is.\n\nA good cup, a good notebook, a good chair mean very little if your life still has no shape around them.\n\nThe feeling starts when you return to them with intention.",
+        beatSheet: [
+          { time: "0-2s", action: "Object fills the frame.", line: "Most people keep buying the feeling." },
+          { time: "3-5s", action: "Hand touches the object.", line: "But the object is not the point." },
+          { time: "6-11s", action: "Wide room shot.", line: "The ritual around it is." },
+          { time: "12-19s", action: "Two object details.", line: "A good cup, a good notebook, a good chair mean very little if your life still has no shape around them." },
+          { time: "20-24s", action: "Exit or face shot.", line: "The feeling starts when you return to them with intention." }
+        ],
+        caption: "Most people keep buying the feeling.\n\nBut the object is not the point. The ritual around it is.\n\nTaste gets shallow when it only knows how to collect. It gets real when it starts returning.\n\nSame cup. Same corner. Same notebook. Same care.\n\nThat is when a beautiful life stops looking staged.\n\n#jimmycue #DailyThoughts #quietluxury #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "quiet luxury", "slow living", "self growth"],
+        seoKeywords: ["daily thoughts", "quiet luxury", "slow living lifestyle minimalism", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#quietluxury", "#slowliving", "#selfgrowth"],
+        platformNotes: {
+          TikTok: "Strong secondary post if the object shot stops the scroll immediately.",
+          Instagram: "Pairs cleanly with the room carousel and makes the atelier lane feel native."
+        },
+        editNotes: "Keep the tone calm and firm. No pitch energy."
+      },
+      {
+        id: "thought-2026-06-16-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Most People Are Consuming Atmosphere Instead Of Building It",
+        format: "Talking-head thought video, 55-85 seconds",
+        purpose: "Give Jimmy one compact spoken essay about authorship, repeated standards, and original lived texture instead of borrowed aesthetic refreshes.",
+        sourceInspiration: "TikTok's 2026 intentional-behavior signals, Instagram's originality pressure, current home/style movement toward comfort and repeated silhouettes, plus the JCue-approved Substack lane around doing before over-curating and becoming more specific.",
+        sourceReferences: [
+          {
+            title: "Introducing TikTok Next 2026: Our Trend Forecast for Marketers for the Year Ahead",
+            source: "TikTok Newsroom",
+            url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?_hsmi=399120832&lang=en",
+            note: "Grounds the move toward grounded behavior, curiosity, and emotional ROI over passive fantasy."
+          },
+          {
+            title: "Search & discovery tips - Shorts",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+            note: "Supports using literal topics, strong first-frame proof, and hold-worthy structure."
+          },
+          {
+            title: "Instagram says it doesn't want your tweet round ups",
+            source: "The Verge",
+            url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+            note: "Signals that original perspective and materially edited content matter more than reposted moodboard energy."
+          },
+          {
+            title: "Move Over, Cottagecore: 'Burrowcore' Is the Cozy Home Trend Everyone Wants Right Now",
+            source: "House Beautiful",
+            url: "https://www.housebeautiful.com/design-inspiration/a71486387/burrowcore-home-trend/",
+            note: "Adds the current appetite for spaces that feel comforting, characterful, and perfectly imperfect rather than pristine."
+          },
+          {
+            title: "Depop's 2026 Trend Forecast Is Here-These Are the Styles to Know",
+            source: "Who What Wear",
+            url: "https://www.whowhatwear.com/fashion/trends/depop-trend-predictions-2026",
+            note: "Supports repeated silhouettes, modern uniforms, and the shift from accumulation toward authorship."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Useful for translating a taste thesis into one visible daily act."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Supports becoming more specific and less generic as a creative advantage."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "most people are consuming atmosphere instead of building it",
+        firstFrameDirection: "Open on a calm talking-head frame with one strong proof object behind or beside you: the shirt, lamp, mug, chair, or shelf corner. Speak the thesis immediately.",
+        retentionBridge: "At 3-5 seconds, cut to the room or object proof and say: 'that is why nothing feels fully yours.'",
+        fullTalkingScript: "Most people are consuming atmosphere instead of building it.\n\nThat is why nothing feels fully yours.\n\nThe internet makes it very easy to borrow a vibe. A room reference. A style reference. A routine reference. A whole moodboard for a life you have not actually repeated yet.\n\nBut atmosphere does not come from references alone.\n\nIt comes from return.\n\nThe same chair. The same shirt shape. The same coffee ritual. The same order in the morning. The same corner that keeps collecting your real life instead of content props.\n\nThis morning I did not need a better aesthetic. I needed light, coffee, clothes, one clear thought, and out the door.\n\nThat is what starts making a life feel authored.\n\nIf your life still looks good but feels borrowed, stop asking what to add.\n\nAsk what you are willing to return to for the next seven days.\n\nOne object. One routine. One silhouette.\n\nAtmosphere is not something you buy once.\n\nIt is something you build by returning.",
+        beatSheet: [
+          { time: "0-4s", action: "Talking head with proof visible.", line: "Most people are consuming atmosphere instead of building it." },
+          { time: "5-10s", action: "Cut to room or object proof.", line: "That is why nothing feels fully yours." },
+          { time: "11-24s", action: "Back to talking head.", line: "The internet makes it easy to borrow a vibe, a room reference, a style reference, a routine reference." },
+          { time: "25-39s", action: "Coffee, shirt, chair, or room-corner montage.", line: "But atmosphere does not come from references alone. It comes from return: the same chair, the same shirt shape, the same coffee ritual, the same order in the morning." },
+          { time: "40-56s", action: "Talking head plus one hand/object insert.", line: "This morning I did not need a better aesthetic. I needed light, coffee, clothes, one clear thought, and out the door." },
+          { time: "57-75s", action: "Final face or exit shot.", line: "If your life still feels borrowed, choose one object, one routine, and one silhouette to return to for seven days. Atmosphere is something you build by returning." }
+        ],
+        shotList: [
+          "Talking head by desk, doorway, or window.",
+          "Room corner, lamp, shelf, or chair proof shot.",
+          "Coffee pour or mug pickup.",
+          "Shirt cuff, placket, or trouser detail.",
+          "Notebook or one written line.",
+          "Doorway exit or train-platform reflection."
+        ],
+        caption: "Most people are consuming atmosphere instead of building it.\n\nThat is why nothing feels fully yours.\n\nA room can look good and still feel borrowed. An outfit can look right and still feel generic. A morning can look calm and still feel interrupted.\n\nThe shift happens when you stop refreshing the identity and start returning to a few things on purpose.\n\nOne object. One routine. One silhouette.\n\nAtmosphere gets real when repetition has some life in it.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "digital minimalism", "slow living", "self growth"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "live life for yourself", "slow living lifestyle minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#selfgrowth"],
+        platformNotes: {
+          TikTok: "Best fit for today's anti-borrowed-atmosphere thesis and active search behavior.",
+          Instagram: "Use the exact hook on the cover frame over the room or object proof shot.",
+          YouTube: "Trim to the strongest 60-70 seconds if needed and keep the title literal."
+        },
+        editNotes: "Plain delivery, no coach cadence, no aesthetic poetry. Let the proof shots interrupt the monologue."
+      },
+      {
+        id: "story-2026-06-16-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Gives A Room Character?",
+        format: "Poll story",
+        purpose: "Pull direct audience language around comfort, objects, and lived-in texture.",
+        creatorSearchTopics: ["daily lifestyle"],
+        hook: "what gives a room character?",
+        firstFrameDirection: "Open on one corner with two clear options visible in frame.",
+        filmingFit: "5-second capture inside the apartment.",
+        shotList: ["Lamp and chair, or mug and notebook in one frame."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what gives a room character?",
+        pollOptions: ["objects", "light"],
+        caption: "comfort over polish.",
+        keywords: ["daily lifestyle", "calm life aesthetic"],
+        seoKeywords: ["daily lifestyle", "calm life aesthetic"],
+        hashtags: ["#jimmycue", "#DailyLifestyle"],
+        retentionBridge: "The poll makes the room-angle personal immediately.",
+        editNotes: "Keep it low-design and readable."
+      },
+      {
+        id: "story-2026-06-16-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "What Do You Return To?",
+        format: "Question box story",
+        purpose: "Open a subtle atelier-coded response lane around ritual and repetition.",
+        creatorSearchTopics: ["daily thoughts"],
+        hook: "what do you return to?",
+        firstFrameDirection: "Open on the morning object or outfit proof shot with clear space for the question sticker.",
+        filmingFit: "5-second cup, cuff, or notebook clip.",
+        shotList: ["Cup, cuff, notebook, or shelf clip."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what do you return to?",
+        pollOptions: [],
+        caption: "object, route, outfit, ritual.",
+        keywords: ["daily thoughts", "self growth"],
+        seoKeywords: ["daily thoughts", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        retentionBridge: "Answers can feed tomorrow's thought lane.",
+        editNotes: "No selling, just the question."
+      },
+      {
+        id: "written-2026-06-16-01",
+        type: "Written Post",
+        platformPriority: ["Substack Notes", "Instagram Notes"],
+        title: "Atmosphere Is Built By Returning",
+        format: "Short note draft, 120-160 words",
+        purpose: "Extend today's thought into a slower written lane without summarizing any one source directly.",
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "atmosphere is built by returning",
+        firstFrameDirection: "If adapted visually, place the line over a chair, lamp, mug, or shirt detail.",
+        talkingScript: "Atmosphere is built by returning.\n\nA lot of people can style a frame now.\nThat is not the hard part.\n\nThe hard part is making a life feel like it belongs to you when the camera is gone.\n\nSame chair.\nSame shirt shape.\nSame cup.\nSame route.\nSame first five minutes of the day protected from noise.\n\nThat is where taste starts turning into authorship.\n\nNot when you buy something new.\nWhen you return to something true often enough that it starts carrying your life inside it.",
+        caption: "Short note draft for Substack Notes or Instagram Notes.",
+        keywords: ["daily thoughts", "digital minimalism", "slow living"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "slow living lifestyle minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving"],
+        retentionBridge: "If used in Notes, post the title plus the first five lines first.",
+        editNotes: "Keep it spare and direct."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Read the brief and pick three proofs: one room detail, one outfit shape, and one morning-sequence action.", platform: "Private", reason: "Keep the pack anchored in visible originals instead of abstract philosophy." },
+      { time: "07:12-07:52", action: "Film the thought video, quiet-uniform clip, sequence clip, object-ritual clip, carousel assets, written-note frame, and both stories.", platform: "Phone", reason: "Batch while the room and route still feel like actual Tuesday morning life." },
+      { time: "08:25", action: "Post Most People Are Consuming Atmosphere Instead Of Building It.", platform: "TikTok", reason: "Strongest thesis-led post for current intentional-behavior and search patterns." },
+      { time: "12:20", action: "Post People Underestimate A Quiet Uniform.", platform: "Instagram Reels", reason: "Menswear framing still gives the clearest reach door at midday." },
+      { time: "18:40", action: "Post Your Room Is Not The Problem. Your Sequence Is.", platform: "YouTube Shorts", reason: "Literal title plus clear sequence logic fits current Shorts discovery guidance." },
+      { time: "20:45", action: "Post Your Room Does Not Need To Look New and the written note.", platform: "Instagram / TikTok photo mode / Substack Notes", reason: "Evening is better for saveable room-detail content and slower reflection." },
+      { time: "Any time", action: "Run the poll and question-box stories.", platform: "Stories", reason: "Collect audience language around comfort, standards, and repetition." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's January 14, 2026 forecast frames 2026 around Reali-TEA, Curiosity Detours, and Emotional ROI, with users in active discovery mode and less patience for passive fantasy.",
+        source: "TikTok Newsroom",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?_hsmi=399120832&lang=en",
+        implication: "Jimmy should show grounded proofs, useful sequence, and emotionally precise routines instead of empty aesthetic mood."
+      },
+      {
+        signal: "YouTube says Shorts are matched to viewers most likely to watch and enjoy them, and ranking leans on choose-to-view, average view duration, average percentage viewed, topic interest, competition, and seasonality.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Keep Shorts titles literal, first frames unmistakable, and the 3-5 second bridge sharper than the hook."
+      },
+      {
+        signal: "The Verge reported on April 30, 2026 that Instagram is expanding restrictions on 'unoriginal' content beyond Reels to photos and carousels, favoring content that creators wholly made or materially edited.",
+        source: "The Verge",
+        url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+        implication: "Original apartment footage, fit details, object shots, and Jimmy's own wording matter more than borrowed moodboard posting."
+      },
+      {
+        signal: "House Beautiful's June 11, 2026 'burrowcore' piece says people want rooms that feel comforting, characterful, warm, and perfectly imperfect rather than pristine or overstyled.",
+        source: "House Beautiful",
+        url: "https://www.housebeautiful.com/design-inspiration/a71486387/burrowcore-home-trend/",
+        implication: "Use lived-in room texture and familiar objects as proof, not a polished set."
+      },
+      {
+        signal: "Good Housekeeping's February 25, 2026 report on TikTok's Discover List says the platform is rewarding community-driven creators whose cozy, low-key, behind-the-scenes posts feel genuine and inviting instead of overproduced.",
+        source: "Good Housekeeping",
+        url: "https://www.goodhousekeeping.com/food-products/a70478239/tiktok-discover-list-2026/",
+        implication: "Jimmy's strongest content lane stays low-pressure, real, and texture-rich rather than aggressively viral."
+      },
+      {
+        signal: "Who What Wear's January 15, 2026 coverage of Depop's trend report says 2026 style is moving toward 'The Edited Self,' repeated silhouettes, modern uniforms, and authorship over accumulation.",
+        source: "Who What Wear",
+        url: "https://www.whowhatwear.com/fashion/trends/depop-trend-predictions-2026",
+        implication: "Today's style lane should reward outfit repetition, trustworthy silhouettes, and quiet conviction."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution gap framing still fits because today's audience does not need a cleaner moodboard before it acts. It needs one visible thing repeated in public.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate atmosphere into one daily proof shot and one daily return.",
+        postIdea: "A life starts feeling real when one standard survives more than one mood."
+      },
+      {
+        signal: "Kevin Kelly's specificity logic keeps supporting Jimmy's category-of-one lane: becoming more specific reduces generic comparison and makes the life more recognizable.",
+        source: "Kevin Kelly",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use repeated clothes, repeated objects, and repeated routes as proof of becoming less generic.",
+        postIdea: "A quiet uniform can make a life more specific, not less expressive."
+      },
+      {
+        signal: "Today's atelier-coded move is simple: the object is not the product. The return to it is what turns taste into authorship.",
+        source: "JCue synthesis from public research",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Seed the business lane through ritual and space without making any offer.",
+        postIdea: "Your space can look right and still feel unclaimed if you never return to it with intention."
+      }
+    ],
+    keywordBank: {
+      primary: ["most people are consuming atmosphere instead of building it", "quiet uniform", "digital minimalism", "calm life aesthetic", "Tokyo life"],
+      secondary: ["daily thoughts", "slow living", "mens lifestyle", "quiet luxury", "fit check", "daily lifestyle"],
+      titles: [
+        "Most People Are Consuming Atmosphere Instead Of Building It",
+        "People Underestimate A Quiet Uniform",
+        "Your Room Is Not The Problem. Your Sequence Is",
+        "Most People Keep Buying The Feeling",
+        "Your Room Does Not Need To Look New"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#tokyolife"],
+        style: ["#fitcheck", "#mensstyle", "#menslifestyle", "#ootd", "#quietluxury"],
+        routine: ["#digitalminimalism", "#DailyThoughts", "#calmlifeaesthetic", "#coffeeroutine"],
+        atelier: ["#selfgrowth", "#slowliving", "#quietluxury"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post in the daily pack because the local baseline still shows the clearest reach on casual menswear phrasing.",
+      "Keep direct imperfection and enoughness language in captions because wabi-sabi and anti-polish framing still fit Jimmy's strongest engagement pattern.",
+      "Keep one reflective thought video in rotation because quiet-life reflection still appears to create deeper identity attachment even when reach is smaller.",
+      "For Shorts, prioritize literal titles and a stronger second cut because YouTube explicitly weights choose-to-view and hold signals rather than one preferred format."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh Notion or YouTube sync was available on June 16, 2026 JST.",
+        note: "`.youtube/latest_metrics.json` still reflects the May 20, 2026 baseline import, and the Notion connector failed to initialize during this run before any Content Pieces, Performance Snapshots, or Outliers + Learnings rows could be inspected.",
+        action: "After the next YouTube Short posts, capture the first real 24h snapshot the following Tokyo morning and compare it against the existing menswear, imperfection, and quiet-reflection baselines."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear phrasing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest imported baseline paired relatable thought language with clear menswear search framing.",
+          repeat: "Keep one quiet-uniform or outfit-detail video in today's pack."
+        },
+        {
+          title: "Imperfection themes still carry stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still maps cleanly to Jimmy's wabi-sabi point of view.",
+          repeat: "Use direct lines about character, return, and non-pristine standards."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Thoughtful calm-life content creates deeper response even before reach scales.",
+          repeat: "Keep the talking-head lane active, but prove it quickly with stronger first-second evidence."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-06-30",
+      note: "The biweekly long-form slot still appears overdue.",
+      suggestion: "Current strongest angle: 'atmosphere is built by returning: a calmer authored life in tokyo through repeated clothes, rooms, objects, and routines'.",
+      referenceNote: "Use Havenotats only as warmth and weekly-life pacing reference. Keep Jimmy's topic on thoughts, style, routines, beauty, objects, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run because the Notion connector failed to initialize and the local YouTube file did not advance past the May 20 baseline import. Today's guidance stays anchored to the current baseline: menswear framing for reach, imperfection for engagement density, and quiet reflection for comment depth."
   }
 ];
