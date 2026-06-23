@@ -8630,5 +8630,916 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. The hub and relevant pages were readable, but row-level queries are blocked by the current Notion plan and the local YouTube export has not advanced beyond the May 20 baseline import."
+  },
+  {
+    generatedAt: "2026-06-23",
+    researchWindow: "Fresh scan for June 23, 2026",
+    updateMode: "Dashboard daily data layer. The stable creator strategy stays in social-plan.js; each morning's trend-informed direction should be appended here.",
+    weeklyTheme: {
+      dates: "June 22 - June 28, 2026",
+      title: "Return On Purpose",
+      thesis: "The strongest way to feel specific right now is not more inspiration but more repetition: same silhouette, same ritual, same room proof, repeated until the life looks authored.",
+      whyNow: "Current taste and menswear coverage keeps pointing in the same direction: people are tired of algorithmic sameness, modern uniforms are rising, and original lived-in posts are being rewarded over borrowed moodboards.",
+      contentRule: "Every post should show one repeatable proof from Jimmy's real morning rather than a new aesthetic performance."
+    },
+    dailyBrief: {
+      date: "2026-06-23",
+      day: "Tuesday",
+      deliveryTime: "07:00 JST",
+      title: "Repetition builds the taste.",
+      objective: "Film a Tuesday morning batch that proves authorship through repetition: one clean silhouette, one repeated ritual, one room/object detail, and one direct thought about why most people are over-referenced.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment window or desk for talking head, mirror or doorway for silhouette, coffee or sink counter for ritual, shelf/chair/notebook for room proof, then one commute reflection if time allows.",
+      recommendation: "Lead with the Thought Video on TikTok, use the uniform-guidance clip for Reels, keep the phone-boundary sequence literal for Shorts, and use the carousel as the saveable originality proof for Instagram.",
+      todayDoNotDo: [
+        "Do not introduce a completely new visual identity just to look fresh today.",
+        "Do not make the style post only about fashion. Make it about decision fatigue, standards, and self-perception.",
+        "Do not use moodboard-style images or reference-heavy overlays. Keep every frame rooted in Jimmy's own room, clothes, and routine."
+      ],
+      approvalChecklist: [
+        "Does the first frame already show real-life proof rather than abstract atmosphere?",
+        "Is there one direct contrarian line in every video within the first spoken sentence?",
+        "Does each concept fit the actual morning apartment/commute filming window?",
+        "Does the thought video translate research into Jimmy's lived proof instead of summarizing sources?",
+        "Does at least one concept use menswear guidance as the reach door and one use quiet reflection as the depth door?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-06-23-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "What I Repeat On Purpose",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn the originality and anti-overconsumption theme into a saveable proof set built from Jimmy's own room, objects, and uniform.",
+        creatorSearchTopics: ["daily lifestyle", "slow living"],
+        filmingFit: "5 minutes while getting dressed and making coffee.",
+        shotList: [
+          "Slide 1: mirror or doorway self-portrait in the day's silhouette.",
+          "Slide 2: shirt cuff, trouser line, watch, or belt detail.",
+          "Slide 3: coffee, notebook, or shelf ritual shot.",
+          "Slide 4: one real room proof: chair, desk, or corner with texture.",
+          "Slide 5: text slide or quiet self-portrait crop."
+        ],
+        talkingScript: "Use as text-led carousel only.",
+        overlayText: [
+          "what i repeat on purpose",
+          "same shirt shape",
+          "same coffee rhythm",
+          "same room proof",
+          "repetition builds the taste"
+        ],
+        caption: "Most people do not need more inspiration.\n\nThey need more repetition.\n\nTaste usually becomes visible when the same few choices survive real mornings long enough to become a life.\n\nThat is why I care about silhouette, ritual, and the objects I actually live with.\n\nRepetition is not laziness.\nIt is authorship.\n\n#jimmycue #DailyLifestyle #slowliving #tokyolife #quietluxury",
+        keywords: ["daily lifestyle", "slow living", "Tokyo life", "quiet luxury"],
+        seoKeywords: ["daily lifestyle", "slow living lifestyle minimalism", "Tokyo life", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#slowliving", "#tokyolife", "#quietluxury"],
+        retentionBridge: "Make slide 2 the sharpest tactile crop so viewers swipe for the proof details.",
+        editNotes: "Keep it original, quiet, and lightly imperfect. No moodboard energy."
+      },
+      {
+        id: "video-2026-06-23-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "Most Men Need A Uniform, Not More Options",
+        format: "Style-guidance video, 20-30 seconds",
+        purpose: "Use menswear guidance as the reach door while keeping the deeper thesis about standards and self-perception.",
+        creatorSearchTopics: ["mens lifestyle", "fit check"],
+        filmingFit: "Mirror, cuff close-up, and doorway shot in under 8 minutes.",
+        hook: "most men need a uniform, not more options",
+        firstFrameDirection: "Open on the cleanest silhouette frame, already dressed enough to prove the point immediately.",
+        retentionBridge: "At 3-5 seconds, cut to the cuff or trouser detail and say: 'options are not freedom when they make you less specific.'",
+        shotList: [
+          "Full mirror or doorway silhouette.",
+          "Cuff, trouser line, or belt detail.",
+          "Hand adjusting shirt or watch.",
+          "Final exit or walking shot."
+        ],
+        talkingScript: "Most men need a uniform, not more options.\n\nOptions are not freedom when they make you less specific.\n\nThe point of repeating a silhouette is not boredom.\n\nIt is reducing noise so your standards can show.\n\nSame palette. Same shape. Better judgment.\n\nThat changes how you move through the day.",
+        beatSheet: [
+          { time: "0-3s", action: "Silhouette proof frame.", line: "Most men need a uniform, not more options." },
+          { time: "4-7s", action: "Cuff or trouser close-up.", line: "Options are not freedom when they make you less specific." },
+          { time: "8-15s", action: "Mirror adjustment shot.", line: "The point of repetition is not boredom. It is reducing noise so your standards can show." },
+          { time: "16-24s", action: "Walk or doorway exit.", line: "Same palette, same shape, better judgment. That changes how you move through the day." }
+        ],
+        caption: "Most men do not need a bigger wardrobe.\n\nThey need a clearer one.\n\nA uniform is not about dressing safe. It is about removing enough noise that your actual taste can start showing up.\n\nThat is why I repeat silhouettes, fabrics, and small details.\n\nStyle becomes stronger when it stops trying to impress every day.\n\n#jimmycue #mensstyle #menslifestyle #fitcheck #quietluxury",
+        keywords: ["mens lifestyle", "fit check", "quiet luxury", "daily lifestyle"],
+        seoKeywords: ["mens lifestyle", "fit check", "quiet luxury", "mens style"],
+        hashtags: ["#jimmycue", "#mensstyle", "#menslifestyle", "#fitcheck", "#quietluxury"],
+        platformNotes: {
+          TikTok: "Strong if the opening silhouette already reads clearly on a phone screen.",
+          Instagram: "Best reach door today because the baseline still favors menswear framing.",
+          YouTube: "Can be reused later as a literal Short with a title built from the hook."
+        },
+        editNotes: "Keep the tone calm and certain. Guidance, not flexing."
+      },
+      {
+        id: "video-2026-06-23-02",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "Your Morning Is Not The Problem. The Noise Is.",
+        format: "Ritual + phone-boundary sequence, 20-30 seconds",
+        purpose: "Translate current anti-overstimulation and anti-algorithm taste language into a filmable morning proof sequence.",
+        creatorSearchTopics: ["digital minimalism", "coffee routine"],
+        filmingFit: "Coffee, phone placement, and room detail in under 7 minutes.",
+        hook: "your morning is not the problem. the noise is.",
+        firstFrameDirection: "Open on the phone being set down face-down beside coffee or a notebook.",
+        retentionBridge: "At 3 seconds, show the coffee or room proof and say: 'most people start the day inside someone else's taste.'",
+        shotList: [
+          "Phone face-down beside cup or notebook.",
+          "Coffee pour or pickup.",
+          "Shelf, chair, or desk proof shot.",
+          "One moving exit shot."
+        ],
+        talkingScript: "Your morning is not the problem. The noise is.\n\nMost people start the day inside someone else's taste.\n\nThat is why small rituals matter.\n\nPhone down. Coffee first. One room proof. One thing finished.\n\nA calmer life usually starts as a better first five minutes.",
+        beatSheet: [
+          { time: "0-3s", action: "Phone down shot.", line: "Your morning is not the problem. The noise is." },
+          { time: "4-8s", action: "Coffee or room proof insert.", line: "Most people start the day inside someone else's taste." },
+          { time: "9-16s", action: "Ritual sequence.", line: "That is why small rituals matter. Phone down. Coffee first. One room proof. One thing finished." },
+          { time: "17-25s", action: "Final exit or hand movement.", line: "A calmer life usually starts as a better first five minutes." }
+        ],
+        caption: "Most mornings do not need a total reset.\n\nThey need less noise.\n\nThe first few minutes shape more than people think: your pace, your attention, your standards, and even what kind of taste you carry into the rest of the day.\n\nThat is why I protect the first five minutes.\n\nSilence creates better judgment.\n\n#jimmycue #digitalminimalism #coffeeroutine #slowliving #DailyThoughts",
+        keywords: ["digital minimalism", "coffee routine", "slow living", "daily thoughts"],
+        seoKeywords: ["digital minimalism", "coffee morning routine", "slow living lifestyle minimalism", "daily thoughts"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#coffeeroutine", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          TikTok: "Use literal subtitle timing and keep the coffee or phone proof visible immediately.",
+          Instagram: "Works if the cover frame is the phone-down shot with the full hook text.",
+          YouTube: "Best for Shorts because the hook is searchable and concrete."
+        },
+        editNotes: "Keep cuts clean and let the sound design breathe."
+      },
+      {
+        id: "video-2026-06-23-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "People Underestimate Repeating The Same Corner",
+        format: "Room/object philosophy video, 18-24 seconds",
+        purpose: "Use object culture and room proof to make the originality theme feel grounded and personal.",
+        creatorSearchTopics: ["calm life aesthetic", "daily thoughts"],
+        filmingFit: "One room corner, one object detail, one talking line.",
+        hook: "people underestimate repeating the same corner",
+        firstFrameDirection: "Open on the same room corner or desk angle with one strong tactile detail in frame.",
+        retentionBridge: "At 3-5 seconds, reveal the full corner and say: 'that is how a room starts carrying your standards.'",
+        shotList: [
+          "Tight crop of object or texture.",
+          "Wider room-corner reveal.",
+          "Hand adjusting object, notebook, or chair.",
+          "Final still frame."
+        ],
+        talkingScript: "People underestimate repeating the same corner.\n\nThat is how a room starts carrying your standards.\n\nA lot of spaces look good for one photo.\n\nVery few hold the same feeling every morning.\n\nThat is the difference between decoration and authorship.",
+        beatSheet: [
+          { time: "0-3s", action: "Object close-up.", line: "People underestimate repeating the same corner." },
+          { time: "4-8s", action: "Room reveal.", line: "That is how a room starts carrying your standards." },
+          { time: "9-16s", action: "Hand adjustment or notebook shot.", line: "A lot of spaces look good for one photo. Very few hold the same feeling every morning." },
+          { time: "17-24s", action: "Final still frame.", line: "That is the difference between decoration and authorship." }
+        ],
+        caption: "A good corner is not just visual.\n\nIt becomes part of your psychology.\n\nThe room you keep returning to starts teaching you what your standards actually are.\n\nThat is why I care about small corners, small objects, and repeated atmosphere.\n\nThe point is not decoration.\nIt is authorship.\n\n#jimmycue #DailyThoughts #slowliving #quietluxury #tokyolife",
+        keywords: ["calm life aesthetic", "daily thoughts", "quiet luxury", "Tokyo life"],
+        seoKeywords: ["calm life aesthetic", "daily thoughts", "quiet luxury", "Tokyo life"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#slowliving", "#quietluxury", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Keep it literal and tactile, not cinematic for its own sake.",
+          Instagram: "Strong support post around the carousel because both lean on originality and room proof.",
+          YouTube: "Optional reuse later if the room reveal is strong enough."
+        },
+        editNotes: "This can subtly seed the atelier worldview without saying it directly."
+      },
+      {
+        id: "thought-2026-06-23-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "You Are Not Lazy. You Are Over-Referenced",
+        format: "Thought Video, 60-85 seconds",
+        purpose: "Translate current algorithm/taste anxiety into Jimmy's calmer authorship lane with one direct practical principle.",
+        sourceInspiration: "Algorithmic taste fatigue, modern-uniform dressing, originality rewards, and Miranda's execution-over-planning lens translated into Jimmy's lived Tokyo morning proof.",
+        sourceReferences: [
+          {
+            title: "Have I been influenced, or is this actually me? How personal taste fell out of fashion",
+            source: "The Guardian",
+            url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+            note: "Supports the idea that algorithmic culture is flattening taste and making people feel less specific."
+          },
+          {
+            title: "Instagram says it doesn't want your tweet round ups",
+            source: "The Verge",
+            url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+            note: "Supports today's push toward original lived-in photos, carousels, and non-aggregated content."
+          },
+          {
+            title: "Depop's 2026 Trend Forecast Is Here-These Are the Styles to Know",
+            source: "Who What Wear",
+            url: "https://www.whowhatwear.com/fashion/trends/depop-trend-predictions-2026",
+            note: "Supports modern uniforms, repeated silhouettes, and authorship through editing rather than accumulation."
+          },
+          {
+            title: "The New Rules of Menswear Influencing for 2026",
+            source: "Vogue",
+            url: "https://www.vogue.com/article/the-new-rules-of-menswear-influencing-for-2026",
+            note: "Supports using real-life authority and guidance instead of plain fit-pic content."
+          },
+          {
+            title: "A New Menswear Silhouette Is Emerging",
+            source: "Vogue",
+            url: "https://www.vogue.com/article/new-menswear-silhouette-slim-skinny",
+            note: "Adds a current June style signal toward sharper, leaner silhouettes that Jimmy can interpret quietly."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Supports moving from private references and planning into one visible act in the real world."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "you are not lazy. you are over-referenced",
+        firstFrameDirection: "Open in a clean talking-head frame with one room proof behind Jimmy and the full hook already on screen.",
+        retentionBridge: "At 3-5 seconds, cut to coffee, cuff, or room proof and say: 'most people are starting the day inside someone else's taste.'",
+        fullTalkingScript: "You are not lazy.\n\nYou are over-referenced.\n\nA lot of people are not stuck because they need more discipline.\n\nThey are stuck because they keep filling their head with other people's rooms, other people's outfits, other people's routines, other people's standards.\n\nThen they wonder why they cannot hear their own life clearly.\n\nThis morning I did not need another reference.\n\nI needed my usual shirt shape, my coffee, one room corner I trust, and one real thing finished before the scroll could tell me who to be.\n\nThat is what people miss about taste.\n\nTaste is not built by collecting more signals.\nIt is built by repeating what is already true until it becomes visible.\n\nSo if you feel hidden lately, stop asking what else to consume.\n\nAsk what you can repeat on purpose.\n\nThat is where authorship starts.",
+        beatSheet: [
+          { time: "0-5s", action: "Talking head with hook on screen.", line: "You are not lazy. You are over-referenced." },
+          { time: "6-14s", action: "Coffee, cuff, or room proof insert.", line: "A lot of people are not stuck because they need more discipline. They are stuck because they keep filling their head with other people's standards." },
+          { time: "15-28s", action: "Back to camera.", line: "Other people's rooms, outfits, routines, and aesthetics. Then they wonder why they cannot hear their own life clearly." },
+          { time: "29-46s", action: "Morning proof sequence.", line: "This morning I did not need another reference. I needed my usual shirt shape, my coffee, one room corner I trust, and one real thing finished before the scroll could tell me who to be." },
+          { time: "47-67s", action: "Camera plus proof details.", line: "Taste is not built by collecting more signals. It is built by repeating what is already true until it becomes visible." },
+          { time: "68-82s", action: "Final direct-to-camera close.", line: "If you feel hidden lately, stop asking what else to consume. Ask what you can repeat on purpose. That is where authorship starts." }
+        ],
+        shotList: [
+          "Talking head by window, desk, or doorway.",
+          "Coffee pour or cup pickup.",
+          "Shirt cuff, trouser line, or watch detail.",
+          "Room-corner or shelf proof shot.",
+          "Phone face-down on table.",
+          "Doorway or commute reflection exit."
+        ],
+        caption: "Most people are not lazy.\n\nThey are carrying too much borrowed taste.\n\nToo many references. Too much input. Too many small signals from lives they do not actually live.\n\nThat is why repetition matters.\n\nSame silhouette. Same ritual. Same room proof. Same standard repeated until the life starts looking like yours.\n\nStop asking what else to consume.\nAsk what you can repeat on purpose.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "digital minimalism", "slow living", "self growth"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "slow living lifestyle minimalism", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#selfgrowth"],
+        platformNotes: {
+          TikTok: "Best first post because the hook is sharp, identity-based, and current.",
+          Instagram: "Use a still cover frame with the exact hook and one room proof behind Jimmy.",
+          YouTube: "Trim to the most literal 60-70 seconds if needed and keep the title close to the hook."
+        },
+        editNotes: "Keep it direct, grounded, and calm. No over-soft introspection."
+      },
+      {
+        id: "story-2026-06-23-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Do You Repeat?",
+        format: "Question box story",
+        purpose: "Collect audience language around repetition, standards, and self-authorship.",
+        creatorSearchTopics: ["daily thoughts"],
+        hook: "what do you repeat on purpose?",
+        firstFrameDirection: "Open on coffee, cuff, notebook, or room proof with a question sticker.",
+        filmingFit: "5-second apartment clip.",
+        shotList: ["Coffee, notebook, or room proof clip."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what do you repeat on purpose?",
+        pollOptions: [],
+        caption: "shirt, route, song, corner, ritual.",
+        keywords: ["daily thoughts", "self growth"],
+        seoKeywords: ["daily thoughts", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        retentionBridge: "Answers can feed tomorrow's written or thought lane.",
+        editNotes: "Keep it minimal and readable."
+      },
+      {
+        id: "story-2026-06-23-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Choose The First Proof",
+        format: "Poll story",
+        purpose: "Let the audience help choose whether today's strongest opening frame is style or ritual.",
+        creatorSearchTopics: ["daily lifestyle"],
+        hook: "which proof should open today?",
+        firstFrameDirection: "Show outfit detail versus coffee/room detail side by side.",
+        filmingFit: "Two quick clips or one split-frame story.",
+        shotList: ["Outfit detail option.", "Coffee or room detail option."],
+        talkingScript: "Use as text-led story only.",
+        copy: "which proof should open today?",
+        pollOptions: ["style", "ritual"],
+        caption: "repetition builds the taste.",
+        keywords: ["daily lifestyle", "Tokyo life"],
+        seoKeywords: ["daily lifestyle", "Tokyo life"],
+        hashtags: ["#jimmycue", "#DailyLifestyle"],
+        retentionBridge: "Makes the audience part of the framing choice right away.",
+        editNotes: "No extra design treatment."
+      },
+      {
+        id: "written-2026-06-23-01",
+        type: "Written Post",
+        platformPriority: ["Substack Notes", "Instagram Notes"],
+        title: "Repetition Builds The Taste",
+        format: "Short note draft, 110-150 words",
+        purpose: "Extend the day's thesis into a slower written lane with a subtle Self-Authored Life worldview signal.",
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "repetition builds the taste",
+        firstFrameDirection: "If adapted visually, place the title over a notebook, desk, or coffee frame.",
+        talkingScript: "Repetition builds the taste.\n\nA lot of people already know what they like.\n\nThe harder part is trusting it long enough to repeat it.\n\nSame shirt shape.\nSame coffee rhythm.\nSame room corner.\nSame first five minutes protected from noise.\n\nThat is how a life starts getting specific.\n\nTaste is not built by consuming more signals.\nIt is built by returning to what is already true until it becomes visible.\n\nThe object is not the point.\nThe ritual around it is.",
+        caption: "Short note draft for Substack Notes or Instagram Notes.",
+        keywords: ["daily thoughts", "digital minimalism", "slow living"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "slow living lifestyle minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving"],
+        retentionBridge: "Lead the note with the title and first two lines only.",
+        editNotes: "Keep it spare, practical, and original."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Read the brief and choose today's repeated proof set: one silhouette, one ritual, and one room corner.", platform: "Private", reason: "Give the whole pack one coherent authorship thread." },
+      { time: "07:12-07:55", action: "Film the Thought Video, uniform-guidance clip, phone-boundary sequence, room-corner clip, carousel assets, written-note frame, and both stories.", platform: "Phone", reason: "Batch everything while the apartment and morning rhythm still feel real." },
+      { time: "08:15", action: "Post You Are Not Lazy. You Are Over-Referenced.", platform: "TikTok", reason: "Strongest thesis-led concept and best fit for today's live cultural signal." },
+      { time: "12:20", action: "Post Most Men Need A Uniform, Not More Options.", platform: "Instagram Reels", reason: "Menswear guidance remains the clearest reach door from the baseline." },
+      { time: "18:40", action: "Post Your Morning Is Not The Problem. The Noise Is.", platform: "YouTube Shorts", reason: "Literal hook plus practical proof suits current Shorts behavior." },
+      { time: "20:45", action: "Post What I Repeat On Purpose and the written note.", platform: "Instagram / TikTok photo mode / Substack Notes", reason: "Evening is better for saveable static posts and slower reflection." },
+      { time: "Any time", action: "Run the question-box and poll stories.", platform: "Stories", reason: "Collect language around repetition and standards." }
+    ],
+    trendRadar: [
+      {
+        signal: "A June 14, 2026 Guardian feature argues that algorithmic consumption is flattening personal taste and making people feel less specific.",
+        source: "The Guardian",
+        url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+        implication: "Today's strongest angle is not trend-chasing but helping viewers recover authorship through repetition, ritual, and fewer references."
+      },
+      {
+        signal: "Instagram is now pushing harder against unoriginal content, including photos and carousels, not just reposted Reels.",
+        source: "The Verge",
+        url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+        implication: "The static post should be built from Jimmy's own room, clothes, and object proof rather than any moodboard-like composition."
+      },
+      {
+        signal: "Depop's 2026 trend framing still centers modern uniforms, repeated silhouettes, and 'The Edited Self' instead of accumulation.",
+        source: "Who What Wear",
+        url: "https://www.whowhatwear.com/fashion/trends/depop-trend-predictions-2026",
+        implication: "Keep one explicit uniform-guidance post in today's pack and use repetition as a taste signal."
+      },
+      {
+        signal: "Vogue's 2026 menswear-creator analysis says men are responding better to guidance, authority, and story than plain fit pics.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/the-new-rules-of-menswear-influencing-for-2026",
+        implication: "Jimmy's style post should teach a principle, not just display the outfit."
+      },
+      {
+        signal: "A June 22, 2026 Vogue piece says a sharper, leaner menswear silhouette is emerging right now across major collections.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/new-menswear-silhouette-slim-skinny",
+        implication: "Today's outfit proof should favor clearer trouser lines, cleaner proportion, and quiet precision rather than oversized styling."
+      },
+      {
+        signal: "Miranda Shanahan's February 27, 2026 essay pushes the idea that action beats planning when you want something to become real.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        implication: "Translate the daily brief into one visible finished proof rather than more saved references or over-planning."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution gap idea still fits Jimmy's lane when translated from hustle into calm proof: make one real thing exist before perfecting the identity.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Use today's thought and written note to shift viewers from collecting references to repeating one real standard.",
+        postIdea: "Most people do not need more inspiration. They need one repeated proof."
+      },
+      {
+        signal: "Current algorithmic-taste discourse is making specificity feel more valuable than ever.",
+        source: "The Guardian",
+        url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+        application: "Position Jimmy's rituals, uniform, and room proof as a way back to specificity rather than another aesthetic performance.",
+        postIdea: "The life starts feeling like yours when the repetition becomes visible."
+      },
+      {
+        signal: "Today's atelier-coded synthesis: stop borrowing atmosphere and let one repeated ritual carry your standard.",
+        source: "JCue synthesis from public research",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Seed the Self-Authored Life worldview through repetition, ritual, and room proof without hard-selling.",
+        postIdea: "The object is not the point. The ritual around it is."
+      }
+    ],
+    keywordBank: {
+      primary: ["repetition builds the taste", "over-referenced", "quiet uniform", "digital minimalism", "daily thoughts"],
+      secondary: ["mens lifestyle", "fit check", "coffee routine", "Tokyo life", "slow living", "quiet luxury"],
+      titles: [
+        "You Are Not Lazy. You Are Over-Referenced",
+        "Most Men Need A Uniform, Not More Options",
+        "Your Morning Is Not The Problem. The Noise Is.",
+        "People Underestimate Repeating The Same Corner",
+        "What I Repeat On Purpose"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#tokyolife"],
+        style: ["#mensstyle", "#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
+        routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        atelier: ["#selfgrowth", "#DailyThoughts", "#quietluxury"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post in the pack because the Notion baseline still shows casual menswear phrasing as the clearest reach door.",
+      "Keep one Thought Video active because quiet-life reflection still appears to generate deeper comment behavior even at lower reach.",
+      "Keep imperfection, standards, and enoughness language in the copy because the baseline still maps well to Jimmy's wabi-sabi lane.",
+      "Use original room, object, and silhouette proof in the static post because current Instagram recommendation behavior is leaning harder toward original photos and carousels."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh post-performance movement was confirmed for June 23, 2026 JST.",
+        note: "The JCue Social Metrics Hub was readable through Notion fetch/search, but row-level database queries remain blocked by the current plan, and `.youtube/latest_metrics.json` still reflects the May 20, 2026 baseline sync with no newer YouTube uploads or true 24h/48h/7d windows to add.",
+        action: "When the next YouTube Short is posted, capture the first real 24h snapshot on the following Tokyo morning and compare it against the current menswear, imperfection, and quiet-reflection baselines."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest baseline row still paired relatable life language with clear menswear framing.",
+          repeat: "Keep one uniform-guidance or outfit-principle post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still appears to create deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with immediate proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still maps cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about standards, repetition, and non-pristine authorship."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-06-30",
+      note: "The biweekly long-form slot still appears overdue.",
+      suggestion: "Current strongest angle: 'you are not lazy, you are over-referenced: building a calmer authored life in tokyo through repeated clothes, rituals, and room proof'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. The hub and relevant pages were readable, but row-level queries are blocked by the current Notion plan and the local YouTube export has not advanced beyond the May 20 baseline import."
+  },
+  {
+    generatedAt: "2026-06-24",
+    researchWindow: "Fresh scan for June 24, 2026",
+    updateMode: "Dashboard daily data layer. The stable creator strategy stays in social-plan.js; each morning's trend-informed direction should be appended here.",
+    weeklyTheme: {
+      dates: "June 22 - June 28, 2026",
+      title: "Return On Purpose",
+      thesis: "The strongest way to feel specific right now is to remove borrowed input and keep returning to the same few proofs until the life starts carrying its own point of view.",
+      whyNow: "Current platform and culture signals keep converging: TikTok is behaving more like a search engine, Instagram is leaning harder toward original content, menswear is rewarding guidance over plain fit pics, and wider culture is talking openly about algorithmic sameness.",
+      contentRule: "Every post should show one lived proof that survives real mornings: a silhouette, a ritual, an object, or a room decision Jimmy actually repeats."
+    },
+    dailyBrief: {
+      date: "2026-06-24",
+      day: "Wednesday",
+      deliveryTime: "07:00 JST",
+      title: "Keep one thing unchanged long enough to hear yourself.",
+      objective: "Film a Wednesday morning batch that removes borrowed input and proves taste through one clean silhouette, one protected first-five-minutes ritual, one room/object sequence, and one direct thought about buried taste needing room to surface.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Window or desk for talking head, mirror or doorway for silhouette, coffee/notebook/phone-down sequence for ritual, and one shelf, chair, or tray detail for object proof before the commute.",
+      recommendation: "Lead with the Thought Video on TikTok, use the style-principle clip for Reels, use the first-five-minutes sequence for Shorts, and let the carousel and written note carry the slower evening reflection.",
+      todayDoNotDo: [
+        "Do not add new references just to make the content feel current.",
+        "Do not make the style clip only about clothes. Make it about judgment, pace, and self-perception.",
+        "Do not over-style the room proof. Let the real texture stay visible."
+      ],
+      approvalChecklist: [
+        "Does the first frame already show a real proof rather than moodboard energy?",
+        "Is there one direct contrarian sentence inside the first spoken line of every video?",
+        "Does the thought video translate research into Jimmy's own morning rather than summarizing sources?",
+        "Does one concept clearly serve search-led discovery and one clearly serve depth and comment quality?",
+        "Would the pack still feel true if filmed quickly before work?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-06-24-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "What Makes A Life Feel Specific",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn today's anti-borrowed-taste theme into a saveable proof set built from Jimmy's own silhouette, ritual, room, and object choices.",
+        creatorSearchTopics: ["daily lifestyle", "calm life aesthetic"],
+        filmingFit: "5 minutes while dressing and making coffee.",
+        shotList: [
+          "Slide 1: mirror or doorway self-portrait in today's silhouette.",
+          "Slide 2: cuff, trouser line, watch, or belt detail.",
+          "Slide 3: phone-down, coffee, or notebook ritual frame.",
+          "Slide 4: one room corner or tray with visible texture.",
+          "Slide 5: text slide or quiet portrait crop."
+        ],
+        talkingScript: "Use as text-led carousel only.",
+        overlayText: [
+          "what makes a life feel specific",
+          "fewer references",
+          "clearer rituals",
+          "better repetition",
+          "more proof"
+        ],
+        caption: "Most people are not missing taste.\n\nThey are drowning it.\n\nA life usually starts feeling specific when you stop feeding it endless references and start repeating what is already true.\n\nThat is why I care about silhouette, ritual, room, and the objects I actually live with.\n\nTaste gets louder when the noise gets smaller.\n\n#jimmycue #DailyLifestyle #slowliving #tokyolife #quietluxury",
+        keywords: ["daily lifestyle", "calm life aesthetic", "Tokyo life", "quiet luxury"],
+        seoKeywords: ["daily lifestyle", "calm life aesthetic", "Tokyo life", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#slowliving", "#tokyolife", "#quietluxury"],
+        retentionBridge: "Make slide 2 or 3 the strongest tactile proof so viewers keep swiping for the principle.",
+        editNotes: "Keep it spare, original, and lightly imperfect."
+      },
+      {
+        id: "video-2026-06-24-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "The Way You Dress Shapes The Way You Decide",
+        format: "Style-principle video, 20-30 seconds",
+        purpose: "Use menswear guidance as the reach door while making the deeper point about judgment and self-perception.",
+        creatorSearchTopics: ["mens lifestyle", "fit check"],
+        filmingFit: "Mirror, cuff close-up, and doorway shot in under 8 minutes.",
+        hook: "the way you dress shapes the way you decide",
+        firstFrameDirection: "Open on the cleanest silhouette frame with the hook already readable.",
+        retentionBridge: "At 3-5 seconds, cut to the cuff or trouser line and say: 'clarity in clothes often becomes clarity everywhere else.'",
+        shotList: [
+          "Full mirror or doorway silhouette.",
+          "Cuff, trouser line, watch, or belt detail.",
+          "Hand adjusting shirt or jacket.",
+          "Final exit or walking shot."
+        ],
+        talkingScript: "The way you dress shapes the way you decide.\n\nClarity in clothes often becomes clarity everywhere else.\n\nThat is why I repeat a silhouette.\n\nLess noise in the wardrobe means less noise in the morning.\n\nBetter fit. Better pace. Better judgment.\n\nThat changes more than people think.",
+        beatSheet: [
+          { time: "0-3s", action: "Silhouette proof frame.", line: "The way you dress shapes the way you decide." },
+          { time: "4-7s", action: "Cuff or trouser close-up.", line: "Clarity in clothes often becomes clarity everywhere else." },
+          { time: "8-15s", action: "Mirror adjustment shot.", line: "That is why I repeat a silhouette. Less noise in the wardrobe means less noise in the morning." },
+          { time: "16-24s", action: "Walk or doorway exit.", line: "Better fit, better pace, better judgment. That changes more than people think." }
+        ],
+        caption: "Style is not surface level.\n\nIt changes your pace, your posture, and even the standard you carry into the day.\n\nThat is why I repeat silhouettes instead of treating every morning like a new identity test.\n\nClarity is not boring.\nIt is useful.\n\n#jimmycue #mensstyle #menslifestyle #fitcheck #quietluxury",
+        keywords: ["mens lifestyle", "fit check", "quiet luxury", "daily lifestyle"],
+        seoKeywords: ["mens lifestyle", "fit check", "quiet luxury", "mens style"],
+        hashtags: ["#jimmycue", "#mensstyle", "#menslifestyle", "#fitcheck", "#quietluxury"],
+        platformNotes: {
+          TikTok: "Strong if the first silhouette frame is immediate and the caption keeps the principle literal.",
+          Instagram: "Best reach door today because the Notion baseline still favors menswear framing with usable guidance.",
+          YouTube: "Can be reused later as a literal Short with the hook as the title."
+        },
+        editNotes: "Keep it instructional and calm, not flashy."
+      },
+      {
+        id: "video-2026-06-24-02",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "Modern Life Is Destroying Your First Five Minutes",
+        format: "Ritual + phone-boundary sequence, 20-30 seconds",
+        purpose: "Give Jimmy one search-friendly digital-minimalism sequence built from literal morning behavior.",
+        creatorSearchTopics: ["digital minimalism", "coffee morning routine"],
+        filmingFit: "Phone-down, coffee, notebook, and room proof in under 7 minutes.",
+        hook: "modern life is destroying your first five minutes",
+        firstFrameDirection: "Open on the phone going face-down beside coffee or a notebook before any other motion.",
+        retentionBridge: "At 3 seconds, cut to the coffee or notebook and say: 'that is where a lot of people lose their own taste for the day.'",
+        shotList: [
+          "Phone face-down beside cup or notebook.",
+          "Coffee pour or pickup.",
+          "Notebook, tray, or desk proof shot.",
+          "Final exit or hand movement."
+        ],
+        talkingScript: "Modern life is destroying your first five minutes.\n\nThat is where a lot of people lose their own taste for the day.\n\nToo much noise too early.\n\nSo I keep the start simple.\n\nPhone down. Coffee first. One page. One room proof.\n\nProtect the first five minutes and the day usually gets clearer.",
+        beatSheet: [
+          { time: "0-3s", action: "Phone down shot.", line: "Modern life is destroying your first five minutes." },
+          { time: "4-8s", action: "Coffee or notebook insert.", line: "That is where a lot of people lose their own taste for the day." },
+          { time: "9-16s", action: "Ritual sequence.", line: "Too much noise too early. So I keep the start simple. Phone down. Coffee first. One page. One room proof." },
+          { time: "17-25s", action: "Final movement shot.", line: "Protect the first five minutes and the day usually gets clearer." }
+        ],
+        caption: "A calmer morning usually starts with fewer inputs.\n\nMost people do not need a total life reset.\nThey need a better first five minutes.\n\nThat is why I protect the start: phone down, coffee first, one page, one proof.\n\nAttention is part of taste.\n\n#jimmycue #digitalminimalism #coffeeroutine #slowliving #DailyThoughts",
+        keywords: ["digital minimalism", "coffee morning routine", "slow living", "daily thoughts"],
+        seoKeywords: ["digital minimalism", "coffee morning routine", "slow living lifestyle minimalism", "daily thoughts"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#coffeeroutine", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          TikTok: "Works best if the phone-down action happens before the viewer can scroll away.",
+          Instagram: "Use the exact hook on the cover to make the point readable.",
+          YouTube: "Fits current Shorts discovery behavior because the topic and metadata are concrete."
+        },
+        editNotes: "Let the practical sequence carry the point. Do not over-edit."
+      },
+      {
+        id: "video-2026-06-24-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "The Object Is Not The Point. The Ritual Is.",
+        format: "Object-culture / room-proof video, 18-24 seconds",
+        purpose: "Seed the atelier worldview subtly through one real object and the repeated action around it.",
+        creatorSearchTopics: ["calm life aesthetic", "mindful living"],
+        filmingFit: "One object, one tray or shelf, one hand movement, one line.",
+        hook: "the object is not the point. the ritual is.",
+        firstFrameDirection: "Open on the object in close-up, then reveal the repeated action around it.",
+        retentionBridge: "At 3-5 seconds, show the hand placing or adjusting it and say: 'that is what turns taste into a life.'",
+        shotList: [
+          "Object close-up: cup, notebook, fragrance, tray, or cassette.",
+          "Hand placing, opening, or adjusting it.",
+          "Wider room or desk reveal.",
+          "Final still frame."
+        ],
+        talkingScript: "The object is not the point. The ritual is.\n\nThat is what turns taste into a life.\n\nAnyone can buy the thing.\n\nVery few people build a repeated way of living around it.\n\nThat is the difference between collecting beauty and authoring it.",
+        beatSheet: [
+          { time: "0-3s", action: "Object close-up.", line: "The object is not the point. The ritual is." },
+          { time: "4-8s", action: "Hand movement around object.", line: "That is what turns taste into a life." },
+          { time: "9-16s", action: "Wider room reveal.", line: "Anyone can buy the thing. Very few people build a repeated way of living around it." },
+          { time: "17-24s", action: "Final still frame.", line: "That is the difference between collecting beauty and authoring it." }
+        ],
+        caption: "Most objects are not meaningful on their own.\n\nMeaning comes from repetition.\n\nThe cup, the notebook, the chair, the tray, the corner, the shirt.\nThey matter because of the way you keep returning to them.\n\nThat is when taste stops being decoration and starts becoming a life.\n\n#jimmycue #mindfulliving #DailyThoughts #quietluxury #slowliving",
+        keywords: ["mindful living", "calm life aesthetic", "quiet luxury", "daily thoughts"],
+        seoKeywords: ["mindful living", "calm life aesthetic", "quiet luxury", "daily thoughts"],
+        hashtags: ["#jimmycue", "#mindfulliving", "#DailyThoughts", "#quietluxury", "#slowliving"],
+        platformNotes: {
+          TikTok: "Keep it tactile and literal so the philosophy still feels grounded.",
+          Instagram: "Strong companion post for the carousel because both reward original lived-in proof.",
+          YouTube: "Optional reuse later if the action around the object is clear enough."
+        },
+        editNotes: "This is the subtle atelier seed for today. Do not hard-sell it."
+      },
+      {
+        id: "thought-2026-06-24-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Your Taste Is Not Missing. It Is Buried.",
+        format: "Thought Video, 60-85 seconds",
+        purpose: "Translate algorithmic sameness, search behavior, and execution-over-planning into Jimmy's calmer authorship lane with one practical principle.",
+        sourceInspiration: "Search-led culture, originality pressure, algorithmic sameness, and execution-over-planning translated into Jimmy's own room, silhouette, and first-five-minutes ritual.",
+        sourceReferences: [
+          {
+            title: "Where brand discovery thrives",
+            source: "TikTok for Business",
+            url: "https://ads.tiktok.com/business/en/blog/discovery-search-brands-break-through",
+            note: "Supports the idea that TikTok now behaves like a discovery and search engine rather than only a passive feed."
+          },
+          {
+            title: "Current TikTok Trends to Try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/current-tiktok-trends/",
+            note: "Supports real-process, accountability, and search-led content patterns that fit Jimmy's ritual and morning-proof lane."
+          },
+          {
+            title: "Search & discovery tips - Shorts",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+            note: "Supports clearer topic framing, metadata, and viewer-choice signals for Shorts."
+          },
+          {
+            title: "Instagram says it doesn't want your tweet round ups",
+            source: "The Verge",
+            url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+            note: "Supports today's push toward original lived-in photos, carousels, and non-aggregated content."
+          },
+          {
+            title: "Have I been influenced, or is this actually me? How personal taste fell out of fashion",
+            source: "The Guardian",
+            url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+            note: "Supports the idea that people can lose touch with their own taste inside algorithmic sameness."
+          },
+          {
+            title: "The New Rules of Menswear Influencing for 2026",
+            source: "Vogue",
+            url: "https://www.vogue.com/article/the-new-rules-of-menswear-influencing-for-2026",
+            note: "Supports guidance, credibility, and real-life authority over plain fit-pic content."
+          },
+          {
+            title: "The Biggest Depop Fashion Trends of 2026",
+            source: "Who What Wear",
+            url: "https://www.whowhatwear.com/fashion/shopping/depop-trend-predictions-2026",
+            note: "Supports modern uniforms and authorship through repeated staples rather than constant novelty."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Supports putting the plan down and making one real thing exist before over-planning the identity."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Supports becoming more specific rather than more generic or replaceable."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "your taste is not missing. it is buried.",
+        firstFrameDirection: "Open in a clean talking-head frame with one room proof behind Jimmy and the full hook already on screen.",
+        retentionBridge: "At 3-5 seconds, cut to coffee, cuff, or phone-down proof and say: 'too many people are starting the day inside a feed before they hear themselves.'",
+        fullTalkingScript: "Your taste is not missing.\n\nIt is buried.\n\nA lot of people think they do not know what they like anymore.\n\nUsually that is not true.\n\nWhat is true is that they start the day inside a feed, inside search, inside recommendations, inside other people's rooms and routines before they hear themselves clearly.\n\nSo of course everything starts feeling blurred.\n\nThis morning I did not need more ideas.\n\nI needed my usual shirt shape, my coffee, one page, one room proof, and a little silence before the phone could start offering me a personality.\n\nThat is the part people miss.\n\nTaste does not disappear.\nIt gets buried under too much input.\n\nIf you want your life to feel more like yours, do not ask what else to consume.\n\nAsk what you can remove long enough for your own pattern to show.\n\nBuried taste does not need a trend.\nIt needs room.",
+        beatSheet: [
+          { time: "0-5s", action: "Talking head with hook on screen.", line: "Your taste is not missing. It is buried." },
+          { time: "6-15s", action: "Coffee, cuff, or phone-down insert.", line: "A lot of people think they do not know what they like anymore. Usually that is not true." },
+          { time: "16-30s", action: "Back to camera.", line: "They start the day inside a feed, inside search, inside recommendations, inside other people's rooms and routines before they hear themselves clearly." },
+          { time: "31-47s", action: "Morning proof sequence.", line: "This morning I did not need more ideas. I needed my usual shirt shape, my coffee, one page, one room proof, and a little silence before the phone could start offering me a personality." },
+          { time: "48-67s", action: "Camera plus proof details.", line: "Taste does not disappear. It gets buried under too much input." },
+          { time: "68-84s", action: "Final direct-to-camera close.", line: "If you want your life to feel more like yours, do not ask what else to consume. Ask what you can remove long enough for your own pattern to show. Buried taste does not need a trend. It needs room." }
+        ],
+        shotList: [
+          "Talking head by window, desk, or doorway.",
+          "Phone face-down beside cup or notebook.",
+          "Coffee pour or cup pickup.",
+          "Shirt cuff, trouser line, or watch detail.",
+          "Room corner, tray, or shelf proof shot.",
+          "Doorway or commute reflection exit."
+        ],
+        caption: "Most people do not need more input.\n\nThey need enough quiet to notice what is already true.\n\nToo many references, too much search, too much borrowed atmosphere, too early in the day.\n\nThat is why I care about repetition, silence, and real proof.\n\nTaste does not disappear.\nIt gets buried.\n\nBuried taste does not need a trend.\nIt needs room.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "digital minimalism", "slow living", "self growth"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "slow living lifestyle minimalism", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#selfgrowth"],
+        platformNotes: {
+          TikTok: "Best first post because the hook is identity-based, current, and easy to translate into comments.",
+          Instagram: "Use a still cover with the full hook and one room proof behind Jimmy.",
+          YouTube: "Trim to the clearest 60-70 seconds if needed and keep the title close to the hook."
+        },
+        editNotes: "Keep it direct and quiet. No borrowed language, no therapy tone."
+      },
+      {
+        id: "story-2026-06-24-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Buries Your Taste?",
+        format: "Question box story",
+        purpose: "Collect audience language around overstimulation, noise, and borrowed inputs.",
+        creatorSearchTopics: ["daily thoughts"],
+        hook: "what buries your taste first?",
+        firstFrameDirection: "Open on coffee, notebook, or phone-down proof with a question sticker.",
+        filmingFit: "5-second apartment clip.",
+        shotList: ["Coffee, notebook, or room proof clip."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what buries your taste first?",
+        pollOptions: [],
+        caption: "too much noise, too early.",
+        keywords: ["daily thoughts", "digital minimalism"],
+        seoKeywords: ["daily thoughts", "digital minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        retentionBridge: "Answers can feed tomorrow's hook language.",
+        editNotes: "Keep it minimal and readable."
+      },
+      {
+        id: "story-2026-06-24-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Choose The First Frame",
+        format: "Poll story",
+        purpose: "Let the audience choose whether today's first proof is silhouette or ritual.",
+        creatorSearchTopics: ["daily lifestyle"],
+        hook: "which proof should open today?",
+        firstFrameDirection: "Show outfit detail versus coffee/phone-down detail side by side.",
+        filmingFit: "Two quick clips or one split-frame story.",
+        shotList: ["Outfit detail option.", "Coffee or phone-down option."],
+        talkingScript: "Use as text-led story only.",
+        copy: "which proof should open today?",
+        pollOptions: ["silhouette", "ritual"],
+        caption: "room first or fit first?",
+        keywords: ["daily lifestyle", "Tokyo life"],
+        seoKeywords: ["daily lifestyle", "Tokyo life"],
+        hashtags: ["#jimmycue", "#DailyLifestyle"],
+        retentionBridge: "Makes the audience part of the packaging choice right away.",
+        editNotes: "No extra design treatment."
+      },
+      {
+        id: "written-2026-06-24-01",
+        type: "Written Post",
+        platformPriority: ["Substack Notes", "Instagram Notes"],
+        title: "Buried Taste Needs Room",
+        format: "Short note draft, 110-150 words",
+        purpose: "Extend the day's thesis into a slower written lane with a subtle Self-Authored Life worldview signal.",
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        hook: "buried taste needs room",
+        firstFrameDirection: "If adapted visually, place the title over a notebook, tray, or coffee frame.",
+        talkingScript: "Buried taste needs room.\n\nA lot of people think they need more ideas.\n\nMost of the time they need less interruption.\n\nLess scrolling before the day starts.\nLess pressure to reinvent themselves.\nLess borrowed atmosphere.\n\nSame shirt shape.\nSame coffee rhythm.\nSame page.\nSame room proof.\n\nThat is how a life starts sounding like itself again.\n\nTaste usually does not disappear.\nIt gets buried.\n\nAnd what is buried does not need a trend.\nIt needs space to surface.",
+        caption: "Short note draft for Substack Notes or Instagram Notes.",
+        keywords: ["daily thoughts", "mindful living", "slow living"],
+        seoKeywords: ["daily thoughts", "mindful living", "slow living lifestyle minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#mindfulliving", "#slowliving"],
+        retentionBridge: "Lead the note with the title and first two lines only.",
+        editNotes: "Keep it spare, practical, and original."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Read the brief and choose today's proof set: one silhouette, one first-five-minutes ritual, and one object or room sequence.", platform: "Private", reason: "Keep the whole pack under one lived thesis." },
+      { time: "07:12-07:55", action: "Film the Thought Video, style-principle clip, first-five-minutes sequence, object-ritual clip, carousel assets, written-note frame, and both stories.", platform: "Phone", reason: "Batch everything while the room and pace still feel real." },
+      { time: "08:10", action: "Post Your Taste Is Not Missing. It Is Buried.", platform: "TikTok", reason: "Strongest identity hook and clearest current culture match." },
+      { time: "12:20", action: "Post The Way You Dress Shapes The Way You Decide.", platform: "Instagram Reels", reason: "Menswear guidance remains the clearest reach door from the baseline." },
+      { time: "18:35", action: "Post Modern Life Is Destroying Your First Five Minutes.", platform: "YouTube Shorts", reason: "Literal topic plus clear metadata fits Shorts discovery behavior." },
+      { time: "20:45", action: "Post What Makes A Life Feel Specific and the written note.", platform: "Instagram / TikTok photo mode / Substack Notes", reason: "Evening is better for saveable static posts and slower reflection." },
+      { time: "Any time", action: "Run the question-box and poll stories.", platform: "Stories", reason: "Collect language around noise, rituals, and first-frame preference." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's discovery model keeps pushing the platform closer to search behavior, with users researching, validating, and acting inside the app.",
+        source: "TikTok for Business",
+        url: "https://ads.tiktok.com/business/en/blog/discovery-search-brands-break-through",
+        implication: "Use clearer topic-led hooks and practical framing instead of abstract aesthetic-only packaging."
+      },
+      {
+        signal: "Current 2026 TikTok coverage still points to real-process, accountability, and search-led answer content rather than generic polished trend participation.",
+        source: "Later",
+        url: "https://later.com/blog/current-tiktok-trends/",
+        implication: "Keep the morning ritual and room-proof clips literal, searchable, and built from real life."
+      },
+      {
+        signal: "YouTube says Shorts are ranked by viewer choice, watch behavior, topic interest, and metadata match rather than one favored format.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        implication: "Today's Shorts concept should use a concrete problem statement and clean topic wording."
+      },
+      {
+        signal: "Instagram is now pushing harder against unoriginal content, including photos and carousels, not just reposted Reels.",
+        source: "The Verge",
+        url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+        implication: "The static post should be built from Jimmy's own room, silhouette, and object proof rather than any borrowed moodboard energy."
+      },
+      {
+        signal: "A June 14, 2026 Guardian feature frames algorithmic culture as flattening personal taste and making people feel less certain about what they actually like.",
+        source: "The Guardian",
+        url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+        implication: "Today's strongest talking point is not more inspiration but making room for taste to reappear."
+      },
+      {
+        signal: "Menswear and resale-fashion coverage still points toward guidance, repeated silhouettes, and modern uniforms instead of endless novelty.",
+        source: "Vogue and Who What Wear",
+        url: "https://www.vogue.com/article/the-new-rules-of-menswear-influencing-for-2026",
+        implication: "Keep one style-principle post active today and make repetition feel like conviction, not boredom."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution gap essay still translates well into Jimmy's lane when softened into one visible proof before more planning.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Use the thought video and written note to move viewers from over-planning and over-consuming into one repeatable act.",
+        postIdea: "Most people do not need a better plan. They need one quieter proof."
+      },
+      {
+        signal: "Kevin Kelly's category-of-one logic still supports Jimmy's authorship lane: become more specific, not more generic.",
+        source: "Kevin Kelly",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Frame repetition, room proof, and uniform dressing as a path toward becoming less replaceable and more yourself.",
+        postIdea: "Specificity is built by return, not performance."
+      },
+      {
+        signal: "Today's atelier-coded synthesis: stop collecting beautiful inputs and give one real pattern somewhere to live.",
+        source: "JCue synthesis from public research",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Seed the Self-Authored Life worldview through room proof, repeated objects, and ritual rather than direct selling.",
+        postIdea: "Buried taste needs room."
+      }
+    ],
+    keywordBank: {
+      primary: ["buried taste", "first five minutes", "quiet uniform", "digital minimalism", "daily thoughts"],
+      secondary: ["mens lifestyle", "fit check", "coffee morning routine", "Tokyo life", "mindful living", "quiet luxury"],
+      titles: [
+        "Your Taste Is Not Missing. It Is Buried.",
+        "The Way You Dress Shapes The Way You Decide",
+        "Modern Life Is Destroying Your First Five Minutes",
+        "The Object Is Not The Point. The Ritual Is.",
+        "What Makes A Life Feel Specific"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#tokyolife"],
+        style: ["#mensstyle", "#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
+        routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        atelier: ["#mindfulliving", "#DailyThoughts", "#quietluxury"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post in the pack because the Notion baseline still shows casual menswear phrasing as the clearest reach door.",
+      "Keep one Thought Video active because quiet-life reflection still appears to generate deeper comment behavior even at lower reach.",
+      "Keep direct enoughness, standards, and imperfection language in the copy because the baseline still maps well to Jimmy's wabi-sabi lane.",
+      "Use original room, ritual, and silhouette proof in the static and story frames because current Instagram recommendation behavior is leaning harder toward original photos and carousels.",
+      "For Shorts, keep topic wording literal because YouTube discovery still leans on viewer choice, topic interest, and metadata match."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh post-performance movement was confirmed for June 24, 2026 JST.",
+        note: "The JCue Social Metrics Hub was queried directly this run. Recent rows still reflect the May 20, 2026 baseline import, and `.youtube/latest_metrics.json` has not advanced with a newer YouTube upload or a true 24h, 48h, or 7d snapshot window to add.",
+        action: "When the next YouTube Short is posted, capture the first real 24h snapshot on the following Tokyo morning and compare it against the current menswear, imperfection, and quiet-reflection baselines."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest stored baseline still paired relatable life language with clear menswear framing.",
+          repeat: "Keep one style-guidance or uniform-principle post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still appears to create deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with immediate room or ritual proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still maps cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about clarity, repetition, and non-pristine authorship."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-01",
+      note: "The biweekly long-form slot still appears overdue.",
+      suggestion: "Current strongest angle: 'your taste is not missing, it is buried: a week in tokyo removing noise, repeating the uniform, and making room for a calmer authored life'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. The hub and the three relevant collections were queried directly, but the local YouTube export still reflects the May 20 baseline sync and does not contain a newer post or true 24h, 48h, or 7d snapshot window to write back."
   }
 ];
