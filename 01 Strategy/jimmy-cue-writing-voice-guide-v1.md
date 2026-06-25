@@ -317,6 +317,117 @@ TikTok caption format:
 3. End gives the softer realization.
 4. Hashtags: 4-6 maximum.
 
+## Occasional Proven Short-Form Formats
+
+Use structured short-form formats here and there when they help sharpen a thought. These are inspired by public writing lessons from Write With AI / Nicolas Cole and Dickie Bush, including the June 21, 2026 post "5 proven short-form formats for X, LinkedIn, and Substack." Do not copy their examples or let the writing sound like a template.
+
+Use these as hidden scaffolding:
+
+### 1. Strong Stance
+
+Make one clear statement instead of hedging.
+
+Jimmy version:
+
+- "your morning does not need more discipline. it needs less noise."
+- "style is not shallow when it helps you feel like yourself."
+- "some rooms look good but still do not feel like home."
+
+Use when the idea needs confidence.
+
+### 2. What / How / Why
+
+Shape:
+
+- What: the first line names the point.
+- How: the middle gives 2-4 specific life details or steps.
+- Why: the last line explains why it matters emotionally.
+
+Jimmy version:
+
+- What: "the first ten minutes decide more than i want to admit."
+- How: "coffee before messages, shirt before scrolling, window open before the day starts asking for things."
+- Why: "it is easier to feel like yourself when the morning does not immediately belong to everyone else."
+
+Use for captions, thought videos, and carousel points.
+
+### 3. Useful List Without Feeling Like A List
+
+Lists can work, but Jimmy's voice should avoid obvious listicle energy. Use list thinking under the surface, then write it as a paragraph or carousel.
+
+Good source categories:
+
+- small habits
+- mistakes
+- questions
+- routines
+- realizations
+- examples
+- lessons
+- details
+- signals
+
+Jimmy version:
+
+"i can usually tell when a day is going to feel scattered. phone before coffee, clothes picked in a rush, no music on the train, every small thing slightly borrowed from someone else's urgency."
+
+Use when the post needs specificity.
+
+### 4. Old Way / New Way
+
+Use contrast to create tension.
+
+Avoid corporate versions like "bad vs good." Make it lived.
+
+Jimmy version:
+
+- old way: dressing to be noticed.
+- new way: dressing to feel aligned.
+- old way: waiting for life to look perfect.
+- new way: making the ordinary parts feel authored.
+- old way: consuming atmosphere.
+- new way: creating one small corner that feels like yours.
+
+Use for carousels and thought videos.
+
+### 5. One Idea, Many Angles
+
+When one thought is strong, do not abandon it after one post. Turn it into multiple native angles:
+
+- caption
+- carousel
+- talking-head thought
+- fit check
+- coffee/morning B-roll
+- commute reflection
+- story question
+- longer written note
+
+Example seed:
+
+"your daily rhythm becomes your identity."
+
+Possible angles:
+
+- morning routine: the first ten minutes decide the tone.
+- style: what you wear changes how you move.
+- room: your space teaches your nervous system what to expect.
+- music: headphones as a boundary.
+- creative life: repetition creates a recognizable self.
+
+This is useful because Jimmy's world should become recognizable through repeated ideas, not endless new topics.
+
+## Format Guardrails
+
+When using any framework:
+
+- Keep the voice casual and human.
+- Let the lived detail lead.
+- Avoid sounding like a business thread.
+- Avoid too many bullets in captions.
+- Use lists more often for carousels than captions.
+- Make the final line feel like quiet recognition, not a command.
+
 ## Short Essay / Thought Video System
 
 Use for 45-90 second talking-head videos.
@@ -435,4 +546,3 @@ When Jimmy gives a topic, write:
 3. Optional hashtags if requested or platform-specific.
 
 Prioritize emotional recognition over generic advice.
-
