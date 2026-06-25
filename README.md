@@ -63,6 +63,14 @@ The active short-form copy style system lives in:
 
 `01 Strategy/jcue-copy-style-system-v1.md`
 
+The active Jimmy Cue writing voice guide for captions, hooks, carousel copy, and short essays lives in:
+
+`01 Strategy/jimmy-cue-writing-voice-guide-v1.md`
+
+The current cross-project copywriting protocol lives in:
+
+`/Users/jcuellar/Documents/New project/Ad-Comm Creative Director/00 Agent System/current-copywriting-protocol-v2.md`
+
 The occasional business venture content lane lives in:
 
 `01 Strategy/self-authored-life-atelier-content-lane.md`
