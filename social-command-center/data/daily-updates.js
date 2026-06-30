@@ -10781,5 +10781,405 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. The Notion connector failed during startup before row queries, and the local YouTube export still reflects the May 20 baseline sync rather than a newer post or a real 24h, 48h, or 7d snapshot window."
+  },
+  {
+    generatedAt: "2026-07-01",
+    researchWindow: "Public-source scan run on July 1, 2026 JST using live Notion rows, the local YouTube export, recent platform/trend coverage, and approved Substack radar references.",
+    weeklyTheme: {
+      dates: "June 29 - July 5, 2026",
+      title: "Protect Your Taste",
+      thesis: "Protect taste by letting repetition hold the base while personality shifts the mood.",
+      whyNow: "Current signals are pulling in the same direction: TikTok is still rewarding authentic creator voice, Instagram is leaning harder toward original creator-made posts, and 2026 style coverage is split between repeated silhouettes and personality-led variation. That gives Jimmy a cleaner way to show taste as recognizability, not reinvention.",
+      contentRule: "Every asset should show one familiar base and one small mood change: silhouette, ritual, object, or point of view."
+    },
+    dailyBrief: {
+      date: "2026-07-01",
+      day: "Wednesday",
+      deliveryTime: "07:00 JST",
+      title: "Keep the signature. Change the mood.",
+      objective: "Film a 30-45 minute morning pack that shows how taste gets clearer when the base repeats and the mood shifts slightly: same shirt family, same room, same ritual, different feeling.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, doorway, desk or tray object, coffee setup, one tight outfit detail, one talking-head frame by the window, and one short station or side-street clip on the commute.",
+      recommendation: "Lead with the Thought Video on TikTok because the point connects current originality and style-language signals. Use the signature-range style clip for Reels, the first-ten-minutes routine clip for Shorts, and keep the static carousel for evening saves.",
+      todayDoNotDo: [
+        "Do not make this about buying a new aesthetic.",
+        "Do not let 'personality' become costume-level styling.",
+        "Do not over-explain the atelier cue. Keep it inside the room and object language."
+      ],
+      approvalChecklist: [
+        "Does the first frame show a real signature detail rather than a generic aesthetic?",
+        "Is the 3-5 second bridge a proof shot that changes the mood without changing the whole identity?",
+        "Do captions feel like recognition instead of instruction?",
+        "Is one concept clearly menswear-led and one concept clearly room or ritual-led?",
+        "Would the pack still make sense if trends disappeared tomorrow?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-07-01-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok photo mode"],
+        title: "Same Taste, Different Mood",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn the signature-range idea into a saveable visual note about recognizability without sameness.",
+        creatorSearchTopics: ["daily lifestyle", "quiet luxury"],
+        filmingFit: "5-7 minutes in the apartment before leaving.",
+        hook: "same taste, different mood",
+        firstFrameDirection: "Open on the strongest calm frame: shirt, tray, coffee, or mirror silhouette in soft light.",
+        retentionBridge: "Slide 2 should move from the wide mood frame into a tactile detail so the viewer sees the repeated signature.",
+        shotList: [
+          "Slide 1: mirror or doorway half-body silhouette.",
+          "Slide 2: shirt cuff, trouser line, belt, or watch detail.",
+          "Slide 3: coffee, tray, or desk object that repeats in the room.",
+          "Slide 4: a second outfit or mood variation using the same base.",
+          "Slide 5: text-only closer over commute or apartment texture."
+        ],
+        overlayText: [
+          "same taste, different mood",
+          "not a new aesthetic",
+          "just the same base getting clearer",
+          "a life starts sounding like you when it stops starting over"
+        ],
+        caption: "I do not think taste gets stronger by constantly changing everything.\n\nUsually it gets stronger when a few things stay recognizable.\n\nThe same shirt family.\nThe same room language.\nThe same first cup.\nA slightly different mood.\n\nThat is enough.\n\nA life starts sounding like you when it stops starting over.\n\n#jimmycue #DailyLifestyle #quietluxury #slowliving #tokyolife",
+        keywords: ["daily lifestyle", "quiet luxury", "slow living", "Tokyo life"],
+        seoKeywords: ["daily lifestyle", "quiet luxury", "slow living lifestyle minimalism", "Tokyo life"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#quietluxury", "#slowliving", "#tokyolife"],
+        editNotes: "Keep it quiet and tactile. No moodboard energy."
+      },
+      {
+        id: "video-2026-07-01-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "You Do Not Need A New Aesthetic Every Week",
+        format: "Style philosophy / OOTD, 22-30 seconds",
+        purpose: "Use current style language around modern uniforms and personality dressing through Jimmy's softer menswear lane.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        filmingFit: "Mirror shot, one close detail, one doorway or station-walk clip.",
+        hook: "you do not need a new aesthetic every week",
+        firstFrameDirection: "Start on the full silhouette, then snap into one detail.",
+        retentionBridge: "At 3-5 seconds say: 'you need a signature range that still sounds like you.'",
+        shotList: [
+          "Full silhouette in mirror.",
+          "Close-up of shirt cuff, trouser line, shoe, or belt.",
+          "Hand adjusting sleeve, watch, or bag.",
+          "Doorway exit or commute texture clip."
+        ],
+        talkingScript: "You do not need a new aesthetic every week.\n\nYou need a signature range that still sounds like you.\n\nI like when the base repeats and the mood changes a little.\nThat feels more honest than rebuilding an identity every time the feed moves.\n\nStyle gets calmer when you stop asking it to reinvent you every morning.",
+        caption: "Most people are not bored with their style.\n\nThey are just too quick to abandon it.\n\nI would rather keep the base recognizable and let the mood shift a little.\nThat feels more human than starting over every week.\n\n#jimmycue #mensstyle #fitcheck #DailyThoughts #quietluxury",
+        keywords: ["fit check", "mens lifestyle", "style philosophy", "quiet luxury"],
+        seoKeywords: ["fit check", "mens lifestyle", "style philosophy", "quiet luxury"],
+        hashtags: ["#jimmycue", "#mensstyle", "#fitcheck", "#DailyThoughts", "#quietluxury"],
+        platformNotes: {
+          Instagram: "Best first home for the style angle because recognizability and outfit proof both matter.",
+          TikTok: "Works if the first silhouette is clear enough to stop the scroll.",
+          YouTube: "Only cross-post if the spoken delivery lands especially clean."
+        },
+        editNotes: "Keep the tone underplayed. No fast fashion energy."
+      },
+      {
+        id: "video-2026-07-01-02",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "Protect The First Ten Minutes",
+        format: "Routine thought video with B-roll, 20-30 seconds",
+        purpose: "Translate digital minimalism into a clear daily habit that fits current authenticity and creator-voice signals.",
+        creatorSearchTopics: ["morning routine no talking", "digital minimalism"],
+        filmingFit: "Coffee, sink, desk, and exit shot.",
+        hook: "protect the first ten minutes",
+        firstFrameDirection: "Open on a real action already happening: kettle, coffee, sink, or curtain pull.",
+        retentionBridge: "At 3-5 seconds say: 'if the day starts inside other people's moods, your own eye stays quiet.'",
+        shotList: [
+          "Kettle, coffee pour, or first sip.",
+          "Curtain pull or window light.",
+          "Desk, tray, or notebook detail.",
+          "Doorway or elevator exit."
+        ],
+        talkingScript: "Protect the first ten minutes.\n\nIf the day starts inside other people's moods, your own eye stays quiet.\n\nI like letting the room, the coffee, and one small routine speak first.\nThat changes the whole tone of the day more than another productivity trick.",
+        caption: "The first ten minutes do more than people think.\n\nIf they belong to the feed, the whole day can start sounding borrowed.\nI would rather let one quiet routine set the tone first.\n\n#jimmycue #coffeeroutine #digitalminimalism #slowliving #DailyThoughts",
+        keywords: ["morning routine no talking", "digital minimalism", "coffee morning routine", "daily thoughts"],
+        seoKeywords: ["morning routine no talking", "digital minimalism", "coffee morning routine", "daily thoughts"],
+        hashtags: ["#jimmycue", "#coffeeroutine", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          YouTube: "Best Shorts slot because the title is direct and searchable.",
+          TikTok: "Works if the morning proof feels literal, not staged.",
+          Instagram: "Use only if the day needs a second reflective Reel."
+        },
+        editNotes: "Soft room tone. Minimal music."
+      },
+      {
+        id: "video-2026-07-01-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "A Room Can Look Good And Still Not Feel Like You",
+        format: "Object-culture / room philosophy, 22-30 seconds",
+        purpose: "Seed the atelier worldview through space and ritual without drifting into offer language.",
+        creatorSearchTopics: ["calm life aesthetic", "mindful living"],
+        filmingFit: "One tray, shelf, or desk arrangement plus hand interaction.",
+        hook: "a room can look good and still not feel like you",
+        firstFrameDirection: "Start with the object or arrangement in close-up before widening to the room.",
+        retentionBridge: "At 3-5 seconds say: 'the difference is usually not the object. it is whether you return to it on purpose.'",
+        shotList: [
+          "Close-up of tray, vessel, book, incense plate, or small stone.",
+          "Hand adjusting or returning one object.",
+          "Wider desk or room frame.",
+          "Light moving across the final detail."
+        ],
+        talkingScript: "A room can look good and still not feel like you.\n\nThe difference is usually not the object.\nIt is whether you return to it on purpose.\n\nI think taste gets more believable when the room has one small ritual inside it.\nNot a makeover.\nJust one thing that keeps the space authored.",
+        caption: "Beautiful is not always the same as authored.\n\nSometimes a space looks finished but still feels anonymous.\nUsually what is missing is one repeated ritual that makes the room answer back.\n\n#jimmycue #mindfulliving #quietluxury #slowliving #tokyolife",
+        keywords: ["calm life aesthetic", "mindful living", "object culture", "quiet luxury"],
+        seoKeywords: ["calm life aesthetic", "mindful living", "object culture", "quiet luxury"],
+        hashtags: ["#jimmycue", "#mindfulliving", "#quietluxury", "#slowliving", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Best if the opening detail is tactile and immediate.",
+          Instagram: "Strong complement to the carousel because it deepens the room language.",
+          YouTube: "Skip unless the spoken take lands unusually well."
+        },
+        editNotes: "Do not make the room feel overdesigned."
+      },
+      {
+        id: "thought-2026-07-01-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "You Do Not Need A New Aesthetic. You Need A Signature Range.",
+        format: "Talking-head video, 55-80 seconds",
+        purpose: "Turn current originality, style, and creator-voice signals into a Jimmy-specific point about recognizability, mood shifts, and self-trust.",
+        sourceInspiration: "The current overlap between authenticity pressure, originality rules, and 2026 style language around both repeated silhouettes and personality-led variation.",
+        sourceReferences: [
+          {
+            title: "TikTok at Cannes Lions 2026: Where Creative Solutions, Creator Voices, and Culture Turn Creativity Into Business Impact",
+            source: "TikTok Newsroom",
+            url: "https://newsroom.tiktok.com/en-us/tiktok-at-cannes-lions-2026-where-creative-solutions-creator-voices-and-culture-turn-creativity-into-business-impact",
+            note: "Reinforced that current TikTok positioning still favors authentic creator voice and discovery through culture-native content."
+          },
+          {
+            title: "Instagram says it doesn't want your tweet round ups",
+            source: "The Verge",
+            url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+            note: "Grounded the originality pressure now extending to photos and carousels, not just video."
+          },
+          {
+            title: "Depop's 2026 Trend Forecast Is Here-These Are the Styles to Know",
+            source: "Who What Wear",
+            url: "https://www.whowhatwear.com/fashion/trends/depop-trend-predictions-2026",
+            note: "Supported the modern-uniform and edited-self language around repetition and authorship."
+          },
+          {
+            title: "The Best Dressed It Girls (and It Boys) Are Now Embracing 'Personality Dressing' Instead of a Uniform",
+            source: "Who What Wear",
+            url: "https://www.whowhatwear.com/fashion/trends/personality-dressing-style-2026",
+            note: "Added the useful tension between repeated identity and mood variation."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Added the small-action-over-overthinking lane that fits Jimmy's authorship point."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "mens lifestyle"],
+        hook: "you do not need a new aesthetic. you need a signature range.",
+        firstFrameDirection: "Open in a steady talking-head frame with one clear signature detail in view: shirt, tray, coffee, or desk object.",
+        retentionBridge: "At 3-5 seconds cut to outfit or room proof and say: 'if you rebuild your taste from scratch every week, nothing gets a chance to become yours.'",
+        fullTalkingScript: "You do not need a new aesthetic.\nYou need a signature range.\n\nIf you rebuild your taste from scratch every week, nothing gets a chance to become yours.\n\nI think that is why so much content feels visually busy right now.\nPeople are trying to stay current, original, interesting, and expressive all at once.\nBut those things do not have to mean constant reinvention.\n\nEven the current style conversation is split between repeated uniforms and more personality-led dressing.\nTo me the useful part is in the middle.\nKeep the signature.\nChange the mood.\n\nThis morning I wore the same kind of shirt I keep returning to.\nThe room still had the same object on the desk.\nThe coffee was the same.\nNothing new, but the feeling was different.\nThat is enough for me.\n\nA lot of taste gets stronger that way.\nNot by replacing yourself.\nBy giving yourself a recognisable base to move from.\n\nIf your life feels visually scattered, do not ask what whole new version of you needs to appear.\nAsk what already feels true enough to repeat.\n\nA life starts sounding like you when it stops starting over.",
+        beatSheet: [
+          { time: "0-4s", action: "Talking head with the hook.", line: "You do not need a new aesthetic. You need a signature range." },
+          { time: "5-10s", action: "Outfit or room proof cutaway.", line: "If you rebuild your taste from scratch every week, nothing gets a chance to become yours." },
+          { time: "11-23s", action: "Back to camera.", line: "People are trying to stay current, original, interesting, and expressive all at once. But those things do not have to mean constant reinvention." },
+          { time: "24-39s", action: "Outfit, tray, coffee, or desk inserts.", line: "The useful middle is simple: keep the signature, change the mood." },
+          { time: "40-58s", action: "Morning proof sequence.", line: "This morning I kept the same shirt family, the same coffee, the same object on the desk. Nothing new, but the feeling was different." },
+          { time: "59-78s", action: "Final talking-head close.", line: "If your life feels visually scattered, ask what already feels true enough to repeat. A life starts sounding like you when it stops starting over." }
+        ],
+        shotList: [
+          "Talking head by window, desk, or doorway.",
+          "Mirror silhouette or shirt-detail shot.",
+          "Coffee pour or first sip.",
+          "Tray, book, or desk object proof shot.",
+          "Notebook or laptop opening shot.",
+          "Short station-walk or doorway exit clip."
+        ],
+        caption: "A lot of people do not need a whole new aesthetic.\n\nThey need a base that still feels like them.\n\nThe same shirt family.\nThe same room language.\nThe same first cup.\nA slightly different mood.\n\nThat is enough to make taste feel real again.\n\nA life starts sounding like you when it stops starting over.\n\n#jimmycue #DailyThoughts #menslifestyle #slowliving #quietluxury",
+        keywords: ["daily thoughts", "mens lifestyle", "slow living", "quiet luxury"],
+        seoKeywords: ["daily thoughts", "mens lifestyle", "slow living lifestyle minimalism", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#menslifestyle", "#slowliving", "#quietluxury"],
+        platformNotes: {
+          TikTok: "Best first post because the hook is clear and the point is culturally current without sounding trend-chased.",
+          Instagram: "Use a still cover with the hook over a calm room or silhouette frame.",
+          YouTube: "Trim toward 60-70 seconds if needed and keep the full hook as the title."
+        },
+        editNotes: "Speak plainly. Slightly lazy coffee-journal tone, not a speech."
+      },
+      {
+        id: "story-2026-07-01-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Uniform Or Signature Range?",
+        format: "Poll story",
+        purpose: "Turn the style thesis into a simple audience split.",
+        creatorSearchTopics: ["daily lifestyle"],
+        hook: "what feels more like you right now?",
+        firstFrameDirection: "Use a split between outfit detail and a second mood variation.",
+        retentionBridge: "Lets today's theme collect language without overexplaining it.",
+        shotList: ["Outfit option one.", "Outfit option two."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what feels more like you right now?",
+        pollOptions: ["uniform", "signature range"],
+        caption: "same base or slightly wider range?",
+        keywords: ["daily lifestyle", "fit check"],
+        seoKeywords: ["daily lifestyle", "fit check"],
+        hashtags: ["#jimmycue", "#DailyLifestyle"],
+        editNotes: "Keep it clean and minimal."
+      },
+      {
+        id: "story-2026-07-01-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "First Ten Minutes",
+        format: "Question box story",
+        purpose: "Collect audience language around morning boundaries and digital minimalism.",
+        creatorSearchTopics: ["daily thoughts"],
+        hook: "what protects your first ten minutes?",
+        firstFrameDirection: "Use coffee, curtain, or desk clip with a question sticker.",
+        retentionBridge: "Answers can feed tomorrow's hooks.",
+        shotList: ["One calm proof clip from the apartment."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what protects your first ten minutes?",
+        pollOptions: [],
+        caption: "mine is usually coffee before the feed.",
+        keywords: ["daily thoughts", "digital minimalism"],
+        seoKeywords: ["daily thoughts", "digital minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        editNotes: "Plain text only."
+      },
+      {
+        id: "written-2026-07-01-01",
+        type: "Written Post",
+        platformPriority: ["Substack Notes", "Instagram Notes"],
+        title: "A Life Starts Sounding Like You When It Stops Starting Over",
+        format: "Short note draft, 110-150 words",
+        purpose: "Extend the day's theme into a slower written lane with a light atelier-coded worldview.",
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        hook: "a life starts sounding like you when it stops starting over",
+        firstFrameDirection: "If adapted visually, place the line over a shirt, tray, or desk frame.",
+        retentionBridge: "Lead with the title and first sentence only if turned into a visual post.",
+        talkingScript: "I think a lot of people are mistaking reinvention for taste.\n\nTaste usually gets stronger when a few things stay recognizable.\nThe same shirt family. The same first cup. The same object on the desk that keeps the room honest.\n\nWhat changes is the mood.\nNot the whole identity.\n\nThat is the version of originality I trust more now.\nNot constant novelty.\nJust enough room for something familiar to start sounding more like you.",
+        caption: "Short note draft for Substack Notes or Instagram Notes.",
+        keywords: ["daily thoughts", "mindful living", "slow living"],
+        seoKeywords: ["daily thoughts", "mindful living", "slow living lifestyle minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#slowliving", "#quietluxury"],
+        editNotes: "Keep it sparse and literal."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Read the brief and choose today's repeated base: shirt family, ritual, and object.", platform: "Private", reason: "Keeps the pack coherent before filming." },
+      { time: "07:12-07:55", action: "Film the Thought Video, style clip, first-ten-minutes clip, room/object clip, static assets, and both stories.", platform: "Phone", reason: "Batch while the morning still feels literal." },
+      { time: "08:15", action: "Post You Do Not Need A New Aesthetic. You Need A Signature Range.", platform: "TikTok", reason: "Strongest synthesis of today's originality and style signals." },
+      { time: "12:20", action: "Post You Do Not Need A New Aesthetic Every Week.", platform: "Instagram Reels", reason: "Menswear framing still maps to the clearest stored reach pattern." },
+      { time: "18:25", action: "Post Protect The First Ten Minutes.", platform: "YouTube Shorts", reason: "Direct, searchable title with a practical digital-minimalism angle." },
+      { time: "20:40", action: "Post Same Taste, Different Mood and the written note.", platform: "Instagram / TikTok photo mode / Substack Notes", reason: "Evening is better for saveable static posts and slower reflection." },
+      { time: "Any time", action: "Run the poll and question-box stories.", platform: "Stories", reason: "Collect language around signature details and morning boundaries." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's latest public creator-facing brand language still centers authentic creator voices, culture-native content, and discovery through relevance rather than templated polish.",
+        source: "TikTok Newsroom",
+        url: "https://newsroom.tiktok.com/en-us/tiktok-at-cannes-lions-2026-where-creative-solutions-creator-voices-and-culture-turn-creativity-into-business-impact",
+        implication: "Lead with Jimmy's real room, real voice, and real morning proof instead of abstract aesthetic packaging."
+      },
+      {
+        signal: "Instagram is applying originality pressure to photos and carousels as well as video, with recommendation eligibility tied to creator-made or materially edited work.",
+        source: "The Verge",
+        url: "https://www.theverge.com/news/920999/instagram-says-it-doesnt-want-your-tweet-round-ups",
+        implication: "Keep today's carousel and room/style clips fully original and grounded in Jimmy's own footage."
+      },
+      {
+        signal: "Depop's 2026 fashion language is still about 'The Edited Self': clarity over clutter, repeated silhouettes, and authorship through what you return to.",
+        source: "Who What Wear",
+        url: "https://www.whowhatwear.com/fashion/trends/depop-trend-predictions-2026",
+        implication: "Use one clear menswear concept built around repetition, conviction, and recognisable base layers."
+      },
+      {
+        signal: "Fresh late-June style coverage is complicating the uniform story with 'personality dressing' that still looks recognisable rather than random.",
+        source: "Who What Wear",
+        url: "https://www.whowhatwear.com/fashion/trends/personality-dressing-style-2026",
+        implication: "Frame today's thought as 'keep the signature, change the mood' instead of literal sameness."
+      },
+      {
+        signal: "2026 creator-industry coverage keeps favoring creators with perspective and less-scripted voice over purely aspirational posting.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/how-influencer-marketing-is-changing-in-2026",
+        implication: "Keep the Thought Video opinionated and personal rather than generic lifestyle commentary."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's public essay keeps pushing small execution over overplanning and identity rehearsal.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate overthinking into one repeated base that Jimmy already trusts rather than a whole new self-concept.",
+        postIdea: "You do not need a new aesthetic. You need one base you trust enough to keep."
+      }
+    ],
+    keywordBank: {
+      primary: ["signature range", "modern uniform", "daily thoughts", "morning routine no talking", "original content"],
+      secondary: ["mens lifestyle", "fit check", "digital minimalism", "quiet luxury", "Tokyo life", "mindful living"],
+      titles: [
+        "You Do Not Need A New Aesthetic. You Need A Signature Range.",
+        "You Do Not Need A New Aesthetic Every Week",
+        "Protect The First Ten Minutes",
+        "A Room Can Look Good And Still Not Feel Like You",
+        "Same Taste, Different Mood"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#tokyolife"],
+        style: ["#mensstyle", "#menslifestyle", "#fitcheck", "#quietluxury"],
+        routine: ["#coffeeroutine", "#digitalminimalism", "#DailyThoughts", "#slowliving"],
+        object: ["#mindfulliving", "#quietluxury", "#slowliving"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active because live Notion rows still show casual menswear wording as the clearest reach door.",
+      "Keep one reflective Thought Video active because quiet-life observations still create deeper comment density than broad lifestyle packaging.",
+      "Keep imperfection, repetition, and authored-space language in play because the baseline outliers still map to Jimmy's best identity fit.",
+      "Favor original room, ritual, and silhouette proof in every asset because current platform guidance is leaning harder toward creator-made originality.",
+      "Do not create new packaging assumptions until the next actual YouTube upload gives a real 24h, 48h, or 7d snapshot window."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh post-performance movement was confirmed for July 1, 2026 JST.",
+        note: "Live Notion row queries worked on this run and matched the local `.youtube/latest_metrics.json` baseline set imported on May 20, 2026; no newer YouTube upload or true 24h, 48h, or 7d snapshot window was available.",
+        action: "Keep using the stored menswear, imperfection, and quiet-reflection baselines for today's recommendations and wait for the next actual upload before writing new snapshot rows."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest stored baseline still paired relatable life language with clear menswear framing.",
+          repeat: "Keep one style-guidance or signature-range post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still appears to create deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with immediate room or ritual proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still maps cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about repetition, non-pristine authorship, and quieter standards."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-15",
+      note: "The biweekly long-form slot is due now.",
+      suggestion: "Current strongest angle: 'you do not need a new aesthetic: a quiet week in tokyo building a signature range through outfits, rooms, coffee, and small repeated rituals'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. Live queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set in `.youtube/latest_metrics.json`, so there was no new YouTube post or real 24h, 48h, or 7d snapshot window to sync."
   }
 ];
