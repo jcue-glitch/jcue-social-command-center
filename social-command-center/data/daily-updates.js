@@ -13269,5 +13269,417 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. The JCue Notion hub was readable enough to confirm the May 20 baseline import set and the standing menswear / quiet-life / imperfection learnings, but the local `.youtube/latest_metrics.json` export still matches that baseline import rather than a new upload or a real 24h, 48h, or 7d snapshot window."
+  },
+  {
+    generatedAt: "2026-07-08",
+    researchWindow: "2026-07-07 to 2026-07-08 JST",
+    weeklyTheme: {
+      title: "Make It Yours",
+      thesis: "Taste gets stronger when it has somewhere to live: a repeated outfit base, one arranged corner, one ritual, and one thing you actually make.",
+      whyNow: "Current platform and culture signals still reward originality, specificity, and a clearer point of view. Today should tighten the theme by reducing options and turning taste into repeatable proof.",
+      continuation: "Continue the move from Protect Your Taste into quieter authorship, but make today's emphasis fewer options, steadier choices, and a life that is easier to recognize."
+    },
+    dailyBrief: {
+      title: "A Clearer Life Needs Fewer Options",
+      summary: "Today is about making the morning easier to recognize. Use one outfit base, one kept-clear surface, one object or coffee ritual, and one small creative action before the feed so the posts feel lived instead of referenced.",
+      audience: "High-achieving people with taste who are visually full, quietly scattered, and tired of saving inspiration without feeling more like themselves.",
+      tone: "Thoughtful, casual, slightly lazy coffee-journal voice. Recognition first, instruction second.",
+      filmingWindow: "30-45 minutes in the apartment, building hallway, side street, or commute.",
+      creativeDirection: "Keep the visuals literal and close: repeated shirt, clear surface, hand placing an object, notebook line, coffee, mirror silhouette, quiet walk, station exit.",
+      atelierSeed: "Subtly seed the Self-Authored Life Atelier worldview through one line: your life gets clearer when one inner instinct is allowed to take form."
+    },
+    contentPack: [
+      {
+        id: "static-2026-07-08-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram Photo", "TikTok photo mode"],
+        title: "A Clearer Life Needs Fewer Options",
+        format: "4-slide carousel or single static if time is tight",
+        purpose: "Turn today's fewer-options theme into a saveable room-and-routine post with Jimmy's own lived proof.",
+        creatorSearchTopics: ["daily thoughts", "quiet luxury"],
+        hook: "a clearer life needs fewer options",
+        firstFrameDirection: "Open on one calm morning surface with only three things in frame: coffee, notebook, and one object or garment detail.",
+        retentionBridge: "Second frame should explain the tension quickly: 'too many versions of you can make the day feel borrowed.'",
+        shotList: [
+          "One wide desk, shelf, or chair composition.",
+          "Close-up of coffee, notebook, or object anchor.",
+          "Repeated shirt or mirror silhouette.",
+          "Surface reset or hand-placement proof."
+        ],
+        talkingScript: "Use as text-led carousel only.",
+        carouselSlides: [
+          "a clearer life needs fewer options",
+          "too many versions of you can make the day feel borrowed.",
+          "one shirt base. one clearer surface. one thing placed before the feed.",
+          "sometimes that is enough to feel like yourself again."
+        ],
+        caption: "The problem is not always that life is missing something.\nSometimes it is carrying too many versions of you at once.\n\nToo many saved moods.\nToo many outfit possibilities.\nToo many ways the morning could go.\nAnd somewhere in that noise, your actual taste gets harder to hear.\n\nSo lately I trust fewer options more.\nOne shirt base.\nOne surface that stays clear on purpose.\nOne object that still earns its place.\n\nA calmer life usually starts looking clearer before it starts looking impressive.\n\n#jimmycue #DailyThoughts #quietluxury #slowliving #tokyolife",
+        keywords: ["daily thoughts", "quiet luxury", "slow living", "Tokyo life"],
+        seoKeywords: ["daily thoughts", "quiet luxury", "slow living", "Tokyo life"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#quietluxury", "#slowliving", "#tokyolife"],
+        editNotes: "Keep the frame useful, not precious. Leave a little imperfection in the scene."
+      },
+      {
+        id: "video-2026-07-08-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "More Options Will Not Clarify You",
+        format: "Outfit-detail reel, 20-30 seconds",
+        purpose: "Keep the menswear baseline active by reframing repeated style as self-recognition rather than limitation.",
+        creatorSearchTopics: ["mensstyle", "fit check"],
+        hook: "more options will not clarify you",
+        firstFrameDirection: "Start with Jimmy putting on the same trusted shirt base or adjusting the same trouser silhouette in the mirror.",
+        retentionBridge: "At 3-5 seconds say: 'sometimes the repeated fit is the point.'",
+        shotList: [
+          "Mirror half-body shot.",
+          "Cuff, collar, or trouser adjustment.",
+          "Shoes or bag pickup.",
+          "Walking out through the doorway or elevator."
+        ],
+        talkingScript: "More options will not clarify you.\n\nSometimes the repeated fit is the point.\n\nMost people do not need endless outfit ideas.\nThey need one shape that feels like home often enough to trust it.\n\nThat is when style gets quieter.\nAnd a lot more personal.",
+        caption: "There is a version of style that gets better when it stops performing range.\n\nA repeated outfit is not boring when it is doing real work.\nIt can make the morning lighter.\nIt can help your posture settle.\nIt can remove one layer of noise before the day starts asking things from you.\n\nI think people underestimate how much self-recognition lives inside repetition.\n\n#jimmycue #mensstyle #fitcheck #DailyLifestyle #quietluxury",
+        keywords: ["mensstyle", "fit check", "daily lifestyle", "quiet luxury"],
+        seoKeywords: ["mensstyle", "fit check", "daily lifestyle", "quiet luxury"],
+        hashtags: ["#jimmycue", "#mensstyle", "#fitcheck", "#DailyLifestyle", "#quietluxury"],
+        platformNotes: {
+          TikTok: "Keep the spoken line intact and let the fit appear in frame immediately.",
+          Instagram: "Use a still cover on the mirror frame or cuff detail with the hook centered.",
+          YouTube: "Lower priority than the ritual and thought-video cuts today."
+        },
+        editNotes: "Avoid over-editing. One smooth cut or two is enough."
+      },
+      {
+        id: "video-2026-07-08-02",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "TikTok"],
+        title: "Leave One Surface Empty On Purpose",
+        format: "Room or object ritual clip, 20-30 seconds",
+        purpose: "Turn digital-minimalism and calm-life language into one concrete visual behavior Jimmy can film fast.",
+        creatorSearchTopics: ["digital minimalism", "daily lifestyle"],
+        hook: "leave one surface empty on purpose",
+        firstFrameDirection: "Open on a desk, chair, tray, or shelf with one hand removing clutter or placing only one object down.",
+        retentionBridge: "At 3-5 seconds say: 'it gives your attention somewhere quieter to land.'",
+        shotList: [
+          "Hand clearing or resetting one surface.",
+          "Coffee or object placement.",
+          "Notebook beside the cleared space.",
+          "Wide proof shot of the calmer corner."
+        ],
+        talkingScript: "Leave one surface empty on purpose.\n\nIt gives your attention somewhere quieter to land.\n\nI think a lot of people call themselves overwhelmed when they are actually surrounded by too many little demands.\n\nOne clear surface will not fix your life.\nBut it can make the morning feel less borrowed.\nAnd that is a real start.",
+        caption: "I like beautiful objects.\nBut I also think space needs somewhere to breathe.\n\nWhen every surface is carrying a message, the room starts sounding louder than it looks.\nThat is why I like keeping one area almost empty on purpose.\nNot sterile.\nJust clear enough that my attention can settle.\n\nSometimes peace looks very ordinary.\nA desk that is not asking for anything.\nA chair that can just hold the shirt.\nA tray with one thing too many removed.\n\n#jimmycue #digitalminimalism #DailyLifestyle #slowliving #coffeeroutine",
+        keywords: ["digital minimalism", "daily lifestyle", "slow living", "coffee routine"],
+        seoKeywords: ["digital minimalism", "daily lifestyle", "slow living", "coffee routine"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#DailyLifestyle", "#slowliving", "#coffeeroutine"],
+        platformNotes: {
+          TikTok: "Use the hand movement in the first second so the reset feels active, not posed.",
+          Instagram: "The caption can carry the bigger reflection while the video stays tactile.",
+          YouTube: "Literal searchable phrasing makes this strong for Shorts."
+        },
+        editNotes: "Keep the room sound if it feels good. Soft environmental audio helps."
+      },
+      {
+        id: "video-2026-07-08-03",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Write The Line Before You Earn It",
+        format: "Notebook or commute voiceover, 20-35 seconds",
+        purpose: "Bring the atelier lane in gently through creative action rather than overt business framing.",
+        creatorSearchTopics: ["self growth", "daily thoughts"],
+        hook: "write the line before you earn it",
+        firstFrameDirection: "Open on Jimmy writing one sentence in a notebook or phone note before leaving the apartment.",
+        retentionBridge: "At 3-5 seconds say: 'sometimes the line is what helps you become the person.'",
+        shotList: [
+          "Notebook or phone note from a safe angle.",
+          "Hand writing one clear sentence.",
+          "Desk or hallway transition shot.",
+          "Walk or train reflection for the close."
+        ],
+        talkingScript: "Write the line before you earn it.\n\nSometimes the line is what helps you become the person.\n\nPeople wait to feel fully sure before they make anything visible.\nBut self-trust usually grows in the opposite order.\n\nOne note.\nOne thought.\nOne visible act.\n\nThat is often enough to make the day feel more like yours.",
+        caption: "I do not think people always need more confidence first.\nSometimes they need one small act that gives confidence somewhere to begin.\n\nA sentence in the notebook.\nA thought spoken out loud.\nA thing made while it still feels a little early.\n\nThe line does not need to prove anything yet.\nIt just needs to exist.\nThat is often how clarity starts.\n\n#jimmycue #selfgrowth #DailyThoughts #slowliving #tokyolife",
+        keywords: ["self growth", "daily thoughts", "slow living", "Tokyo life"],
+        seoKeywords: ["self growth", "daily thoughts", "slow living", "Tokyo life"],
+        hashtags: ["#jimmycue", "#selfgrowth", "#DailyThoughts", "#slowliving", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Use this as the secondary spoken piece if Jimmy wants one more direct idea after the Thought Video.",
+          Instagram: "Works best with a notebook-first cover rather than a generic walking frame.",
+          YouTube: "Lower priority than the ritual cut today."
+        },
+        editNotes: "Keep the wording calm and non-coachy. The notebook proof is what makes it work."
+      },
+      {
+        id: "thought-2026-07-08-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Too Many Options Make You Harder To Recognize",
+        format: "Talking-head thought video, 55-85 seconds",
+        purpose: "Turn current originality, algorithmic-taste, and execution signals into a compact spoken essay about fewer options and clearer authorship.",
+        sourceInspiration: "Current platform originality signals, algorithmic-taste reporting, intentional-style coverage, public Reddit simple-living language, Miranda's execution lens, and Kevin Kelly's specificity lens translated into Jimmy's morning proof.",
+        sourceReferences: [
+          {
+            title: "Introducing TikTok Next 2026",
+            source: "TikTok Newsroom",
+            url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+            note: "Used for the idea that audiences want faster value and clearer payoff."
+          },
+          {
+            title: "Original Content Guidelines",
+            source: "Instagram for Creators",
+            url: "https://creators.instagram.com/original-content-guidelines",
+            note: "Used for the push toward creator-made, perspective-led original content."
+          },
+          {
+            title: "From the CEO: What's coming to YouTube in 2026",
+            source: "YouTube Official Blog",
+            url: "https://blog.youtube/inside-youtube/the-future-of-youtube-2026/",
+            note: "Used for the value of strong first-frame proof on Shorts and flexible creator formats."
+          },
+          {
+            title: "Have I been influenced, or is this actually me? How personal taste fell out of fashion",
+            source: "The Guardian",
+            url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+            note: "Used for the cultural tension around algorithmic flattening of personal taste."
+          },
+          {
+            title: "The Biggest Depop Fashion Trends of 2026",
+            source: "Who What Wear",
+            url: "https://www.whowhatwear.com/fashion/shopping/depop-trend-predictions-2026",
+            note: "Used for the edited-self and intentional wardrobe framing."
+          },
+          {
+            title: "Simple routines that actually help you feel more centered?",
+            source: "Reddit / r/simpleliving",
+            url: "https://www.reddit.com/r/simpleliving/comments/1snk8i0/simple_routines_that_actually_help_you_feel_more/",
+            note: "Used for the repeated-anchor language around calm routines holding in chaos."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for the execution-over-planning lens."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the specificity and category-of-one lens."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "too many options make you harder to recognize",
+        firstFrameDirection: "Open in a steady talking-head frame with one clear proof detail nearby: repeated shirt, clear surface, coffee, notebook, or object tray.",
+        retentionBridge: "At 3-5 seconds cut to the proof detail and say: 'at some point, more choice starts sounding like noise.'",
+        fullTalkingScript: "Too many options make you harder to recognize.\n\nAt some point, more choice starts sounding like noise.\n\nI think that is part of why a lot of people look inspired but still feel scattered.\nThere are too many saved versions of life.\nToo many moods.\nToo many possible selves.\nAnd not enough repeated proof.\n\nSo lately I trust fewer things more.\nThe same shirt base.\nOne clearer surface.\nA cup before the feed.\nOne line in the notebook before the day starts asking questions.\n\nThat is not me lowering the standard.\nIt is me getting easier to recognize to myself.\n\nI do not think most people need more options.\nI think they need one shape of life that they can actually keep choosing.\n\nThat is usually when taste stops being theoretical and starts feeling like yours.",
+        beatSheet: [
+          { time: "0-4s", action: "Talking head with hook.", line: "Too many options make you harder to recognize." },
+          { time: "5-10s", action: "Cut to shirt, surface, coffee, or notebook proof.", line: "At some point, more choice starts sounding like noise." },
+          { time: "11-24s", action: "Back to camera.", line: "A lot of people look inspired but still feel scattered because there are too many possible selves in the room." },
+          { time: "25-43s", action: "Proof sequence with repeated shirt, clear surface, coffee, and notebook.", line: "So I trust fewer things more now: the same shirt base, one clearer surface, a cup before the feed, one line in the notebook." },
+          { time: "44-63s", action: "Talking head with one extra room cutaway.", line: "That is not lowering the standard. It is becoming easier to recognize to yourself." },
+          { time: "64-80s", action: "Final close on camera or walking out.", line: "Most people do not need more options. They need one shape of life they can keep choosing." }
+        ],
+        shotList: [
+          "Talking head by window, desk, or doorway.",
+          "Close-up of repeated shirt base or cuff detail.",
+          "One clear surface with coffee or object anchor.",
+          "Notebook line or phone note proof.",
+          "Hallway, elevator, or station walk for the close."
+        ],
+        caption: "I think a lot of people are not missing inspiration.\nThey are carrying too many versions of themselves at once.\n\nToo many references.\nToo many aesthetics.\nToo many ways the day could go.\nSo even good taste starts sounding loud.\n\nThat is why I trust fewer options more now.\nA repeated shirt.\nOne clear surface.\nA cup before the feed.\nOne line in the notebook.\n\nSometimes clarity is not about adding more.\nIt is about choosing one shape of life often enough that it starts feeling like yours.\n\n#jimmycue #DailyThoughts #digitalminimalism #quietluxury #slowliving",
+        keywords: ["daily thoughts", "digital minimalism", "quiet luxury", "slow living"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "quiet luxury", "slow living"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#quietluxury", "#slowliving"],
+        platformNotes: {
+          TikTok: "Best first post because the hook lands immediately and the proof cuts are easy to follow.",
+          Instagram: "Use a talking-head cover with the hook in clean lowercase and one proof object visible.",
+          YouTube: "Keep the title literal and trim pauses if the cut drifts past 80 seconds."
+        },
+        editNotes: "Read it like a real morning thought, not a speech. The room proof matters more than performance."
+      },
+      {
+        id: "story-2026-07-08-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Stays The Same For You?",
+        format: "Question box story",
+        purpose: "Collect audience language around the repeated item or ritual that keeps them grounded.",
+        creatorSearchTopics: ["daily thoughts"],
+        hook: "what stays the same for you?",
+        firstFrameDirection: "Use one repeated object, shirt, or coffee clip with a question sticker.",
+        retentionBridge: "This can feed tomorrow's first line or a later carousel caption.",
+        shotList: ["One repeated item or calm corner clip."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what stays the same for you when life gets loud?",
+        pollOptions: [],
+        caption: "outfit, coffee, walk, room, notebook. curious what people keep returning to.",
+        keywords: ["daily thoughts", "mindful living"],
+        seoKeywords: ["daily thoughts", "mindful living"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        editNotes: "Keep it plain and conversational."
+      },
+      {
+        id: "story-2026-07-08-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "What Clears You Faster?",
+        format: "Poll story",
+        purpose: "Turn today's theme into an easy interaction between style and space.",
+        creatorSearchTopics: ["daily lifestyle"],
+        hook: "what clears you faster?",
+        firstFrameDirection: "Split frame between the trusted outfit base and the clear surface or corner.",
+        retentionBridge: "Keeps the worldview simple and interactive.",
+        shotList: ["Outfit detail shot.", "Clear surface or room-corner shot."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what clears you faster?",
+        pollOptions: ["trusted outfit", "clearer room"],
+        caption: "both count. one usually helps the other.",
+        keywords: ["daily lifestyle", "fit check"],
+        seoKeywords: ["daily lifestyle", "fit check"],
+        hashtags: ["#jimmycue", "#DailyLifestyle"],
+        editNotes: "Minimal text."
+      },
+      {
+        id: "written-2026-07-08-01",
+        type: "Written Post",
+        platformPriority: ["Substack Notes", "Instagram Notes"],
+        title: "A Clearer Life Needs Fewer Options",
+        format: "Short note draft, 110-150 words",
+        purpose: "Extend the Thought Video into a slower note with a subtle atelier-coded authorship line.",
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        hook: "a clearer life needs fewer options",
+        firstFrameDirection: "If adapted visually, place the line over a clear surface, shirt still, or notebook in morning light.",
+        retentionBridge: "Lead with the title and first sentence only if it becomes a visual note post.",
+        talkingScript: "A lot of people are not short on inspiration.\nThey are short on repeated proof.\n\nThere are too many saved versions of life.\nToo many options that all sound good from a distance.\nNot enough that actually enter the room.\nThe outfit.\nThe coffee.\nThe desk.\nThe line in the notebook.\n\nThat is why I trust fewer things more now.\nOne shirt base.\nOne clear surface.\nOne visible act before the feed.\n\nA life starts feeling authored when one instinct gets chosen often enough to become real.",
+        caption: "Short note draft for Substack Notes or Instagram Notes.",
+        keywords: ["daily thoughts", "mindful living", "quiet luxury"],
+        seoKeywords: ["daily thoughts", "mindful living", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#quietluxury", "#slowliving"],
+        editNotes: "Keep it concise and lived-in."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Choose today's anchors: one trusted outfit base, one clear surface, and one sentence to write before the feed.", platform: "Private", reason: "Keeps every post tied to fewer-options proof instead of vague mood." },
+      { time: "07:12-07:55", action: "Film the Thought Video, outfit reel, surface-reset clip, notebook clip, static assets, and both stories.", platform: "Phone", reason: "Capture the literal morning before the room and commute stop feeling specific." },
+      { time: "08:05", action: "Post Too Many Options Make You Harder To Recognize.", platform: "TikTok", reason: "Strongest worldview point with immediate recognition value." },
+      { time: "12:10", action: "Post More Options Will Not Clarify You.", platform: "Instagram Reels", reason: "Menswear framing still matches the clearest stored reach baseline." },
+      { time: "18:00", action: "Post Leave One Surface Empty On Purpose.", platform: "YouTube Shorts", reason: "Literal searchable phrasing and tactile proof fit Shorts behavior." },
+      { time: "20:20", action: "Post A Clearer Life Needs Fewer Options and the written note.", platform: "Instagram Photo / TikTok photo mode / Substack Notes", reason: "Evening favors slower saveable posts and reflective note language." },
+      { time: "Any time", action: "Run the question-box and poll stories.", platform: "Stories", reason: "Collect language around repeated anchors, style, and space." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 forecast says people are in discovery mode and want a clearer return on the time they spend.",
+        source: "TikTok Newsroom",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+        implication: "Open each video with the point immediately and make the payoff obvious in the first few seconds."
+      },
+      {
+        signal: "Instagram keeps rewarding original creator-made work and distinct perspective rather than recycled or generic posts.",
+        source: "Instagram for Creators",
+        url: "https://creators.instagram.com/original-content-guidelines",
+        implication: "Use Jimmy's real room, real outfit base, and real routine proof instead of overly polished generic lifestyle imagery."
+      },
+      {
+        signal: "YouTube's 2026 direction keeps expanding creator format flexibility, which makes strong first-frame proof even more important on Shorts.",
+        source: "YouTube Official Blog",
+        url: "https://blog.youtube/inside-youtube/the-future-of-youtube-2026/",
+        implication: "Treat shirt, surface, coffee, or notebook proof as the promise in frame one."
+      },
+      {
+        signal: "Recent reporting keeps naming algorithmic overexposure as a threat to personal taste and self-trust.",
+        source: "The Guardian",
+        url: "https://www.theguardian.com/media/2026/jun/14/have-i-been-influenced-personal-taste-out-of-fashion-algorithm",
+        implication: "Frame today's theme around fewer options and repeated proof instead of collecting more references."
+      },
+      {
+        signal: "Depop's edited-self framing points toward intentional wardrobes and considered personal style over microtrend churn.",
+        source: "Who What Wear",
+        url: "https://www.whowhatwear.com/fashion/shopping/depop-trend-predictions-2026",
+        implication: "Keep one repeated-base menswear post active today rather than chasing a new outfit idea."
+      },
+      {
+        signal: "Simple-living conversation still centers on a few repeated anchors holding in chaos rather than elaborate routines.",
+        source: "Reddit / r/simpleliving",
+        url: "https://www.reddit.com/r/simpleliving/comments/1snk8i0/simple_routines_that_actually_help_you_feel_more/",
+        implication: "Translate calm-life language into one repeatable anchor: clear surface, coffee, shirt base, or notebook line."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's public execution lens still argues for making one visible move instead of waiting for a cleaner self-concept.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate the point into one action before the feed: write the line, clear the surface, repeat the outfit, film the thought.",
+        postIdea: "You do not need a more complete identity before one instinct becomes visible."
+      },
+      {
+        signal: "Kevin Kelly's category-of-one framing still supports a more specific life rather than a more optimized one.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Keep the Thought Video focused on repeated specifics instead of broad motivation language.",
+        postIdea: "A life gets harder to replace when it starts looking more like your actual pattern."
+      }
+    ],
+    keywordBank: {
+      primary: ["daily thoughts", "digital minimalism", "quiet luxury", "slow living", "authored life"],
+      secondary: ["mensstyle", "fit check", "Tokyo life", "coffee routine", "mindful living", "daily lifestyle"],
+      titles: [
+        "Too Many Options Make You Harder To Recognize",
+        "More Options Will Not Clarify You",
+        "Leave One Surface Empty On Purpose",
+        "Write The Line Before You Earn It",
+        "A Clearer Life Needs Fewer Options"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#quietluxury", "#tokyolife"],
+        style: ["#mensstyle", "#fitcheck", "#DailyLifestyle", "#quietluxury"],
+        routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        object: ["#quietluxury", "#DailyThoughts", "#digitalminimalism"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active because the May 20 baseline still shows casual menswear wording as the clearest reach door.",
+      "Keep one reflective Thought Video active because quiet-life observations still show better comment depth than generic lifestyle packaging in the stored baseline.",
+      "Keep imperfection, repetition, and room-ritual language active because those still map to Jimmy's baseline identity wins.",
+      "Favor creator-made stills, native room texture, and literal first-frame proof because current platform guidance is still leaning toward originality and specificity.",
+      "Do not infer any fresh win or loss until a new YouTube upload creates a real 24h, 48h, or 7d snapshot window."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh July 7, 2026 JST performance movement was confirmed.",
+        note: "Live Notion queries and the local `.youtube/latest_metrics.json` export still point to the May 20 baseline import set rather than a newer upload or a true 24h, 48h, or 7d snapshot window.",
+        action: "Keep using the standing menswear, imperfection, and quiet-reflection baselines until a new YouTube upload creates an actual snapshot window."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest stored baseline still paired relatable life language with clear menswear framing.",
+          repeat: "Keep one style-guidance or repeated-base outfit post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still appears to create deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with room or ritual proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still maps cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about repetition, non-pristine standards, and quieter authorship."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-15",
+      note: "The biweekly long-form slot is still due.",
+      suggestion: "Current strongest angle: 'a clearer life needs fewer options: a quiet week in tokyo repeating outfits, clearing one surface, protecting the first minutes, and making one thing before the day gets loud'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. Live Notion queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set in the local `.youtube/latest_metrics.json` export, so there was no new YouTube upload or real 24h, 48h, or 7d snapshot window to sync."
   }
 ];
