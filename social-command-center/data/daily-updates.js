@@ -14929,5 +14929,411 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. Live Notion queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
+  },
+  {
+    generatedAt: "2026-07-15",
+    researchWindow: "2026-07-13 to 2026-07-15 JST",
+    weeklyTheme: {
+      dates: "2026-07-13 to 2026-07-19",
+      title: "Make It Yours",
+      thesis: "A calmer life starts feeling believable when the morning already knows what to do: one trusted shirt, one ready surface, one small ritual, and one thought that does not need the internet to begin.",
+      whyNow: "Mid-July platform signals still reward emotional recognition, low-pressure sharing, conversation, and visible daily proof. The next useful step after leaving more room is making that room usable through stronger defaults.",
+      continuation: "Continue the July 14 breathing-room lane, but tighten it into usable defaults: less deciding, less refreshing, and more mornings that can begin with what is already there."
+    },
+    dailyBrief: {
+      title: "Use What Already Knows You",
+      summary: "Today's pack should feel steadier than stylish. Build it around one relaxed outfit base, one ready corner, one action before input, and one thought-video point about calmer lives being built from defaults instead of motivation.",
+      audience: "High-achieving people with taste who are tired of negotiating with every part of the day and want their life to feel calmer without making it look performative.",
+      tone: "Thoughtful, casual, slightly lazy coffee-journal voice. Recognition first, instruction second.",
+      filmingWindow: "30-45 minutes in the apartment, hallway, station platform, train, side street, or cafe stop.",
+      creativeDirection: "Keep the proofs ordinary and tactile: bigger shirt, cup, notebook, shelf, tray, keys, headphones, bag pack, doorway pause, train platform. The point is not a perfect aesthetic morning. It is a morning that already has somewhere to begin.",
+      performanceContext: "Live Notion rows still show the May 20 baseline set only. Keep the menswear, imperfection, and quiet-reflection learnings active, but do not claim any fresh win or loss."
+    },
+    contentPack: [
+      {
+        id: "static-2026-07-15-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram Photo", "TikTok Photo Mode"],
+        title: "A Calm Life Still Needs A Place To Start",
+        format: "5-slide carousel or 1 still hero photo with caption",
+        purpose: "Turn the ready-corner idea into a saveable still post that quietly carries the atelier worldview without sounding business-coded.",
+        creatorSearchTopics: ["slow living", "quiet luxury"],
+        hook: "a calm life still needs a place to start",
+        firstFrameDirection: "Hero frame on one ready surface: coffee, notebook, pen, headphones, keys, or folded shirt in soft morning light.",
+        retentionBridge: "Slide 2 or the caption should quickly shift from surface beauty to function: 'what makes a corner feel good is that it already knows what to do.'",
+        shotList: [
+          "One ready tray or desk corner.",
+          "Folded shirt or relaxed tee on chair or shelf.",
+          "Coffee, notebook, pen, keys, or headphones.",
+          "Hand adjusting one object.",
+          "Optional hallway or doorway exit shot."
+        ],
+        talkingScript: "Use as text-led carousel or still caption only.",
+        caption: "Some spaces look calm but still make you negotiate with them.\n\nYou look at the desk and there is nowhere to write.\nYou look at the chair and there is nowhere to put the shirt.\nYou look at the morning and it already feels crowded before anything even happens.\n\nThat is why I keep paying attention to small ready corners.\nA place for the cup.\nA place for the notebook.\nA place for the things I actually touch every day.\n\nIt is not really about organization.\nIt is about making ordinary life easier to enter.\n\nA calm life usually starts with something simple already waiting for you.\n\n#jimmycue #slowliving #quietluxury #DailyLifestyle #tokyolife",
+        keywords: ["slow living", "quiet luxury", "daily lifestyle"],
+        seoKeywords: ["slow living", "quiet luxury", "daily lifestyle"],
+        hashtags: ["#jimmycue", "#slowliving", "#quietluxury", "#DailyLifestyle", "#tokyolife"],
+        editNotes: "Keep text minimal on the image. Let the object arrangement do most of the talking."
+      },
+      {
+        id: "video-2026-07-15-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "The Outfit Should Not Negotiate With You",
+        format: "15-25 second outfit / fit-check philosophy reel",
+        purpose: "Use the live menswear baseline with the current roomy-shirt signal, but frame it as reduced friction rather than fashion performance.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        hook: "the outfit should not negotiate with you",
+        firstFrameDirection: "Open with the relaxed shirt already on-body in the mirror or doorway, not on a hanger.",
+        retentionBridge: "At 3-5 seconds cut to cuffs, collar, shoulder, or side silhouette and say: 'some clothes look good but still make the morning harder.'",
+        shotList: [
+          "Mirror or doorway full-body fit.",
+          "Collar, cuff, hem, or shoulder detail.",
+          "Bag, keys, or watch pickup.",
+          "Walking out of the apartment or onto the platform."
+        ],
+        talkingScript: "The outfit should not negotiate with you.\n\nSome clothes look good and still make the morning harder.\nToo tight. Too loud. Too much deciding.\n\nI think a better fit is the one that gives you a little room and lets you move like yourself.\n\nStyle gets better when it stops interrupting your life.",
+        caption: "I do not really want clothes that need to be managed all morning.\n\nI want the shirt to fall right, the shape to give me some room, and the whole thing to let the day start clean.\n\nThat is what I like about a calmer uniform.\nIt lowers the negotiation.\nIt sharpens the mood.\nIt gives your taste somewhere practical to live.\n\nStyle is not just about how it looks.\nIt is about how easily you can become yourself inside it.\n\n#jimmycue #fitcheck #menslifestyle #quietluxury #ootd",
+        keywords: ["fit check", "mens lifestyle", "quiet luxury", "ootd"],
+        seoKeywords: ["fit check", "mens lifestyle", "quiet luxury", "OOTD"],
+        hashtags: ["#jimmycue", "#fitcheck", "#menslifestyle", "#quietluxury", "#ootd"],
+        editNotes: "Keep the movement slow and natural. Do not overcut it into trend editing."
+      },
+      {
+        id: "video-2026-07-15-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "YouTube Shorts", "Instagram Reels"],
+        title: "Protect One Decision From The Internet",
+        format: "20-30 second ritual / phone-boundary reel",
+        purpose: "Turn current digital-minimalism behavior language into one recognizable proof Jimmy can film in a few minutes.",
+        creatorSearchTopics: ["digital minimalism", "coffee morning routine"],
+        hook: "protect one decision from the internet",
+        firstFrameDirection: "Start with the phone in hand for one beat, then place it face down beside the cup before unlocking it.",
+        retentionBridge: "At 3-5 seconds cut to coffee or notebook and say: 'it changes the whole tone of the day when the first decision is yours.'",
+        shotList: [
+          "Phone set face down.",
+          "Coffee pour or cup lift.",
+          "Notebook opening or one line written.",
+          "Window, curtain, or doorway pause."
+        ],
+        talkingScript: "Protect one decision from the internet.\n\nNot the whole day.\nJust one.\n\nCoffee before the scroll.\nA shirt before the feed.\nOne line before everyone else's thoughts.\n\nThat little space changes the tone of the whole morning.",
+        caption: "I think a lot of people do not need a perfect morning routine.\nThey just need one part of the morning that still belongs to them.\n\nThat is why I care about tiny defaults.\nCup first.\nPhone second.\nOne line on paper.\nOne thing touched in real life before the feed starts choosing the mood.\n\nIt is a small thing, but small things are usually what give a day its direction.\n\n#jimmycue #digitalminimalism #coffeeroutine #DailyThoughts #slowliving",
+        keywords: ["digital minimalism", "coffee morning routine", "daily thoughts", "slow living"],
+        seoKeywords: ["digital minimalism", "coffee morning routine", "daily thoughts", "slow living"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        editNotes: "Let the phone action be visible in the first second. Keep the voice low and plain."
+      },
+      {
+        id: "video-2026-07-15-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "Instagram Reels", "TikTok"],
+        title: "One Ready Corner Makes The Morning Lighter",
+        format: "20-30 second apartment / object ritual reel",
+        purpose: "Make the room-proof lane more useful by tying object placement to emotional ease instead of organization content.",
+        creatorSearchTopics: ["daily lifestyle", "mindful living"],
+        hook: "one ready corner makes the morning lighter",
+        firstFrameDirection: "Open tight on the tray, shelf, or desk already set with one useful combination: cup, notebook, pen, keys, fragrance, headphones.",
+        retentionBridge: "At 3-5 seconds show the hand using the setup and say: 'what helps is not the object. it is not having to invent the morning again.'",
+        shotList: [
+          "Shelf, tray, or desk corner.",
+          "Hand placing or picking up one object.",
+          "Notebook open or keys lifted.",
+          "Exit shot with bag or headphones."
+        ],
+        talkingScript: "One ready corner makes the morning lighter.\n\nNot because it looks aesthetic.\nBecause it saves you from reinventing the start of the day.\n\nThe cup has a place.\nThe notebook has a place.\nThe keys have a place.\n\nSometimes calm is just less friction in ordinary form.",
+        caption: "The object is almost never the point.\n\nWhat matters is the little system around it.\nA place for the cup.\nA place for the keys.\nA place for the notebook you actually write in.\n\nThat is what makes a room feel useful instead of just styled.\nAnd usefulness has its own kind of beauty.\n\nA calmer life usually looks ordinary up close.\nThat is why it works.\n\n#jimmycue #slowliving #DailyLifestyle #quietluxury #tokyolife",
+        keywords: ["mindful living", "daily lifestyle", "quiet luxury", "Tokyo life"],
+        seoKeywords: ["mindful living", "daily lifestyle", "quiet luxury", "Tokyo life"],
+        hashtags: ["#jimmycue", "#slowliving", "#DailyLifestyle", "#quietluxury", "#tokyolife"],
+        editNotes: "Keep the frame practical, not precious. Slight room imperfection is good."
+      },
+      {
+        id: "thought-2026-07-15-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "YouTube Shorts", "Instagram Reels"],
+        title: "A Calmer Life Needs Better Defaults",
+        format: "45-90 second talking-head spoken essay with apartment and commute proof",
+        purpose: "Give Jimmy one complete point for high-achieving people with taste who are tired of needing motivation for every part of the day.",
+        sourceInspiration: "Current platform guidance around emotional recognition, community prompts, and low-pressure sharing, combined with digital-minimalism behavior language, the roomy-shirt summer signal, and the atelier idea that a life becomes authored when ordinary forms already know what they are there to do.",
+        sourceReferences: [
+          {
+            title: "Introducing TikTok Next 2026: Our Trend Forecast for Marketers for the Year Ahead",
+            source: "TikTok Newsroom",
+            url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+            note: "Used for the discovery, emotional ROI, and real human proof framing."
+          },
+          {
+            title: "How to Use Instagram Stories: Complete 2026 Guide",
+            source: "About Instagram",
+            url: "https://about.instagram.com/blog/tips-and-tricks/how-to-use-instagram-stories",
+            note: "Used for the low-pressure daily-sharing and prompt-based Story follow-through."
+          },
+          {
+            title: "Five ways to use YouTube Shorts to grow your channel",
+            source: "YouTube Blog",
+            url: "https://blog.youtube/creator-and-artist-stories/grow-youtube-channel-interactive-shorts/",
+            note: "Used for the conversation-over-monologue angle and soft interaction cue."
+          },
+          {
+            title: "How to convert YouTube Shorts views into long-form channel growth",
+            source: "YouTube Blog",
+            url: "https://blog.youtube/creator-and-artist-stories/youtube-related-videos-traffic-guide/",
+            note: "Used for the idea that Shorts should point toward deeper authored worldbuilding."
+          },
+          {
+            title: "Bye-Bye Baby Tee: It's a Schlubby Shirt Summer",
+            source: "Vogue",
+            url: "https://www.vogue.com/article/big-shirt-summer-trend",
+            note: "Used for the breathing-room silhouette cue and the idea that room can still feel intentional."
+          },
+          {
+            title: "Has Anyone Actually Changed Their Mornings by Not Looking at Their Phone?",
+            source: "Reddit / r/digitalminimalism",
+            url: "https://www.reddit.com/r/digitalminimalism/comments/1uhx72x/has_anyone_actually_changed_their_mornings_by_not/",
+            note: "Used for the phone-second behavior language and morning-autonomy proof."
+          },
+          {
+            title: "Simple routines that actually help you feel more centered?",
+            source: "Reddit / r/simpleliving",
+            url: "https://www.reddit.com/r/simpleliving/comments/1snk8i0/simple_routines_that_actually_help_you_feel_more/",
+            note: "Used for the anchor-routine framing around repetition and simplicity."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for the one-real-action-before-more-input angle."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the specificity lens behind making life feel more like yours."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        hook: "a calmer life needs better defaults",
+        firstFrameDirection: "Open in a simple talking-head frame with one default already visible in the shot: relaxed shirt, coffee, notebook, tray, or phone facedown.",
+        retentionBridge: "At 3-5 seconds cut to one real proof and say: 'most people are not missing motivation. they are missing a life that knows how to begin.'",
+        fullTalkingScript: "A calmer life needs better defaults.\n\nI think that is what a lot of people are actually looking for.\nNot a new personality.\nNot more motivation.\nJust a life that knows how to begin without negotiating with them every morning.\n\nBecause modern life asks for a decision before you are even fully awake.\nThe phone.\nThe mood.\nThe outfit.\nThe room.\nThe noise.\nEverybody else already has a suggestion.\n\nSo lately I have been caring more about defaults.\nOne shirt I trust.\nCoffee before the feed.\nA notebook already there.\nA corner that does not need to be fixed before I can use it.\n\nThis morning that was enough.\nLoose shirt.\nOne clear surface.\nOne line on paper.\nThen the station, the heat, the city, the rest of it.\n\nI do not think calm comes from becoming super disciplined all at once.\nI think it comes from building ordinary things that already know how to hold you.\n\nThat is why people can have good taste and still feel scattered.\nTaste without a usable life around it is still exhausting.\n\nSo if your life feels louder than it looks, maybe the answer is not more inspiration.\nMaybe it is stronger defaults.\n\nA better life usually starts when the ordinary parts stop asking so much from you.",
+        beatSheet: [
+          { time: "0-4s", action: "Talking head with hook.", line: "A calmer life needs better defaults." },
+          { time: "5-10s", action: "Cut to shirt, coffee, notebook, or phone-facedown proof.", line: "Most people are not missing motivation. They are missing a life that knows how to begin." },
+          { time: "11-26s", action: "Back to camera.", line: "Modern life asks for a decision before you are even fully awake." },
+          { time: "27-48s", action: "Proof sequence with outfit, tray, notebook, bag, or doorway.", line: "So lately I have been caring more about defaults than upgrades." },
+          { time: "49-70s", action: "Talking head plus one room or commute cutaway.", line: "Taste without a usable life around it is still exhausting." },
+          { time: "71-86s", action: "Final close or walking shot.", line: "A better life usually starts when the ordinary parts stop asking so much from you." }
+        ],
+        shotList: [
+          "Talking head by window, desk, shelf, or doorway.",
+          "Relaxed shirt on body.",
+          "Coffee, notebook, pen, or tray detail.",
+          "Phone facedown before use.",
+          "Bag or keys pickup.",
+          "Hallway, station platform, or side-street walk for the final line."
+        ],
+        caption: "I think a lot of people are not missing motivation.\nThey are missing defaults.\n\nA shirt they trust.\nA cup before the scroll.\nA place for the notebook.\nA corner that is ready before they are.\n\nModern life gets loud because every ordinary part starts asking for a decision.\nAnd after a while that kind of friction makes even beautiful lives feel crowded.\n\nThat is why I keep coming back to smaller systems.\nNot to optimize everything.\nJust to make real life easier to enter.\n\nSometimes calm is not something you feel first.\nIt is something your ordinary choices make easier to find.\n\n#jimmycue #DailyThoughts #mindset #slowliving #digitalminimalism",
+        keywords: ["daily thoughts", "mindful living", "slow living", "digital minimalism"],
+        seoKeywords: ["daily thoughts", "mindful living", "slow living", "digital minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#mindset", "#slowliving", "#digitalminimalism"],
+        platformNotes: {
+          TikTok: "Best as the first post if Jimmy wants the strongest recognition-first point of the day.",
+          Instagram: "Use a calm talking-head cover with one object proof in frame.",
+          YouTube: "Title it literally and keep pauses slightly shorter than on TikTok."
+        },
+        editNotes: "Read it like a real note, not a self-improvement speech. Leave a little air between sentences."
+      },
+      {
+        id: "story-2026-07-15-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Default Helps You Most?",
+        format: "Question box story",
+        purpose: "Collect audience language around defaults, rituals, and small anchors without turning it into advice content.",
+        creatorSearchTopics: ["daily thoughts"],
+        hook: "what default helps you most?",
+        firstFrameDirection: "Show the tray, coffee, notebook, shirt, or headphones with a question sticker.",
+        retentionBridge: "Use responses for tomorrow's first line or a future Thought Video.",
+        shotList: ["One calm object or ready-corner clip."],
+        talkingScript: "Use as text-led story only.",
+        copy: "what is one default that quietly makes your day easier?",
+        pollOptions: [],
+        caption: "shirt, coffee, walk, notebook, playlist, anything.",
+        keywords: ["daily thoughts", "mindful living"],
+        seoKeywords: ["daily thoughts", "mindful living"],
+        hashtags: ["#jimmycue", "#DailyThoughts"],
+        editNotes: "Keep it plain and conversational."
+      },
+      {
+        id: "story-2026-07-15-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories", "TikTok Story"],
+        title: "Which Default Changes More?",
+        format: "Poll story",
+        purpose: "Turn the default idea into one low-pressure audience interaction aligned with current Stories and Shorts community cues.",
+        creatorSearchTopics: ["daily lifestyle"],
+        hook: "which default changes more?",
+        firstFrameDirection: "Split frame between shirt / outfit base and coffee / notebook setup.",
+        retentionBridge: "Keep the question simple enough to answer in one tap.",
+        shotList: ["Relaxed shirt shot.", "Coffee or notebook shot."],
+        talkingScript: "Use as text-led story only.",
+        copy: "which default changes more?",
+        pollOptions: ["outfit base", "coffee first"],
+        caption: "one usually makes the other easier.",
+        keywords: ["daily lifestyle", "coffee routine"],
+        seoKeywords: ["daily lifestyle", "coffee routine"],
+        hashtags: ["#jimmycue", "#DailyLifestyle"],
+        editNotes: "Minimal text and one clean poll."
+      },
+      {
+        id: "written-2026-07-15-01",
+        type: "Written Post",
+        platformPriority: ["Substack Notes", "Instagram Notes"],
+        title: "Defaults Are A Form Of Taste",
+        format: "Short note draft, 120-150 words",
+        purpose: "Extend the Thought Video into a slower written note with a subtle atelier-coded point about authored living.",
+        creatorSearchTopics: ["daily thoughts", "quiet luxury"],
+        hook: "defaults are a form of taste",
+        firstFrameDirection: "If adapted visually, place the title over the tray, notebook, shirt, or ready-corner frame.",
+        retentionBridge: "Lead with the title and first sentence only if it becomes a visual note post.",
+        talkingScript: "Good taste is not only what you choose.\nIt is also what you stop having to re-decide.\n\nThe shirt that already works.\nThe cup that always ends up there.\nThe corner that is ready when your mind is not.\nThe first five minutes that still belong to you.\n\nThat is part of what makes a life feel authored.\nNot endless novelty.\nNot more inspiration.\nJust ordinary things arranged in a way that lets you enter your own day a little more easily.\n\nSometimes the most personal thing you can build is a default.",
+        caption: "Short note draft for Substack Notes or Instagram Notes.",
+        keywords: ["daily thoughts", "quiet luxury", "slow living"],
+        seoKeywords: ["daily thoughts", "quiet luxury", "slow living"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#quietluxury", "#slowliving"],
+        editNotes: "Keep it concise and unforced."
+      }
+    ],
+    schedule: [
+      { time: "07:00", action: "Choose today's defaults: one trusted shirt, one ready surface, one cup/notebook sequence, and one commute proof.", platform: "Private", reason: "This keeps the pack grounded in usable life, not abstract calm." },
+      { time: "07:12-07:55", action: "Film the Thought Video, fit-check reel, phone-boundary clip, ready-corner clip, static assets, and both stories.", platform: "Phone", reason: "Capture the apartment and commute while the proofs still feel literal." },
+      { time: "08:10", action: "Post A Calmer Life Needs Better Defaults.", platform: "TikTok", reason: "Strongest recognition-first thought with immediate proof." },
+      { time: "12:15", action: "Post The Outfit Should Not Negotiate With You.", platform: "Instagram Reels", reason: "Keeps the menswear baseline active with a roomier-silhouette cue." },
+      { time: "18:05", action: "Post Protect One Decision From The Internet.", platform: "YouTube Shorts", reason: "Literal first-frame action and one practical idea fit current Shorts behavior." },
+      { time: "20:25", action: "Post A Calm Life Still Needs A Place To Start and the written note.", platform: "Instagram Photo / TikTok photo mode / Substack Notes", reason: "Evening still favors saveable stills and slower note language." },
+      { time: "Any time", action: "Run the question-box and poll stories.", platform: "Stories", reason: "Collect audience language around defaults, pace, and room." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's January 14, 2026 trend forecast says users are in discovery mode, want emotional ROI, and reward relevance, humanity, imperfection, and useful context over passive consumption.",
+        source: "TikTok Newsroom",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+        implication: "Open today's videos with one recognizable tension and immediate practical proof rather than an abstract life lesson."
+      },
+      {
+        signal: "Instagram's July 2026 Stories guide pushes lightweight daily sharing, music, prompts, Highlights, and simple participation rather than overproduced recap behavior.",
+        source: "About Instagram",
+        url: "https://about.instagram.com/blog/tips-and-tricks/how-to-use-instagram-stories",
+        implication: "Use Stories today for a question box and quick poll tied to defaults and morning rhythm."
+      },
+      {
+        signal: "YouTube's July 7, 2026 Shorts post argues that views alone do not build fans and that Shorts should invite conversation through polls, Q&A, Add Yours, and replies.",
+        source: "YouTube Blog",
+        url: "https://blog.youtube/creator-and-artist-stories/grow-youtube-channel-interactive-shorts/",
+        implication: "Make at least one post end with a soft open loop and keep the Story prompts active as follow-through."
+      },
+      {
+        signal: "YouTube's July 14, 2026 long-form growth post says Shorts reach is massive but segmented, so creators need deliberate bridges from short videos into a deeper authored world.",
+        source: "YouTube Blog",
+        url: "https://blog.youtube/creator-and-artist-stories/youtube-related-videos-traffic-guide/",
+        implication: "Use today's Shorts and Thought Video as doors into the biweekly long-form worldview instead of isolated clips."
+      },
+      {
+        signal: "Vogue's July 2026 roomy-shirt coverage frames oversized tees and intentional volume as both practical and expressive, giving people more room to signal taste without looking overworked.",
+        source: "Vogue",
+        url: "https://www.vogue.com/article/big-shirt-summer-trend",
+        implication: "Use a relaxed shirt or roomy silhouette as proof of ease, airflow, and identity rather than trend cosplay."
+      },
+      {
+        signal: "A recent r/digitalminimalism thread describes skipping the first-morning scroll as a real tone shift for the day rather than a productivity hack.",
+        source: "Reddit / r/digitalminimalism",
+        url: "https://www.reddit.com/r/digitalminimalism/comments/1uhx72x/has_anyone_actually_changed_their_mornings_by_not/",
+        implication: "Frame the phone-second idea as mental autonomy and mood protection, not moral superiority."
+      },
+      {
+        signal: "Recent r/simpleliving language keeps returning to small repeated anchors like morning light, one breath, and one physical action as the things that make people feel centered.",
+        source: "Reddit / r/simpleliving",
+        url: "https://www.reddit.com/r/simpleliving/comments/1snk8i0/simple_routines_that_actually_help_you_feel_more/",
+        implication: "Keep today's actions tiny and repeatable: shirt, cup, notebook, step outside."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution lens still lands because it reduces the gap between intention and identity by asking for one visible action instead of a cleaner future self.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate it into one real morning action before input: put on the shirt, pour the coffee, write one line, pack the bag.",
+        postIdea: "You do not need more motivation. You need one action your life already knows how to begin with."
+      },
+      {
+        signal: "Kevin Kelly's specificity framing still supports the idea that a more personal life is built through distinct patterns, not generic optimization.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use defaults as proof that Jimmy's taste is lived, not just referenced.",
+        postIdea: "Defaults are where taste stops being aesthetic and starts becoming a life."
+      }
+    ],
+    keywordBank: {
+      primary: ["daily thoughts", "mindful living", "digital minimalism", "slow living", "fit check"],
+      secondary: ["mens lifestyle", "quiet luxury", "coffee routine", "daily lifestyle", "Tokyo life"],
+      titles: [
+        "A Calmer Life Needs Better Defaults",
+        "The Outfit Should Not Negotiate With You",
+        "Protect One Decision From The Internet",
+        "One Ready Corner Makes The Morning Lighter",
+        "Defaults Are A Form Of Taste"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#digitalminimalism", "#tokyolife"],
+        style: ["#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
+        routine: ["#coffeeroutine", "#DailyLifestyle", "#slowliving", "#digitalminimalism"],
+        object: ["#quietluxury", "#DailyLifestyle", "#tokyolife"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active because the live Notion baseline still shows casual menswear wording as the clearest reach door.",
+      "Keep one reflective Thought Video active because quiet-life observations still show deeper comment behavior than generic lifestyle packaging in the stored baseline.",
+      "Keep imperfection, repetition, and ordinary-proof language active because those still map cleanly to Jimmy's wabi-sabi lane.",
+      "Favor light prompts and soft participation because current Instagram Stories and YouTube Shorts guidance is leaning toward conversation and low-pressure sharing.",
+      "Do not infer any fresh win or loss until a new YouTube upload creates a real 24h, 48h, or 7d snapshot window."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh July 14, 2026 JST performance movement was confirmed.",
+        note: "Live Notion queries for Content Pieces, Performance Snapshots, and Outliers + Learnings still reflect the May 20 baseline import set, and the local `.youtube/latest_metrics.json` export still matches those same items rather than a newer upload or a fresh snapshot window.",
+        action: "Keep using the standing menswear, imperfection, and quiet-reflection baselines until a new YouTube post creates a real 24h, 48h, or 7d sync opportunity."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest stored baseline still paired relatable life language with clear menswear framing.",
+          repeat: "Keep one style-guidance or relaxed-fit outfit post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still appears to create deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with one ordinary proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still maps cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about defaults, repetition, and quieter authorship."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-15",
+      note: "The biweekly long-form slot is still due.",
+      suggestion: "Current strongest angle: 'a week of better defaults in tokyo: repeated outfits, a ready corner, coffee before the phone, and making one real thing before the city gets loud'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living, then use Related Videos from the Shorts lane to point viewers toward the longer piece."
+    },
+    performanceNote: "No new Notion rows were created on this run. Live Notion queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
   }
 ];
