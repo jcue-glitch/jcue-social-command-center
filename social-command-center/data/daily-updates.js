@@ -16177,7 +16177,7 @@ window.JCUE_DAILY_UPDATES = [
       filmingWindow: "30-45 minutes across the apartment, hallway, station platform, side street, or first coffee stop.",
       creativeDirection: "Keep it tactile and lived-in: shirt collar, cup, notebook, keys, tray, headphones, doorway light, train handle, cafe glass, and one corner that clearly gets used.",
       atelierSeed: "Quietly seed the atelier worldview through the idea that taste becomes real when it leaves proof in the room instead of staying trapped in references.",
-      performanceContext: "Live Notion history and the local YouTube cache still only confirm the May 20 baseline import set. Use the standing menswear, imperfection, and quiet-reflection learnings, but do not invent fresh movement."
+      performanceContext: "Live Notion history now verifies the same May 20 baseline set through the default views: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings. The local YouTube cache matches those same videos, so use the standing menswear, imperfection, and quiet-reflection learnings without inventing fresh movement."
     },
     contentPack: [
       {
@@ -16532,7 +16532,7 @@ window.JCUE_DAILY_UPDATES = [
     performance: {
       yesterdaySummary: {
         status: "No fresh July 21, 2026 JST performance movement was confirmed.",
-        note: "Live Notion queries for Content Pieces, Performance Snapshots, and Outliers + Learnings still reflect the May 20 baseline import set. The local `.youtube/latest_metrics.json` export matches that same 12-video baseline set and only Manual snapshot rows, so there was nothing new to sync into Notion today.",
+        note: "Live Notion database-view queries returned the same verified baseline shape as the local cache: 12 Content Pieces, 12 Performance Snapshots with Snapshot Window = Manual, and 3 Outliers + Learnings from the May 20 import. The local `.youtube/latest_metrics.json` export matches those same 12 videos, so there was nothing new to sync into Notion today.",
         action: "Keep using the standing menswear, imperfection, and quiet-reflection baselines until a new YouTube post creates a real 24h, 48h, or 7d sync opportunity."
       },
       outlierSignals: [
@@ -16566,6 +16566,6 @@ window.JCUE_DAILY_UPDATES = [
       suggestion: "Current strongest angle: 'stop borrowing the atmosphere: a week in tokyo making mornings feel like mine again'.",
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
-    performanceNote: "No new Notion rows were created on this run. Live Notion queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
+    performanceNote: "No new Notion rows were created on this run. Live Notion database-view queries confirmed 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings from the May 20 baseline import, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
   }
 ];
