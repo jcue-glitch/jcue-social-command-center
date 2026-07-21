@@ -16158,5 +16158,414 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. Live Notion queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
+  },
+  {
+    generatedAt: "2026-07-21",
+    researchWindow: "2026-07-20 to 2026-07-21 JST",
+    weeklyTheme: {
+      dates: "2026-07-20 to 2026-07-26",
+      title: "Make It Yours",
+      thesis: "A calmer life gets easier to trust when the room, the outfit, and the first action stop borrowing their mood from the internet and start carrying your actual taste.",
+      whyNow: "Current platform signals still reward curiosity, low-pressure everyday sharing, direct searchable Shorts packaging, and visible real-life proof. Public digital-minimalism conversation is also leaning toward making the phone less interesting and ordinary objects more useful again.",
+      continuation: "Continue the July 17 first-touch lane, but move one step further into authorship: stop borrowing the atmosphere and leave more evidence of yourself in the ordinary parts of the day."
+    },
+    dailyBrief: {
+      title: "Stop Borrowing The Atmosphere",
+      summary: "Today's pack should feel a little more specific and a little less aesthetic for aesthetic's sake. Build it around one easy shirt, one useful corner, one phone-second ritual, and one spoken point about why a life starts feeling yours when it stops asking the internet how to feel first.",
+      audience: "High-achieving people with taste who are overstimulated, quietly self-aware, and tired of consuming beautiful lives without feeling fully present inside their own.",
+      tone: "Thoughtful, casual, slightly lazy coffee-journal voice. Recognition first, principle second, no guru energy.",
+      filmingWindow: "30-45 minutes across the apartment, hallway, station platform, side street, or first coffee stop.",
+      creativeDirection: "Keep it tactile and lived-in: shirt collar, cup, notebook, keys, tray, headphones, doorway light, train handle, cafe glass, and one corner that clearly gets used.",
+      atelierSeed: "Quietly seed the atelier worldview through the idea that taste becomes real when it leaves proof in the room instead of staying trapped in references.",
+      performanceContext: "Live Notion history and the local YouTube cache still only confirm the May 20 baseline import set. Use the standing menswear, imperfection, and quiet-reflection learnings, but do not invent fresh movement."
+    },
+    contentPack: [
+      {
+        id: "static-2026-07-21-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram Photo", "TikTok Photo Mode"],
+        title: "Your Life Needs One Signature In The Room",
+        format: "5-slide carousel or 1 hero still with caption",
+        purpose: "Turn the authorship angle into a saveable still post that feels personal, practical, and subtly atelier-coded.",
+        creatorSearchTopics: ["daily thoughts", "slow living"],
+        hook: "your life needs one signature in the room",
+        firstFrameDirection: "Lead with one reachable surface that shows real use: cup ring, notebook, pen, keys, shirt nearby. Let it look lived with, not art-directed.",
+        retentionBridge: "By slide two or the second caption paragraph, pivot from beauty to authorship: 'taste becomes real when it starts helping you live.'",
+        shotList: [
+          "Reachable corner with cup, notebook, and keys.",
+          "Hand using the corner instead of just presenting it.",
+          "Relaxed shirt on chair or doorway.",
+          "Optional cafe or station still for one outward proof.",
+          "Optional handwritten line close-up."
+        ],
+        talkingScript: "Use as still-led post only.",
+        caption: "some lives look beautiful and still feel borrowed.\n\nI think the difference is whether your taste actually lives with you.\nNot in saved folders.\nNot in references.\nNot in ten tabs of things you might become one day.\n\nIn the room.\nIn the shirt you reach for without thinking.\nIn the cup that already belongs to the morning.\nIn the corner that makes the day easier to enter.\n\nThat is when calm starts feeling real to me.\nNot when life looks more aesthetic.\nWhen it starts helping me live a little more clearly.\n\nTaste becomes different when it stops asking to be admired and starts leaving proof.\n\n#jimmycue #DailyThoughts #slowliving #DailyLifestyle #quietluxury",
+        keywords: ["daily thoughts", "slow living", "daily lifestyle", "quiet luxury"],
+        seoKeywords: ["daily thoughts", "slow living", "daily lifestyle", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
+        editNotes: "Keep the frame soft and slightly imperfect. Real use matters more than symmetry."
+      },
+      {
+        id: "video-2026-07-21-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "The Best Clothes Do Not Argue With You",
+        format: "15-25 second fit-check philosophy reel",
+        purpose: "Use the menswear baseline and current relaxed-silhouette signal, but frame style as friction reduction instead of performance.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        hook: "the best clothes do not argue with you",
+        firstFrameDirection: "Open already moving in the mirror, doorway, or hallway so the relaxed shirt and trousers read as ease instead of presentation.",
+        retentionBridge: "At 3-5 seconds cut to collar, cuff, or trouser drape and say: 'they leave more room for the person.'",
+        shotList: [
+          "Mirror or doorway full-body shot.",
+          "Collar, cuff, hem, or trouser drape detail.",
+          "Bag, watch, keys, or headphones pickup.",
+          "Walk-out or platform shot."
+        ],
+        talkingScript: "the best clothes do not argue with you.\n\nthey leave more room for the person.\n\nsoft collar.\nroom in the shoulder.\ntrousers that move well.\n\nnothing dramatic.\njust enough ease that the day starts cleaner.",
+        caption: "I do not want clothes that make the morning louder.\n\nI want the kind that let me leave the apartment without negotiating with myself for ten extra minutes.\n\nThat is why I trust softer shapes now.\nA shirt with a little room.\nTrousers that move well.\nDetails that feel intentional without asking for attention.\n\nThe best outfit is not the loudest one.\nIt is the one that gives you more room to be yourself.\n\n#jimmycue #fitcheck #menslifestyle #quietluxury #ootd",
+        keywords: ["fit check", "mens lifestyle", "quiet luxury", "ootd"],
+        seoKeywords: ["fit check", "mens lifestyle", "quiet luxury", "OOTD"],
+        hashtags: ["#jimmycue", "#fitcheck", "#menslifestyle", "#quietluxury", "#ootd"],
+        editNotes: "Keep the pacing clean and let the fabric movement do the work."
+      },
+      {
+        id: "video-2026-07-21-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "YouTube Shorts", "Instagram Reels"],
+        title: "Make Your Phone Boring Again",
+        format: "20-30 second ritual / phone-boundary reel",
+        purpose: "Translate current digital-minimalism conversation into one visible behavior Jimmy can film without sounding strict or preachy.",
+        creatorSearchTopics: ["digital minimalism", "coffee morning routine"],
+        hook: "make your phone boring again",
+        firstFrameDirection: "Start with the phone in hand for half a second, set it down, then move immediately into cup, curtain, notebook, or shirt.",
+        retentionBridge: "At 3-5 seconds say: 'the morning gets better when the phone stops being the main character.'",
+        shotList: [
+          "Phone placed face down.",
+          "Coffee pour or first sip.",
+          "Notebook opened or one handwritten line.",
+          "Curtain pull, shirt button, or doorway handle."
+        ],
+        talkingScript: "make your phone boring again.\n\nthe morning gets better when the phone stops being the main character.\n\ncup first.\nshirt first.\none line first.\n\nsometimes that is enough to hear your own life again.",
+        caption: "I think a lot of people are not lazy.\nThey are just waking up into too much input.\n\nThat is why I care about the first minute so much.\nNot because I am trying to be pure about technology.\nJust because the whole mood of the day changes when the first thing asking for my attention is something real.\n\nCoffee.\nA shirt.\nA window.\nOne line in a notebook.\n\nSometimes calm is just the absence of unnecessary noise.\n\n#jimmycue #digitalminimalism #coffeeroutine #DailyThoughts #slowliving",
+        keywords: ["digital minimalism", "coffee morning routine", "daily thoughts", "slow living"],
+        seoKeywords: ["digital minimalism", "coffee morning routine", "daily thoughts", "slow living"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        editNotes: "Make the phone clearly secondary. Keep the voice unhurried and literal."
+      },
+      {
+        id: "video-2026-07-21-03",
+        type: "Short-form Video",
+        platformPriority: ["YouTube Shorts", "Instagram Reels", "TikTok"],
+        title: "Stop Borrowing The Atmosphere",
+        format: "20-30 second apartment / commute thought reel",
+        purpose: "Use object culture, lived-in Tokyo texture, and the atelier worldview to turn authorship into one clean daily thought.",
+        creatorSearchTopics: ["daily lifestyle", "daily thoughts"],
+        hook: "stop borrowing the atmosphere",
+        firstFrameDirection: "Start on one lived-in morning proof, then cut to Jimmy wearing the shirt or stepping into the station so the thought stays embodied.",
+        retentionBridge: "At 3-5 seconds say: 'a life starts feeling yours when small things start carrying your fingerprint.'",
+        shotList: [
+          "Lived-in corner or tray detail.",
+          "Shirt collar, keys, cup, or bag pickup.",
+          "Hallway, elevator, or train-platform shot.",
+          "Optional cafe glass or side-street cutaway."
+        ],
+        talkingScript: "stop borrowing the atmosphere.\n\na life starts feeling yours when small things start carrying your fingerprint.\n\nthe shirt.\nthe cup.\nthe way the keys land.\n\neven the day feels different when the details already know you.",
+        caption: "There is a kind of calm that never lands because it is still borrowed.\n\nBorrowed taste.\nBorrowed routines.\nBorrowed references.\nBorrowed moods from people you do not even know.\n\nWhat helps me more now is smaller than that.\nA few things that already belong to me.\nA shirt I trust.\nA corner I use.\nA morning that begins in my real life before it begins online.\n\nThat is usually when the atmosphere changes.\nNot when life looks better.\nWhen it feels more like mine.\n\n#jimmycue #DailyLifestyle #DailyThoughts #tokyolife #slowliving",
+        keywords: ["daily lifestyle", "daily thoughts", "Tokyo life", "slow living"],
+        seoKeywords: ["daily lifestyle", "daily thoughts", "Tokyo life", "slow living"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#DailyThoughts", "#tokyolife", "#slowliving"],
+        editNotes: "Let one or two transitions stay slightly imperfect so it feels like a real morning instead of a thesis film."
+      },
+      {
+        id: "thought-2026-07-21-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Your Life Is Not Missing Inspiration",
+        format: "Thought Video, 55-85 seconds",
+        purpose: "Give Jimmy one compact spoken essay about why a life starts feeling yours when it stops borrowing its mood from the feed and starts leaving evidence in ordinary things.",
+        sourceInspiration: "Current TikTok, Instagram, and YouTube packaging signals, current digital-minimalism conversation, relaxed menswear coverage, and the Miranda / Kevin Kelly Substack lane translated into Jimmy's real morning.",
+        sourceReferences: [
+          {
+            title: "Introducing TikTok Next 2026: Our Trend Forecast for Marketers for the Year Ahead",
+            source: "TikTok Newsroom",
+            url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+            note: "Used for the shift toward curiosity, discovery, and emotional value."
+          },
+          {
+            title: "How to Use Instagram Stories: Complete 2026 Guide",
+            source: "About Instagram",
+            url: "https://about.instagram.com/blog/tips-and-tricks/how-to-use-instagram-stories/?locale=pl_PL",
+            note: "Used for the low-pressure, in-the-moment everyday-sharing signal."
+          },
+          {
+            title: "Understand three-minute YouTube Shorts",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/15424877?hl=en",
+            note: "Used to justify a slightly fuller spoken-essay length."
+          },
+          {
+            title: "Get started creating YouTube Shorts",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/10059070?hl=en",
+            note: "Used for direct searchable packaging and engaged-views comparison context."
+          },
+          {
+            title: "I have been trying to make my phone feel boring again but in a good way",
+            source: "Reddit / r/digitalminimalism",
+            url: "https://www.reddit.com/r/digitalminimalism/comments/1ukurew/i_have_been_trying_to_make_my_phone_feel_boring/",
+            note: "Used for current language around reducing noise instead of chasing perfect discipline."
+          },
+          {
+            title: "The big GQ guide to spring/summer 2026 menswear trends",
+            source: "British GQ",
+            url: "https://www.gq-magazine.co.uk/article/the-big-gq-guide-to-spring-summer-2026-menswear-trends",
+            note: "Used for relaxed shirts, open collars, and easy silhouettes that fit Jimmy's uniform lane."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for the principle of making one visible move before more planning or input."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the idea that specificity creates a less borrowed and more irreplaceable life."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "your life is not missing inspiration",
+        firstFrameDirection: "Start holding the cup or notebook in the day's shirt. No setup. Let the proof arrive before the explanation.",
+        retentionBridge: "By 3-5 seconds say: 'I think a lot of people do not need more inspiration. They need more evidence of themselves.'",
+        fullTalkingScript: "your life is not missing inspiration.\n\nI think a lot of people do not need more inspiration. They need more evidence of themselves.\n\nBecause now everything is easy to admire and easy to borrow. Routines. Rooms. Style. Whole moods. You can wake up and spend ten minutes accidentally stepping into someone else's atmosphere before you have even met your own day.\n\nThis morning I made coffee, put on the same loose shirt I always trust, moved my phone away, and wrote one line before I checked anything.\n\nNothing dramatic happened.\n\nBut the room felt more like mine.\nThe day felt less borrowed.\nAnd even the outfit felt less like content and more like support.\n\nI think that is what people are actually looking for when they say they want a calmer life.\nNot more inspiration.\nMore proof.\n\nOne corner that already knows you.\nOne object you really use.\nOne routine that came from your real preferences instead of the feed.\n\nA life starts feeling yours when small things begin carrying your fingerprint.\n\nThat is usually where the calm gets real.",
+        beatSheet: [
+          "Natural hook: your life is not missing inspiration.",
+          "Thesis in first spoken line: a lot of people do not need more inspiration; they need more evidence of themselves.",
+          "Cultural observation: online life makes whole moods, routines, and tastes easy to borrow before the day even starts.",
+          "Personal proof: coffee, loose shirt, phone moved away, one written line, one usable corner.",
+          "Practical principle: leave one authored proof in the room before you consume more input.",
+          "Quiet ending: a life starts feeling yours when small things begin carrying your fingerprint."
+        ],
+        shotList: [
+          "Talking head with cup or notebook in hand.",
+          "Phone placed out of reach or face down.",
+          "Loose shirt collar or cuff detail.",
+          "Notebook line or pen touch.",
+          "Usable corner close-up.",
+          "Doorway, station, or side-street exit shot."
+        ],
+        caption: "I think a lot of people do not need more inspiration.\n\nThey need more evidence of themselves.\n\nThat is why some beautiful lives still feel strangely far away.\nThey are easy to admire, but nothing in them has touched the floor of your actual day yet.\n\nWhat helps me more now is smaller than that.\nCoffee before the feed.\nA shirt I already trust.\nOne corner that already knows where things go.\nOne line in a notebook before the world starts talking.\n\nMaybe that is what calm really is.\nNot a better fantasy.\nA little more proof.\n\nA life starts feeling yours when ordinary things begin carrying your fingerprint.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "digital minimalism", "slow living", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#selfgrowth"],
+        platformPriorityNotes: {
+          TikTok: "Keep the thesis in the first spoken line and leave a half-beat after 'evidence of themselves.'",
+          Instagram: "Burn clean captions directly into the frame and let one tactile close-up interrupt the talking head early.",
+          YouTube: "Use a literal searchable title such as 'Your Life Is Not Missing Inspiration'."
+        },
+        platformNotes: {
+          TikTok: "Keep the thesis in the first spoken line and leave a half-beat after 'evidence of themselves.'",
+          Instagram: "Burn clean captions directly into the frame and let one tactile close-up interrupt the talking head early.",
+          YouTube: "Use a literal searchable title such as 'Your Life Is Not Missing Inspiration'."
+        },
+        editNotes: "Keep the delivery human and slightly unpolished. Do not score it like a self-help speech."
+      },
+      {
+        id: "story-2026-07-21-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Morning Ownership Poll",
+        format: "2-3 story frames",
+        purpose: "Create easy participation around the first authored choice of the day without turning it into productivity language.",
+        hook: "what makes a morning feel like yours first?",
+        firstFrameDirection: "Show cup, shirt, notebook, or open window with one short line of text.",
+        retentionBridge: "Second frame shares Jimmy's answer in text: 'usually the shirt, the coffee, or one line on paper.'",
+        shotList: [
+          "Still of cup, shirt, or notebook.",
+          "Short selfie or corner detail.",
+          "Poll sticker or question box."
+        ],
+        talkingScript: "Use text only or a 5-second selfie clip.",
+        caption: "poll: coffee / clothes / notebook / window",
+        keywords: ["daily lifestyle", "coffee routine"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Instagram: "Use a poll sticker and save replies that sound most like recognition language."
+        },
+        editNotes: "Keep the copy short and conversational."
+      },
+      {
+        id: "story-2026-07-21-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Borrowed Or Yours",
+        format: "2 frames",
+        purpose: "Invite replies about taste, routine, and room authorship with a subtle atelier edge.",
+        hook: "what in your room actually feels like yours?",
+        firstFrameDirection: "Show Jimmy's own corner first so the question feels lived instead of conceptual.",
+        retentionBridge: "Second frame uses a question box: 'object, ritual, or corner?'",
+        shotList: [
+          "Usable corner still.",
+          "Question box over the same corner or a tighter crop."
+        ],
+        talkingScript: "Text only.",
+        caption: "object / ritual / corner / still figuring it out",
+        keywords: ["daily thoughts", "daily lifestyle"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Instagram: "Good replies can feed a future written post or Thought Video."
+        },
+        editNotes: "Leave a little mess in frame so the question feels real."
+      },
+      {
+        id: "written-2026-07-21-01",
+        type: "Written Post",
+        platformPriority: ["Substack", "Instagram Notes"],
+        title: "Stop Borrowing The Atmosphere",
+        format: "Short note, 160-240 words",
+        purpose: "Extend the Thought Video into a slower note with a quiet atelier-coded point about proof over inspiration.",
+        creatorSearchTopics: ["daily thoughts", "self growth"],
+        hook: "some lives look beautiful and still feel borrowed",
+        firstFrameDirection: "If cross-posted visually, pair it with a still of the cup, shirt, or reachable corner.",
+        retentionBridge: "Move quickly from the observation into one concrete proof: phone down, shirt on, coffee made, one line written.",
+        shotList: [
+          "Optional desk or shirt still if paired to an Instagram Notes teaser."
+        ],
+        talkingScript: "Written note only.",
+        caption: "Some lives look beautiful and still feel borrowed.\n\nI think that is because admiration is easy now. You can borrow whole moods before breakfast. The room, the outfit, the pace, the kind of person you think you should become. It all arrives faster than your own preferences do.\n\nWhat helps me more now is smaller than that.\nA shirt I trust.\nA cup I actually use.\nA corner that already knows where the keys land.\nOne line on paper before the phone starts telling me what matters.\n\nMaybe a calmer life is not built from more inspiration.\nMaybe it is built from more proof.\n\nProof that your taste lives somewhere.\nProof that your routine came from you.\nProof that ordinary things are starting to carry your fingerprint.\n\nThat is usually when life stops looking borrowed and starts feeling authored.",
+        keywords: ["daily thoughts", "self growth", "slow living"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Substack: "Keep as a draft unless Jimmy wants to publish after filming.",
+          Instagram: "Can be teased as a Note, screenshot excerpt, or story text card."
+        },
+        editNotes: "Keep it plain, lived, and unsalesy."
+      }
+    ],
+    schedule: [
+      { time: "07:08-07:15", action: "Set the authored proofs: relaxed shirt, reachable corner, cup, notebook, and phone out of first reach.", platform: "Phone", reason: "Build the lived logic before filming starts." },
+      { time: "07:15-07:52", action: "Film the Thought Video, fit-check reel, phone-second reel, atmosphere reel, static assets, and both stories.", platform: "Phone", reason: "Capture the apartment and commute while the morning still feels literal." },
+      { time: "08:20", action: "Post the fit-check reel to Instagram Reels and TikTok.", platform: "Instagram Reels, TikTok", reason: "Menswear framing remains the clearest reach door in the stored baseline." },
+      { time: "12:40", action: "Post the still or carousel.", platform: "Instagram Photo", reason: "Midday stills suit saveable reflective content." },
+      { time: "19:50", action: "Post the Thought Video.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "Evening viewers are more willing to sit with a compact spoken essay." },
+      { time: "21:10", action: "Share the written note excerpt or a story follow-up using replies.", platform: "Instagram Stories, Substack draft", reason: "Use same-day recognition language while it is still fresh." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 forecast emphasizes curiosity-driven discovery and content that gives people clear emotional value instead of passive scrolling.",
+        source: "TikTok Newsroom",
+        url: "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+        application: "Keep today's hooks human, clear, and attached to visible real-life proof."
+      },
+      {
+        signal: "Instagram's current Stories guidance still frames Stories as a low-pressure way to share what you're up to in the moment.",
+        source: "About Instagram",
+        url: "https://about.instagram.com/blog/tips-and-tricks/how-to-use-instagram-stories/?locale=pl_PL",
+        application: "Favor lightly imperfect story frames and useful room details over polished graphic treatment."
+      },
+      {
+        signal: "YouTube says Shorts can now run up to three minutes, which supports slightly fuller spoken thoughts when the packaging stays direct.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/15424877?hl=en",
+        application: "Keep the Thought Video in the 55-85 second range and let the thesis land immediately."
+      },
+      {
+        signal: "YouTube's current Shorts guidance still points creators toward smartphone-first creation and using engaged views to compare Shorts performance.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/10059070?hl=en",
+        application: "Keep Jimmy's YouTube packaging literal, searchable, and comparable across thought and style clips."
+      },
+      {
+        signal: "Current digital-minimalism conversation keeps framing progress as making the phone less demanding and ordinary life more reachable.",
+        source: "Reddit / r/digitalminimalism",
+        url: "https://www.reddit.com/r/digitalminimalism/comments/1ukurew/i_have_been_trying_to_make_my_phone_feel_boring/",
+        application: "Use phone-second rituals, analog objects, and anti-dramatic language instead of strict discipline talk."
+      },
+      {
+        signal: "Current menswear coverage still favors open collars, relaxed shirts, and easy silhouettes that feel refined without becoming loud.",
+        source: "British GQ",
+        url: "https://www.gq-magazine.co.uk/article/the-big-gq-guide-to-spring-summer-2026-menswear-trends",
+        application: "Keep the fit-check reel focused on low-noise dressing, soft structure, and ease of movement."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution lens still works because it turns identity into one visible move instead of another round of planning.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate it into one authored proof before more input: coffee, shirt, notebook, or corner.",
+        postIdea: "You do not need a whole new life this morning. You need one move that still belongs to you."
+      },
+      {
+        signal: "Kevin Kelly's specificity framing still supports the idea that a less borrowed life is built from repeated preferences and visible proof.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use repeated uniforms, repeated corners, and repeated objects as signs of a more specific life.",
+        postIdea: "A life starts feeling more like yours when the ordinary details become too specific to have been borrowed."
+      }
+    ],
+    keywordBank: {
+      primary: ["daily thoughts", "digital minimalism", "slow living", "fit check", "daily lifestyle"],
+      secondary: ["mens lifestyle", "quiet luxury", "coffee routine", "Tokyo life", "self growth"],
+      titles: [
+        "Your Life Is Not Missing Inspiration",
+        "Stop Borrowing The Atmosphere",
+        "The Best Clothes Do Not Argue With You",
+        "Make Your Phone Boring Again",
+        "Your Life Needs One Signature In The Room"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
+        style: ["#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
+        routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        object: ["#DailyLifestyle", "#quietluxury", "#tokyolife"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active because the live Notion baseline still shows casual menswear wording as the clearest reach door.",
+      "Keep one reflective Thought Video active because quiet-life observations still show better comment depth than generic lifestyle packaging in the stored baseline.",
+      "Keep imperfection, enoughness, and repeated-object language active because the stored engagement density still favors Jimmy's wabi-sabi lane.",
+      "Use literal searchable titles and description keywords on YouTube Shorts because current platform guidance still ties Shorts discovery to clear viewer-facing packaging.",
+      "Do not infer any fresh performance swing until a new YouTube upload creates a real 24h, 48h, or 7d snapshot window."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh July 21, 2026 JST performance movement was confirmed.",
+        note: "Live Notion queries for Content Pieces, Performance Snapshots, and Outliers + Learnings still reflect the May 20 baseline import set. The local `.youtube/latest_metrics.json` export matches that same 12-video baseline set and only Manual snapshot rows, so there was nothing new to sync into Notion today.",
+        action: "Keep using the standing menswear, imperfection, and quiet-reflection baselines until a new YouTube post creates a real 24h, 48h, or 7d sync opportunity."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest stored baseline still paired relatable life language with explicit menswear framing.",
+          repeat: "Keep one relaxed-fit outfit or style-guidance post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still creates deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with one ordinary proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still map cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about friction, repetition, and ordinary support."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-21",
+      note: "The biweekly long-form slot is still due.",
+      suggestion: "Current strongest angle: 'stop borrowing the atmosphere: a week in tokyo making mornings feel like mine again'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. Live Notion queries confirmed that Content Pieces, Performance Snapshots, and Outliers + Learnings still match the May 20 baseline import set, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
   }
 ];
