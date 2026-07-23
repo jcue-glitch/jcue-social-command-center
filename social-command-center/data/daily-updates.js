@@ -16575,7 +16575,7 @@ window.JCUE_DAILY_UPDATES = [
       dates: "2026-07-20 to 2026-07-26",
       title: "Make It Yours",
       thesis: "A calmer life gets easier to trust when the room, the outfit, and the first action stop borrowing their mood from the internet and start carrying your actual taste.",
-      whyNow: "Current TikTok and Instagram trend coverage still rewards everyday process, lighter in-the-moment posting, and simple visual devices that feel human rather than overplanned. The slower-culture lane still points toward proof, specificity, and doing one real thing before more input.",
+      whyNow: "Current TikTok and Instagram signals still reward everyday process, low-pressure personality, and content people want to save or share because it feels recognizable. The slower-culture lane still points toward proof, specificity, and doing one real thing before more input.",
       continuation: "Continue the authorship lane, but narrow it further: use what already knows you. Let the shirt, the cup, the hallway light, and one repeated corner carry today's mood instead of chasing a fresher aesthetic."
     },
     dailyBrief: {
@@ -16586,7 +16586,7 @@ window.JCUE_DAILY_UPDATES = [
       filmingWindow: "30-45 minutes across the apartment, elevator, side street, station platform, or first coffee stop.",
       creativeDirection: "Keep the visuals repeated and tactile: the same loose shirt, the same cup, the same key drop, the same doorway, the same notebook line. Make repetition feel like self-trust.",
       atelierSeed: "Quietly seed the atelier worldview through the idea that a life becomes authored when repeated objects stop being decor and start holding your real rhythm.",
-      performanceContext: "Notion history is still effectively baseline-only in this run. Workspace search returned the JCue Social Metrics Hub plus the same May 20 baseline pages for Content Pieces, Performance Snapshots, and Outliers + Learnings, and the local `.youtube/latest_metrics.json` cache still matches that baseline set, so use the standing menswear, imperfection, and quiet-reflection learnings without inventing fresh movement."
+      performanceContext: "Notion history is still effectively baseline-only in this run. Live database-view queries returned the same May 20 baseline set: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings, and the local `.youtube/latest_metrics.json` cache still matches that baseline set, so use the standing menswear, imperfection, and quiet-reflection learnings without inventing fresh movement."
     },
     contentPack: [
       {
@@ -16608,7 +16608,7 @@ window.JCUE_DAILY_UPDATES = [
           "Optional handwritten line close-up."
         ],
         talkingScript: "Use as still-led post only.",
-        caption: "some repetition is not boring.\n\nsome repetition is support.\n\nThe same shirt that never argues with the morning.\nThe same cup that makes the room feel awake.\nThe same corner where the keys land without thinking.\n\nI used to think a more beautiful life would always look newer than this.\nBut lately what helps me most is the opposite.\nA few familiar things that already know how I move.\n\nMaybe that is part of taste too.\nNot collecting more proof that you have good references.\nBuilding a life that quietly remembers you.\n\nA good life does not always need more options.\nSometimes it just needs a few things you trust.\n\n#jimmycue #DailyThoughts #slowliving #DailyLifestyle #quietluxury",
+        caption: "some repetition is not boring.\n\nsome repetition is support.\n\nThe same shirt that never argues with the morning.\nThe same cup that makes the room feel awake.\nThe same corner where the keys land without thinking.\n\nA more beautiful life does not always look newer than this.\nSometimes it looks like a few familiar things that already know how you move.\n\nMaybe that is part of taste too.\nNot collecting more proof that you have good references.\nBuilding a life that quietly remembers you.\n\nA good life does not always need more options.\nSometimes it just needs a few things you trust.\n\n#jimmycue #DailyThoughts #slowliving #DailyLifestyle #quietluxury",
         keywords: ["daily thoughts", "slow living", "daily lifestyle", "quiet luxury"],
         seoKeywords: ["daily thoughts", "slow living", "daily lifestyle", "quiet luxury"],
         hashtags: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
@@ -16712,6 +16712,12 @@ window.JCUE_DAILY_UPDATES = [
             source: "Later",
             url: "https://later.com/blog/instagram-reels-trends/",
             note: "Used for current lighter-touch visual pacing and in-the-moment posting cues."
+          },
+          {
+            title: "Instagram algorithm in 2026: rank signals for growth",
+            source: "Later",
+            url: "https://later.com/blog/how-instagram-algorithm-works/",
+            note: "Used for the current signal that shares and saves matter when packaging reflective lifestyle posts."
           },
           {
             title: "Search & discovery tips - Shorts",
@@ -16880,6 +16886,12 @@ window.JCUE_DAILY_UPDATES = [
         application: "Use one soft flicker or two-angle transition only if it still feels native to Jimmy's calmer style."
       },
       {
+        signal: "Later's April 21, 2026 Instagram algorithm guide says shares are now a top-ranking signal, with saves and comments still helping content travel.",
+        source: "Later",
+        url: "https://later.com/blog/how-instagram-algorithm-works/",
+        application: "Keep the carousel and Thought Video lines saveable and sendable instead of purely atmospheric."
+      },
+      {
         signal: "YouTube says Shorts discovery depends on performance and viewer personalization, so clearer packaging still matters more than format gimmicks.",
         source: "YouTube Help",
         url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
@@ -16924,12 +16936,12 @@ window.JCUE_DAILY_UPDATES = [
         "Protect The First Familiar Thing",
         "Your Room Should Help You Re-Enter Yourself"
       ],
-      hashtags: {
-        general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
-        style: ["#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
-        routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
-        object: ["#mindfulliving", "#DailyLifestyle", "#tokyolife"]
-      }
+        hashtags: {
+          general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
+          style: ["#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
+          routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+          object: ["#mindfulliving", "#DailyLifestyle", "#tokyolife"]
+        }
     },
     metricRecommendations: [
       "Keep one menswear-framed post active because the stored Notion baseline still shows casual menswear wording as the clearest reach door.",
@@ -16941,7 +16953,7 @@ window.JCUE_DAILY_UPDATES = [
     performance: {
       yesterdaySummary: {
         status: "No fresh July 23, 2026 JST performance movement was confirmed.",
-        note: "Notion workspace search returned the JCue Social Metrics Hub and the same May 20 baseline rows: Content Pieces imported from YouTube sync, Manual baseline Performance Snapshots, and the three standing Outliers + Learnings. The local `.youtube/latest_metrics.json` export still reflects that same 12-video baseline set rather than a new upload or a real 24h, 48h, or 7d snapshot window.",
+        note: "Live Notion database-view queries returned the same May 20 baseline rows: 12 Content Pieces imported from YouTube sync, 12 Manual Performance Snapshots, and the 3 standing Outliers + Learnings. The local `.youtube/latest_metrics.json` export still reflects that same 12-video baseline set rather than a new upload or a real 24h, 48h, or 7d snapshot window.",
         action: "Keep using the standing menswear, imperfection, and quiet-reflection baselines until a new YouTube post creates a real sync opportunity."
       },
       outlierSignals: [
@@ -16975,6 +16987,6 @@ window.JCUE_DAILY_UPDATES = [
       suggestion: "Current strongest angle: 'use what already knows you: a week in tokyo building a calmer life from familiar things'.",
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
-    performanceNote: "No new Notion rows were created on this run. Notion workspace search exposed the same May 20 baseline history rather than new daily rows, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
+    performanceNote: "No new Notion rows were created on this run. Live Notion database-view queries confirmed the same May 20 baseline history: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings. The local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
   }
 ];
