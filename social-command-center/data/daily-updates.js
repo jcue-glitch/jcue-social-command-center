@@ -16567,5 +16567,414 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
     },
     performanceNote: "No new Notion rows were created on this run. Live Notion database-view queries confirmed 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings from the May 20 baseline import, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
+  },
+  {
+    generatedAt: "2026-07-23",
+    researchWindow: "2026-07-22 to 2026-07-23 JST",
+    weeklyTheme: {
+      dates: "2026-07-20 to 2026-07-26",
+      title: "Make It Yours",
+      thesis: "A calmer life gets easier to trust when the room, the outfit, and the first action stop borrowing their mood from the internet and start carrying your actual taste.",
+      whyNow: "Current TikTok and Instagram trend coverage still rewards everyday process, lighter in-the-moment posting, and simple visual devices that feel human rather than overplanned. The slower-culture lane still points toward proof, specificity, and doing one real thing before more input.",
+      continuation: "Continue the authorship lane, but narrow it further: use what already knows you. Let the shirt, the cup, the hallway light, and one repeated corner carry today's mood instead of chasing a fresher aesthetic."
+    },
+    dailyBrief: {
+      title: "Use What Already Knows You",
+      summary: "Build today's pack around repetition that feels supportive instead of stale: a shirt that already fits the day, a cup or object that steadies the room, and one spoken point about why familiar details can make a life feel more authored.",
+      audience: "High-achieving people with taste who are overstimulated, visually aware, and tired of consuming more beauty without feeling more present in their own routine.",
+      tone: "Thoughtful, casual, slightly lazy coffee-journal voice. Recognition first. Calm principle second. No guru or therapy-account energy.",
+      filmingWindow: "30-45 minutes across the apartment, elevator, side street, station platform, or first coffee stop.",
+      creativeDirection: "Keep the visuals repeated and tactile: the same loose shirt, the same cup, the same key drop, the same doorway, the same notebook line. Make repetition feel like self-trust.",
+      atelierSeed: "Quietly seed the atelier worldview through the idea that a life becomes authored when repeated objects stop being decor and start holding your real rhythm.",
+      performanceContext: "Notion history is still effectively baseline-only in this run. Workspace search returned the JCue Social Metrics Hub plus the same May 20 baseline pages for Content Pieces, Performance Snapshots, and Outliers + Learnings, and the local `.youtube/latest_metrics.json` cache still matches that baseline set, so use the standing menswear, imperfection, and quiet-reflection learnings without inventing fresh movement."
+    },
+    contentPack: [
+      {
+        id: "static-2026-07-23-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram Photo", "TikTok Photo Mode"],
+        title: "A Good Life Repeats A Few Things Well",
+        format: "4-5 slide carousel or 1 still + long caption",
+        purpose: "Turn repetition into a saveable lifestyle point that feels warm, lived, and subtly atelier-coded.",
+        creatorSearchTopics: ["daily thoughts", "slow living"],
+        hook: "a good life repeats a few things well",
+        firstFrameDirection: "Lead with one familiar morning proof already in use: the cup, the shirt on the chair, the keys, the notebook, the same corner catching light.",
+        retentionBridge: "By slide two or the second paragraph, pivot from aesthetic repetition into emotional support: 'familiar things can lower the noise.'",
+        shotList: [
+          "Cup, notebook, keys, and shirt in one reachable frame.",
+          "Hand using the same object instead of presenting it.",
+          "A repeated corner or shelf with visible wear.",
+          "Doorway, elevator, or station shot for one outward proof.",
+          "Optional handwritten line close-up."
+        ],
+        talkingScript: "Use as still-led post only.",
+        caption: "some repetition is not boring.\n\nsome repetition is support.\n\nThe same shirt that never argues with the morning.\nThe same cup that makes the room feel awake.\nThe same corner where the keys land without thinking.\n\nI used to think a more beautiful life would always look newer than this.\nBut lately what helps me most is the opposite.\nA few familiar things that already know how I move.\n\nMaybe that is part of taste too.\nNot collecting more proof that you have good references.\nBuilding a life that quietly remembers you.\n\nA good life does not always need more options.\nSometimes it just needs a few things you trust.\n\n#jimmycue #DailyThoughts #slowliving #DailyLifestyle #quietluxury",
+        keywords: ["daily thoughts", "slow living", "daily lifestyle", "quiet luxury"],
+        seoKeywords: ["daily thoughts", "slow living", "daily lifestyle", "quiet luxury"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
+        editNotes: "Keep the frame ordinary and tactile. The repeated object should look used, not staged."
+      },
+      {
+        id: "video-2026-07-23-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "The Outfit That Already Knows The Day",
+        format: "15-25 second fit-check philosophy reel",
+        purpose: "Use the standing menswear baseline and relaxed-shirt signal, but frame style as familiarity and ease instead of novelty.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        hook: "the best outfit already knows the day",
+        firstFrameDirection: "Open mid-movement in the mirror, hallway, or doorway so the shirt and trousers read as ease instead of performance.",
+        retentionBridge: "At 3-5 seconds cut to collar, cuff, or trouser drape and say: 'it saves me from negotiating with myself.'",
+        shotList: [
+          "Mirror or doorway full-body shot.",
+          "Collar, cuff, hem, or trouser drape detail.",
+          "Watch, headphones, bag, or keys pickup.",
+          "Walk-out or platform shot."
+        ],
+        talkingScript: "the best outfit already knows the day.\n\nit saves me from negotiating with myself.\n\nthe loose shirt.\nthe easy trousers.\none detail that feels clean.\n\nnothing new.\njust something that makes the morning quieter.",
+        caption: "I think the best clothes help before they impress.\n\nNot because they are boring.\nBecause they already know how you move.\n\nThat is what I like about softer shirts, relaxed trousers, and details I keep coming back to.\nThey take some noise out of the morning.\nThey make it easier to leave the apartment feeling like myself.\n\nStyle gets better for me when it stops being a search and starts becoming a relationship.\n\n#jimmycue #fitcheck #menslifestyle #quietluxury #ootd",
+        keywords: ["fit check", "mens lifestyle", "quiet luxury", "ootd"],
+        seoKeywords: ["fit check", "mens lifestyle", "quiet luxury", "OOTD"],
+        hashtags: ["#jimmycue", "#fitcheck", "#menslifestyle", "#quietluxury", "#ootd"],
+        editNotes: "Let fabric movement and doorway light do most of the work. Do not oversell the fit."
+      },
+      {
+        id: "video-2026-07-23-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Protect The First Familiar Thing",
+        format: "20-30 second ritual / morning routine reel",
+        purpose: "Translate current digital-minimalism conversation into one repeated morning move that feels human and filmable.",
+        creatorSearchTopics: ["digital minimalism", "coffee morning routine"],
+        hook: "protect the first familiar thing",
+        firstFrameDirection: "Start with the phone moving out of frame, then cut immediately to the cup, curtain, shirt, or notebook.",
+        retentionBridge: "At 3-5 seconds say: 'before the world talks, touch something that already belongs to you.'",
+        shotList: [
+          "Phone placed face down or out of reach.",
+          "Coffee pour or first sip.",
+          "Notebook opened or one line written.",
+          "Shirt button, curtain pull, or key pickup."
+        ],
+        talkingScript: "protect the first familiar thing.\n\nbefore the world talks, touch something that already belongs to you.\n\na cup.\na shirt.\none line.\none corner.\n\nsometimes that is enough to remember the day is yours too.",
+        caption: "I do not think calm always comes from doing less.\nSometimes it comes from starting with something more familiar than the feed.\n\nThat is why I like one repeated ritual in the first minute.\nCoffee first.\nShirt first.\nOne line first.\n\nIt makes the morning feel less borrowed.\nAnd honestly, that small difference changes a lot.\n\n#jimmycue #digitalminimalism #coffeeroutine #DailyThoughts #slowliving",
+        keywords: ["digital minimalism", "coffee morning routine", "daily thoughts", "slow living"],
+        seoKeywords: ["digital minimalism", "coffee morning routine", "daily thoughts", "slow living"],
+        hashtags: ["#jimmycue", "#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        editNotes: "Keep the pace unhurried and literal. The phone should look secondary without turning the clip into a lecture."
+      },
+      {
+        id: "video-2026-07-23-03",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "Your Room Should Help You Re-Enter Yourself",
+        format: "20-30 second apartment / commute thought reel",
+        purpose: "Use the current everyday-process signal and the atelier lane to make room authorship feel practical instead of decorative.",
+        creatorSearchTopics: ["daily lifestyle", "mindful living"],
+        hook: "your room should help you re-enter yourself",
+        firstFrameDirection: "Open on one usable corner that clearly supports the morning, then cut to Jimmy stepping through the doorway or heading outside.",
+        retentionBridge: "At 3-5 seconds say: 'a good corner does not just look good. it helps you start again.'",
+        shotList: [
+          "Reachable corner or tray detail.",
+          "Hand using the corner.",
+          "Doorway, elevator, or station shot.",
+          "Optional cafe glass or side-street cutaway."
+        ],
+        talkingScript: "your room should help you re-enter yourself.\n\na good corner does not just look good.\nit helps you start again.\n\nkeys here.\nshirt here.\nnotebook here.\n\nsmall things.\nbut they make the day easier to come back to.",
+        caption: "I think a lot of people want a calmer room when what they really want is an easier way back into themselves.\n\nThat is why I care about small usable corners so much.\nNot because I want everything styled.\nBecause I want the room to support me when my head is noisy.\n\nA place for the keys.\nA shirt I trust.\nA notebook already in reach.\n\nSometimes taste is just the shape your support takes.\n\n#jimmycue #DailyLifestyle #mindfulliving #tokyolife #slowliving",
+        keywords: ["daily lifestyle", "mindful living", "Tokyo life", "slow living"],
+        seoKeywords: ["daily lifestyle", "mindful living", "Tokyo life", "slow living"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#mindfulliving", "#tokyolife", "#slowliving"],
+        editNotes: "Keep a little imperfection in frame. The point is support, not showroom polish."
+      },
+      {
+        id: "thought-2026-07-23-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "Familiar Things Can Save A Morning",
+        format: "Thought Video, 50-85 seconds",
+        purpose: "Give Jimmy one compact spoken essay about how repetition, specificity, and familiar objects can make a life feel more authored than constant new inspiration.",
+        sourceInspiration: "Current TikTok and Instagram process signals, YouTube Shorts discovery guidance, digital-minimalism conversation, relaxed menswear coverage, and the Miranda / Kevin Kelly slower-culture lane translated into Jimmy's real morning.",
+        sourceReferences: [
+          {
+            title: "TikTok Next 2026",
+            source: "TikTok for Business",
+            url: "https://ads.tiktok.com/business/en-US/next",
+            note: "Used for the shift toward real process, grounding, and emotional value over curated perfection."
+          },
+          {
+            title: "Current TikTok Trends to Try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/tiktok-trends/",
+            note: "Used for the still-current signal that low-pressure, personality-led formats are moving on feed right now."
+          },
+          {
+            title: "Top Instagram Reels Trends to Try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/instagram-reels-trends/",
+            note: "Used for current lighter-touch visual pacing and in-the-moment posting cues."
+          },
+          {
+            title: "Search & discovery tips - Shorts",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+            note: "Used for the need to keep Shorts packaging direct and viewer-facing."
+          },
+          {
+            title: "I have been trying to make my phone feel boring again but in a good way",
+            source: "Reddit / r/digitalminimalism",
+            url: "https://www.reddit.com/r/digitalminimalism/comments/1ukurew/i_have_been_trying_to_make_my_phone_feel_boring/",
+            note: "Used for current language around reducing digital scatter without becoming strict or moralistic."
+          },
+          {
+            title: "The big GQ guide to spring/summer 2026 menswear trends",
+            source: "British GQ",
+            url: "https://www.gq-magazine.co.uk/article/the-big-gq-guide-to-spring-summer-2026-menswear-trends",
+            note: "Used for relaxed shirts, open collars, and easy silhouettes that fit Jimmy's low-noise uniform lane."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for the principle of doing one visible thing before more planning or more input."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the idea that specificity makes a life less borrowed and more irreplaceable."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "familiar things can save a morning",
+        firstFrameDirection: "Start already holding the cup or adjusting the shirt. No explanation first. Let the proof arrive before the point.",
+        retentionBridge: "By 3-5 seconds say: 'sometimes the calm is already in the things you keep coming back to.'",
+        fullTalkingScript: "familiar things can save a morning.\n\nsometimes the calm is already in the things you keep coming back to.\n\nI think a lot of people keep looking for a new routine, a new mood, a new version of themselves, when what they actually need is a few things they already trust.\n\nThis morning it was the same loose shirt, the same cup, the same corner where the keys land, and one line in the notebook before I checked anything.\n\nNothing about it was exciting.\nBut it made the day easier to enter.\n\nAnd I think that matters more than people admit.\nBecause modern life keeps training us to think new equals better.\nNew inspiration. New advice. New references. New aesthetics.\n\nBut sometimes a life starts feeling more like yours when a few ordinary things know you well enough to hold the mood.\n\nThe shirt is not the point.\nThe cup is not the point.\nThe point is that your life has somewhere to return.\n\nUse what already knows you.\nThat is usually where the calm gets real.",
+        beatSheet: [
+          "Natural hook: familiar things can save a morning.",
+          "Thesis in first spoken line: sometimes the calm is already in the things you keep coming back to.",
+          "Cultural observation: modern life keeps pushing novelty, more input, and more references.",
+          "Personal proof: same shirt, same cup, same key drop, same notebook line before the phone.",
+          "Practical principle: use one trusted repeated thing before chasing a newer mood.",
+          "Quiet ending: use what already knows you."
+        ],
+        shotList: [
+          "Talking head with cup or shirt detail in hand.",
+          "Phone set aside or face down.",
+          "Loose shirt collar or cuff detail.",
+          "Notebook line or pen touch.",
+          "Keys landing in the same place.",
+          "Doorway, station, or side-street exit shot."
+        ],
+        caption: "I think a lot of people are searching for a calmer life in the wrong direction.\n\nNot because they are asking for too much.\nBecause they keep asking new things to do the job that a few familiar things could already do.\n\nThe same shirt that makes the day easier.\nThe same cup that tells the room it is morning.\nThe same corner that catches the keys.\nOne line on paper before the phone starts talking.\n\nMaybe that is what support looks like in real life.\nNot dramatic discipline.\nJust a few ordinary things that know you well enough to lower the noise.\n\nUse what already knows you.\nThat is usually where the calm gets real.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "digital minimalism", "slow living", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#selfgrowth"],
+        platformPriorityNotes: {
+          TikTok: "Keep the thesis in the first spoken line and let the pause after 'keep coming back to' breathe.",
+          Instagram: "Use lightly burned-in captions and interrupt the talking head with one cup or key-drop detail early.",
+          YouTube: "Use a literal searchable title such as 'Familiar Things Can Save A Morning'."
+        },
+        platformNotes: {
+          TikTok: "Keep the thesis in the first spoken line and let the pause after 'keep coming back to' breathe.",
+          Instagram: "Use lightly burned-in captions and interrupt the talking head with one cup or key-drop detail early.",
+          YouTube: "Use a literal searchable title such as 'Familiar Things Can Save A Morning'."
+        },
+        editNotes: "Keep the delivery conversational and lightly unfinished. It should feel spoken before the day fully starts."
+      },
+      {
+        id: "story-2026-07-23-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Repeats First",
+        format: "2-3 story frames",
+        purpose: "Invite recognition around the first familiar object or ritual of the day.",
+        hook: "what repeats first in your morning?",
+        firstFrameDirection: "Show cup, shirt, notebook, or keys with one short line of text.",
+        retentionBridge: "Second frame shares Jimmy's answer: 'usually the shirt, the coffee, or the corner by the door.'",
+        shotList: [
+          "Still of cup, shirt, keys, or notebook.",
+          "Short selfie or corner detail.",
+          "Poll sticker or question box."
+        ],
+        talkingScript: "Use text only or a 5-second selfie clip.",
+        caption: "coffee / clothes / notebook / keys",
+        keywords: ["daily lifestyle", "coffee routine"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Instagram: "Use a poll sticker and save replies that sound like recognition language for future hooks."
+        },
+        editNotes: "Keep it low-pressure and conversational."
+      },
+      {
+        id: "story-2026-07-23-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Borrowed Or Familiar",
+        format: "2 frames",
+        purpose: "Create a subtle atelier-coded prompt about whether the room actually supports the person living there.",
+        hook: "what in your room actually helps you reset?",
+        firstFrameDirection: "Show Jimmy's own usable corner first so the question feels lived instead of abstract.",
+        retentionBridge: "Second frame uses a question box: 'object, ritual, or corner?'",
+        shotList: [
+          "Usable corner still.",
+          "Question box over the same corner or a tighter crop."
+        ],
+        talkingScript: "Text only.",
+        caption: "object / ritual / corner / still figuring it out",
+        keywords: ["daily thoughts", "mindful living"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Instagram: "Good replies can feed a future written note or Thought Video."
+        },
+        editNotes: "Leave a little mess in frame so the question stays human."
+      },
+      {
+        id: "written-2026-07-23-01",
+        type: "Written Post",
+        platformPriority: ["Substack", "Instagram Notes"],
+        title: "Use What Already Knows You",
+        format: "Short note, 170-240 words",
+        purpose: "Extend the Thought Video into a slower written lane with a quiet atelier point about repetition as self-trust.",
+        creatorSearchTopics: ["daily thoughts", "self growth"],
+        hook: "some repetition is not boredom. it is support.",
+        firstFrameDirection: "If cross-posted visually, pair it with a still of the shirt, cup, or door-side corner.",
+        retentionBridge: "Move quickly from the idea into one concrete proof: shirt on, coffee made, keys placed, one line written.",
+        shotList: [
+          "Optional desk or shirt still if paired to an Instagram Notes teaser."
+        ],
+        talkingScript: "Written note only.",
+        caption: "Some repetition is not boredom. It is support.\n\nI think modern life makes people a little suspicious of familiar things. If it is not new, optimized, improving, or inspiring us in a visible way, we start assuming it is not doing enough.\n\nBut honestly, some of the best parts of my life are useful because they repeat.\nThe same shirt that clears the decision.\nThe same cup that starts the room.\nThe same corner where the keys land.\nThe same line in the notebook before the phone gets a turn.\n\nNone of that looks impressive from the outside.\nBut it makes my real life easier to enter.\n\nMaybe that is part of authorship too.\nNot building a life that constantly surprises you.\nBuilding one that knows how to receive you.\n\nA few ordinary things, repeated well, can do more for your nervous system than another beautiful reference ever will.\n\nUse what already knows you.",
+        keywords: ["daily thoughts", "self growth", "slow living"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Substack: "Keep as a draft unless Jimmy wants to publish after filming.",
+          Instagram: "Can be teased as a Note, screenshot excerpt, or story text card."
+        },
+        editNotes: "Keep it plain and lived. Do not let it drift into essay theater."
+      }
+    ],
+    schedule: [
+      { time: "07:05-07:12", action: "Set the repeated supports: trusted shirt, cup, notebook, keys, and one usable corner in reach.", platform: "Phone", reason: "Make the mood literal before filming." },
+      { time: "07:12-07:50", action: "Film the Thought Video, fit-check reel, morning ritual reel, room-support reel, static assets, and both stories.", platform: "Phone", reason: "Capture the apartment and first commute texture while the routine still feels real." },
+      { time: "08:25", action: "Post the fit-check reel to Instagram Reels and TikTok.", platform: "Instagram Reels, TikTok", reason: "Menswear framing still remains the clearest reach door in the stored baseline." },
+      { time: "12:35", action: "Post the still or carousel.", platform: "Instagram Photo", reason: "Midday suits saveable still-life content with a reflective caption." },
+      { time: "19:40", action: "Post the Thought Video.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "Evening viewers are more likely to stay with a compact spoken essay." },
+      { time: "21:05", action: "Share the written note excerpt or a story follow-up using replies.", platform: "Instagram Stories, Substack draft", reason: "Reuse same-day recognition language while it is still fresh." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 forecast still points toward real process, grounding, and emotional value instead of curated perfection.",
+        source: "TikTok for Business",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        application: "Keep today's clips rooted in repeated real-life proofs rather than aesthetic reveal for its own sake."
+      },
+      {
+        signal: "Later's current TikTok trend tracker still describes the feed as rewarding low-pressure, personality-led formats that creators can adapt quickly.",
+        source: "Later",
+        url: "https://later.com/blog/tiktok-trends/",
+        application: "Keep hooks conversational and let the morning footage feel simple instead of overconstructed."
+      },
+      {
+        signal: "Later's July 2026 Reels roundup shows lightweight visual devices and dreamy two-shot pacing staying active on Instagram right now.",
+        source: "Later",
+        url: "https://later.com/blog/instagram-reels-trends/",
+        application: "Use one soft flicker or two-angle transition only if it still feels native to Jimmy's calmer style."
+      },
+      {
+        signal: "YouTube says Shorts discovery depends on performance and viewer personalization, so clearer packaging still matters more than format gimmicks.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+        application: "Keep Jimmy's Shorts titles literal and search-facing: familiarity, morning routine, room support, fit check."
+      },
+      {
+        signal: "Current digital-minimalism conversation keeps framing progress as making the phone less central and ordinary life more reachable again.",
+        source: "Reddit / r/digitalminimalism",
+        url: "https://www.reddit.com/r/digitalminimalism/comments/1ukurew/i_have_been_trying_to_make_my_phone_feel_boring/",
+        application: "Use anti-dramatic language about cups, shirts, corners, and one line on paper rather than strict screen rules."
+      },
+      {
+        signal: "Current menswear coverage is still leaning into open collars, easy shirts, and relaxed silhouettes that look refined without becoming loud.",
+        source: "British GQ",
+        url: "https://www.gq-magazine.co.uk/article/the-big-gq-guide-to-spring-summer-2026-menswear-trends",
+        application: "Keep the fit-check reel on soft structure, familiar uniforms, and ease of movement."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution lens still works because it replaces more ideation with one visible move in public or in real life.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate it into one trusted repeated action before more input: shirt, cup, notebook, or keys.",
+        postIdea: "You do not need a fresher version of yourself this morning. You need one real move that still belongs to you."
+      },
+      {
+        signal: "Kevin Kelly's specificity framing still supports the idea that repeated preferences make a life harder to fake and easier to recognize as yours.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use repeated objects, repeated uniforms, and repeated corners as proof of a more specific life.",
+        postIdea: "Sometimes the most personal thing in your life is not the rare object. It is the ordinary thing you keep choosing on purpose."
+      }
+    ],
+    keywordBank: {
+      primary: ["daily thoughts", "digital minimalism", "slow living", "fit check", "mindful living"],
+      secondary: ["mens lifestyle", "quiet luxury", "coffee routine", "Tokyo life", "self growth"],
+      titles: [
+        "Use What Already Knows You",
+        "Familiar Things Can Save A Morning",
+        "The Outfit That Already Knows The Day",
+        "Protect The First Familiar Thing",
+        "Your Room Should Help You Re-Enter Yourself"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#quietluxury"],
+        style: ["#menslifestyle", "#fitcheck", "#quietluxury", "#ootd"],
+        routine: ["#digitalminimalism", "#coffeeroutine", "#DailyThoughts", "#slowliving"],
+        object: ["#mindfulliving", "#DailyLifestyle", "#tokyolife"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active because the stored Notion baseline still shows casual menswear wording as the clearest reach door.",
+      "Keep one reflective Thought Video active because quiet-life observations still show better comment depth than generic lifestyle packaging in the baseline set.",
+      "Keep imperfection, repetition, and enoughness language active because the baseline engagement density still favors Jimmy's wabi-sabi lane.",
+      "Use literal searchable titles and description keywords on YouTube Shorts because current platform guidance still ties discovery to clearer viewer-facing packaging.",
+      "Do not infer any fresh performance swing until a new YouTube upload creates a real 24h, 48h, or 7d snapshot window."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh July 23, 2026 JST performance movement was confirmed.",
+        note: "Notion workspace search returned the JCue Social Metrics Hub and the same May 20 baseline rows: Content Pieces imported from YouTube sync, Manual baseline Performance Snapshots, and the three standing Outliers + Learnings. The local `.youtube/latest_metrics.json` export still reflects that same 12-video baseline set rather than a new upload or a real 24h, 48h, or 7d snapshot window.",
+        action: "Keep using the standing menswear, imperfection, and quiet-reflection baselines until a new YouTube post creates a real sync opportunity."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the clearest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The strongest stored baseline still paired relatable life language with explicit menswear framing.",
+          repeat: "Keep one relaxed-fit outfit or style-guidance post active today."
+        },
+        {
+          title: "Quiet reflection still wins on comment depth",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "Reflective quiet-life content still creates deeper response even before reach scales.",
+          repeat: "Keep the Thought Video lane active with one ordinary proof in frame."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "Perfection and enoughness language still map cleanly to Jimmy's wabi-sabi lane.",
+          repeat: "Use direct lines about repetition, support, and ordinary ease."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-23",
+      note: "The biweekly long-form slot is still due.",
+      suggestion: "Current strongest angle: 'use what already knows you: a week in tokyo building a calmer life from familiar things'.",
+      referenceNote: "Use Havenotats only for warmth and weekly-life pacing. Keep Jimmy's topic on thoughts, routines, style, beauty, and authored living."
+    },
+    performanceNote: "No new Notion rows were created on this run. Notion workspace search exposed the same May 20 baseline history rather than new daily rows, and the local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
   }
 ];
