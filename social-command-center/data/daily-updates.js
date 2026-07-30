@@ -17820,5 +17820,430 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and life pacing. Keep Jimmy's topic on authored routines, style, beauty, objects, and calm discipline."
     },
     performanceNote: "No new Notion rows were created on this July 29, 2026 JST run. Live Notion queries confirmed the same May 20 baseline history: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings. The local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
+  },
+  {
+    generatedAt: "2026-07-30",
+    researchWindow: "2026-07-24 to 2026-07-30 JST",
+    weeklyTheme: {
+      dates: "2026-07-27 to 2026-08-02",
+      title: "Lower The Interruption",
+      thesis: "A calmer life starts looking more authored when the first part of the morning stops belonging to alerts, scrolling, and decision fatigue and starts belonging to one trusted rhythm.",
+      whyNow: "Current July 2026 platform guidance still favors original, same-day, real-process posts, while live trend coverage and audience language keep circling lower-polish routine content, attention fatigue, and practical rituals that feel worth repeating.",
+      continuation: "Today's continuation is simpler and slightly more intimate: keep the first part of the day private long enough to touch one real object, wear one trusted shape, and begin before the feed gets a vote."
+    },
+    dailyBrief: {
+      date: "2026-07-30",
+      day: "Thursday",
+      deliveryTime: "07:00 JST",
+      title: "Keep The First Part Of The Day Private",
+      summary: "Build today's pack around an unborrowed morning. Show one outfit that helps before it impresses, one ritual that stays offline a little longer, one small support worth keeping, and one spoken thought about how calm starts with protected access.",
+      audience: "High-achieving people with taste who look composed from the outside but feel mentally public too early in the day.",
+      tone: "Thoughtful, casual, slightly lazy coffee-journal voice. Recognition first. No motivational speech. No polished-aesthetic performance.",
+      filmingWindow: "30-45 minutes in the apartment, building hallway, elevator, side street, station platform, or first coffee stop.",
+      creativeDirection: "Keep the frames lived-in and lightly tactile: shirt on chair, coffee steam, notebook line, keys landing, headphones, door light, train window, one corner that clearly helps.",
+      atelierSeed: "Seed the atelier worldview through the idea that a life starts feeling authored when support stops being decorative and starts protecting access to yourself.",
+      performanceContext: "Live Notion searches still only surface the May 20 baseline import: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings. The local `.youtube/latest_metrics.json` export still matches that same baseline and does not introduce a new YouTube upload or a true 24h, 48h, or 7d snapshot window, so use the standing menswear, imperfection, and quiet-reflection learnings without claiming fresh movement.",
+      recommendation: "Lead with the fit-check or coffee-ritual Reel in the morning and save the Thought Video for evening. Keep one list-style asset in the mix because current TikTok trend coverage still shows compact 'worth it' list formats moving quickly on feed.",
+      todayDoNotDo: [
+        "Do not turn privacy into mystery or aloofness. The point is simple protection, not distance.",
+        "Do not over-style the apartment or coffee. The footage should feel usable, not editorial-only.",
+        "Do not sound like you discovered slow living yesterday. Jimmy is sharing a lived system, not trying on a new identity."
+      ],
+      approvalChecklist: [
+        "Does each first frame show the tension immediately: phone, shirt, coffee, keys, notebook, or a usable corner?",
+        "Does one piece clearly open the menswear/searchable door and one piece clearly open the reflective/comment-depth door?",
+        "Does the Thought Video land its thesis in the first spoken line?",
+        "Would every concept still be filmable in one real morning without extra props?",
+        "Is the atelier seed present as worldview rather than pitch?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-07-30-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram Photo", "TikTok Photo Mode"],
+        title: "Four Small Things Worth Keeping Offline First",
+        format: "4-5 slide carousel or TikTok photo mode post",
+        purpose: "Use a current list-style trend format while keeping the content grounded in Jimmy's morning support system.",
+        creatorSearchTopics: ["daily thoughts", "daily lifestyle"],
+        hook: "four small things worth keeping offline first",
+        firstFrameDirection: "Cover frame should show the shirt, coffee, notebook, and keys in one honest morning composition.",
+        retentionBridge: "By slide two, turn the list into meaning: 'not expensive. just protective.'",
+        shotList: [
+          "Slide 1: shirt, cup, notebook, keys, headphones in one frame.",
+          "Slide 2: shirt detail or cuff.",
+          "Slide 3: coffee or notebook line.",
+          "Slide 4: keys, headphones, or corner by the door.",
+          "Slide 5: optional exit still with a quiet closing line."
+        ],
+        talkingScript: "Use as still-led post only.",
+        caption: "four small things worth keeping offline first.\n\nnot because they are sacred.\njust because the day feels better when something real gets access to me before the feed does.\n\na shirt i already trust.\ncoffee before notifications.\none line in a notebook.\nkeys that always land in the same place.\n\nnone of this looks impressive, which is probably why it keeps working.\n\ncalm is usually less about adding a whole new life and more about deciding what gets to touch the current one first.\n\n#jimmycue #DailyThoughts #DailyLifestyle #slowliving #digitalminimalism",
+        keywords: ["daily thoughts", "daily lifestyle", "slow living", "digital minimalism"],
+        seoKeywords: ["daily thoughts", "daily lifestyle", "slow living", "digital minimalism"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#digitalminimalism"],
+        editNotes: "Keep the list tactile and ordinary. One imperfect edge in frame helps the point land."
+      },
+      {
+        id: "video-2026-07-30-01",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "The Outfit That Keeps Me Off My Phone",
+        format: "18-26 second fit-check philosophy reel",
+        purpose: "Use the standing menswear baseline while tying style to attention and self-perception instead of surface-level fashion.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        hook: "the outfit that keeps me off my phone",
+        firstFrameDirection: "Open on shirt or trouser detail before the mirror reveal so the viewer sees support before the full look.",
+        retentionBridge: "At 3-5 seconds say: 'when the outfit is already decided, the morning gets quieter.'",
+        shotList: [
+          "Hand lifting shirt or adjusting cuff.",
+          "Trouser drape, belt, watch, or shoe detail.",
+          "Mirror fit check.",
+          "Headphones, bag, or keys pickup.",
+          "Door exit or hallway walk."
+        ],
+        talkingScript: "the outfit that keeps me off my phone.\n\nwhen the outfit is already decided, the morning gets quieter.\n\ni'm not looking for something loud.\njust something that helps me feel arranged enough to leave.\n\nstyle gets more useful when it removes friction before it asks for attention.",
+        caption: "I think my best clothes do one very unglamorous job well.\n\nThey stop the morning from turning into another argument.\n\nWhen the shirt, trousers, and one detail are already clear, I reach for myself faster and the phone a little less.\n\nThat is part of why I keep coming back to familiar shapes now.\nNot less taste.\nJust less noise.\n\n#jimmycue #fitcheck #mensstyle #menslifestyle #DailyLifestyle",
+        keywords: ["fit check", "mens style", "mens lifestyle", "daily lifestyle"],
+        seoKeywords: ["fit check", "mens style", "mens lifestyle", "daily lifestyle"],
+        hashtags: ["#jimmycue", "#fitcheck", "#mensstyle", "#menslifestyle", "#DailyLifestyle"],
+        platformNotes: {
+          TikTok: "Let the first subtitle line carry the hook while the fabric detail moves immediately.",
+          Instagram: "Keep the last line large enough to save: 'less taste. just less noise.'",
+          YouTube: "Use a literal title: 'The Outfit That Keeps Me Off My Phone | Mens Style'."
+        },
+        editNotes: "Keep the fit-check slow and tactile, not trendy or jump-cut heavy."
+      },
+      {
+        id: "video-2026-07-30-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "One Real Thing Before The Internet",
+        format: "20-28 second ritual clip with short spoken line",
+        purpose: "Translate coffee-routine and digital-minimalism search language into a practical principle Jimmy can show without preaching.",
+        creatorSearchTopics: ["coffee routine", "digital minimalism"],
+        hook: "one real thing before the internet",
+        firstFrameDirection: "Open on the phone near the coffee or notebook, then move it out of reach in the first beat.",
+        retentionBridge: "At 3-5 seconds say: 'the morning feels different when something real gets there first.'",
+        shotList: [
+          "Phone near cup or notebook.",
+          "Phone turned over or moved away.",
+          "Coffee pour or first sip.",
+          "Notebook line or curtain pull.",
+          "Keys pickup or exit shot."
+        ],
+        talkingScript: "one real thing before the internet.\n\nthe morning feels different when something real gets there first.\ncoffee.\none line.\none shirt.\none corner.\n\nsometimes that is enough to stop the whole day from starting borrowed.",
+        caption: "I do not need a perfect slow morning every day.\n\nI just notice that the day feels cleaner when one real thing happens before the feed gets involved.\n\nCoffee first.\nA shirt first.\nOne line first.\n\nSmall rituals are not dramatic, but they do a quiet job really well.\nThey stop the day from feeling public too early.\n\n#jimmycue #coffeeroutine #digitalminimalism #slowliving #DailyThoughts",
+        keywords: ["coffee routine", "digital minimalism", "slow living", "daily thoughts"],
+        seoKeywords: ["coffee routine", "digital minimalism", "slow living", "daily thoughts"],
+        hashtags: ["#jimmycue", "#coffeeroutine", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          TikTok: "Low-pressure and native works better here than over-explaining the principle.",
+          Instagram: "Use clean captions and one obvious phone-away action by second three."
+        },
+        editNotes: "Keep the coffee functional, not fetishized. It is support, not the whole point."
+      },
+      {
+        id: "video-2026-07-30-03",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "YouTube Shorts", "TikTok"],
+        title: "The Corner I Pay Attention To Most",
+        format: "22-32 second apartment support reel",
+        purpose: "Carry the room/ritual lane forward and quietly seed the atelier worldview around support taking physical form.",
+        creatorSearchTopics: ["mindful living", "quiet luxury"],
+        hook: "the corner i pay attention to most",
+        firstFrameDirection: "Open on one real usable corner by the door, chair, shelf, or desk with one visible imperfect detail still in frame.",
+        retentionBridge: "At 3-5 seconds say: 'not because it looks best. because it helps most.'",
+        shotList: [
+          "Usable corner wide shot.",
+          "Hand setting down keys, headphones, or notebook.",
+          "Close-up of one object with wear.",
+          "Brief sit-down or stand-up moment.",
+          "Doorway or hallway exit."
+        ],
+        talkingScript: "the corner i pay attention to most.\n\nnot because it looks best.\nbecause it helps most.\n\nkeys here.\nnotebook here.\nheadphones here.\n\nsmall things, but they stop the day from scattering.\n\nthat kind of support matters more to me than a perfect room.",
+        caption: "A room can look calm and still do nothing for your real life.\n\nThat is why I keep caring about small usable corners.\nNot because they are photogenic.\nBecause they shorten the distance between intention and action.\n\nBeautiful is good.\nSupportive is better.\n\n#jimmycue #mindfulliving #quietluxury #DailyLifestyle #slowliving",
+        keywords: ["mindful living", "quiet luxury", "daily lifestyle", "slow living"],
+        seoKeywords: ["mindful living", "quiet luxury", "daily lifestyle", "slow living"],
+        hashtags: ["#jimmycue", "#mindfulliving", "#quietluxury", "#DailyLifestyle", "#slowliving"],
+        platformNotes: {
+          Instagram: "Good save candidate if the corner feels immediately useful.",
+          YouTube: "Use a literal title: 'The Corner I Pay Attention To Most'."
+        },
+        editNotes: "Leave one sign of real life in frame so the room does not feel staged."
+      },
+      {
+        id: "thought-2026-07-30-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "The First Part Of The Day Should Stay Private",
+        format: "Thought Video, 55-85 seconds",
+        purpose: "Turn current attention-fatigue language into a calmer principle about protected access, authorship, and real-world support.",
+        sourceInspiration: "Current July 2026 platform signals favoring original, same-day, lower-polish posts; live audience language around overstimulation and input fatigue; and the approved Miranda / Kevin Kelly slower-culture lane translated into Jimmy's real Thursday morning.",
+        sourceReferences: [
+          {
+            title: "TikTok Next 2026 Trend Forecast",
+            source: "TikTok for Business",
+            url: "https://ads.tiktok.com/business/en-US/next",
+            note: "Used for the continuing shift toward real process, unfiltered stories, and lower-polish daily content."
+          },
+          {
+            title: "Current TikTok Trends to Try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/tiktok-trends/",
+            note: "Used for live July 24, 2026 list-style and native pacing cues that can be adapted without trend-chasing."
+          },
+          {
+            title: "2026: AI Drives Performance",
+            source: "Meta",
+            url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+            note: "Used for Meta's note that recommendations are getting more timely and more original, supporting same-day lived footage."
+          },
+          {
+            title: "Tips for video descriptions",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/12948449?hl=en",
+            note: "Used for keeping Shorts titles and descriptions direct, keyword-led, and easy to find."
+          },
+          {
+            title: "I think a lot of 'busy' people are actually just overstimulated",
+            source: "Reddit / r/simpleliving",
+            url: "https://www.reddit.com/r/simpleliving/comments/1rpkx9o/i_think_a_lot_of_busy_people_are_actually_just/",
+            note: "Used for audience language connecting busyness to constant input and attention switching."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for the principle of doing one real thing before disappearing into more planning or more noise."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the idea that repeated specific choices make a life feel more distinctly yours."
+          }
+        ],
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "the first part of the day should stay private",
+        firstFrameDirection: "Start seated with coffee, shirt on, and the phone visible but untouched so the tension is obvious before the first line.",
+        retentionBridge: "State the thesis immediately, then cut to one small proof: phone down, coffee up, notebook open, keys in place.",
+        fullTalkingScript: "i think the first part of the day should stay private.\n\nnot secret.\njust private enough that the internet does not get to shape your energy before you do.\n\nsome mornings feel heavier than they should because too many things get access to us too early.\na message.\na feed.\none random mood that was not even ours five seconds ago.\n\nand then suddenly the day starts public.\n\nthis morning i kept it smaller.\ncoffee first.\na shirt i already trust.\none line in the notebook.\nkeys in the same place.\nthen out the door.\n\nnone of that is dramatic.\nthat is exactly why i think it works.\n\ncalm usually does not begin with a big transformation.\nit begins with protected access.\none uninterrupted thing.\none real object.\none decision that still belongs to you.\n\nbefore you ask for more discipline, try keeping the first part of the day a little more private.\n\nthat is where a lot of clarity comes back.",
+        beatSheet: [
+          "Natural hook: the first part of the day should stay private.",
+          "Thesis in the first spoken line: not secret, just private enough that the internet does not shape your energy before you do.",
+          "Cultural observation: modern busyness often starts as too many things getting access to attention too early.",
+          "Personal proof: coffee, trusted shirt, one notebook line, keys in place, then out the door.",
+          "Practical principle: protect one uninterrupted ritual before asking for more discipline.",
+          "Quiet ending: that is where a lot of clarity comes back."
+        ],
+        shotList: [
+          "Talking head with coffee nearby.",
+          "Phone turned over or moved away.",
+          "Shirt, cuff, or trouser detail.",
+          "One notebook line.",
+          "Keys or headphones landing in place.",
+          "Doorway, platform, or side-street exit shot."
+        ],
+        caption: "I keep noticing how quickly a day can stop feeling like mine.\n\nUsually nothing dramatic happened. The morning just became public too early.\nOne notification. One random scroll. One mood that was not even mine five seconds ago.\n\nSo lately I have been protecting the first part a little more.\nCoffee first.\nA shirt I already trust.\nOne notebook line.\nThen the rest can happen.\n\nI do not think calm is always a personality trait.\nSometimes it is just protected access.\nOne uninterrupted thing before the whole world gets a turn.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #selfgrowth",
+        keywords: ["daily thoughts", "digital minimalism", "slow living", "self growth"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#selfgrowth"],
+        platformNotes: {
+          TikTok: "Let the hook sit in the first second with minimal throat-clearing and only a couple of cutaways.",
+          Instagram: "Burned-in captions matter because the point is slightly denser than the other clips.",
+          YouTube: "Use a literal searchable title: 'The First Part Of The Day Should Stay Private'."
+        },
+        editNotes: "Keep the delivery spoken and lightly unfinished, like the thought arrived over coffee rather than after scripting."
+      },
+      {
+        id: "story-2026-07-30-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "What Stays Private First",
+        format: "2-3 frames with poll",
+        purpose: "Pull viewers into the same protected-access question as the Thought Video.",
+        hook: "what stays private first?",
+        firstFrameDirection: "Show coffee and phone in the same frame, with one short line of text.",
+        retentionBridge: "Second frame shares Jimmy's answer: 'usually coffee, clothes, or one notebook line.'",
+        shotList: [
+          "Coffee and phone still.",
+          "Quick selfie or shirt detail.",
+          "Poll sticker."
+        ],
+        talkingScript: "Text only or one 4-second selfie clip.",
+        caption: "coffee / outfit / notebook / impossible, it's the phone",
+        keywords: ["coffee routine", "daily lifestyle"],
+        hashtags: ["#jimmycue"],
+        editNotes: "Keep it dry and lightly self-aware."
+      },
+      {
+        id: "story-2026-07-30-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "One Corner That Helps",
+        format: "2 frames with question box",
+        purpose: "Seed the atelier lane through supportive space, not aesthetic perfection.",
+        hook: "what corner actually helps you begin?",
+        firstFrameDirection: "Show Jimmy's own usable corner first.",
+        retentionBridge: "Second frame asks for theirs: desk / chair / kitchen / still figuring it out?",
+        shotList: [
+          "Usable corner still.",
+          "Question box or multiple-choice text."
+        ],
+        talkingScript: "Text only.",
+        caption: "beautiful is good. helpful is better.",
+        keywords: ["mindful living", "daily thoughts"],
+        hashtags: ["#jimmycue"],
+        editNotes: "Do not over-style the corner."
+      },
+      {
+        id: "written-2026-07-30-01",
+        type: "Written Post",
+        platformPriority: ["Substack", "Instagram Notes"],
+        title: "A Morning Does Not Need To Be Public To Be Productive",
+        format: "Short note, 170-230 words",
+        purpose: "Extend the daily theme into a slower written lane with a subtle Self-Authored Life Atelier worldview.",
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        hook: "a morning does not need to be public to be productive.",
+        firstFrameDirection: "If paired visually, use the desk, shirt, or doorway frame from the other assets.",
+        retentionBridge: "Open with the tension between public energy and private clarity, then move into one real detail from this morning.",
+        shotList: [
+          "Optional still of desk, shirt, or doorway."
+        ],
+        talkingScript: "Written note only.",
+        caption: "a morning does not need to be public to be productive.\n\nI think a lot of modern life starts asking for performance before we have even become ourselves for the day.\n\nA notification. A feed. A message. A mood that arrives from somewhere else.\n\nThen by 8am the whole thing already feels crowded.\n\nWhat I keep coming back to is smaller than a big life reset.\nCoffee before the phone.\nA shirt that does not ask a new question.\nOne notebook line.\nKeys in the same place.\n\nNone of this is dramatic enough to impress anyone.\nThat might be the point.\n\nThe best support usually looks ordinary.\nIt just gives your mind somewhere to land before the day becomes public.\n\nMaybe that is one of the quietest forms of authorship.\nNot making your life look perfect.\nJust protecting one part of it long enough that it still feels like yours.",
+        keywords: ["daily thoughts", "mindful living", "slow living"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Substack: "Keep as a draft or note draft only unless Jimmy chooses to publish manually.",
+          Instagram: "Can be reduced into one Notes-sized line or used as story text."
+        },
+        editNotes: "Keep it plain, warm, and lightly unfinished."
+      }
+    ],
+    schedule: [
+      { time: "07:05-07:12", action: "Set the morning anchors in place: shirt, coffee, keys, notebook, one usable corner.", platform: "Private", reason: "Turn the theme into visible proof before filming." },
+      { time: "07:12-07:48", action: "Film fit-check, phone/coffee ritual, support-corner reel, Thought Video, and stories.", platform: "Phone", reason: "Everything fits one apartment pass with one optional hallway or station clip." },
+      { time: "08:25", action: "Post 'The Outfit That Keeps Me Off My Phone'.", platform: "TikTok, Instagram Reels", reason: "Menswear framing remains the clearest standing reach door in baseline history." },
+      { time: "12:20", action: "Post the carousel.", platform: "Instagram Photo, TikTok Photo Mode", reason: "The list format suits midday saves and shares." },
+      { time: "18:35", action: "Post 'One Real Thing Before The Internet' or 'The Corner I Pay Attention To Most'.", platform: "YouTube Shorts", reason: "Literal searchable packaging still matches current YouTube guidance." },
+      { time: "20:20", action: "Post the Thought Video.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "Evening attention is better for a 60-80 second spoken point." },
+      { time: "Any time between posts", action: "Share both stories and save useful replies for future written posts.", platform: "Instagram Stories", reason: "Audience phrasing can feed the next Thought Video lane." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok says 2026 audiences are craving grounding through honesty, community, and shared experience, with real process and BTS moments resonating more than curated perfection.",
+        source: "TikTok for Business",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        application: "Keep today's footage same-day, tactile, and real-process instead of polished-aesthetic only."
+      },
+      {
+        signal: "Later's TikTok trend roundup was updated on July 24, 2026 and shows compact list-style formats like 'Worth the money' still moving on feed.",
+        source: "Later",
+        url: "https://later.com/blog/tiktok-trends/",
+        application: "Use one simple list-format asset today, but translate it into Jimmy's quieter morning-support lane."
+      },
+      {
+        signal: "Meta said in January 2026 that recommendations are becoming more timely and more original, with 75% of Instagram recommendations coming from original posts.",
+        source: "Meta",
+        url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+        application: "Favor same-day apartment footage in Jimmy's own voice over recycled or over-produced content."
+      },
+      {
+        signal: "YouTube says creators should identify 1-2 main words that describe the video and feature them prominently in both the title and description.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/12948449?hl=en",
+        application: "Keep Shorts packaging literal: fit check, coffee routine, digital minimalism, morning routine."
+      },
+      {
+        signal: "Current simple-living conversation still frames busyness as constant input and attention switching rather than pure workload.",
+        source: "Reddit / r/simpleliving",
+        url: "https://www.reddit.com/r/simpleliving/comments/1rpkx9o/i_think_a_lot_of_busy_people_are_actually_just/",
+        application: "Use recognition language around interruption and public energy instead of shame language around laziness."
+      },
+      {
+        signal: "Who What Wear's 2026 TikTok fashion overview says the platform's fashion cycle is moving toward more personal styling and detail-driven looks rather than a samey polished finish.",
+        source: "Who What Wear",
+        url: "https://www.whowhatwear.com/fashion/trends/tiktok-fashion-trends-2026",
+        application: "Keep today's fit-check on familiar shapes, personal details, and lived-in confidence rather than loud styling."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Miranda's execution framing still favors one real move over another round of planning or brand overthinking.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate it into one offline action before the phone: shirt, coffee, keys, or notebook.",
+        postIdea: "You do not need a better system first. You need one protected action."
+      },
+      {
+        signal: "Kevin Kelly's specificity lens still supports repeated preferences as the path toward a more authored, less interchangeable life.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use repeated uniforms, corners, and rituals as proof that a life becomes more yours through ordinary specificity.",
+        postIdea: "A life starts feeling specific when your ordinary preferences stop being random."
+      }
+    ],
+    keywordBank: {
+      primary: ["fit check", "coffee routine", "digital minimalism", "daily thoughts", "slow living"],
+      secondary: ["mens lifestyle", "mindful living", "quiet luxury", "morning routine", "daily lifestyle"],
+      titles: [
+        "The Outfit That Keeps Me Off My Phone",
+        "One Real Thing Before The Internet",
+        "The Corner I Pay Attention To Most",
+        "The First Part Of The Day Should Stay Private",
+        "Four Small Things Worth Keeping Offline First"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#DailyLifestyle", "#slowliving", "#selfgrowth"],
+        style: ["#fitcheck", "#mensstyle", "#menslifestyle", "#DailyLifestyle"],
+        ritual: ["#coffeeroutine", "#digitalminimalism", "#DailyThoughts", "#slowliving"],
+        space: ["#mindfulliving", "#quietluxury", "#DailyLifestyle", "#slowliving"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active today because the strongest standing baseline is still the casual-menswear YouTube Short at 1,896 views.",
+      "Keep the Thought Video lane active because the quiet-life baseline still produced stronger comment depth than its reach would suggest.",
+      "Keep imperfection and support language active because the standing outlier note still favors wabi-sabi themes when the copy stays practical, not soft-self-help.",
+      "Keep Shorts titles literal and keyword-led because current YouTube guidance still points toward clear search language over clever ambiguity.",
+      "Do not create fresh Notion snapshot rows until a new YouTube post creates a real 24h, 48h, or 7d window; the local export still only reflects the May 20 baseline sync."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No fresh July 29, 2026 JST performance movement was confirmed.",
+        note: "Live Notion searches on July 30, 2026 JST still show the same baseline history created on May 20, 2026: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings. The local `.youtube/latest_metrics.json` export matches that same 12-video baseline set with no newer video or true 24h, 48h, or 7d snapshot window to sync.",
+        action: "Use the standing menswear, imperfection, and quiet-reflection baselines for today's decisions until a new YouTube upload creates a real sync opportunity."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the strongest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The current top baseline still pairs a relatable life phrase with explicit menswear framing.",
+          repeat: "Keep one soft-structure fit-check or style-philosophy post active today."
+        },
+        {
+          title: "Quiet-life reflection still produces deeper comments",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "The reflective quiet-life post drew stronger comment density than most baseline posts.",
+          repeat: "Keep one talking-head thought piece with a clear first-line thesis."
+        },
+        {
+          title: "Imperfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "The perfection-themed baseline continues to validate Jimmy's wabi-sabi lane when the copy stays direct.",
+          repeat: "Use enoughness, support, and low-friction language instead of generic motivation."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-07-30",
+      note: "The biweekly long-form slot is still due.",
+      suggestion: "Current strongest angle: 'the first part of the day should stay private: a week in tokyo building a calmer creative life'.",
+      referenceNote: "Use Havenotats only for warmth and life pacing. Keep Jimmy's topic on authored routines, style, beauty, objects, and calm discipline."
+    },
+    performanceNote: "No new Notion rows were created on this July 30, 2026 JST run. Live Notion searches confirmed the same May 20 baseline history: 12 Content Pieces, 12 Manual Performance Snapshots, and 3 Outliers + Learnings. The local `.youtube/latest_metrics.json` export still reflects that same baseline rather than a new YouTube upload or a real 24h, 48h, or 7d snapshot window."
   }
 ];
