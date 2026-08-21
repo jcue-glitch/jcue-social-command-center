@@ -21173,14 +21173,14 @@ window.JCUE_DAILY_UPDATES = [
   },
   {
     generatedAt: "2026-08-20T07:00:00+09:00",
-    researchWindow: "Public trend and research scan completed on August 20, 2026 JST using TikTok Next 2026, Later TikTok and Reels roundups updated in July 2026, Meta's January 29, 2026 recommendations update, YouTube Help, Reddit discussion language, and the approved Substack Radar sources.",
+    researchWindow: "Public trend and research scan completed on August 20, 2026 JST using TikTok Next 2026, Later's April 8, 2026 TikTok roundup, Later's July 31, 2026 Reels roundup, Meta's January 29, 2026 recommendations update, YouTube Help guidance, the June 12, 2026 Reddit substitute-not-subtraction thread, approved Substack Radar sources, live Notion recent-row queries, and the local YouTube export last synced on 2026-05-20.",
     weeklyTheme: {
       dates: "August 17 - August 23, 2026",
       title: "The First Hour Should Sound Like You",
       thesis: "Push the weekly lane forward by making the first hour lighter on options and clearer on signals: one repeated fit formula, one low-friction ritual, one useful corner, and one thought about authoring a life before consuming one.",
       whyNow: "TikTok's Reali-Tea direction still rewards honest process and grounding, Instagram's July 2026 Reels formats are leaning into OOTD stops and documentary confessionals, and Jimmy's standing YouTube baseline still favors menswear framing, imperfection, and quiet-life reflection.",
       creativeDirection: "Keep the footage real and close: shirt texture, coffee steam, one object that saves time, one doorway exit, one train reflection. The morning should feel supported, not styled to death.",
-      performanceContext: "On August 20, 2026, the Notion connector was available and recent rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. The latest local YouTube cache still shows `syncedAt: 2026-05-20T05:31:01.368884Z`, no newer YouTube upload than the standing baseline set, and no valid new 24h, 48h, or 7d snapshot window to write back, so today's brief still leans on the existing menswear, imperfection, and quiet-reflection learnings."
+      performanceContext: "On August 20, 2026, the Notion connector was available and recent rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. The newest queried Content Piece is still the January 9, 2026 YouTube Short 'If Life Feels Quiet Right Now, This Is For You,' the newest snapshots and outlier rows still date to the May 20, 2026 manual baseline import, and the local YouTube cache still shows `syncedAt: 2026-05-20T05:31:01.368884Z`, so there is still no newer upload or true 24h, 48h, or 7d snapshot window to write back."
     },
     dailyBrief: {
       date: "2026-08-20",
@@ -21570,7 +21570,7 @@ window.JCUE_DAILY_UPDATES = [
     performance: {
       yesterdaySummary: {
         status: "No August 19, 2026 JST post-level performance movement was available to compare.",
-        note: "On August 20, 2026, recent Notion rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. They still matched the May 20, 2026 baseline import, and `.youtube/latest_metrics.json` remains synced at `2026-05-20T05:31:01.368884Z` with no newly surfaced YouTube video or valid 24h, 48h, or 7d snapshot window to write.",
+        note: "On August 20, 2026, recent Notion rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. The newest Content Piece still dates to January 9, 2026, the newest snapshot and outlier rows still date to May 20, 2026, and `.youtube/latest_metrics.json` remains synced at `2026-05-20T05:31:01.368884Z` with no newly surfaced YouTube video or valid 24h, 48h, or 7d snapshot window to write.",
         action: "Use the standing menswear, quiet-reflection, and imperfection baselines again today until a newer upload creates fresh movement."
       },
       outlierSignals: [
@@ -21604,6 +21604,447 @@ window.JCUE_DAILY_UPDATES = [
       suggestion: "Current strongest angle: 'a week in tokyo trying to stop borrowing my mornings'.",
       referenceNote: "Use Havenotats only for warmth and pacing. Keep Jimmy's topic on coffee, fit repetition, room support systems, commute texture, and the difference between consuming beauty and living inside it."
     },
-    performanceNote: "No new Notion rows were created on this August 20, 2026 JST run. The Notion connector was available and recent rows were queried successfully, but they still matched the standing May 20, 2026 YouTube baseline already reflected in `.youtube/latest_metrics.json`, and there were no newly discovered YouTube videos or valid 24h, 48h, or 7d snapshot windows to write."
+    performanceNote: "No new Notion rows were created on this August 20, 2026 JST run. The Notion connector was available and recent rows were queried successfully, but they still resolve to the same history already reflected in `.youtube/latest_metrics.json`: newest Content Piece on January 9, 2026, newest snapshot and outlier rows on May 20, 2026, and no newly discovered YouTube video or valid 24h, 48h, or 7d snapshot window to write."
+  },
+  {
+    generatedAt: "2026-08-21T07:00:00+09:00",
+    researchWindow: "Public trend and research scan completed on August 21, 2026 JST using TikTok Next 2026, Later's April 8, 2026 TikTok roundup, Later's July 31, 2026 Reels roundup, Meta's January 29, 2026 recommendations update, YouTube Help guidance, the June 12, 2026 Reddit substitute-not-subtraction thread, approved Substack Radar sources, live Notion recent-row queries, and the local YouTube export last synced on 2026-05-20.",
+    weeklyTheme: {
+      dates: "August 17 - August 23, 2026",
+      title: "The First Hour Should Sound Like You",
+      thesis: "Carry the weekly lane into Friday by refusing the end-of-week scramble: one reliable fit, one cleaner surface, one softer first input, and one thought about not outsourcing your pace to the feed.",
+      whyNow: "Current TikTok and Reels behavior still favors real-process footage, direct thesis packaging, and same-day specificity. Jimmy's confirmed baseline still points back to menswear framing, imperfection, and quiet-life reflection.",
+      creativeDirection: "Keep Friday tactile and slightly tired in a good way: shirt texture, desk corner, coffee, keys, bag, doorway, train reflection, and one small reset that helps the weekend arrive without becoming a performance.",
+      performanceContext: "On August 21, 2026, the Notion connector was available and recent rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. The newest queried Content Piece is still the January 9, 2026 YouTube Short 'If Life Feels Quiet Right Now, This Is For You,' the newest snapshots and outlier rows still date to the May 20, 2026 manual baseline import, and the local YouTube cache still shows `syncedAt: 2026-05-20T05:31:01.368884Z`, so there is still no newer upload or true 24h, 48h, or 7d snapshot window to write back."
+    },
+    dailyBrief: {
+      date: "2026-08-21",
+      day: "Friday",
+      deliveryTime: "07:00 JST",
+      title: "Do not let Friday borrow the whole room.",
+      objective: "Film a Friday morning batch that lowers end-of-week noise: one fit-repeat philosophy piece, one desk-or-bag reset piece, one coffee-and-phone ritual piece, and one talking-head thought about protecting your pace before the weekend turns into more consumption.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, desk or shelf corner, coffee setup, keys or bag detail, doorway exit, station platform, train-window reflection.",
+      recommendation: "Lead with the Friday fit-repeat reel again because the menswear baseline is still the clearest reach door. Use the thought video at night when viewers are already feeling the week in their body.",
+      todayDoNotDo: [
+        "Do not frame Friday like burnout content.",
+        "Do not make the reset video look like a productivity system.",
+        "Do not overstate the weekend; keep the focus on pace, not escape."
+      ],
+      approvalChecklist: [
+        "Does the first frame show the useful proof before the explanation?",
+        "Is the spoken thesis clear inside five seconds?",
+        "Do the captions sound like recognition rather than coaching?",
+        "Does the thought video stay grounded in Friday details instead of vague life advice?",
+        "Can one of today's posts ladder into the overdue long-form YouTube idea?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-08-21-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok Photo Mode"],
+        title: "Small Friday Resets That Keep The Weekend Honest",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Turn Friday into a saveable support-system post about resetting just enough to hear yourself again.",
+        creatorSearchTopics: ["daily lifestyle", "mindful living"],
+        hook: "small friday resets that keep the weekend honest",
+        firstFrameDirection: "Open on the most useful Friday detail first: bag packed, shirt ready, desk corner cleared, or coffee beside keys.",
+        retentionBridge: "Slide 2 should reveal that the goal is not becoming optimized. It is making space so the week stops echoing so loudly.",
+        shotList: [
+          "Slide 1: bag, shirt, or keys in morning light.",
+          "Slide 2: desk or shelf corner with one thing put back where it belongs.",
+          "Slide 3: coffee setup or first sip.",
+          "Slide 4: mirror fit or hand adjusting a cuff.",
+          "Slide 5: doorway, platform, or window reflection with the closing line."
+        ],
+        overlayText: [
+          "small friday resets that keep the weekend honest",
+          "put one thing back",
+          "leave one surface quieter",
+          "coffee before new noise",
+          "rest lands better in a room that can hear you"
+        ],
+        caption: "By Friday, the room can start sounding like the whole week.\n\nSo I try not to do a huge reset. Just a few small returns. Put one thing back. Leave one surface quieter. Pack the bag before the day gets crowded. Coffee before new noise.\n\nI do not think calm comes from doing everything.\nUsually it comes from removing one more layer of friction.\n\nThat is enough for me today.\nThe weekend does not need a performance. It just needs somewhere real to land.\n\n#jimmycue #DailyLifestyle #mindset #slowliving #tokyolife",
+        keywords: ["daily lifestyle", "mindful living", "Friday reset", "Tokyo life"],
+        seoKeywords: ["daily lifestyle", "mindful living", "Friday reset", "Tokyo morning routine"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#mindset", "#slowliving", "#tokyolife"],
+        editNotes: "Keep the images lightly imperfect. Friday should feel lived-in, not freshly staged."
+      },
+      {
+        id: "video-2026-08-21-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "Repeating The Fit Helps Me End The Week Better",
+        format: "Fit check / style philosophy, 18-26 seconds",
+        purpose: "Use the standing menswear baseline and current OOTD stop formatting to make Friday repetition feel like support, not laziness.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        hook: "repeating the fit helps me end the week better",
+        firstFrameDirection: "Open on cuff, waistband, or shoe detail before the full fit pause.",
+        retentionBridge: "Inside five seconds, land the point that the week already asked enough questions, so the outfit does not need to add more.",
+        shotList: [
+          "Close-up of shirt cuff, trouser line, belt, or shoe.",
+          "Walking stop into full fit reveal.",
+          "Hand adjusting one detail.",
+          "Doorway exit or station platform shot."
+        ],
+        talkingScript: "repeating the fit helps me end the week better.\n\nbecause by friday i do not need more options.\n\ni need less negotiation.\n\nthis is why i come back to the same shapes.\nnot because i stopped caring.\nbecause i already know how i move in them.\n\nsome clothes return you to yourself faster.\nthat matters a lot at the end of the week.",
+        caption: "By Friday, too many options can feel louder than they should.\n\nThat is why I like returning to the same fit formulas.\nNot because I ran out of ideas. Because the week already asked enough from me.\n\nI like clothes that let me arrive instead of perform.\nThe shape is familiar. The energy is cleaner. The whole day starts with less negotiation.\n\nThat kind of repetition feels more like self-respect than routine.\n\n#jimmycue #fitcheck #menslifestyle #DailyThoughts #ootd",
+        keywords: ["fit check", "mens lifestyle", "outfit check", "daily thoughts"],
+        seoKeywords: ["fit check", "mens lifestyle", "outfit check", "daily thoughts"],
+        hashtags: ["#jimmycue", "#fitcheck", "#menslifestyle", "#DailyThoughts", "#ootd"],
+        platformNotes: {
+          TikTok: "Keep the first detail frame tight and let the thesis land immediately.",
+          Instagram: "The OOTD pause format should stay understated, not trend-performed.",
+          YouTube: "Use the literal title 'Repeating The Fit Helps Me End The Week Better'."
+        },
+        editNotes: "Keep the delivery calm and slightly tired in a human way."
+      },
+      {
+        id: "video-2026-08-21-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels"],
+        title: "Your Weekend Starts Before You Leave The Room",
+        format: "Desk or bag reset / pace reel, 18-24 seconds",
+        purpose: "Translate Friday reset behavior into a simple support-system point instead of productivity content.",
+        creatorSearchTopics: ["daily lifestyle", "digital minimalism"],
+        hook: "your weekend starts before you leave the room",
+        firstFrameDirection: "Open on the desk, shelf, or bag first before Jimmy appears.",
+        retentionBridge: "At 3-5 seconds, say that rest lands differently when the room is not still shouting the week back at you.",
+        shotList: [
+          "Desk or shelf corner with one thing being put back.",
+          "Bag being packed or keys picked up.",
+          "Coffee beside the cleared surface.",
+          "Doorway or hallway exit."
+        ],
+        talkingScript: "your weekend starts before you leave the room.\n\nthat is what i keep feeling on fridays.\n\nnot because everything needs to be clean.\njust because rest lands differently when the week is not still shouting back at you.\n\nso i try to leave one surface quieter.\npack the bag.\nput one thing back.\n\nnothing dramatic.\njust enough so i do not come home to more noise than i left with.",
+        caption: "I think a lot of people expect rest to begin once the work ends.\n\nBut sometimes it begins much earlier than that.\nWith one cleared surface. A packed bag. Keys where they belong. One less signal waiting for you when you get home.\n\nI do not mean perfect. I mean quieter.\nThat difference is usually enough.\n\n#jimmycue #DailyLifestyle #digitalminimalism #slowliving #DailyThoughts",
+        keywords: ["daily lifestyle", "digital minimalism", "Friday reset", "daily thoughts"],
+        seoKeywords: ["daily lifestyle", "digital minimalism", "Friday reset", "daily thoughts"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          TikTok: "Best when the visual proof arrives before Jimmy's face.",
+          Instagram: "Works if the reset stays specific and not productivity-coded.",
+          YouTube: "Cross-post only if the opening image clearly sells the point."
+        },
+        editNotes: "Avoid speed-ramping or hyper-cleaning energy."
+      },
+      {
+        id: "video-2026-08-21-03",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "Do Not Give The Phone Friday First",
+        format: "Coffee ritual / digital-minimalism reel, 18-24 seconds",
+        purpose: "Use low-friction substitute framing to protect Friday morning tone without moralizing.",
+        creatorSearchTopics: ["coffee morning routine", "digital minimalism"],
+        hook: "do not give the phone friday first",
+        firstFrameDirection: "Start with coffee in hand or mid-pour, then show the phone face-down near the edge of frame.",
+        retentionBridge: "Inside five seconds, say that Friday gets borrowed fastest when the first mood of the day is not yours.",
+        shotList: [
+          "Coffee pour or cup lift.",
+          "Phone face-down.",
+          "Headphones or one song cue.",
+          "Window light or station reflection."
+        ],
+        talkingScript: "do not give the phone friday first.\n\nthat is the rule i keep coming back to.\n\nbecause by the end of the week,\nyour pace is easier to borrow.\n\ni would rather start with coffee.\none song.\none quiet minute before the feed starts telling me what kind of friday this is supposed to be.\n\nit is not discipline.\nit is just a cleaner first atmosphere.",
+        caption: "Friday mornings feel more absorbent than people admit.\n\nOne scroll and suddenly the whole day is borrowing somebody else's urgency, plans, references, and tone.\n\nThat is why I like coffee first.\nNot as a life fix. Just as a cleaner first atmosphere.\nA small pause before the feed starts naming the day for me.\n\n#jimmycue #coffeeroutine #digitalminimalism #slowliving #DailyThoughts",
+        keywords: ["coffee morning routine", "digital minimalism", "daily thoughts", "slow living"],
+        seoKeywords: ["coffee morning routine", "digital minimalism", "daily thoughts", "slow living"],
+        hashtags: ["#jimmycue", "#coffeeroutine", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          TikTok: "Keep the thesis plain and direct in the first line.",
+          Instagram: "Pairs well with today's documentary-confessional lane.",
+          YouTube: "Use only if the opening coffee frame is strong enough."
+        },
+        editNotes: "Let the coffee sound breathe. Keep the voice low-key."
+      },
+      {
+        id: "thought-2026-08-21-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "A Weekend Will Not Save A Borrowed Life",
+        format: "Talking-head thought video, 55-85 seconds",
+        purpose: "Give Jimmy a Friday spoken essay that links pace, authorship, and end-of-week self-recognition without turning the weekend into a fantasy fix.",
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        sourceInspiration: "Current real-process and documentary-confessional short-form behavior, substitute-not-subtraction digital-minimalism language, and Substack Radar ideas about specificity, execution, and becoming more yourself through repeated lived choices.",
+        sourceReferences: [
+          {
+            title: "TikTok Next 2026 Trend Report",
+            source: "TikTok for Business",
+            url: "https://ads.tiktok.com/business/en-US/next",
+            note: "Used for the continued grounding, honesty, and visible-process signal."
+          },
+          {
+            title: "Current TikTok Trends to Try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/current-tiktok-trends/",
+            note: "Used for direct-thesis packaging and honest in-progress behavior."
+          },
+          {
+            title: "Top Instagram Reels Trends to Try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/instagram-reels-trends/",
+            note: "Used for documentary-confessional and OOTD stop packaging cues."
+          },
+          {
+            title: "2026: AI Drives Performance",
+            source: "Meta",
+            url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+            note: "Used for the emphasis on original, timely Reels over recycled clips."
+          },
+          {
+            title: "Understand your content performance for YouTube's recommendation system",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/16559650?hl=en",
+            note: "Used to keep the title and first spoken line aligned."
+          },
+          {
+            title: "What replaced the phone for you? Looking for the substitute, not the subtraction",
+            source: "Reddit / r/DopamineDetoxing",
+            url: "https://www.reddit.com/r/DopamineDetoxing/comments/1u3ulpv/what_replaced_the_phone_for_you_looking_for_the/",
+            note: "Used for soft-substitute framing rather than anti-phone moralizing."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the idea that your life gets stronger as it becomes more specifically yours."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for translating a big feeling into one real move instead of another plan."
+          }
+        ],
+        hook: "a weekend will not save a borrowed life",
+        firstFrameDirection: "Open seated with coffee and bag or keys in frame, like Jimmy is catching one clean thought before leaving.",
+        retentionBridge: "In the first five seconds, say the thesis clearly, then cut to the room, fit, coffee, and bag as proof that pace gets authored before the day gets public.",
+        fullTalkingScript: "a weekend will not save a borrowed life.\n\nand i think a lot of people quietly expect it to.\n\nwe get to friday carrying too much noise,\nthen act like two free days are somehow going to return us to ourselves automatically.\n\nbut i do not think rest works like that.\ni think it starts earlier.\nwith what you repeat before you leave the room.\ncoffee first.\none fit i already trust.\none surface a little quieter.\nkeys, bag, out the door without borrowing a whole new mood from the phone.\n\nsmall things, but they change the texture of the day.\nand that matters.\nbecause if your whole pace is built from other people's references,\neven the weekend can start feeling crowded.\n\nso lately i have been thinking less about escape and more about authorship.\nnot a perfect life.\njust a life that sounds more like me before the world gets there first.\n\nmaybe that is what real rest needs.\nnot more time.\njust less borrowed atmosphere.",
+        beatSheet: [
+          "Natural hook: a weekend will not save a borrowed life.",
+          "Thesis immediately: two free days do not automatically return you to yourself.",
+          "Cultural observation: Friday arrives loaded with borrowed pace, plans, and references from the feed.",
+          "Personal proof: coffee, trusted fit, quieter surface, keys, bag, doorway exit.",
+          "Practical principle: author the first atmosphere of the day before collecting more noise.",
+          "Quiet final line: real rest needs less borrowed atmosphere."
+        ],
+        shotList: [
+          "Talking head with coffee and keys or bag in frame.",
+          "Coffee pour or cup lift.",
+          "Fit detail or mirror pause.",
+          "Desk or shelf corner reset.",
+          "Phone face-down or headphones detail.",
+          "Bag pickup, doorway exit, or train reflection.",
+          "Return to face for the final line."
+        ],
+        caption: "A lot of people expect the weekend to rescue them from a week that never really felt like theirs.\n\nI get that feeling.\nBut I do not think rest starts when the calendar loosens up.\nI think it starts much earlier, with the first atmosphere you let into the day.\n\nCoffee first. One fit I trust. One surface a little quieter. Keys, bag, out the door.\nSmall things, but they make it harder for the whole day to get built from borrowed references.\n\nMaybe that is what authorship looks like when life is ordinary.\nNot escape.\nJust less borrowed atmosphere.\n\n#jimmycue #DailyThoughts #mindfulliving #slowliving #digitalminimalism",
+        keywords: ["daily thoughts", "mindful living", "digital minimalism", "authored life"],
+        seoKeywords: ["daily thoughts", "mindful living", "digital minimalism", "authored life"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#mindfulliving", "#slowliving", "#digitalminimalism"],
+        platformNotes: {
+          TikTok: "Keep the hook text tight and let the thesis arrive before any scene-setting.",
+          Instagram: "Best evening asset for sends and saves because the worldview is strong but still lived.",
+          YouTube: "Use the literal title 'A Weekend Will Not Save A Borrowed Life'."
+        },
+        editNotes: "Delivery should feel conversational and slightly unforced. Do not turn it into a speech."
+      },
+      {
+        id: "story-2026-08-21-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Friday First Input Poll",
+        format: "2 frames with poll",
+        purpose: "Pull audience language on what sets Friday tone first.",
+        hook: "what sets your friday tone first?",
+        firstFrameDirection: "Start on coffee or the phone face-down with Jimmy's answer hinted in small text.",
+        retentionBridge: "Second frame adds a simple poll: coffee or the phone.",
+        shotList: [
+          "Coffee or phone face-down still.",
+          "Poll frame."
+        ],
+        talkingScript: "Text only.",
+        caption: "trying not to borrow the whole day early",
+        keywords: ["coffee morning routine", "daily thoughts"],
+        hashtags: ["#jimmycue"],
+        editNotes: "Keep it dry and minimal."
+      },
+      {
+        id: "story-2026-08-21-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Weekend Landing Question Box",
+        format: "2 frames with question box",
+        purpose: "Collect audience language on what makes home or room feel easier at the end of the week.",
+        hook: "what makes your room feel easier on friday night?",
+        firstFrameDirection: "Open on the desk, shelf, or keys corner with minimal text.",
+        retentionBridge: "Second frame adds the question box and Jimmy's own answer: one quiet surface.",
+        shotList: [
+          "Useful corner still.",
+          "Question-box frame."
+        ],
+        talkingScript: "Text only.",
+        caption: "trying to make rest land better",
+        keywords: ["quiet luxury", "daily lifestyle"],
+        hashtags: ["#jimmycue"],
+        editNotes: "Keep this personal, not home-advice coded."
+      },
+      {
+        id: "written-2026-08-21-01",
+        type: "Written Post",
+        platformPriority: ["Substack", "Instagram Notes"],
+        title: "Real Rest Needs Less Borrowed Atmosphere",
+        format: "Short note, 170-220 words",
+        purpose: "Extend the Friday thought-video worldview into a concise written note Jimmy can keep as a Substack draft or note.",
+        creatorSearchTopics: ["daily thoughts", "mindful living"],
+        hook: "real rest needs less borrowed atmosphere",
+        firstFrameDirection: "If paired with an image, use coffee, keys, bag, and one quiet surface in the same honest still.",
+        retentionBridge: "Open by naming how often people expect the weekend to fix a pace they never chose.",
+        shotList: [
+          "Optional still only."
+        ],
+        talkingScript: "Written note only.",
+        caption: "real rest needs less borrowed atmosphere.\n\nby friday, a lot of people are not just tired.\nthey are crowded.\nby noise, references, urgency, tabs still open in the head, and a whole pace that no longer feels like theirs.\n\nit makes sense that the weekend starts looking like a rescue plan.\nbut i do not think rest begins when work ends.\ni think it begins much earlier than that.\nwith one surface a little quieter.\ncoffee before the phone.\none fit you already trust.\nkeys, bag, out the door without borrowing a whole new mood.\n\nnone of this is dramatic enough to look like transformation.\nwhich is exactly why it feels real.\n\nmaybe authorship in ordinary life is just this:\nless borrowed atmosphere.\nmore choices you can still recognize as yours.",
+        keywords: ["daily thoughts", "mindful living", "authorship"],
+        seoKeywords: ["daily thoughts", "mindful living", "authorship"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Substack: "Keep as a draft or note draft unless Jimmy chooses to publish manually.",
+          Instagram: "Can be reduced into Notes or story text."
+        },
+        editNotes: "Let it stay loose and human. Do not polish away the Friday feeling."
+      }
+    ],
+    schedule: [
+      { time: "07:05-07:12", action: "Stage coffee, phone face-down, bag, keys, trusted fit, and one desk or shelf corner without over-tidying the room.", platform: "Private", reason: "Build the Friday support-system proof before filming." },
+      { time: "07:12-07:45", action: "Film the fit-check reel, desk-or-bag reset reel, coffee ritual reel, Thought Video, carousel assets, and both Stories in one apartment-to-doorway pass.", platform: "Phone", reason: "Keeps the whole pack inside the real 30-45 minute morning window." },
+      { time: "08:10", action: "Post 'Repeating The Fit Helps Me End The Week Better'.", platform: "Instagram Reels, TikTok", reason: "Menswear framing still offers the clearest standing reach door." },
+      { time: "12:20", action: "Post the carousel.", platform: "Instagram Photo, TikTok Photo Mode", reason: "Saveable reset content fits midday browsing and Friday planning behavior." },
+      { time: "18:40", action: "Post 'Your Weekend Starts Before You Leave The Room' or 'Do Not Give The Phone Friday First'.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "Literal searchable packaging fits commute and end-of-week scroll behavior." },
+      { time: "20:30", action: "Post 'A Weekend Will Not Save A Borrowed Life'.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "Reflective worldview content still has the best chance of deeper Friday-night comments." },
+      { time: "Between posts", action: "Share both Stories and save replies about Friday tone and what makes home feel easier.", platform: "Instagram Stories", reason: "Audience language can sharpen tomorrow's weekend hooks and captions." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 Reali-Tea forecast says audiences are craving grounding, honesty, shared experience, and visible process over polished perfection.",
+        source: "TikTok for Business",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        application: "Keep today's footage same-day, tactile, and visibly lived rather than overproduced."
+      },
+      {
+        signal: "Later's April 2026 TikTok roundup highlights honest in-progress content, accountability formats, and search-led answer videos as current platform behavior.",
+        source: "Later",
+        url: "https://later.com/blog/current-tiktok-trends/",
+        application: "Package at least one Friday asset as a direct answer-thought, not only an aesthetic montage."
+      },
+      {
+        signal: "Later's July 31, 2026 Reels roundup shows an OOTD stop format where the walk pauses and outfit details pop on screen.",
+        source: "Later",
+        url: "https://later.com/blog/instagram-reels-trends/",
+        application: "Use a quieter version of that pause format for today's fit-check without losing Jimmy's softness."
+      },
+      {
+        signal: "The same July 2026 Reels roundup also spotlights documentary-confessional and personality-dump formats that make ordinary days feel more specific and watchable.",
+        source: "Later",
+        url: "https://later.com/blog/instagram-reels-trends/",
+        application: "Let Jimmy's voice and self-definition lead the Friday reset and thought-video pieces."
+      },
+      {
+        signal: "Meta said on January 29, 2026 that recommendations are surfacing more original and same-day content, with 75% of Instagram recommendations coming from original posts and more same-day Reels being shown.",
+        source: "Meta",
+        url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+        application: "Bias toward original Friday footage and same-day captions instead of recycling older clips."
+      },
+      {
+        signal: "YouTube says appeal, engagement, and satisfaction drive recommendations, and the opening seconds should deliver the title's promise quickly.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/16559650?hl=en",
+        application: "Keep Shorts titles literal and make the thesis land in the first spoken line."
+      },
+      {
+        signal: "A June 12, 2026 Reddit thread on replacing the phone centers on low-friction substitutes rather than pure restriction.",
+        source: "Reddit / r/DopamineDetoxing",
+        url: "https://www.reddit.com/r/DopamineDetoxing/comments/1u3ulpv/what_replaced_the_phone_for_you_looking_for_the/",
+        application: "Frame coffee, music, or a quieter surface as softer first choices instead of moralized discipline."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Kevin Kelly's May 18, 2026 essay argues that a life gets stronger as it becomes more specific and less replaceable.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use Jimmy's repeated fit, quieter surface, coffee, and bag routine as proof that specificity creates authorship.",
+        postIdea: "Rest lands better when your pace still sounds like you."
+      },
+      {
+        signal: "The owner-approved Miranda Does Brands reference remains useful for translating a big Friday feeling into one real move.",
+        source: "Miranda Does Brands",
+        url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+        application: "Translate the end-of-week mood into one concrete reset Jimmy can actually film before leaving home.",
+        postIdea: "Before the weekend starts, make one choice that gives the room back to you."
+      }
+    ],
+    keywordBank: {
+      primary: ["daily thoughts", "fit check", "coffee morning routine", "digital minimalism", "daily lifestyle"],
+      secondary: ["mens lifestyle", "mindful living", "Friday reset", "Tokyo morning", "outfit check"],
+      titles: [
+        "Repeating The Fit Helps Me End The Week Better",
+        "Your Weekend Starts Before You Leave The Room",
+        "Do Not Give The Phone Friday First",
+        "A Weekend Will Not Save A Borrowed Life",
+        "Small Friday Resets That Keep The Weekend Honest"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#slowliving", "#DailyLifestyle", "#digitalminimalism"],
+        style: ["#jimmycue", "#fitcheck", "#menslifestyle", "#ootd", "#DailyThoughts"],
+        ritual: ["#jimmycue", "#coffeeroutine", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        room: ["#jimmycue", "#DailyLifestyle", "#mindset", "#slowliving", "#tokyolife"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active today because the strongest confirmed baseline row is still the casual-menswear YouTube Short at 1,896 views.",
+      "Keep one reflective talking-head asset active because the quiet-life baseline still has the deepest comment density at 3 comments on 60 views.",
+      "Keep imperfection, support, and authorship language in the copy because the standing perfection-theme learning still supports Jimmy's wabi-sabi lane.",
+      "Keep titles and first lines literal because current YouTube guidance still puts heavy weight on appeal and early engagement.",
+      "Do not create fresh Notion snapshot rows until a new upload or true 24h, 48h, or 7d window exists; today's local YouTube export and queried Notion rows still reflect the January 9 / May 20 baseline history."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No August 20, 2026 JST post-level performance movement was available to compare.",
+        note: "On August 21, 2026, recent Notion rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. The newest Content Piece still dates to January 9, 2026, the newest snapshot and outlier rows still date to May 20, 2026, and `.youtube/latest_metrics.json` remains synced at `2026-05-20T05:31:01.368884Z` with no newly surfaced YouTube video or valid 24h, 48h, or 7d snapshot window to write.",
+        action: "Use the standing menswear, quiet-reflection, and imperfection baselines again today until a newer upload creates fresh movement."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the strongest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The best confirmed baseline still pairs a grounded life phrase with explicit style-search language.",
+          repeat: "Keep one fit-check or style-philosophy asset active today."
+        },
+        {
+          title: "Quiet-life reflection still creates deeper comments",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "The reflective quiet-life lane still outperforms on comment density relative to reach.",
+          repeat: "Keep one talking-head thought piece with a clear thesis in the first line."
+        },
+        {
+          title: "Perfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "The imperfection theme still validates practical enoughness language when Jimmy avoids generic motivation.",
+          repeat: "Use support, authorship, and enoughness language rather than polished self-help."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-08-21",
+      note: "The biweekly long-form slot remains overdue as of Friday, August 21, 2026.",
+      suggestion: "Current strongest angle: 'a week in tokyo trying to stop borrowing my pace'.",
+      referenceNote: "Use Havenotats only for warmth and pacing. Keep Jimmy's topic on coffee, fit repetition, desk and room support systems, commute texture, and how ordinary Friday choices make rest more believable."
+    },
+    performanceNote: "No new Notion rows were created on this August 21, 2026 JST run. The Notion connector was available and recent rows were queried successfully, but they still resolve to the same history already reflected in `.youtube/latest_metrics.json`: newest Content Piece on January 9, 2026, newest snapshot and outlier rows on May 20, 2026, and no newly discovered YouTube video or valid 24h, 48h, or 7d snapshot window to write."
   }
 ];
