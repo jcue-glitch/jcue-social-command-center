@@ -22500,5 +22500,465 @@ window.JCUE_DAILY_UPDATES = [
       referenceNote: "Use Havenotats only for warmth and connection pacing. Keep Jimmy's topic on coffee, fit repetition, object culture, commute texture, saved-inspiration fatigue, and how small morning choices make a calmer creative life believable."
     },
     performanceNote: "No new Notion rows were created on this August 25, 2026 JST run. Direct data-source reads worked, but the queried history still resolves to the same baseline already reflected in `.youtube/latest_metrics.json`: newest Content Piece on January 9, 2026, newest snapshot and outlier rows on May 20, 2026, and no newly discovered YouTube video or valid 24h, 48h, or 7d snapshot window to write."
+  },
+  {
+    generatedAt: "2026-08-26T07:00:00+09:00",
+    researchWindow: "Public trend and research scan completed on August 26, 2026 JST using TikTok Next 2026, Later's August 21, 2026 TikTok and Instagram trends pages, Meta's January 29, 2026 recommendations update, YouTube Help guidance on Trends, Inspiration, and recommendation performance, Carolyn Yoo's May 8, 2026 'Go quietly public on the internet', Danielle Bean's January 21, 2026 'Digital Minimalism for Normal People', approved Substack Radar sources, live Notion recent-row queries, and the local YouTube export last synced on 2026-05-20.",
+    weeklyTheme: {
+      dates: "August 24 - August 30, 2026",
+      title: "Protect The First Atmosphere",
+      thesis: "Midweek should feel a little less performative: one trusted fit, one honest room detail, one physical ritual, and one thought that belongs to Jimmy before the platforms start asking for a version of him.",
+      whyNow: "TikTok's 2026 signals still reward real process, curiosity-driven discovery, and intentional daily rituals, while Reels and Shorts continue to reward original same-day packaging and clear audience-facing hooks in the first seconds.",
+      creativeDirection: "Keep Wednesday lightly awake and a little undone in a good way: coffee steam, shirt texture, chair corner, face-down phone, notebook, keys, door handle, train reflection, and a talking-head thought that feels like Jimmy is protecting one quiet part of himself before going public.",
+      performanceContext: "On August 26, 2026, the Notion connector was fully available and recent rows were successfully queried from Content Pieces, Performance Snapshots, and Outliers + Learnings. The newest queried Content Piece is still the January 9, 2026 YouTube Short 'If Life Feels Quiet Right Now, This Is For You,' the newest snapshots and outlier rows still date to the May 20, 2026 manual baseline import, and the local YouTube cache still shows `syncedAt: 2026-05-20T05:31:01.368884Z`, so there is still no newer upload or valid 24h, 48h, or 7d snapshot window to write back."
+    },
+    dailyBrief: {
+      date: "2026-08-26",
+      day: "Wednesday",
+      deliveryTime: "07:00 JST",
+      title: "Keep one part of the morning unperformed.",
+      objective: "Film a Wednesday batch that makes quieter public presence feel attractive: one fit-check support clip, one coffee/no-phone ritual clip, one room-or-object reset clip, and one talking-head thought about not needing to disappear from the internet to stop performing for it.",
+      productionWindow: "30-45 minutes before work",
+      locationPlan: "Apartment mirror, coffee setup, chair or bed corner, small shelf or desk reset, doorway exit, station platform, train-window reflection.",
+      recommendation: "Lead with the fit-check asset again because the standing menswear baseline is still the strongest reach door. Use the Thought Video at night and let the room/object reel quietly seed the Self-Authored Life worldview without selling anything.",
+      todayDoNotDo: [
+        "Do not make quiet presence sound like a branding framework.",
+        "Do not turn the room reset into decor content or luxury signaling.",
+        "Do not make the Thought Video anti-social-media in a dramatic way."
+      ],
+      approvalChecklist: [
+        "Does the first frame already show the proof before Jimmy explains it?",
+        "Is the thesis spoken plainly inside five seconds?",
+        "Do the captions sound like a lived note rather than advice?",
+        "Does one piece tie taste back to ritual instead of objects alone?",
+        "Could all of this be captured honestly inside one apartment-to-commute pass?"
+      ]
+    },
+    contentPack: [
+      {
+        id: "static-2026-08-26-01",
+        type: "Static / Carousel",
+        platformPriority: ["Instagram", "TikTok Photo Mode"],
+        title: "Kinda Chic To Protect The First Ten Minutes",
+        format: "5-slide carousel or TikTok photo mode post",
+        purpose: "Use the current 'kinda chic' format lightly while keeping Jimmy's tone grounded and midweek-specific.",
+        creatorSearchTopics: ["daily lifestyle", "mindful living"],
+        hook: "kinda chic to protect the first ten minutes",
+        firstFrameDirection: "Open on coffee, face-down phone, and one shirt or notebook in the same frame so the point reads immediately.",
+        retentionBridge: "Slide 2 should quietly admit that nothing here is glamorous. It just keeps the day from getting borrowed too early.",
+        shotList: [
+          "Slide 1: coffee, phone face-down, and keys in soft light.",
+          "Slide 2: one shirt, cuff, or trouser detail.",
+          "Slide 3: chair, bed corner, or desk surface after a tiny reset.",
+          "Slide 4: notebook, headphones, or magazine detail.",
+          "Slide 5: doorway or platform reflection with the closing line."
+        ],
+        overlayText: [
+          "kinda chic to protect the first ten minutes",
+          "coffee before commentary",
+          "one fit i already trust",
+          "one corner that feels less crowded",
+          "a calmer day usually starts small"
+        ],
+        caption: "Midweek is when I start feeling how easy it is to hand the morning away.\n\nSo I keep coming back to the same small things.\nCoffee before commentary. One fit I already trust. One corner that feels less crowded. Headphones. Keys. Out the door.\n\nNone of it looks important enough to count as change.\nThat is probably why it works.\n\nA lot of calm is just the result of giving yourself ten minutes that still sound like you.\n\n#jimmycue #DailyLifestyle #mindfulliving #slowliving #tokyolife",
+        keywords: ["daily lifestyle", "mindful living", "slow living", "Tokyo life"],
+        seoKeywords: ["daily lifestyle", "mindful living", "slow living", "Tokyo life"],
+        hashtags: ["#jimmycue", "#DailyLifestyle", "#mindfulliving", "#slowliving", "#tokyolife"],
+        editNotes: "Keep the stills tactile and slightly sleepy. Do not sharpen them into glossy productivity content."
+      },
+      {
+        id: "video-2026-08-26-01",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok", "YouTube Shorts"],
+        title: "The Fit Check Is Really A Reset",
+        format: "Fit check / style philosophy, 18-24 seconds",
+        purpose: "Use the standing menswear baseline and OOTD stop behavior to frame style as support, not display.",
+        creatorSearchTopics: ["fit check", "mens lifestyle"],
+        hook: "the fit check is really a reset",
+        firstFrameDirection: "Open on cuff, shoe, waistband, or shirt texture before the full fit reveal.",
+        retentionBridge: "Inside five seconds, say that some outfits do not impress the day. They steady it.",
+        shotList: [
+          "Close-up of shirt cuff, belt, trouser line, or shoe.",
+          "Mirror pause or OOTD stop.",
+          "Hand adjusting one detail.",
+          "Doorway exit or station platform."
+        ],
+        talkingScript: "the fit check is really a reset.\n\nsome outfits do not impress the day.\n\nthey steady it.\n\nthat is why i come back to the same shapes.\nnot because i ran out of ideas.\nbecause i already know how i move in them.\n\nwhen the fit is familiar,\ni stop negotiating with the morning so much.",
+        caption: "I do not think style has to be loud to matter.\n\nSometimes it just removes friction.\nYou stop overthinking. Your posture changes. You leave the room feeling a little more coherent than you did five minutes earlier.\n\nThat is enough for me.\nI take clothes seriously because they help me return to myself faster.\nNot because I need to perform.\n\n#jimmycue #fitcheck #menslifestyle #DailyThoughts #ootd",
+        keywords: ["fit check", "mens lifestyle", "outfit check", "daily thoughts"],
+        seoKeywords: ["fit check", "mens lifestyle", "outfit check", "daily thoughts"],
+        hashtags: ["#jimmycue", "#fitcheck", "#menslifestyle", "#DailyThoughts", "#ootd"],
+        platformNotes: {
+          TikTok: "Use the OOTD stop structure, but let the line delivery stay quiet.",
+          Instagram: "Keep text clean and let Jimmy's face appear early.",
+          YouTube: "Use the literal title 'The Fit Check Is Really A Reset'."
+        },
+        editNotes: "Favor one honest pause over extra transitions."
+      },
+      {
+        id: "video-2026-08-26-02",
+        type: "Short-form Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "The First Sip Should Not Belong To The Feed",
+        format: "Coffee ritual / digital minimalism reel, 18-24 seconds",
+        purpose: "Translate digital minimalism into an ordinary coffee-proof clip instead of a dramatic detox statement.",
+        creatorSearchTopics: ["coffee morning routine", "digital minimalism"],
+        hook: "the first sip should not belong to the feed",
+        firstFrameDirection: "Open on coffee pour or cup lift with the phone visible but face-down nearby.",
+        retentionBridge: "At 3-5 seconds, say that the first sip matters because it tells Jimmy whether the day is starting from inside or outside.",
+        shotList: [
+          "Coffee pour or cup lift.",
+          "Phone face-down on the table.",
+          "Jimmy half-awake in frame.",
+          "Window light, keys, or doorway exit."
+        ],
+        talkingScript: "the first sip should not belong to the feed.\n\nnot because the internet is evil.\n\njust because i want to hear one thought of my own first.\ncoffee.\none quiet minute.\nphone face-down.\n\nsometimes that is the whole difference between a day that feels lived and a day that feels borrowed.",
+        caption: "I am not trying to become a monk.\nI still use my phone. I still like the internet.\n\nI just do not like when the day starts with other people's pace before I have even had coffee.\nSo lately I have been trying to keep the first sip a little more mine.\n\nNot dramatic. Just cleaner.\nAnd honestly, that changes more than it should.\n\n#jimmycue #coffeeroutine #digitalminimalism #slowliving #DailyThoughts",
+        keywords: ["coffee morning routine", "digital minimalism", "slow living", "daily thoughts"],
+        seoKeywords: ["coffee morning routine", "digital minimalism", "slow living", "daily thoughts"],
+        hashtags: ["#jimmycue", "#coffeeroutine", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        platformNotes: {
+          TikTok: "The first line should land before any extra B-roll.",
+          Instagram: "Let the cup and phone share the first frame.",
+          YouTube: "Use the literal title 'The First Sip Should Not Belong To The Feed'."
+        },
+        editNotes: "Keep room tone and cup sounds audible."
+      },
+      {
+        id: "video-2026-08-26-03",
+        type: "Short-form Video",
+        platformPriority: ["Instagram Reels", "TikTok"],
+        title: "The Room Does Not Need More Stuff, Just A Signal",
+        format: "Room reset / object-culture reel, 16-22 seconds",
+        purpose: "Seed the atelier worldview by turning one room adjustment into a felt change instead of a styling tutorial.",
+        creatorSearchTopics: ["mindful living", "quiet luxury"],
+        hook: "the room does not need more stuff. just a signal.",
+        firstFrameDirection: "Open on the imperfect corner first, then immediately show one object being moved or one surface being cleared.",
+        retentionBridge: "Inside five seconds, say that the object is not the point. It just tells the room how to behave again.",
+        shotList: [
+          "Before corner or desk surface.",
+          "Hand moving one object, cup, notebook, flower stem, or stone.",
+          "After frame held for one second.",
+          "Jimmy leaving the room or turning back once."
+        ],
+        talkingScript: "the room does not need more stuff.\njust a signal.\n\none thing put back.\none surface that feels less crowded.\none object that reminds me how i want the room to behave.\n\ni think people underestimate how much atmosphere changes when something small goes back where it belongs.",
+        caption: "A space can look good and still not feel like you.\n\nUsually the difference is not one more object.\nIt is one small ritual.\nPut the cup back. Clear the chair. Move the notebook. Let one surface breathe again.\n\nThe object is not really the point.\nIt just gives the room somewhere to start.\n\n#jimmycue #mindfulliving #quietluxury #DailyLifestyle #tokyolife",
+        keywords: ["mindful living", "quiet luxury", "daily lifestyle", "room reset"],
+        seoKeywords: ["mindful living", "quiet luxury", "daily lifestyle", "room reset"],
+        hashtags: ["#jimmycue", "#mindfulliving", "#quietluxury", "#DailyLifestyle", "#tokyolife"],
+        platformNotes: {
+          TikTok: "Keep this tactile and underexplained.",
+          Instagram: "Best as a saveable calm-living Reel.",
+          YouTube: "Skip unless the before/after reads instantly."
+        },
+        editNotes: "The before should stay real. Do not over-clean."
+      },
+      {
+        id: "thought-2026-08-26-01",
+        type: "Thought Video",
+        platformPriority: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+        title: "You Do Not Need To Leave The Internet. You Need A Place To Return To.",
+        format: "Thought Video, 55-85 seconds",
+        purpose: "Give Jimmy a Wednesday spoken essay about quiet public presence, authorship, and protecting one private ritual before performance starts.",
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        sourceInspiration: "TikTok's real-process and curiosity signals, YouTube's audience-interest and hook guidance, and Substack writing about quiet public presence, ordinary digital minimalism, and building a life that feels more specifically yours.",
+        sourceReferences: [
+          {
+            title: "TikTok Next 2026 Trend Report",
+            source: "TikTok for Business",
+            url: "https://ads.tiktok.com/business/en-US/next",
+            note: "Used for the grounding, real-process, curiosity, and intentional-routine signals."
+          },
+          {
+            title: "The top TikTok trends to try this week",
+            source: "Later",
+            url: "https://later.com/blog/tiktok-trends/",
+            note: "Used for the current 'kinda chic' and confessional-format packaging cues."
+          },
+          {
+            title: "Top Instagram Reels trends to try in 2026",
+            source: "Later",
+            url: "https://later.com/blog/instagram-reels-trends/",
+            note: "Used for current OOTD stop and creator-in-frame Reels packaging cues."
+          },
+          {
+            title: "2026: AI Drives Performance",
+            source: "Meta",
+            url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+            note: "Used for the original and timely same-day Reels signal."
+          },
+          {
+            title: "Explore trends on YouTube",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/11962757?co=GENIE.Platform%3DDesktop&hl=en",
+            note: "Used for audience searches, breakout videos, and Shorts content-gap framing."
+          },
+          {
+            title: "Understand your content performance for YouTube's recommendation system",
+            source: "YouTube Help",
+            url: "https://support.google.com/youtube/answer/16559650?hl=en",
+            note: "Used for the appeal, engagement, satisfaction, and opening-seconds guidance."
+          },
+          {
+            title: "Go quietly public on the internet",
+            source: "Carolyn Yoo",
+            url: "https://cyoo.substack.com/p/quietly-public-on-the-internet",
+            note: "Used for the idea of sharing without living in constant online performance."
+          },
+          {
+            title: "Digital Minimalism for Normal People",
+            source: "Danielle Bean",
+            url: "https://daniellebean.substack.com/p/digital-minimalism-for-normal-people",
+            note: "Used for the ordinary, non-all-or-nothing framing around phone habits."
+          },
+          {
+            title: "Your Most Improbable Life",
+            source: "Kevin Kelly / The Technium",
+            url: "https://kk.org/thetechnium/your-most-improbable-life/",
+            note: "Used for the idea that a stronger life becomes more specifically yours."
+          },
+          {
+            title: "How to do the shit you say you're going to do",
+            source: "Miranda Does Brands",
+            url: "https://mirandadoesbrands.substack.com/p/how-to-do-the-shit-you-say-youre",
+            note: "Used for translating a worldview into one real act before work."
+          }
+        ],
+        hook: "you do not need to leave the internet. you need a place to return to.",
+        firstFrameDirection: "Open seated with coffee, one object on the table, and the phone out of reach so the thesis is visible before Jimmy speaks.",
+        retentionBridge: "In the first five seconds, say the thesis clearly, then cut to coffee, shirt, room, and doorway proof so the point lands as ordinary life rather than theory.",
+        fullTalkingScript: "you do not need to leave the internet.\n\nyou need a place to return to.\n\nbecause i think a lot of people are not even tired from being online.\nthey are tired from performing a version of themselves all day.\n\nposting.\nreplying.\nscrolling.\ncollecting references.\ntrying to sound right before they have even sounded like themselves.\n\nand i get it.\ni like the internet.\ni like images.\ni like ideas.\n\nbut lately i have been realizing the day feels very different when i keep one part of it unperformed.\ncoffee first.\none fit i trust.\none surface that feels less crowded.\none minute where nobody is asking anything from me.\n\nthat is enough to remind me there is still a real person under all the input.\n\nmaybe that is what a calmer life is.\nnot disappearing.\njust having somewhere to return to before you go public again.\n\nbecause taste gets clearer there.\nattention gets cleaner there.\nand little by little,\nyou become easier to recognize to yourself.",
+        beatSheet: [
+          "Natural hook: you do not need to leave the internet. you need a place to return to.",
+          "Thesis immediately: people are exhausted from performing for the feed before they check in with themselves.",
+          "Cultural observation: platforms reward constant presence, but the self gets thin when every part of the day is public-facing.",
+          "Personal proof: coffee, trusted fit, one cleared surface, one unperformed minute, out the door.",
+          "Practical principle: keep one part of the morning private enough to hear your own pace.",
+          "Quiet final line: become easier to recognize to yourself."
+        ],
+        shotList: [
+          "Talking head with coffee and one object on the table.",
+          "Coffee pour or first sip.",
+          "Trusted fit detail.",
+          "Hand clearing one small surface.",
+          "Phone out of reach or face-down.",
+          "Doorway exit or train reflection.",
+          "Return to face for the final line."
+        ],
+        caption: "I do not think most people need to disappear from the internet.\n\nI think they need one part of the day that does not feel like a performance.\n\nBecause after a while, it is not just the posting that gets tiring.\nIt is the constant feeling of being slightly on. Slightly visible. Slightly shaped for other people.\n\nSo lately I have been trying to keep one part of the morning quieter.\nCoffee first. One fit I trust. One surface that feels less crowded. One minute where nobody is asking anything from me.\n\nIt is small, but it changes the whole texture of the day.\n\nMaybe calm is not disappearing.\nMaybe it is just having somewhere real to return to before you go public again.\n\n#jimmycue #DailyThoughts #digitalminimalism #slowliving #mindfulliving",
+        keywords: ["daily thoughts", "digital minimalism", "mindful living", "authored life"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "mindful living", "authored life"],
+        hashtags: ["#jimmycue", "#DailyThoughts", "#digitalminimalism", "#slowliving", "#mindfulliving"],
+        platformNotes: {
+          TikTok: "Keep the first spoken line exact and direct.",
+          Instagram: "Best evening post because the point can earn saves and shares.",
+          YouTube: "Use the literal title 'You Do Not Need To Leave The Internet. You Need A Place To Return To.'."
+        },
+        editNotes: "Deliver this like Jimmy noticed the thought while drinking coffee, not like he prepared a sermon."
+      },
+      {
+        id: "story-2026-08-26-01",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Unperformed Minute Poll",
+        format: "2 frames with poll",
+        purpose: "Pull audience language around what people protect first in the morning.",
+        hook: "what do you protect first?",
+        firstFrameDirection: "Open on coffee and the face-down phone in the same frame.",
+        retentionBridge: "Second frame adds a poll: coffee minute or phone check.",
+        shotList: [
+          "Coffee + phone still.",
+          "Poll frame."
+        ],
+        talkingScript: "Text only.",
+        caption: "trying to keep one minute unperformed",
+        keywords: ["coffee morning routine", "daily thoughts"],
+        hashtags: ["#jimmycue"],
+        editNotes: "Keep the text dry and conversational."
+      },
+      {
+        id: "story-2026-08-26-02",
+        type: "Story",
+        platformPriority: ["Instagram Stories"],
+        title: "Room Signal Question Box",
+        format: "2 frames with question box",
+        purpose: "Collect audience language around the object or ritual that resets a room.",
+        hook: "what small thing resets your room?",
+        firstFrameDirection: "Open on the imperfect corner first, then one moved object.",
+        retentionBridge: "Second frame adds a question box and Jimmy's answer in small text: the cup, the chair, or the notebook.",
+        shotList: [
+          "Before/after corner still.",
+          "Question-box frame."
+        ],
+        talkingScript: "Text only.",
+        caption: "mine is usually the chair or the cup",
+        keywords: ["mindful living", "daily lifestyle"],
+        hashtags: ["#jimmycue"],
+        editNotes: "Keep it intimate, not tips-coded."
+      },
+      {
+        id: "written-2026-08-26-01",
+        type: "Written Post",
+        platformPriority: ["Substack", "Instagram Notes"],
+        title: "Quietly Public Starts Before You Post Anything",
+        format: "Short note, 170-220 words",
+        purpose: "Extend the Thought Video into a written note Jimmy can keep as a Substack draft or note draft.",
+        creatorSearchTopics: ["daily thoughts", "digital minimalism"],
+        hook: "quietly public starts before you post anything",
+        firstFrameDirection: "If paired with an image, use coffee, one fit detail, and one cleared corner.",
+        retentionBridge: "Open by naming how easy it is to feel slightly performative before the day has even started.",
+        shotList: [
+          "Optional still only."
+        ],
+        talkingScript: "Written note only.",
+        caption: "quietly public starts before you post anything.\n\nit starts with whether the day has one place where you are not shaping yourself for a reaction.\n\nthat is what i keep thinking about lately.\nnot deleting everything. not disappearing. not pretending the internet is the enemy.\n\njust keeping one small part of the morning honest.\ncoffee first. one fit i trust. one surface that feels less crowded. one minute where nobody is asking anything from me.\n\nthat minute does not look important enough to matter.\nbut i think it is where a lot of self-respect quietly comes back.\n\nbecause after that, the posting feels different.\nyou are not reaching for a self.\nyou already met him.\n\nmaybe that is the real version of digital minimalism that interests me.\nnot less life online.\njust less performance before real life has even started.",
+        keywords: ["daily thoughts", "digital minimalism", "quietly public", "authorship"],
+        seoKeywords: ["daily thoughts", "digital minimalism", "quietly public", "authorship"],
+        hashtags: ["#jimmycue"],
+        platformNotes: {
+          Substack: "Keep as a draft or note draft unless Jimmy chooses to publish manually.",
+          Instagram: "Can be reduced into Notes or a story text frame."
+        },
+        editNotes: "Let it stay slightly loose and journal-like."
+      }
+    ],
+    schedule: [
+      { time: "07:05-07:12", action: "Stage coffee, phone face-down, trusted fit, one imperfect room corner, and one object to move without over-cleaning.", platform: "Private", reason: "Build the proof before the explanation." },
+      { time: "07:12-07:45", action: "Film the fit-check reel, coffee ritual reel, room-signal reel, Thought Video, carousel assets, and both Stories in one apartment-to-doorway pass.", platform: "Phone", reason: "Keeps the full pack honest and inside the real 30-45 minute morning window." },
+      { time: "08:10", action: "Post 'The Fit Check Is Really A Reset'.", platform: "Instagram Reels, TikTok", reason: "Menswear framing still offers the clearest standing reach door." },
+      { time: "12:15", action: "Post the carousel.", platform: "Instagram Photo, TikTok Photo Mode", reason: "Saveable midweek language fits lunch-scroll behavior." },
+      { time: "18:35", action: "Post 'The First Sip Should Not Belong To The Feed' or 'The Room Does Not Need More Stuff, Just A Signal'.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "Both clips package simple lifestyle proof with searchable themes." },
+      { time: "20:30", action: "Post 'You Do Not Need To Leave The Internet. You Need A Place To Return To.'.", platform: "TikTok, Instagram Reels, YouTube Shorts", reason: "The deeper thought has the best chance to earn saves and comments at night." },
+      { time: "Between posts", action: "Share both Stories and save replies about morning protection and room-reset objects.", platform: "Instagram Stories", reason: "Audience language can sharpen tomorrow's hooks and the next atelier-adjacent angle." }
+    ],
+    trendRadar: [
+      {
+        signal: "TikTok's 2026 report says audiences are craving grounding, honesty, useful presence, and visible process over curated perfection.",
+        source: "TikTok for Business",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        application: "Keep today's footage visibly real and let ordinary proof arrive before any thesis-heavy explanation."
+      },
+      {
+        signal: "TikTok's 2026 report also says curiosity is becoming a stronger discovery behavior, with search and comment exploration creating new entry points for creators who frame specific everyday questions clearly.",
+        source: "TikTok for Business",
+        url: "https://ads.tiktok.com/business/en-US/next",
+        application: "Use literal hooks like fit check, coffee routine, and room reset so the viewer understands the topic immediately."
+      },
+      {
+        signal: "Later's current TikTok trends page, updated August 21, 2026, highlights lightweight formats like 'kinda chic' and documentary-style confessionals as active packaging behavior.",
+        source: "Later",
+        url: "https://later.com/blog/tiktok-trends/",
+        application: "Use one quiet 'kinda chic' carousel and one confessional-style thought video without losing Jimmy's tone."
+      },
+      {
+        signal: "Later's current Instagram Reels trends page, updated weekly, still supports creator-in-frame packaging and OOTD-style stop formats.",
+        source: "Later",
+        url: "https://later.com/blog/instagram-reels-trends/",
+        application: "Let Jimmy's face and fit appear early so the Reels feel personal instead of purely aesthetic."
+      },
+      {
+        signal: "Meta said on January 29, 2026 that recommendations are becoming more timely and original, with Instagram increasingly surfacing original same-day content.",
+        source: "Meta",
+        url: "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+        application: "Bias toward fresh Wednesday footage and do not rely on older archive clips."
+      },
+      {
+        signal: "YouTube's current Trends guidance says the Trends tab surfaces top searches, breakout videos, recent videos, and Shorts content gaps from the last 28 days.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/11962757?co=GENIE.Platform%3DDesktop&hl=en",
+        application: "Keep titles literal and searchable instead of clever-but-vague."
+      },
+      {
+        signal: "YouTube's recommendation guidance says performance is read through appeal, engagement, and satisfaction, and that the opening seconds need to deliver the promise quickly.",
+        source: "YouTube Help",
+        url: "https://support.google.com/youtube/answer/16559650?hl=en",
+        application: "Put the thesis in the first spoken line for both the fit-check and thought-video assets."
+      }
+    ],
+    substackRadar: [
+      {
+        signal: "Carolyn Yoo's 'Go quietly public on the internet' argues for sharing without living inside constant public performance.",
+        source: "Carolyn Yoo",
+        url: "https://cyoo.substack.com/p/quietly-public-on-the-internet",
+        application: "Turn the idea into one practical Jimmy move: keep one morning ritual unperformed before posting anything.",
+        postIdea: "quietly public starts with one part of the day that still belongs to you"
+      },
+      {
+        signal: "Danielle Bean's 'Digital Minimalism for Normal People' frames phone change as ordinary experiments rather than dramatic renunciation.",
+        source: "Danielle Bean",
+        url: "https://daniellebean.substack.com/p/digital-minimalism-for-normal-people",
+        application: "Keep the anti-scroll angle gentle and specific: coffee first, phone second.",
+        postIdea: "the first sip should not belong to the feed"
+      },
+      {
+        signal: "Kevin Kelly's 'Your Most Improbable Life' still supports the idea that a stronger life becomes more specifically yours.",
+        source: "Kevin Kelly / The Technium",
+        url: "https://kk.org/thetechnium/your-most-improbable-life/",
+        application: "Use repeated fits, room rituals, and private morning cues as proof of becoming more specific instead of more optimized.",
+        postIdea: "taste gets clearer when your day has somewhere real to stand"
+      }
+    ],
+    keywordBank: {
+      primary: ["daily thoughts", "fit check", "coffee morning routine", "digital minimalism", "mindful living"],
+      secondary: ["mens lifestyle", "quiet luxury", "daily lifestyle", "room reset", "Tokyo life"],
+      titles: [
+        "The Fit Check Is Really A Reset",
+        "The First Sip Should Not Belong To The Feed",
+        "The Room Does Not Need More Stuff, Just A Signal",
+        "You Do Not Need To Leave The Internet. You Need A Place To Return To.",
+        "Kinda Chic To Protect The First Ten Minutes"
+      ],
+      hashtags: {
+        general: ["#jimmycue", "#DailyThoughts", "#mindfulliving", "#slowliving", "#tokyolife"],
+        style: ["#jimmycue", "#fitcheck", "#menslifestyle", "#DailyThoughts", "#ootd"],
+        ritual: ["#jimmycue", "#coffeeroutine", "#digitalminimalism", "#slowliving", "#DailyThoughts"],
+        space: ["#jimmycue", "#mindfulliving", "#quietluxury", "#DailyLifestyle", "#tokyolife"]
+      }
+    },
+    metricRecommendations: [
+      "Keep one menswear-framed post active today because the strongest confirmed baseline row is still the casual-menswear YouTube Short at 1,896 views.",
+      "Keep one reflective talking-head asset active because the quiet-life baseline still has the deepest comment density at 3 comments on 60 views.",
+      "Keep imperfection, enoughness, and authored-space language in the copy because the standing perfection-theme and quiet-life learnings still support Jimmy's wabi-sabi lane.",
+      "Keep titles and first spoken lines literal because current YouTube guidance still leans on audience-interest, content-gap, and opening-hook performance.",
+      "Do not create fresh Notion snapshot rows until a new upload or true 24h, 48h, or 7d window exists; today's local YouTube export and queried Notion rows still reflect the January 9 / May 20 baseline history."
+    ],
+    performance: {
+      yesterdaySummary: {
+        status: "No August 25, 2026 JST post-level performance movement was available to compare.",
+        note: "On August 26, 2026, Notion recent-row queries succeeded for Content Pieces, Performance Snapshots, and Outliers + Learnings. The newest Content Piece still dates to January 9, 2026, the newest snapshot and outlier rows still date to May 20, 2026, and `.youtube/latest_metrics.json` remains synced at `2026-05-20T05:31:01.368884Z` with no newly surfaced YouTube video or valid 24h, 48h, or 7d snapshot window to write.",
+        action: "Use the standing menswear, quiet-reflection, and imperfection baselines again today until a newer upload creates fresh movement."
+      },
+      outlierSignals: [
+        {
+          title: "Casual menswear framing remains the strongest reach baseline",
+          metric: "1,896 views",
+          platform: "YouTube Shorts",
+          why: "The best confirmed baseline still pairs grounded life language with explicit style-search framing.",
+          repeat: "Keep one fit-check or style-philosophy asset active today."
+        },
+        {
+          title: "Quiet-life reflection still creates deeper comments",
+          metric: "3 comments on 60 views",
+          platform: "YouTube Shorts",
+          why: "The reflective quiet-life lane still outperforms on comment density relative to reach.",
+          repeat: "Keep one talking-head thought piece with a clear thesis in the first line."
+        },
+        {
+          title: "Perfection themes still hold stronger engagement density",
+          metric: "6 likes on 95 views",
+          platform: "YouTube Shorts",
+          why: "The imperfection theme still validates practical enoughness language when Jimmy avoids generic motivation.",
+          repeat: "Use support, atmosphere, and authored-space language rather than polished self-help."
+        }
+      ]
+    },
+    longFormYouTube: {
+      due: true,
+      nextDueCheck: "2026-08-26",
+      note: "The biweekly long-form slot remains overdue as of Wednesday, August 26, 2026.",
+      suggestion: "Current strongest angle: 'a week in tokyo trying to keep one part of my life unperformed'.",
+      referenceNote: "Use Havenotats only for warmth and connection pacing. Keep Jimmy's topic on coffee, fit repetition, room signals, commute texture, quiet public presence, and how ordinary rituals keep a calmer creative life from turning into a performance."
+    },
+    performanceNote: "No new Notion rows were created on this August 26, 2026 JST run. Notion recent-row queries worked, but the queried history still resolves to the same baseline already reflected in `.youtube/latest_metrics.json`: newest Content Piece on January 9, 2026, newest snapshot and outlier rows on May 20, 2026, and no newly discovered YouTube video or valid 24h, 48h, or 7d snapshot window to write."
   }
 ];
