@@ -9,3 +9,10 @@
 .tiktok/latest_metrics.json
 __pycache__/
 exports/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
